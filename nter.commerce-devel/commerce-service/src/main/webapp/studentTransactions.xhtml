@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xml:lang="en" lang="en">
+<head>
+    <title>Student Transactions</title>
+</head>
+<body>
+<ui:composition template="/templates/fullTemplate.xhtml">
+    <ui:define name="title"><h:outputText value="#{i18n['pages.transactions']}"/></ui:define>
+    <ui:define name="pageName"><h:outputText value="#{i18n['title.studentTransactions']}"/></ui:define>
+    <ui:define name="body">
+        <div>
+            <label>#{i18n['label.studentId']}</label>: <h:outputText value="#{studentTransactions.studentId}"/>
+        </div>
+        <br/>
+        <h:form id="dateUpdateForm">
+            <!-- Session timeout -->
+            <p:poll interval="60"
+                listener="#{idleMonitorController.idleListener}"
+                widgetVar="poll" autoStart="true" update="idleMessage"/>
+            <p:growl id="idleMessage" showDetail="true" sticky="true"/>
+
+            <!-- Date selector -->
+            <div class="data-selector">
+                <label>#{i18n['forms.date.startDate']}
+                    <p:calendar id="startDate" value="#{studentTransactions.startDate}" showOn="button"/>
+                    <p:watermark value="#{i18n['label.dateFormat']}" for="startDate"/>
+                </label>
+                <label>#{i18n['forms.date.endDate']}
+                    <p:calendar id="endDate" value="#{studentTransactions.endDate}" showOn="button"/>
+                    <p:watermark value="#{i18n['label.dateFormat']}" for="endDate"/>
+                </label>
+            </div>
+
+            <p:commandButton id="dateUpdate"
+                                 value="#{i18n['forms.update']}"
+                                 action="#{studentTransactions.dateUpdate()}">
+                <f:param name="studentId"
+                         value="#{studentTransactions.studentId}"/>
+            </p:commandButton>
+        </h:form>
+
+        <h:form id="transactionsForm">
+            <div style="width: 100%;" align="right">
+                <h:commandLink >
+                    <p:graphicImage value="/images/csv.png" />
+                    <p:dataExporter type="csv" target="transactionsTable"
+                                    fileName="#{i18n['file.transactionsSummary']}" />
+                </h:commandLink>
+            </div>
+
+            <p:dataTable id="transactionsTable"
+                         value="#{studentTransactions.transactions}"
+                         var="transaction"
+                         paginator="true"
+                         paginatorPosition="bottom"
+                         rows="10">
+
+                <p:column styleClass="text"
+                          sortBy="#{transaction.transactionId}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.transactionId']}"/>
+                    </f:facet>
+                    <h:link value="#{transaction.transactionId}" outcome="transactionDetails">
+                        <f:param name="transactionId" value="#{transaction.transactionId}"/>
+                    </h:link>
+                </p:column>
+
+                <p:column styleClass="date"
+                        sortBy="#{transaction.paymentDate}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.transactionDate']}"/>
+                    </f:facet>
+                    <h:outputText value="#{transaction.paymentDate}"/>
+                </p:column>
+
+                <p:column styleClass="text"
+                        sortBy="#{transaction.itemName}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.courseName']}"/>
+                    </f:facet>
+                    <h:outputText value="#{transaction.itemName}"/>
+                </p:column>
+
+                <p:column styleClass="number"
+                        sortBy="#{transaction.paymentGross}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.amountPaid']}"/>
+                    </f:facet>
+                    <h:outputText value="#{transaction.paymentGross}">
+                        <f:convertNumber groupingUsed="true"
+                                         minFractionDigits="2"
+                                         currencySymbol="$"
+                                         type="currency"/>
+                    </h:outputText>
+                </p:column>
+
+                <p:column styleClass="text"
+                        sortBy="#{transaction.nterId}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.referrer']}"/>
+                    </f:facet>
+                    <h:outputText id="nterId"
+                              value="#{transaction.nterId}"/>
+                </p:column>
+
+                <p:column styleClass="text"
+                        sortBy="#{transaction.courseProviderId}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.creator']}"/>
+                    </f:facet>
+                    <h:outputText id="courseProviderId"
+                              value="#{transaction.courseProviderId}"/>
+                </p:column>
+
+            </p:dataTable>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://nterlearning.org/xml/commerce/configuration-interface_0.1.0.xsd"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:do="http://nterlearning.org/xml/commerce/domain-objects_0.1.0.xsd"
+        elementFormDefault="qualified"
+        attributeFormDefault="qualified">
+
+    <xs:import namespace="http://nterlearning.org/xml/commerce/domain-objects_0.1.0.xsd"
+               schemaLocation="domain-objects_0.1.0.xsd"/>
+
+    <xs:element name="CreatePaymentConfig">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="configurationEntry" type="do:paymentConfig"
+                            form="qualified" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CreatePaymentConfigResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="status" type="do:requestStatus"
+                            form="qualified" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="CreateOrUpdateCommerceConfig">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="commerceConfig" type="do:commerceConfig"
+                            form="qualified" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CreateOrUpdateCommerceConfigResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="status" type="do:requestStatus"
+                            form="qualified" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="UpdatePaymentConfig">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="configurationEntry" type="do:paymentConfig"
+                            form="qualified" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="UpdatePaymentConfigResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="status" type="do:requestStatus"
+                            form="qualified" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="RemovePaymentConfig">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="configId" type="do:paymentProcessor"
+                            form="qualified" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RemovePaymentConfigResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="status" type="do:requestStatus"
+                            form="qualified" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetPaymentConfigs">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPaymentConfigsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="configurationEntry" type="do:paymentConfig"
+                            form="qualified" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetPaymentConfig">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="configId" type="do:paymentProcessor"
+                            form="qualified" minOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPaymentConfigResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="configurationEntry" type="do:paymentConfig"
+                            form="qualified" minOccurs="0" maxOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetClientPaymentConfig">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="configId" type="do:paymentProcessor"
+                            form="qualified" minOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetClientPaymentConfigResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="configurationEntry" type="do:clientPaymentConfig"
+                            form="qualified" minOccurs="0" maxOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetCommerceConfig">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetCommerceConfigResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="commerceConfig" type="do:commerceConfig"
+                            form="qualified" minOccurs="0" maxOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</schema>

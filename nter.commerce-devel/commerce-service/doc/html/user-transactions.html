@@ -1,0 +1,91 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Commerce Service - Transactions for User</title>
+  </head>
+  <body>
+    <h2>Transactions for User - joe.smith.su.edu</h2>
+    <p>
+      Year: 
+      <select>
+        <option value="2011">2011</option>
+      </select>
+      &nbsp;&nbsp;
+      Month: 
+      <select>
+        <option value="Jan">January</option>
+        <option value="Feb">February</option>
+      </select>
+    </p>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Transaction Id</th>
+          <th>Transaction Date</th>
+          <th>Course</th>
+          <th>Price</th>
+          <th>User Id</th>
+          <th>Seller Id</th>
+          <th>Provider Id</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>12346</td>
+          <td>5 April, 2011</td>
+          <td>The Guide to Everything</td>
+          <td>$20.00</td>
+          <td>joe.smith@se.edu</td>
+          <td>NTER-1</td>
+          <td>NWTP-1</td>
+        </tr>  
+        <tr>
+          <td>12347</td>
+          <td>5 April, 2011</td>
+          <td>The Guide to Everything</td>
+          <td>$20.00</td>
+          <td>joe.smith@se.edu</td>
+          <td>NTER-1</td>
+          <td>NWTP-1</td>
+        </tr>
+        <tr>
+          <td>12348</td>
+          <td>5 April, 2011</td>
+          <td>The Guide to Everything</td>
+          <td>$20.00</td>
+          <td>joe.smith@se.edu</td>
+          <td>NTER-1</td>
+          <td>NWTP-1</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <a href="">&lt;&lt; First</a> | <a href="">&lt; Previous</a> | <a href="">1</a> | 2 | <a href="">3</a> | <a href="">Next &gt;</a> | <a href="">Last &gt;&gt;</a>
+    </p>
+    <p>
+      Find Transaction <input type="text"/><input type="button" value="Search"/>&nbsp;&nbsp;&nbsp;&nbsp;Find User <input type="text"/><input type="button" value="Search"/> 
+    </p>
+    <p>
+      <input type="button" value="Home" onclick="window.location.href='index.html'"/>
+    </p>
+    <h4>Notes</h4>   
+    <ul>
+      <li>TransactionAPI API
+        <ul>
+          <li>PaymentTransaction - getTransactionById(transactionId)
+            <ul>
+              <li>Transaction Id: transactionId</li>
+              <li>Transaction Date: paymentDate</li>
+              <li>Course: itemName</li>
+              <li>Price: paymentGross</li>
+              <li>User Id: studentId</li>
+              <li>Seller Id: nterId</li>
+              <li>Provider Id: courseProviderId</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    
+  </body>
+</html>

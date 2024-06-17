@@ -1,0 +1,224 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<wsdl:definitions name="TransactionInterface"
+                  targetNamespace="http://nterlearning.org/xml/commerce/transaction-interface_0.1.0.wsdl"
+                  xmlns:tns="http://nterlearning.org/xml/commerce/transaction-interface_0.1.0.wsdl"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ifo="http://nterlearning.org/xml/commerce/transaction-interface_0.1.0.xsd"
+        >
+
+    <wsdl:types>
+        <xs:schema>
+            <xs:import
+                    namespace="http://nterlearning.org/xml/commerce/transaction-interface_0.1.0.xsd"
+                    schemaLocation="transaction-interface_0.1.0.xsd"
+                    />
+        </xs:schema>
+    </wsdl:types>
+
+    <wsdl:message name="getTransactions">
+        <wsdl:part element="ifo:GetTransactions"
+                   name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getTransactionsResponse">
+        <wsdl:part element="ifo:GetTransactionsResponse"
+                   name="parameters"/>
+    </wsdl:message>
+
+    <wsdl:message name="getTransactionById">
+        <wsdl:part element="ifo:GetTransactionById"
+                   name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getTransactionByIdResponse">
+        <wsdl:part element="ifo:GetTransactionByIdResponse"
+                   name="parameters"/>
+    </wsdl:message>
+
+    <wsdl:message name="getChildTransactionsById">
+        <wsdl:part element="ifo:GetChildTransactionsById"
+                   name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getChildTransactionsByIdResponse">
+        <wsdl:part element="ifo:GetChildTransactionsByIdResponse"
+                   name="parameters"/>
+    </wsdl:message>
+
+    <wsdl:message name="getTransactionsByStudentId">
+        <wsdl:part element="ifo:GetTransactionsByStudentId"
+                   name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getTransactionsByStudentIdResponse">
+        <wsdl:part element="ifo:GetTransactionsByStudentIdResponse"
+                   name="parameters"/>
+    </wsdl:message>
+
+    <wsdl:message name="getTransactionsByInstitution">
+        <wsdl:part element="ifo:GetTransactionsByInstitution"
+                   name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getTransactionsByInstitutionResponse">
+        <wsdl:part element="ifo:GetTransactionsByInstitutionResponse"
+                   name="parameters"/>
+    </wsdl:message>
+
+    <wsdl:message name="getTransactionSummaryByInstitution">
+        <wsdl:part element="ifo:GetTransactionSummaryByInstitution"
+                   name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getTransactionSummaryByInstitutionResponse">
+        <wsdl:part element="ifo:GetTransactionSummaryByInstitutionResponse"
+                   name="parameters"/>
+    </wsdl:message>
+
+    <wsdl:message name="getTransactionsByCourseId">
+        <wsdl:part element="ifo:GetTransactionsByCourseId"
+                   name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getTransactionsByCourseIdResponse">
+        <wsdl:part element="ifo:GetTransactionsByCourseIdResponse"
+                   name="parameters"/>
+    </wsdl:message>
+
+    <wsdl:message name="getTransactionsByTransactionType">
+        <wsdl:part element="ifo:GetTransactionsByTransactionType"
+                   name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getTransactionsByTransactionTypeResponse">
+        <wsdl:part element="ifo:GetTransactionsByTransactionTypeResponse"
+                   name="parameters"/>
+    </wsdl:message>
+
+    <wsdl:message name="getPaymentStatus">
+        <wsdl:part element="ifo:GetPaymentStatus"
+                   name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getPaymentStatusResponse">
+        <wsdl:part element="ifo:GetPaymentStatusResponse"
+                   name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="validationError">
+	    <wsdl:part element="ifo:ValidationError"
+                   name="fault" />
+    </wsdl:message>
+
+    <wsdl:message name="createPaymentTransaction">
+        <wsdl:part element="ifo:CreatePaymentTransaction"
+                   name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="createPaymentTransactionResponse">
+        <wsdl:part element="ifo:CreatePaymentTransactionResponse"
+                   name="parameters"/>
+    </wsdl:message>
+
+    <wsdl:message name="getTransactionTypes">
+        <wsdl:part element="ifo:GetTransactionTypes"
+                   name="parameters"/>
+    </wsdl:message>
+    <wsdl:message name="getTransactionTypesResponse">
+        <wsdl:part element="ifo:GetTransactionTypesResponse"
+                   name="parameters"/>
+    </wsdl:message>
+
+    <wsdl:portType name="TransactionInterface">
+
+        <wsdl:operation name="getTransactionById">
+            <wsdl:input message="tns:getTransactionById"
+                        name="getTransactionById"/>
+            <wsdl:output message="tns:getTransactionByIdResponse"
+                         name="getTransactionByIdResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getChildTransactionsById">
+            <wsdl:input message="tns:getChildTransactionsById"
+                        name="getChildTransactionsById"/>
+            <wsdl:output message="tns:getChildTransactionsByIdResponse"
+                         name="getChildTransactionsByIdResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactionsByStudentId">
+            <wsdl:input message="tns:getTransactionsByStudentId"
+                        name="getTransactionsByStudentId"/>
+            <wsdl:output message="tns:getTransactionsByStudentIdResponse"
+                         name="getTransactionsByStudentIdResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactionsByInstitution">
+            <wsdl:input message="tns:getTransactionsByInstitution"
+                        name="getTransactionsByInstitution"/>
+            <wsdl:output message="tns:getTransactionsByInstitutionResponse"
+                         name="getTransactionsByInstitutionResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactionSummaryByInstitution">
+            <wsdl:input message="tns:getTransactionSummaryByInstitution"
+                        name="getTransactionSummaryByInstitution"/>
+            <wsdl:output message="tns:getTransactionSummaryByInstitutionResponse"
+                         name="getTransactionSummaryByInstitutionResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactionsByCourseId">
+            <wsdl:input message="tns:getTransactionsByCourseId"
+                        name="getTransactionsByCourseId"/>
+            <wsdl:output message="tns:getTransactionsByCourseIdResponse"
+                         name="getTransactionsByCourseIdResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactionsByTransactionType">
+            <wsdl:input message="tns:getTransactionsByTransactionType"
+                        name="getTransactionsByTransactionType"/>
+            <wsdl:output message="tns:getTransactionsByTransactionTypeResponse"
+                         name="getTransactionsByTransactionTypeResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactions">
+            <wsdl:input message="tns:getTransactions"
+                        name="getTransactions"/>
+            <wsdl:output message="tns:getTransactionsResponse"
+                         name="getTransactionsResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="createPaymentTransaction">
+            <wsdl:input message="tns:createPaymentTransaction"
+                        name="createPaymentTransaction"/>
+            <wsdl:output message="tns:createPaymentTransactionResponse"
+                         name="createPaymentTransactionResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPaymentStatus">
+            <wsdl:input message="tns:getPaymentStatus"
+                        name="getPaymentStatus"/>
+            <wsdl:output message="tns:getPaymentStatusResponse"
+                         name="getPaymentStatusResponse"/>
+            <wsdl:fault message="tns:validationError"
+                        name="validationError"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactionTypes">
+            <wsdl:input message="tns:getTransactionTypes"
+                        name="getTransactionTypes"/>
+            <wsdl:output message="tns:getTransactionTypesResponse"
+                         name="getTransactionTypesResponse"/>
+        </wsdl:operation>
+
+    </wsdl:portType>
+
+</wsdl:definitions>

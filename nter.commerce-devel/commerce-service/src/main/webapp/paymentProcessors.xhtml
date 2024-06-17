@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:forms="http://java.sun.com/jsf/composite/forms"
+      xml:lang="en" lang="en">
+<head>
+    <title>Payment Processors</title>
+</head>
+<body>
+<ui:composition template="/templates/fullTemplate.xhtml">
+    <ui:define name="title">#{i18n['title.paymentProcessors']}</ui:define>
+    <ui:define name="pageName">#{i18n['title.paymentProcessors']}</ui:define>
+    <ui:define name="body">
+        <h:panelGroup id="paymentProcessorsPanel">
+            <h:form id="processorsForm">
+                <!-- Session timeout -->
+                <p:poll interval="60"
+                    listener="#{idleMonitorController.idleListener}"
+                    widgetVar="poll" autoStart="true" update="idleMessage"/>
+                <p:growl id="idleMessage" showDetail="true" sticky="true"/>
+
+                <p:dataTable value="#{paymentProcessors.processors}"
+                             var="payment"
+                             paginator="true"
+                             rows="10"
+                             paginatorPosition="bottom"
+                             id="processorsTable">
+                    <p:column sortBy="#{payment.name}" styleClass="text">
+                        <f:facet name="header">#{i18n['label.name']}</f:facet>
+                        <h:outputText value="#{payment.name}"/>
+                    </p:column>
+                    <p:column sortBy="#{payment.accountNumber}" styleClass="text">
+                        <f:facet name="header">#{i18n['label.accountNumber']}</f:facet>
+                        <h:outputText value="#{payment.accountNumber}"/>
+                    </p:column>
+                    <p:column sortBy="#{payment.status}" styleClass="text">
+                        <f:facet name="header">#{i18n['label.status']}</f:facet>
+                        <h:outputText value="#{payment.accountNumber == null ? i18n['status.unconfigured'] :
+                        payment.status ? i18n['status.active'] : i18n['status.disabled']}"/>
+                    </p:column>
+                    <p:column styleClass="actions">
+                        <p:commandButton value="#{i18n['forms.edit']}"
+                                         action="#{paymentProcessors.showForm}"
+                                         update="paymentProcessorFormPanel"
+                                         onclick="editDialog.show()">
+                            <f:param name="selectedProcessor" value="#{payment.name}"/>
+                        </p:commandButton>
+                        &nbsp;
+                        <p:commandButton value="#{payment.status ? i18n['forms.disable'] : i18n['forms.enable']}"
+                                         action="#{paymentProcessors.toggleStatus}"
+                                         update="processorsForm">
+                            <f:param name="selectedProcessor" value="#{payment.name}"/>
+                        </p:commandButton>
+                    </p:column>
+                </p:dataTable>
+
+                <!-- Manual Transaction -->
+                <p:commandButton
+                        value="#{i18n['forms.manualTransaction']}"
+                        update="transactionDialogPanel"
+                        onclick="manualTransactionDialog.show()"
+                        rendered="#{paymentProcessors.globalAdmin}">
+                </p:commandButton>
+
+            </h:form>
+
+             <p:dialog id="editDialog"
+                       widgetVar="editDialog"
+                       modal="true">
+				<h:panelGroup id="paymentProcessorFormPanel">
+                    <forms:paymentProcessorsForm/>
+                </h:panelGroup>
+            </p:dialog>
+
+            <!-- Manual Transaction dialog -->
+            <p:dialog id="manualTransactionDialog"
+                  widgetVar="manualTransactionDialog"
+                  modal="true">
+                <h:panelGroup id="manualTransactionDialogPanel">
+                    <forms:manualTransactionForm/>
+                </h:panelGroup>
+            </p:dialog>
+
+        </h:panelGroup>
+
+    </ui:define>
+</ui:composition>
+
+</body>
+</html>

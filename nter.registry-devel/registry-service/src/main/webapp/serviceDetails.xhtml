@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:forms="http://java.sun.com/jsf/composite/forms"
+      xml:lang="en" lang="en">
+<head>
+    <title><h:outputText value="#{i18n['pages.serviceDetails']}"/></title>
+</head>
+<body>
+<ui:composition template="/templates/fullTemplate.xhtml">
+    <ui:define name="title"><h:outputText value="#{i18n['pages.serviceDetails']}"/> </ui:define>
+    <ui:define name="pageName"><h:outputText value="#{i18n['pages.serviceDetails']}"/> </ui:define>
+    <ui:define name="body">
+        <f:metadata>
+            <f:viewParam name="service" value="#{tabs.serviceName}"/>
+        </f:metadata>
+        <p:panel>
+            <h:form id="serviceBean">
+
+                <h2><h:outputText value="#{serviceBean.serviceName}"/></h2>
+
+                <h:outputText value="#{i18n['label.institution']}"/>:&nbsp;
+                <h:outputLabel value="#{serviceBean.institutionName}"/>
+                <br/>
+
+                <h:outputText value="#{i18n['label.description']}"/>:&nbsp;
+                <h:outputLabel value="#{serviceBean.description}"/>
+                <br/>
+
+                <h:outputText value="#{i18n['label.serviceType']}"/>:&nbsp;
+                <h:outputLabel value="#{serviceBean.serviceType}"/>
+                <br/>
+
+                <h:outputText value="#{i18n['label.status']}"/>:&nbsp;
+                <h:outputLabel value="#{serviceBean.activeStatus}"/>
+                <br/>
+
+                <br/>
+
+                <!-- Edit Service -->
+                <p:commandButton
+                        value="#{i18n['forms.edit']}"
+                        update="serviceFormPanel"
+                        onclick="editDialog.show()"
+                        rendered="#{serviceBean.getEditable(serviceBean.institutionName)}">
+                    <f:param name="serviceKey"
+                         value="#{serviceBean.serviceKey}"/>
+                </p:commandButton>
+                &nbsp;
+                <!-- Delete Service -->
+                <p:commandButton value="#{i18n['forms.service.delete']}"
+                                 onclick="confirmation.show()"
+                                 type="button"
+                                 rendered="#{serviceBean.getAdmin(serviceBean.institutionName)}"/>
+                <p:confirmDialog id="confirmation"
+                                 message="#{i18n['forms.service.delete.prompt']} [#{serviceBean.serviceName}]?"
+                                 header="#{i18n['forms.service.delete']}"
+                                 severity="alert"
+                                 widgetVar="confirmation">
+                    <p:commandButton
+                            value="#{i18n['forms.service.delete']}"
+                            actionListener="#{serviceBean.removeService}"
+                            action="services.xhtml"
+                            ajax="FALSE">
+                        <f:param name="serviceKey"
+                            value="#{serviceBean.serviceKey}"/>
+                    </p:commandButton>
+                    <p:commandButton value="Cancel" onclick="confirmation.hide()" type="button" />
+                </p:confirmDialog>
+
+                <br/><br/>
+
+                <!-- Bindings -->
+                <p:dataTable id="bindingsDataTable"
+                         itemType="none"
+                         rows="100"
+                         resizableColumns="TRUE"
+                         value="#{serviceBean.bindings}"
+                         var="binding"
+                         emptyMessage="#{i18n['forms.bindings.empty']}"
+                         styleClass="institutions"
+                         type="ordered">
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.description']}" />
+                    </f:facet>
+
+                    <p:commandLink
+                            value="#{binding.description}"
+                            update="bindingFormPanel"
+                            onclick="editBindingDialog.show()"
+                            rendered="#{serviceBean.getEditable(serviceBean.institutionName)}">
+                        <f:param name="serviceKey" value="#{serviceBean.serviceKey}"/>
+                        <f:param name="bindingKey" value="#{binding.key}"/>
+                    </p:commandLink>
+                    <h:outputLabel
+                            value="#{binding.description}"
+                            rendered="#{!serviceBean.getEditable(serviceBean.institutionName)}"/>
+
+                </p:column>
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.bindingType']}" />
+                    </f:facet>
+                    <h:outputLabel
+                            value="#{serviceBean.getBindingTypeValue(binding.bindingType)}"/>
+                </p:column>
+                <p:column>
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.endpoint']}" />
+                    </f:facet>
+                    <a href="#{binding.accessPoint}" target="_blank">
+                        <h:outputLabel value="#{binding.accessPoint}"/>
+                    </a>
+                </p:column>
+            </p:dataTable>
+
+            <!-- Add Binding -->
+            <p:commandButton
+                    value="#{i18n['forms.binding.add']}"
+                    update="bindingDialogPanel"
+                    onclick="addBindingDialog.show()"
+                    rendered="#{serviceBean.getEditable(serviceBean.institutionName)}">
+                <f:param name="serviceKey"
+                        value="#{serviceBean.serviceKey}"/>
+            </p:commandButton>
+
+            </h:form>
+            <!-- Edit Service dialog -->
+            <p:dialog id="editDialog"
+                      widgetVar="editDialog"
+                      modal="true"
+                      showEffect="fade"
+                      hideEffect="fade">
+				<h:panelGroup id="serviceFormPanel">
+                    <forms:updateServiceForm/>
+                </h:panelGroup>
+            </p:dialog>
+            <!-- Add Binding dialog -->
+            <p:dialog id="addBindingDialog"
+                  widgetVar="addBindingDialog"
+                  modal="true">
+                <h:panelGroup id="bindingDialogPanel">
+                    <forms:addBindingForm/>
+                </h:panelGroup>
+            </p:dialog>
+            <!-- Edit Binding dialog -->
+            <p:dialog id="editBindingDialog"
+                      widgetVar="editBindingDialog"
+                      modal="true" showEffect="fade" hideEffect="fade">
+				<h:panelGroup id="bindingFormPanel">
+                    <forms:updateBindingForm/>
+                </h:panelGroup>
+            </p:dialog>
+
+        </p:panel>
+    </ui:define>
+</ui:composition>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ National Training and Education Resource (NTER)
+  ~ Copyright (C) 2012  SRI International
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or (at
+  ~ your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful, but
+  ~ WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  ~ General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+  ~ 02110-1301, USA.
+  -->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:forms="http://java.sun.com/jsf/composite/forms"
+      xml:lang="en" lang="en">
+<head>
+    <title>Accounting</title>
+</head>
+<body>
+<ui:composition template="/templates/fullTemplate.xhtml">
+    <ui:define name="title"><h:outputText value="#{i18n['title.accounting']}"/></ui:define>
+    <ui:define name="pageName"><h:outputText value="#{i18n['pages.accounting']}"/></ui:define>
+    <ui:define name="body">
+
+        <h:form id="transactionsForm">
+            <!-- Session timeout -->
+            <p:poll interval="60"
+                listener="#{idleMonitorController.idleListener}"
+                widgetVar="poll" autoStart="true" update="idleMessage"/>
+            <p:growl id="idleMessage" showDetail="true" sticky="true"/>
+
+            <!-- Data download link -->
+            <div align="right">
+                <h:commandLink >
+                    <p:graphicImage value="/images/csv.png" />
+                    <p:dataExporter type="csv" target="transactionsTable"
+                                    fileName="#{i18n['file.accountingSummary']}" />
+                </h:commandLink>
+            </div>
+
+            <p:dataTable id="transactionsTable"
+                         value="#{accountingBean.accountingItems}"
+                         var="accountingItem"
+                         paginator="true"
+                         paginatorPosition="bottom"
+                         rows="10">
+
+                <p:column styleClass="text"
+                          sortBy="#{accountingItem.institutionName}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.institution']}"/>
+                    </f:facet>
+                    <h:link value="#{accountingItem.institutionName}" outcome="transactions">
+                        <f:param name="institutionName" value="#{accountingItem.institutionName}"/>
+                    </h:link>
+                </p:column>
+
+                <p:column styleClass="text"
+                        sortBy="#{accountingItem.receiverEmail}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.email']}"/>
+                    </f:facet>
+                    <h:outputText value="#{accountingItem.receiverEmail}"/>
+                </p:column>
+
+                <p:column styleClass="number"
+                        sortBy="#{accountingItem.amount}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.balanceDue']}"/>
+                    </f:facet>
+                    <h:outputText value="$#{accountingItem.amount}"/>
+                </p:column>
+
+                <p:column styleClass="text">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.payment']}"/>
+                    </f:facet>
+                    <p:commandButton
+                            value="#{i18n['forms.accounting.pay']}"
+                            update="paymentDialogPanel"
+                            onclick="paymentDialog.show()">
+                        <f:param name="institutionName" value="${accountingItem.institutionName}"/>
+                    </p:commandButton>
+                </p:column>
+
+            </p:dataTable>
+
+        </h:form>
+
+        <!-- Payment dialog -->
+        <p:dialog id="paymentDialog"
+                  widgetVar="paymentDialog"
+                  modal="true"
+                  showEffect="fade"
+                  hideEffect="fade">
+            <h:panelGroup id="paymentDialogPanel">
+                <forms:paymentForm/>
+            </h:panelGroup>
+        </p:dialog>
+
+    </ui:define>
+</ui:composition>
+
+</body>
+</html>

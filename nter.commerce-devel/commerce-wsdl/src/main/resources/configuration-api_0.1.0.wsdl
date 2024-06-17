@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<wsdl:definitions name="ConfigurationAPI"
+                  targetNamespace="http://nterlearning.org/xml/commerce/configuration-api_0.1.0.wsdl"
+                  xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+                  xmlns:tns="http://nterlearning.org/xml/commerce/configuration-api_0.1.0.wsdl"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:face="http://nterlearning.org/xml/commerce/configuration-interface_0.1.0.wsdl"
+                  xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+                  xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy"
+                  xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+        >
+
+    <wsdl:import
+            namespace="http://nterlearning.org/xml/commerce/configuration-interface_0.1.0.wsdl"
+            location="configuration-interface_0.1.0.wsdl"/>
+
+    <wsdl:binding
+            name="ConfigurationAPISoapBinding"
+            type="face:ConfigurationInterface">
+
+        <soap12:binding style="document"
+                        transport="http://schemas.xmlsoap.org/soap/http"/>
+
+        <wsdl:operation name="createPaymentConfig">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <wsdl:documentation>Create a new Payment Processor configuration</wsdl:documentation>
+            <soap12:operation soapAction="urn:createPaymentConfig"
+                              style="document"/>
+            <wsdl:input name="createPaymentConfig">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="createPaymentConfigResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="createOrUpdateCommerceConfig">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:createOrUpdateCommerceConfig"
+                              style="document"/>
+            <wsdl:input name="createOrUpdateCommerceConfig">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="createOrUpdateCommerceConfigResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="updatePaymentConfig">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:updatePaymentConfig"
+                              style="document"/>
+            <wsdl:input name="updatePaymentConfig">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="updatePaymentConfigResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="removePaymentConfig">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:removePaymentConfig"
+                              style="document"/>
+            <wsdl:input name="removePaymentConfig">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="removePaymentConfigResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPaymentConfigs">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:getPaymentConfigs"
+                              style="document"/>
+            <wsdl:input name="getPaymentConfigs">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getPaymentConfigsResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPaymentConfig">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:getPaymentConfig"
+                              style="document"/>
+            <wsdl:input name="getPaymentConfig">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getPaymentConfigResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getClientPaymentConfig">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:getClientPaymentConfig"
+                              style="document"/>
+            <wsdl:input name="getClientPaymentConfig">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getClientPaymentConfigResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getCommerceConfig">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:getCommerceConfig"
+                              style="document"/>
+            <wsdl:input name="getCommerceConfig">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getCommerceConfigResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+    </wsdl:binding>
+
+    <wsdl:service name="ConfigurationAPI">
+        <wsdl:port binding="tns:ConfigurationAPISoapBinding" name="ConfigurationAPISoap12EndPoint">
+            <soap12:address
+                    location="/ConfigurationAPI"/>
+        </wsdl:port>
+    </wsdl:service>
+
+    <wsp:Policy wsu:Id="securityPolicy">
+        <sp:SupportingTokens>
+            <wsp:Policy>
+                <sp:UsernameToken/>
+            </wsp:Policy>
+        </sp:SupportingTokens>
+    </wsp:Policy>
+
+</wsdl:definitions>

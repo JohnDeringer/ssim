@@ -1,0 +1,35 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>NTER Commerce Service</title>
+  </head>
+  <body>
+    <h2>Commerce Service</h2>
+    <ul>
+      <li>Reports
+        <ul>
+          <li><a href="sales-summary.html">Sales Summary</a></li>
+          <li><a href="monthly-sales.html">Monthly Sales</a></li>
+          <li><a href="user-transactions.html">User Transactions</a></li>
+          <li><a href="transaction-detail.html">Transaction Detail</a></li>
+        </ul>
+      </li>
+      <li><a href="payment-configuration.html">Payment Configuration</a></li>
+      <li><a href="entitlement.html">Entitlement</a></li>
+    </ul>
+    <h4>Notes</h4>   
+      <ul>
+        <li>Commerce Web application will use Shibboleth/SAML authentication.
+          <ul>
+            <li>
+              We will have to retrieve the authenticated users id from the http request headers.
+            </li>
+          </ul>
+        </li>  
+        <li>
+          We probably don't want to put the User Transaction and Transaction Detail pages under the Reports 
+          menu item unless we add screens (or text boxes) for selecting the user and/or transaction.
+        </li>
+      </ul>
+  </body>
+</html>

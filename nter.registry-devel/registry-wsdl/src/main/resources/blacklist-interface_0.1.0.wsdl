@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<wsdl:definitions name="BlacklistInterface"
+                  targetNamespace="http://nterlearning.org/xml/nter-registry/blacklist-interface_0.1.0.wsdl"
+                  xmlns:tns="http://nterlearning.org/xml/nter-registry/blacklist-interface_0.1.0.wsdl"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ifo="http://nterlearning.org/xml/nter-registry/blacklist-interface_0.1.0.xsd"
+        >
+
+    <wsdl:types>
+        <xs:schema>
+            <xs:import
+                    namespace="http://nterlearning.org/xml/nter-registry/blacklist-interface_0.1.0.xsd"
+                    schemaLocation="blacklist-interface_0.1.0.xsd"
+                    />
+        </xs:schema>
+    </wsdl:types>
+
+    <wsdl:message name="addBlacklistItem">
+        <wsdl:part element="ifo:AddBlacklistItem"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="addBlacklistItemResponse">
+        <wsdl:part element="ifo:AddBlacklistItemResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="updateBlacklistItem">
+        <wsdl:part element="ifo:UpdateBlacklistItem"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="updateBlacklistItemResponse">
+        <wsdl:part element="ifo:UpdateBlacklistItemResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="removeBlacklistItem">
+        <wsdl:part element="ifo:RemoveBlacklistItem"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="removeBlacklistItemResponse">
+        <wsdl:part element="ifo:RemoveBlacklistItemResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getBlacklistStatus">
+        <wsdl:part element="ifo:GetBlacklistStatus"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getBlacklistStatusResponse">
+        <wsdl:part element="ifo:GetBlacklistStatusResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="setBlacklistDefault">
+        <wsdl:part element="ifo:SetBlacklistDefault"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="setBlacklistDefaultResponse">
+        <wsdl:part element="ifo:SetBlacklistDefaultResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:portType name="BlacklistInterface">
+
+        <wsdl:operation name="addBlacklistItem">
+            <wsdl:input message="tns:addBlacklistItem"
+                        name="addBlacklistItem"/>
+            <wsdl:output message="tns:addBlacklistItemResponse"
+                         name="addBlacklistItemResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="updateBlacklistItem">
+            <wsdl:input message="tns:updateBlacklistItem"
+                        name="updateBlacklistItem"/>
+            <wsdl:output message="tns:updateBlacklistItemResponse"
+                         name="updateBlacklistItemResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="removeBlacklistItem">
+            <wsdl:input message="tns:removeBlacklistItem"
+                        name="removeBlacklistItem"/>
+            <wsdl:output message="tns:removeBlacklistItemResponse"
+                         name="removeBlacklistItemResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getBlacklistStatus">
+            <wsdl:input message="tns:getBlacklistStatus"
+                        name="getBlacklistStatus"/>
+            <wsdl:output message="tns:getBlacklistStatusResponse"
+                         name="getBlacklistStatusResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="setBlacklistDefault">
+            <wsdl:input message="tns:setBlacklistDefault"
+                        name="setBlacklistDefault"/>
+            <wsdl:output message="tns:setBlacklistDefaultResponse"
+                         name="setBlacklistDefaultResponse"/>
+        </wsdl:operation>
+
+    </wsdl:portType>
+
+</wsdl:definitions>

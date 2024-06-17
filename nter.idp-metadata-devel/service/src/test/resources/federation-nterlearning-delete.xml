@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--
+  National Training and Education Resource (NTER)
+  Copyright (C) 2012 SRI International
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or (at
+  your option) any later version.
+
+  This program is distributed in the hope that it will be useful, but
+  WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program; if not, write to the Free Software
+  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+  02110-1301, USA.
+  -->
+
+<EntitiesDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="https://login-dev.nterlearning.org/metadata/federation-nterlearning.xml">
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_a00539309f92d06619294a2defab19b6ce84a7c6" entityID="https://ec2-107-22-141-139.compute-1.amazonaws.com/shibboleth-sp">
+
+  <md:SPSSODescriptor AuthnRequestsSigned="1" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol">
+    <md:Extensions>
+      <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/Login"/>
+      <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/WAYF"/>
+      <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/DS"/>
+      <idpdisc:DiscoveryResponse xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/DS" index="1"/>
+    </md:Extensions>
+    <md:KeyDescriptor>
+      <ds:KeyInfo>
+        <ds:KeyName>https://ec2-107-22-141-139.compute-1.amazonaws.com</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=https://ec2-107-22-141-139.compute-1.amazonaws.com</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDXTCCAkWgAwIBAgIJAOtq+8JRn/LfMA0GCSqGSIb3DQEBBQUAMD0xOzA5BgNV
+BAMTMmh0dHBzOi8vZWMyLTEwNy0yMi0xNDEtMTM5LmNvbXB1dGUtMS5hbWF6b25h
+d3MuY29tMB4XDTEyMDIyMTE3NDcxOFoXDTIyMDIxODE3NDcxOFowPTE7MDkGA1UE
+AxMyaHR0cHM6Ly9lYzItMTA3LTIyLTE0MS0xMzkuY29tcHV0ZS0xLmFtYXpvbmF3
+cy5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCwEces9TSIjnXY
+8o57uLUZwbCLqMJbx6bIVm0RrcQHZDqcBKqOzDSzBnl/0ULyKssvR89qeab4gjTR
+pQmpKIV3bx5Y+mWOpW4zUktuVnpqPbQ9glQfWEpT2zoe15i5A1pV+kbEa0san1GG
+0Cm9qlxt2VusOfAowzTqVId5zrMW9sQ2BHR4Qp2V488v/rHN/NZUNe/EZW/WH2UU
+L/Nv4xfv/FLZsWeNyIDB+NzDSb5JOSckh9kOQP01o6+j7HcQgUTEUaQQt5+pisJu
+qwJLyctDz6bvayHRueMa2hujB6gHcAuUVzkA6UyR0TkatHfCLY5PGBdYGrVPn2Tg
+Iv1LV6ZvAgMBAAGjYDBeMD0GA1UdEQQ2MDSCMmh0dHBzOi8vZWMyLTEwNy0yMi0x
+NDEtMTM5LmNvbXB1dGUtMS5hbWF6b25hd3MuY29tMB0GA1UdDgQWBBQIspVclfH8
+XeGPbX8J/k4TdfGieDANBgkqhkiG9w0BAQUFAAOCAQEAqIMXSIaX0ixZFctyFiZj
+N2h4z+4cEXjDMciF8oP2MxYKZa7uJ1HHb+fqAMWYuK4noBQOUNRIr96/J/jBtjmf
+Bra3onGqK8B27tfC/6o+E4k/dUbZgn/tRtVcp1noWPuBXSuy1irCKrQRGKIIcMgI
+upQvrMsIxmSB5A5vpqjz/VQG79Hnmi831lpBZbB2xvwCZBVU99j5Rav1t2fhgTSf
+MaKDxC8HQHUBqvXqnSPU8ngQJ5OF1NvUq9w3vQH3v/zudwOyyv6Jszh5DtqVxQ5T
+DsERCCYdqHHYVGXuwnbz3TwOugK5Mpnwm8XN5QfFVzBS7LQuU3/hG0p0ByBmKXkb
+VQ==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/Artifact/SOAP" index="1"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/SLO/Artifact"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/NIM/SOAP"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/NIM/Redirect"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/NIM/POST"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/NIM/Artifact"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/SAML2/POST-SimpleSign" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/SAML2/Artifact" index="3"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/SAML2/ECP" index="4"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/SAML/POST" index="5"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://ec2-107-22-141-139.compute-1.amazonaws.com/Shibboleth.sso/SAML/Artifact" index="6"/>
+  </md:SPSSODescriptor>
+
+</md:EntityDescriptor>
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="some-host">unit test data</md:EntityDescriptor>
+</EntitiesDescriptor>

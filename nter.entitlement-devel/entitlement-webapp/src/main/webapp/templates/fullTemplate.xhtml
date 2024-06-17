@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core" xml:lang="en" lang="en">
+<h:head>
+    <title><ui:insert name="title"/> | #{i18n['site.name']}</title>
+</h:head>
+<h:body>
+    <!-- theme css included here instead of in the head so it comes after all of the other css -->
+    <link rel="stylesheet" type="text/css" href="themes/primefaces-nter/theme.css"/>
+
+    <header role="banner">
+        <h1><h:link value="#{i18n['site.name']}" outcome="institutions"/></h1>
+        <nav role="navigation" class="#{tabs.subNavRendered ? 'has-subnav' : ''}">
+            <ul class="nav">
+                <h:form styleClass="nav">
+                    <li>
+                        <h:link value="#{i18n['pages.institutions']}"  outcome="institutions"
+                                styleClass='#{(facesContext.viewRoot.viewId == "/institutions.xhtml" || tabs.subNavRendered) ? "current" : ""}'/>
+                        <h:panelGroup rendered='#{tabs.subNavRendered}'>
+                            <nav>
+                                <strong>
+                                    <h:outputText value="#{tabs.institutionName}:"/>
+                                </strong>
+                                <ul class="nav">
+                                    <li>
+                                        <h:link value="#{i18n['pages.salesSummary']}" outcome="salesSummary"
+                                                includeViewParams="true"
+                                                styleClass='#{facesContext.viewRoot.viewId == "/salesSummary.xhtml" ? "current" : ""}'>
+                                            <f:viewParam name="institution" value="#{tabs.institutionName}"/>
+                                        </h:link>
+                                    </li>
+                                    <li>
+                                        <h:link value="#{i18n['pages.monthlySales']}" outcome="transactions"
+                                                includeViewParams="true"
+                                                styleClass='#{facesContext.viewRoot.viewId == "/transactions.xhtml" ? "current" : ""}'>
+                                            <f:viewParam name="institution" value="#{tabs.institutionName}"/>
+                                        </h:link>
+                                    </li>
+                                    <li>
+                                        <h:link value="#{i18n['pages.institutionDetails']}" outcome="institutionDetails"
+                                                includeViewParams="true"
+                                                styleClass='#{facesContext.viewRoot.viewId == "/institutionDetails.xhtml" ? "current" : ""}'>
+                                            <f:viewParam name="institution" value="#{tabs.institutionName}"/>
+                                        </h:link>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </h:panelGroup>
+                    </li>
+                    <li>
+                        <h:link value="#{i18n['pages.services']}"  outcome="services"
+                                styleClass='#{facesContext.viewRoot.viewId == "/services.xhtml" ? "current" : ""}'/>
+                    </li>
+                    <li>
+                        <h:link value="#{i18n['pages.entitlements']}"  outcome="entitlements"
+                                styleClass='#{facesContext.viewRoot.viewId == "/entitlements.xhtml" ? "current" : ""}'/>
+                    </li>
+                    <!--
+                    <li>
+                        <h:link value="#{i18n['pages.search']}"  outcome="search"
+                        styleClass='#{facesContext.viewRoot.viewId == "/search.xhtml" ? "current" : ""}'/>
+                    </li>
+                    <li>
+                        <h:link value="#{i18n['pages.serverSettings']}" outcome="serverSettings"
+                        styleClass='#{facesContext.viewRoot.viewId == "/serverSettings.xhtml" ? "current" : ""}'/>
+                    </li>
+                    -->
+                    <li>
+                        <h:commandLink value="#{i18n['pages.signOut']}"/>
+                    </li>
+                </h:form>
+            </ul>
+        </nav>
+        <ui:insert name="subNav"/>
+    </header>
+
+    <div id="main" role="main">
+        <h1><ui:insert name="pageName"></ui:insert></h1>
+        <ui:insert name="body"></ui:insert>
+    </div>
+
+    <footer role="contentinfo"></footer>
+
+</h:body>
+</html>
+

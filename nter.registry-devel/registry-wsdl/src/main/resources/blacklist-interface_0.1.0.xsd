@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://nterlearning.org/xml/nter-registry/blacklist-interface_0.1.0.xsd"
+        xmlns:do="http://nterlearning.org/xml/nter-registry/domain-objects_0.1.0.xsd"
+        xmlns:bl="http://nterlearning.org/xml/nter-registry/blacklist-objects_0.1.0.xsd"
+        elementFormDefault="qualified"
+        attributeFormDefault="qualified">
+
+    <import
+            namespace="http://nterlearning.org/xml/nter-registry/blacklist-objects_0.1.0.xsd"
+            schemaLocation="blacklist-objects_0.1.0.xsd"/>
+    <import
+            namespace="http://nterlearning.org/xml/nter-registry/domain-objects_0.1.0.xsd"
+            schemaLocation="domain-objects_0.1.0.xsd"/>
+
+    <element name="AddBlacklistItem">
+        <complexType>
+            <sequence>
+                <element name="blacklistItem" type="bl:blacklistItem" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="AddBlacklistItemResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="do:requestStatus" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="UpdateBlacklistItem">
+        <complexType>
+            <sequence>
+                <element name="blacklistItem" type="bl:blacklistItem" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="UpdateBlacklistItemResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="do:requestStatus" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="RemoveBlacklistItem">
+        <complexType>
+            <sequence>
+                <element name="institution" type="string" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+                <element name="service" type="string" minOccurs="0"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="RemoveBlacklistItemResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="do:requestStatus" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetBlacklistStatus">
+        <complexType>
+            <sequence>
+                <element name="institution" type="string" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+                <element name="service" type="string" minOccurs="0"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetBlacklistStatusResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="bl:activeStatusEnum" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="SetBlacklistDefault">
+        <complexType>
+            <sequence>
+                <element name="defaultStatus" type="bl:activeStatusEnum"
+                         minOccurs="1" maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="SetBlacklistDefaultResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="do:requestStatus" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+</schema>

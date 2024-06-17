@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<wsdl:definitions name="EntitlementAPI"
+    targetNamespace="http://nterlearning.org/xml/entitlement/entitlement-api_1.1.0.wsdl"
+    xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+    xmlns:tns="http://nterlearning.org/xml/entitlement/entitlement-api_1.1.0.wsdl"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:face="http://nterlearning.org/xml/entitlement/entitlement-interface_0.1.0.wsdl"
+>
+
+    <wsdl:import
+            namespace="http://nterlearning.org/xml/entitlement/entitlement-interface_0.1.0.wsdl"
+            location="entitlement-interface_0.1.0.wsdl"/>
+
+    <wsdl:binding
+            name="EntitlementAPISoapBinding"
+            type="face:EntitlementInterface">
+
+        <soap12:binding style="document"
+                        transport="http://schemas.xmlsoap.org/soap/http"/>
+
+        <wsdl:operation name="createPolicy">
+            <soap12:operation soapAction="urn:createPolicy"
+                              style="document"/>
+            <wsdl:input name="createPolicy">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="createPolicyResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="updatePolicy">
+            <soap12:operation soapAction="urn:updatePolicy"
+                              style="document"/>
+            <wsdl:input name="updatePolicy">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="updatePolicyResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="removePolicy">
+            <soap12:operation soapAction="urn:removePolicy"
+                              style="document"/>
+            <wsdl:input name="removePolicy">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="removePolicyResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="removePolicyByKey">
+            <soap12:operation soapAction="urn:removePolicyByKey"
+                              style="document"/>
+            <wsdl:input name="removePolicyByKey">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="removePolicyByKeyResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getAllPolicies">
+            <soap12:operation soapAction="urn:getAllPolicies"
+                              style="document"/>
+            <wsdl:input name="getAllPolicies">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getAllPoliciesResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPolicyBySubject">
+            <soap12:operation soapAction="urn:getPolicyBySubject"
+                              style="document"/>
+            <wsdl:input name="getPolicyBySubject">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getPolicyBySubjectResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPolicyByResource">
+            <soap12:operation soapAction="urn:getPolicyByResource"
+                              style="document"/>
+            <wsdl:input name="getPolicyByResource">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getPolicyByResourceResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPolicyByRealm">
+            <soap12:operation soapAction="urn:getPolicyByRealm"
+                              style="document"/>
+            <wsdl:input name="getPolicyByRealm">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getPolicyByRealmResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPolicyByKey">
+            <soap12:operation soapAction="urn:getPolicyByKey"
+                              style="document"/>
+            <wsdl:input name="getPolicyByKey">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getPolicyByKeyResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPolicy">
+            <soap12:operation soapAction="urn:getPolicy"
+                              style="document"/>
+            <wsdl:input name="getPolicy">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getPolicyResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getAuthorization">
+            <soap12:operation soapAction="urn:getAuthorization"
+                              style="document"/>
+            <wsdl:input name="getAuthorization">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getAuthorizationResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getSubjects">
+            <soap12:operation soapAction="urn:getSubjects"
+                              style="document"/>
+            <wsdl:input name="getSubjects">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getSubjectsResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getResources">
+            <soap12:operation soapAction="urn:getResources"
+                              style="document"/>
+            <wsdl:input name="getResources">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getResourcesResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getActions">
+            <soap12:operation soapAction="urn:getActions"
+                              style="document"/>
+            <wsdl:input name="getActions">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getActionsResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getRealms">
+            <soap12:operation soapAction="urn:getRealms"
+                              style="document"/>
+            <wsdl:input name="getRealms">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getRealmsResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+    </wsdl:binding>
+
+    <wsdl:service name="EntitlementAPI">
+        <wsdl:port binding="tns:EntitlementAPISoapBinding" name="EntitlementImplPort">
+            <soap12:address
+                    location="/EntitlementAPI"/>
+        </wsdl:port>
+    </wsdl:service>
+
+</wsdl:definitions>

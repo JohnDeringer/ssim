@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:forms="http://java.sun.com/jsf/composite/forms"
+      xml:lang="en" lang="en">
+<head>
+    <title><h:outputText value="#{i18n['pages.institutionDetails']}"/></title>
+</head>
+<body>
+<ui:composition template="/templates/fullTemplate.xhtml">
+    <ui:define name="title"><h:outputText value="#{i18n['pages.institutionDetails']}"/></ui:define>
+    <ui:define name="pageName"><h:outputText value="#{i18n['pages.institutionDetails']}"/></ui:define>
+    <ui:define name="body">
+        <f:metadata>
+            <f:viewParam name="institution" value="#{tabs.institutionName}"/>
+        </f:metadata>
+        <p:panel>
+            <h:form id="institutionBean">
+                <h:inputHidden id="institutionKey" value="#{institutionBean.institutionKey}"/>
+
+                <h2><h:outputText value="#{institutionBean.institutionName}"/></h2>
+                <h3><h:outputText value="#{i18n['header.institutionDetails']}"/></h3>
+
+                <h:outputText value="#{i18n['label.description']}"/>:&nbsp;
+                <h:outputLabel value="#{institutionBean.description}"/>
+                <br/>
+
+                <h:outputText value="#{i18n['label.contactName']}"/>:&nbsp;
+                <h:outputLabel value="#{institutionBean.contactName}"/>
+                <br/>
+
+                <h:outputText value="#{i18n['label.contactDescription']}"/>:&nbsp;
+                <h:outputLabel value="#{institutionBean.contactDescription}"/>
+                <br/>
+
+                <h:outputText value="#{i18n['label.contactAddress']}"/>:&nbsp;
+                <h:outputLabel value="#{institutionBean.contactAddress}"/>
+                <br/>
+
+                <h:outputText value="#{i18n['label.contactPhone']}"/>:&nbsp;
+                <h:outputLabel value="#{institutionBean.contactPhone}"/>
+                <br/>
+
+                <h:outputText value="#{i18n['label.contactEmail']}"/>:&nbsp;
+                <h:outputLabel value="#{institutionBean.contactEmail}"/>
+                <br/>
+
+                <h:outputText value="#{i18n['label.status']}"/>:&nbsp;
+                <h:outputLabel value="#{institutionBean.activeStatus}"/>
+                <br/>
+
+                <br/>
+                <!-- Edit Institution -->
+                <p:commandButton
+                        value="#{i18n['forms.edit']}"
+                        rendered="#{institutionBean.editable}"
+                        update="institutionFormPanel"
+                        onclick="editInstitutionDialog.show()">
+                    <f:param name="institutionName"
+                         value="#{institutionBean.escape(institutionBean.institutionName)}"/>
+                </p:commandButton>
+                &nbsp;
+                <!-- Delete Institution -->
+                <p:commandButton value="#{i18n['forms.institution.delete']}"
+                                 rendered="#{institutionBean.globalAdmin}"
+                                 onclick="confirmation.show()"
+                                 type="button"/>
+                <p:confirmDialog id="confirmation"
+                                 message="#{i18n['forms.institution.delete.prompt']} [#{institutionBean.institutionName}]?"
+                                 header="#{i18n['forms.institution.delete']}"
+                                 severity="alert"
+                                 widgetVar="confirmation">
+                    <p:commandButton
+                            value="#{i18n['forms.remove']}"
+                            actionListener="#{institutionBean.removeInstitution}"
+                            action="institutions.xhtml"
+                            ajax="FALSE">
+                        <f:param name="institutionName"
+                             value="#{institutionBean.escape(institutionBean.institutionName)}"/>
+                    </p:commandButton>
+                    <p:commandButton value="Cancel" onclick="confirmation.hide()" type="button" />
+                </p:confirmDialog>
+
+                <br/><br/>
+
+                <p:dataTable id="servicesDataTable"
+                         rows="100"
+                         resizableColumns="TRUE"
+                         value="#{institutionBean.services}"
+                         var="service"
+                         styleClass="institutions"
+                         emptyMessage="#{i18n['forms.services.empty']}"
+                         type="ordered">
+                    <p:column>
+                        <f:facet name="header">
+                            <h:outputText value="#{i18n['forms.services.name']}"/>
+                        </f:facet>
+                        <h:link outcome="serviceBean"
+                                value="#{service.name}" >
+                            <f:param name="serviceKey" value="#{service.key}"/>
+                        </h:link>
+                    </p:column>
+                    <p:column>
+                        <f:facet name="header">
+                            <h:outputText value="#{i18n['forms.services.serviceType']}" />
+                        </f:facet>
+                        <h:outputLabel value="#{service.serviceType}"/>
+                    </p:column>
+                    <p:column>
+                        <f:facet name="header">
+                            <h:outputText value="#{i18n['forms.services.status']}" />
+                        </f:facet>
+                        <h:outputLabel value="#{service.activeStatus}"/>
+                    </p:column>
+                </p:dataTable>
+
+                <!-- Add Service -->
+                <p:commandButton
+                        value="#{i18n['forms.service.add']}"
+                        rendered="#{institutionBean.editable}"
+                        update="serviceDialogPanel"
+                        onclick="addServiceDialog.show()">
+                    <f:param name="institutionKey"
+                             value="#{institutionBean.institutionKey}"/>
+                    <f:param name="institutionName"
+                             value="#{institutionBean.escape(institutionBean.institutionName)}"/>
+                 </p:commandButton>
+
+            </h:form>
+
+            <p:dialog id="editInstitutionDialog"
+                      widgetVar="editInstitutionDialog"
+                      modal="true" showEffect="fade" hideEffect="fade">
+				<h:panelGroup id="institutionFormPanel">
+                    <forms:updateInstitutionForm/>
+                </h:panelGroup>
+            </p:dialog>
+
+            <p:dialog id="addServiceDialog"
+                  widgetVar="addServiceDialog"
+                  modal="true">
+                <h:panelGroup id="serviceDialogPanel">
+                    <forms:addServiceForm/>
+                </h:panelGroup>
+            </p:dialog>
+
+        </p:panel>
+    </ui:define>
+</ui:composition>
+
+</body>
+</html>

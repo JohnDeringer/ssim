@@ -1,0 +1,347 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<wsdl:definitions name="EntitlementInterface"
+                  targetNamespace="http://nterlearning.org/xml/entitlement/entitlement-interface_0.1.0.wsdl"
+                  xmlns:tns="http://nterlearning.org/xml/entitlement/entitlement-interface_0.1.0.wsdl"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing"
+                  xmlns:ifo="http://nterlearning.org/xml/entitlement/entitlement-interface_0.1.0.xsd"
+        >
+
+    <wsdl:types>
+        <xs:schema>
+            <xs:import
+                    namespace="http://nterlearning.org/xml/entitlement/entitlement-interface_0.1.0.xsd"
+                    schemaLocation="entitlement-interface_0.1.0.xsd"
+                    />
+            <xs:import
+                    namespace="http://schemas.xmlsoap.org/ws/2004/08/addressing"
+                    schemaLocation="addressing.xsd"
+                    />
+        </xs:schema>
+    </wsdl:types>
+
+    <wsdl:message name="createPolicy">
+        <wsdl:part element="ifo:CreatePolicy" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="createPolicyResponse">
+        <wsdl:part element="ifo:CreatePolicyResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="updatePolicy">
+        <wsdl:part element="ifo:UpdatePolicy" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="updatePolicyResponse">
+        <wsdl:part element="ifo:UpdatePolicyResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="removePolicy">
+        <wsdl:part element="ifo:RemovePolicy" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="removePolicyResponse">
+        <wsdl:part element="ifo:RemovePolicyResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="removePolicyByKey">
+        <wsdl:part element="ifo:RemovePolicyByKey" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="removePolicyByKeyResponse">
+        <wsdl:part element="ifo:RemovePolicyByKeyResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getAllPolicies">
+        <wsdl:part element="ifo:GetAllPolicies" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getAllPoliciesResponse">
+        <wsdl:part element="ifo:GetAllPoliciesResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getPolicyBySubject">
+        <wsdl:part element="ifo:GetPolicyBySubject" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getPolicyBySubjectResponse">
+        <wsdl:part element="ifo:GetPolicyBySubjectResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getPolicyByResource">
+        <wsdl:part element="ifo:GetPolicyByResource" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getPolicyByResourceResponse">
+        <wsdl:part element="ifo:GetPolicyByResourceResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getPolicyByRealm">
+        <wsdl:part element="ifo:GetPolicyByRealm" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getPolicyByRealmResponse">
+        <wsdl:part element="ifo:GetPolicyByRealmResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getPolicyByKey">
+        <wsdl:part element="ifo:GetPolicyByKey" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getPolicyByKeyResponse">
+        <wsdl:part element="ifo:GetPolicyByKeyResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getPolicy">
+        <wsdl:part element="ifo:GetPolicy" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getPolicyResponse">
+        <wsdl:part element="ifo:GetPolicyResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getAuthorization">
+        <wsdl:part element="ifo:GetAuthorization" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getAuthorizationResponse">
+        <wsdl:part element="ifo:GetAuthorizationResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getSubjects">
+        <wsdl:part element="ifo:GetSubjects" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getSubjectsResponse">
+        <wsdl:part element="ifo:GetSubjectsResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getResources">
+        <wsdl:part element="ifo:GetResources" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getResourcesResponse">
+        <wsdl:part element="ifo:GetResourcesResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getActions">
+        <wsdl:part element="ifo:GetActions" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getActionsResponse">
+        <wsdl:part element="ifo:GetActionsResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getRealms">
+        <wsdl:part element="ifo:GetRealms" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getRealmsResponse">
+        <wsdl:part element="ifo:GetRealmsResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:portType name="EntitlementInterface">
+
+        <wsdl:operation name="createPolicy">
+            <wsdl:input message="tns:createPolicy"
+                        name="createPolicy"
+                        wsa:Action="urn:createPolicy">
+            </wsdl:input>
+            <wsdl:output message="tns:createPolicyResponse"
+                         name="createPolicyResponse"
+                         wsa:Action="urn:createPolicyResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="updatePolicy">
+            <wsdl:input message="tns:updatePolicy"
+                        name="updatePolicy"
+                        wsa:Action="urn:updatePolicy">
+            </wsdl:input>
+            <wsdl:output message="tns:updatePolicyResponse"
+                         name="updatePolicyResponse"
+                         wsa:Action="urn:updatePolicyResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="removePolicy">
+            <wsdl:input message="tns:removePolicy"
+                        name="removePolicy"
+                        wsa:Action="urn:removePolicy">
+            </wsdl:input>
+            <wsdl:output message="tns:removePolicyResponse"
+                         name="removePolicyResponse"
+                         wsa:Action="urn:removePolicyResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="removePolicyByKey">
+            <wsdl:input message="tns:removePolicyByKey"
+                        name="removePolicyByKey"
+                        wsa:Action="urn:removePolicyByKey">
+            </wsdl:input>
+            <wsdl:output message="tns:removePolicyByKeyResponse"
+                         name="removePolicyByKeyResponse"
+                         wsa:Action="urn:removePolicyByKeyResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getAllPolicies">
+            <wsdl:input message="tns:getAllPolicies"
+                        name="getAllPolicies"
+                        wsa:Action="urn:getAllPolicies">
+            </wsdl:input>
+            <wsdl:output message="tns:getAllPoliciesResponse"
+                         name="getAllPoliciesResponse"
+                         wsa:Action="urn:getAllPoliciesResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPolicyBySubject">
+            <wsdl:input message="tns:getPolicyBySubject"
+                        name="getPolicyBySubject"
+                        wsa:Action="urn:getPolicyBySubject">
+            </wsdl:input>
+            <wsdl:output message="tns:getPolicyBySubjectResponse"
+                         name="getPolicyBySubjectResponse"
+                         wsa:Action="urn:getPolicyBySubjectResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPolicyByResource">
+            <wsdl:input message="tns:getPolicyByResource"
+                        name="getPolicyByResource"
+                        wsa:Action="urn:getPolicyByResource">
+            </wsdl:input>
+            <wsdl:output message="tns:getPolicyByResourceResponse"
+                         name="getPolicyByResourceResponse"
+                         wsa:Action="urn:getPolicyByResourceResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPolicyByRealm">
+            <wsdl:input message="tns:getPolicyByRealm"
+                        name="getPolicyByRealm"
+                        wsa:Action="urn:getPolicyByRealm">
+            </wsdl:input>
+            <wsdl:output message="tns:getPolicyByRealmResponse"
+                         name="getPolicyByRealmResponse"
+                         wsa:Action="urn:getPolicyByRealmResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPolicyByKey">
+            <wsdl:input message="tns:getPolicyByKey"
+                        name="getPolicyByKey"
+                        wsa:Action="urn:getPolicyByKey">
+            </wsdl:input>
+            <wsdl:output message="tns:getPolicyByKeyResponse"
+                         name="getPolicyByKeyResponse"
+                         wsa:Action="urn:getPolicyByKeyResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPolicy">
+            <wsdl:input message="tns:getPolicy"
+                        name="getPolicy"
+                        wsa:Action="urn:getPolicy">
+            </wsdl:input>
+            <wsdl:output message="tns:getPolicyResponse"
+                         name="getPolicyResponse"
+                         wsa:Action="urn:getPolicyResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getAuthorization">
+            <wsdl:input message="tns:getAuthorization"
+                        name="getAuthorization"
+                        wsa:Action="urn:getAuthorization">
+            </wsdl:input>
+            <wsdl:output message="tns:getAuthorizationResponse"
+                         name="getAuthorizationResponse"
+                         wsa:Action="urn:getAuthorizationResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getSubjects">
+            <wsdl:input message="tns:getSubjects"
+                        name="getSubjects"
+                        wsa:Action="urn:getSubjects">
+            </wsdl:input>
+            <wsdl:output message="tns:getSubjectsResponse"
+                         name="getSubjectsResponse"
+                         wsa:Action="urn:getSubjectsResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getResources">
+            <wsdl:input message="tns:getResources"
+                        name="getResources"
+                        wsa:Action="urn:getResources">
+            </wsdl:input>
+            <wsdl:output message="tns:getResourcesResponse"
+                         name="getResourcesResponse"
+                         wsa:Action="urn:getResourcesResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getActions">
+            <wsdl:input message="tns:getActions"
+                        name="getActions"
+                        wsa:Action="urn:getActions">
+            </wsdl:input>
+            <wsdl:output message="tns:getActionsResponse"
+                         name="getActionsResponse"
+                         wsa:Action="urn:getActionsResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getRealms">
+            <wsdl:input message="tns:getRealms"
+                        name="getRealms"
+                        wsa:Action="urn:getRealms">
+            </wsdl:input>
+            <wsdl:output message="tns:getRealmsResponse"
+                         name="getRealmsResponse"
+                         wsa:Action="urn:getRealmsResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+    </wsdl:portType>
+
+</wsdl:definitions>

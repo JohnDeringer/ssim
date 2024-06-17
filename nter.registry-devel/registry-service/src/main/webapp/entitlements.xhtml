@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:forms="http://java.sun.com/jsf/composite/forms"
+      xml:lang="en" lang="en">
+<head>
+    <title>Entitlements</title>
+</head>
+<body>
+<ui:composition template="/templates/fullTemplate.xhtml">
+    <ui:define name="title">#{i18n['title.entitlements']}</ui:define>
+    <ui:define name="pageName">#{i18n['title.entitlements']}</ui:define>
+    <ui:define name="body">
+        <h:panelGroup id="entitlementsPanel">
+            <h:form id="entitlementsBean">
+                <p:dataTable id="entitlementsTable"
+                             value="#{entitlementsBean.entitlements}"
+                             var="entitlement"
+                             rows="10"
+                             paginator="true"
+                             paginatorPosition="bottom"
+                             rowIndexVar="rowIndexVar">
+
+                    <p:column sortBy="#{entitlement.email}" styleClass="text">
+                        <f:facet name="header">#{i18n['label.name']}</f:facet>
+                        <h:link outcome="entitlementDetailsBean"
+                                value="#{entitlement.email}" >
+                            <f:param name="key" value="#{entitlement.key}"/>
+                            <f:param name="email" value="#{entitlement.email}"/>
+                            <f:param name="resource" value="#{entitlement.resource}"/>
+                        </h:link>
+                    </p:column>
+
+                    <p:column sortBy="#{entitlement.resource}" styleClass="text">
+                        <f:facet name="header">#{i18n['label.institution']}</f:facet>
+                        <h:outputLabel
+                            value="#{entitlement.resource}"/>
+                    </p:column>
+                    <p:column sortBy="#{entitlement.action}" styleClass="text">
+                        <f:facet name="header">#{i18n['label.permission']}</f:facet>
+                        <h:outputText value="#{entitlement.action}"/>
+                    </p:column>
+
+                </p:dataTable>
+
+                <!-- Add Entitlement -->
+                <p:commandButton
+                        value="#{i18n['forms.entitlement.add']}"
+                        rendered="#{entitlementBean.admin}"
+                        update="entitlementDialogPanel"
+                        onclick="addEntitlementDialog.show()">
+                    <f:param name="editMode" value="true"/>
+                </p:commandButton>
+
+            </h:form>
+
+        </h:panelGroup>
+
+        <!-- Add Entitlement dialog -->
+        <p:dialog id="addEntitlementDialog"
+                  widgetVar="addEntitlementDialog"
+                  modal="true">
+		    <h:panelGroup id="entitlementDialogPanel">
+                <forms:addEntitlementForm/>
+            </h:panelGroup>
+        </p:dialog>
+
+    </ui:define>
+
+</ui:composition>
+
+</body>
+</html>

@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://nterlearning.org/xml/commerce/domain-objects_0.1.0.xsd"
+        xmlns:tns="http://nterlearning.org/xml/commerce/domain-objects_0.1.0.xsd"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        elementFormDefault="qualified"
+        attributeFormDefault="qualified">
+
+    <xs:complexType name="clientPaymentConfig">
+        <xs:sequence>
+            <!-- name -->
+            <xs:element name="configId" type="tns:paymentProcessor"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Payment Processor name (e.g. PayPal, Amazon)</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- seller account -->
+            <xs:element name="sellerId" type="xs:string"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>NTER's merchant account name/ID</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- action URL -->
+            <xs:element name="actionURL" type="xs:string"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>form post URL</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- notify URL -->
+            <xs:element name="notifyURL" type="xs:string"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>URL to receive async transaction notifications</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- button URL -->
+            <xs:element name="buttonURL" type="xs:string"
+                        minOccurs="0" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>The Payment Processor button URL to display</xs:documentation>
+                </annotation>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="paymentConfig">
+        <xs:annotation>
+            <xs:documentation>
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- name -->
+            <xs:element name="configId" type="tns:paymentProcessor"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Payment Processor name (e.g. PayPal, Amazon)</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- activeStatus -->
+            <xs:element name="activeStatus" type="xs:boolean"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Active status of the Payment Processor</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- seller account -->
+            <xs:element name="sellerId" type="xs:string"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>NTER's merchant account name/ID</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- seller account password-->
+            <xs:element name="sellerPassword" type="xs:string"
+                        minOccurs="0" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>NTER's merchant account password</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- seller account email-->
+            <xs:element name="sellerEmail" type="xs:string"
+                        minOccurs="0" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>NTER's merchant account email</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- action URL -->
+            <xs:element name="actionURL" type="xs:string"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>form post URL</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- notify URL -->
+            <xs:element name="notifyURL" type="xs:string"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>URL to receive async transaction notifications</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- button URL -->
+            <xs:element name="buttonURL" type="xs:string"
+                        minOccurs="0" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>The Payment Processor button URL to display</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- api version -->
+            <xs:element name="apiVersion" type="xs:string"
+                        minOccurs="0" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>The Payment Processor API version number</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- api username -->
+            <xs:element name="apiUsername" type="xs:string"
+                        minOccurs="0" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>The Payment Processor API username</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- api password -->
+            <xs:element name="apiPassword" type="xs:string"
+                        minOccurs="0" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>The Payment Processor API password</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- api signature -->
+            <xs:element name="apiSignature" type="xs:string"
+                        minOccurs="0" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>The Payment Processor API signature</xs:documentation>
+                </annotation>
+            </xs:element>
+        </xs:sequence>
+        <attribute name="ID" type="xs:long" use="optional">
+            <xs:annotation>
+            </xs:annotation>
+        </attribute>
+    </xs:complexType>
+
+    <xs:complexType name="commerceConfig">
+        <xs:sequence>
+            <!-- administration fee -->
+            <xs:element name="adminFee" type="tns:feeType"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>The NTER administration fee (% of course price)</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- referrer fee -->
+            <xs:element name="referrerFee" type="tns:feeType"
+                        minOccurs="1" maxOccurs="1" >
+                <annotation>
+                    <xs:documentation>
+                        The NTER referrer fee (% of course price). This is the
+                        NTER instance that initiated the course purchase.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+        </xs:sequence>
+        <attribute name="ID" type="xs:long" use="optional">
+        </attribute>
+    </xs:complexType>
+
+    <!-- Payment Transaction -->
+    <xs:complexType name="paymentTransaction">
+        <xs:sequence>
+            <xs:element name="transactionId" type="tns:transactionId"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>The merchant’s original transaction
+                        identification number for the
+                        payment from the buyer, against which the case was registered.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="transactionParentId" type="tns:transactionId"
+                        minOccurs="0" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>The merchant’s parent transaction
+                        identification number for the
+                        payment from the buyer, against which the case was registered.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="paymentProcessor" type="tns:paymentProcessor"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>
+                        The Payment Processor handling the transaction.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="itemName" type="xs:string" minOccurs="1"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Item name as passed by you, the merchant. Or, if
+                        not passed by you, as entered by your customer.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="itemNumber" type="tns:itemNumber" minOccurs="1"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>
+                        Pass-through variable to track purchased items.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="quantity" type="xs:int" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Quantity as entered by your customer or as passed
+                        by you, the merchant.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="paymentDate" type="xs:date" minOccurs="1"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Time/Date stamp generated by the payment
+                        processor, in the following
+                        format: HH:MM:SS DD Mmm YY, YYYY PST
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- Payment Status -->
+            <xs:element name="paymentStatus" type="tns:paymentStatus"
+                        minOccurs="1" maxOccurs="1">
+            </xs:element>
+            <xs:element name="paymentType" type="tns:paymentType" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>
+                        The payment type used by the customer.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- Transaction Type -->
+            <xs:element name="transactionType" type="tns:transactionType"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                </annotation>
+            </xs:element>
+            <xs:element name="currencyType" type="xs:string"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>The currency used for payment</xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="transactionSubject" type="xs:string"
+                        minOccurs="0" maxOccurs="1">
+            </xs:element>
+            <xs:element name="paymentGross" type="tns:currency"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Full amount of the customer's payment, before
+                        transaction fee is subtracted. Equivalent to payment_gross
+                        for USD payments. If this amount is negative, it signifies
+                        a refund or reversal, and either of those payment statuses
+                        can be for the full  or partial amount of the original
+                        transaction.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="tax" type="xs:decimal" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Sales tax</xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="paymentFee" type="xs:decimal" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>USD transaction fee associated with the payment.
+                        payment_gross minus payment_fee equals the amount deposited
+                        into the receiver email account. Is empty for non-USD payments.
+                        If this amount is negative, it signifies a refund or reversal,
+                        and either of those payment statuses can be for the full or
+                        partial amount of the original transaction fee.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="handlingAmount" type="xs:decimal"
+                        minOccurs="0" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Product handling charge</xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="shipping" type="xs:decimal" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Shipping charges associated with this
+                        transaction. Format: unsigned, no currency symbol,
+                        two decimal places.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="receiverEmail" type="tns:email"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Email address or account ID of the payment
+                        recipient (that is, the merchant). Equivalent to the values
+                        of receiver_email (if payment is sent to primary
+                        account) and business set in the Website Payment HTML.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="payerEmail" type="tns:email" minOccurs="1"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Customer’s primary email address. Use this email
+                        to provide any credits.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="studentId" type="tns:studentId" minOccurs="1"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>
+                        The unique identifier of the student purchasing the course.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="payerId" type="xs:string" minOccurs="1"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>
+                        Unique customer ID related to the Payment Processor.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="payerStatus" type="xs:string" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Whether the customer has a verified PayPal
+                        account. verified – Customer has a verified PayPal account.
+                        unverified – Customer has an unverified PayPal account.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="receiverId" type="xs:string" minOccurs="1"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Unique account ID of the payment recipient (i.e.,
+                        the merchant). This is the same as the recipient's referral ID.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="protectionEligibility" type="xs:string"
+                        minOccurs="0" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>
+                        Seller protection
+                        <ul>
+                            <li>ExpandedSellerProtection: Seller is protected by Expanded
+                                seller protection
+                            </li>
+                            <li>SellerProtection: Seller is protected by PayPal’s Seller
+                                Protection Policy
+                            </li>
+                            <li>None: Seller is not protected under Expanded seller
+                                protection nor the Seller Protection Policy
+                            </li>
+                        </ul>
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="notifyVersion" type="xs:decimal"
+                        minOccurs="0" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Message’s version number</xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="verifySign" type="xs:string" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Encrypted string used to validate the
+                        authenticity of the transaction.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="testIpn" type="xs:string" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Whether the message is a test message. It is one
+                        of the following values: 1 – the message is directed to the Sandbox
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="validationStatus" type="tns:validationStatus"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                </annotation>
+            </xs:element>
+            <xs:element name="sysDate" type="xs:date" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>System timestamp</xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="nterId" type="xs:string" minOccurs="1"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>The unique identifier of the NTER instance
+                        offering the
+                        course.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="courseProviderId" type="xs:string"
+                        minOccurs="1" maxOccurs="1">
+                <annotation>
+                    <xs:documentation>The unique identifier of the Content Provider
+                        selling/hosting the course.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="referrerFee" type="xs:decimal" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Amount of the NTER referrer fee
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="adminFee" type="xs:decimal" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Amount of the commerce administration fee
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <xs:element name="reasonCode" type="tns:reasonCode" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Whether this transaction is a chargeback, partial, or reversal.
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+
+        </xs:sequence>
+        <attribute name="ID" type="xs:long" use="optional">
+        </attribute>
+    </xs:complexType>
+
+    <!-- Simple Types -->
+
+    <xs:simpleType name="currency">
+        <xs:restriction base="xs:decimal"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="itemNumber">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="transactionId">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="institutionId">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="email">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <simpleType name="studentId">
+            <restriction base="string"/>
+    </simpleType>
+
+    <simpleType name="requestStatus">
+        <restriction base="string">
+            <enumeration value="SUCCESS"/>
+            <enumeration value="FAILURE"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="paymentProcessor">
+        <restriction base="string">
+            <enumeration value="Amazon"/>
+            <enumeration value="PayPal"/>
+            <enumeration value="Other"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="validationStatus">
+        <annotation>
+            <xs:documentation>
+                Transaction validation status returned from the Payment Processor
+                after during the transaction validation process.
+                <ul>
+                    <li>VERIFIED</li>
+                    <li>INVALID</li>
+                    <li>Completed</li>
+                </ul>
+            </xs:documentation>
+        </annotation>
+        <restriction base="string">
+            <enumeration value="VERIFIED"/>
+            <enumeration value="INVALID"/>
+            <enumeration value="Completed"/>
+        </restriction>
+    </simpleType>
+
+    <!-- Payment Status -->
+    <xs:simpleType name="paymentStatus">
+        <annotation>
+            <xs:documentation>
+            payment_status - The status of the payment:
+                <ul>
+                    <li>
+                        <code>Canceled_Reversal</code>
+                        : A reversal has been canceled. For example, you won
+                        a dispute with the customer, and the funds for the transaction
+                        that was reversed have been returned to you.
+                    </li>
+                    <li>
+                        <code>Completed</code>
+                        : The payment has been completed, and the funds have been
+                        added successfully to your account balance.
+                    </li>
+                    <li>
+                        <code>Created</code>
+                        : A German ELV payment is made using Express Checkout.
+                    </li>
+                    <li>
+                        <code>Denied</code>
+                        : You denied the payment. This happens only if the payment was
+                        previously pending because of possible reasons described for the
+                        pending_reason
+                        variable or the Fraud_Management_Filters_x variable.
+                    </li>
+                    <li>
+                        <code>Expired</code>
+                        : This authorization has expired and cannot be captured.
+                    </li>
+                    <li>
+                        <code>Failed</code>
+                        : The payment has failed. This happens only if the payment was
+                        made from your customer’s bank account.
+                    </li>
+                    <li>
+                        <code>Pending</code>
+                        : The payment is pending. See pending_reason for more
+                        information.
+                    </li>
+                    <li>
+                        <code>Refunded</code>
+                        : You refunded the payment.
+                    </li>
+                    <li>
+                        <code>Reversed</code>
+                        : A payment was reversed due to a charge-back or other type of
+                        reversal. The funds have been removed from your account balance
+                        and returned to the
+                        buyer. The reason for the reversal is specified in the ReasonCode
+                        element.
+                    </li>
+                    <li>
+                        <code>Processed</code>
+                        : A payment has been accepted.
+                    </li>
+                    <li>
+                        <code>Voided</code>
+                        : This authorization has been voided.
+                    </li>
+                    <li>
+                        <code>Unknown</code>
+                        : System could not determine the payment status.
+                    </li>
+                </ul>
+            </xs:documentation>
+        </annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Unknown"/>
+            <xs:enumeration value="Canceled_Reversal"/>
+            <xs:enumeration value="Completed"/>
+            <xs:enumeration value="Created"/>
+            <xs:enumeration value="Denied"/>
+            <xs:enumeration value="Expired"/>
+            <xs:enumeration value="Failed"/>
+            <xs:enumeration value="Pending"/>
+            <xs:enumeration value="Refunded"/>
+            <xs:enumeration value="Reversed"/>
+            <xs:enumeration value="Processed"/>
+            <xs:enumeration value="Voided"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="transactionType">
+        <annotation>
+            <xs:documentation>
+                txn_type - The type of transaction:
+                <ul>
+                    <li>
+                        <code>—</code>
+                        : Credit card charge-back if the case_type variable contains
+                        charge-back
+                    </li>
+                    <li>
+                        <code>adjustment</code>
+                        : A dispute has been resolved and closed
+                    </li>
+                    <li>
+                        <code>cart</code>
+                        : Payment received for multiple items; source is Express
+                        Checkout or the PayPal Shopping Cart.
+                    </li>
+                    <li>
+                        <code>express_checkout</code>
+                        : Payment received for a single item; source is
+                        Express Checkout
+                    </li>
+                    <li>
+                        <code>masspay</code>
+                        : Payment sent using MassPay
+                    </li>
+                    <li>
+                        <code>merch_pmt</code>
+                        : Monthly subscription paid for Website Payments Pro
+                    </li>
+                    <li>
+                        <code>new_case</code>
+                        : A new dispute was filed
+                    </li>
+                    <li>
+                        <code>recurring_payment</code>
+                        : Recurring payment received
+                    </li>
+                    <li>
+                        <code>recurring_payment_profile_created</code>
+                        : Recurring payment profile created
+                    </li>
+                    <li>
+                        <code>send_money</code>
+                        : Payment received; source is the Send Money tab on the
+                        PayPal website
+                    </li>
+                    <li>
+                        <code>subscr_cancel</code>
+                        : Subscription canceled
+                    </li>
+                    <li>
+                        <code>subscr_eot</code>
+                        : Subscription expired
+                    </li>
+                    <li>
+                        <code>subscr_failed</code>
+                        : Subscription signup failed
+                    </li>
+                    <li>
+                        <code>subscr_modify</code>
+                        : Subscription modified
+                    </li>
+                    <li>
+                        <code>subscr_payment</code>
+                        : Subscription payment received
+                    </li>
+                    <li>
+                        <code>subscr_signup</code>
+                        : Subscription started
+                    </li>
+                    <li>
+                        <code>virtual_terminal</code>
+                        : Payment received; source is Virtual Terminal
+                    </li>
+                    <li>
+                        <code>web_accept</code>
+                        : Payment received; source is a Buy Now, Donation, or
+                        Auction Smart Logos button
+                    </li>
+                    <li>
+                        <code>disbursement</code>
+                        : NTER disbursements of commerce funds related to course purchases
+                    </li>
+                </ul>
+            </xs:documentation>
+        </annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="adjustment"/>
+            <xs:enumeration value="cart"/>
+            <xs:enumeration value="express_checkout"/>
+            <xs:enumeration value="masspay"/>
+            <xs:enumeration value="merch_pmt"/>
+            <xs:enumeration value="new_case"/>
+            <xs:enumeration value="recurring_payment"/>
+            <xs:enumeration value="recurring_payment_profile_created"/>
+            <xs:enumeration value="send_money"/>
+            <xs:enumeration value="subscr_cancel"/>
+            <xs:enumeration value="subscr_eot"/>
+            <xs:enumeration value="subscr_failed"/>
+            <xs:enumeration value="subscr_modify"/>
+            <xs:enumeration value="subscr_payment"/>
+            <xs:enumeration value="subscr_signup"/>
+            <xs:enumeration value="virtual_terminal"/>
+            <xs:enumeration value="web_accept"/>
+            <xs:enumeration value="disbursement"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <!-- The expression
+    ^[0-9]{0,2}(\.[0-9]{0,3})?$
+    checks if the integral part is between 0 to 2 digits
+    and the fractional part is between 0 to 3 digits.
+    -->
+    <xs:simpleType name="feeType">
+        <xs:restriction base="xs:decimal">
+            <xs:pattern value="[0-9]{0,2}(\.[0-9]{0,3})?"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <simpleType name="reasonCode">
+        <annotation>
+            <xs:documentation>
+                reason_code - Whether this transaction is a chargeback, partial, or reversal. Possible values are:
+                <ul>
+                    <li>
+                        <code>adjustment_reversal</code>
+                        : Reversal of an adjustment
+                    </li>
+                    <li>
+                        <code>buyer-complaint</code>
+                        : A reversal has occurred on this transaction due to a complaint about the transaction from your customer.
+                    </li>
+                    <li>
+                        <code>chargeback</code>
+                        : A reversal has occurred on this transaction due to a chargeback by your customer.
+                    </li>
+                    <li>
+                        <code>chargeback_reimbursement</code>
+                        : Reimbursement for a chargeback.
+                    </li>
+                    <li>
+                        <code>chargeback_settlement</code>
+                        : Settlement of a chargeback.
+                    </li>
+                    <li>
+                        <code>guarantee</code>
+                        : A reversal has occurred on this transaction due to your customer triggering a money-back guarantee.
+                    </li>
+                    <li>
+                        <code>refund</code>
+                        : A reversal has occurred on this transaction because you have given the customer a refund.
+                    </li>
+                    <li>
+                        <code>other</code>
+                        : Non-specified reason.
+                    </li>
+                </ul>
+            </xs:documentation>
+        </annotation>
+        <restriction base="string">
+            <enumeration value="adjustment_reversal"/>
+            <enumeration value="buyer-complaint"/>
+            <enumeration value="chargeback"/>
+            <enumeration value="chargeback_reimbursement"/>
+            <enumeration value="chargeback_settlement"/>
+            <enumeration value="guarantee"/>
+            <enumeration value="refund"/>
+            <enumeration value="other"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="paymentType">
+        <annotation>
+            <xs:documentation>
+                payment_type - The payment type used by the customer.
+                <ul>
+                    <li>
+                        <code>echeck</code>
+                        : This payment was funded with an eCheck.
+                    </li>
+                    <li>
+                        <code>instant</code>
+                        : This payment was funded with PayPal balance, credit card, or Instant Transfer.
+                    </li>
+                    <li>
+                        <code>check</code>
+                        : Bank check.
+                    </li>
+                    <li>
+                        <code>other</code>
+                        : Non-specified reason.
+                    </li>
+                </ul>
+            </xs:documentation>
+        </annotation>
+        <restriction base="string">
+            <enumeration value="echeck"/>
+            <enumeration value="instant"/>
+            <enumeration value="check"/>
+            <enumeration value="other"/>
+        </restriction>
+    </simpleType>
+
+</schema>

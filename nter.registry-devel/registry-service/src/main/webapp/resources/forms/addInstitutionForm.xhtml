@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2011  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui" xml:lang="en" lang="en">
+<h:head/>
+<h:body>
+<cc:interface>
+</cc:interface>
+<cc:implementation>
+    <h:form id="institutionBean" class="edit-form">
+        <p:panel id="institutionPanel">
+            <h:inputHidden id="institutionKey" value="#{institutionBean.institutionKey}"/>
+            <div>
+                <p:focus for="institutionName"/>
+                <h:outputLabel for="institutionName" value="#{i18n['forms.institution.name']} *"/>
+                <h:message for="institutionName"/>
+                <h:inputText id="institutionName"
+                             value="#{institutionBean.institutionName}"
+                             maxlength="74"/>
+            </div>
+            <div>
+                <h:outputLabel for="description" value="#{i18n['forms.institution.description']}"/>
+                <h:inputText id="description"
+                             value="#{institutionBean.description}"
+                             maxlength="200"/>
+            </div>
+            <div>
+                <h:outputLabel for="contactName" value="#{i18n['forms.institution.contactName']} *"/>
+                <h:message for="contactName"/>
+                <h:inputText id="contactName"
+                             value="#{institutionBean.contactName}"
+                             maxlength="99"/>
+            </div>
+            <div>
+                <h:outputLabel for="contactDescription" value="#{i18n['forms.institution.contactDescription']}"/>
+                <h:inputText id="contactDescription"
+                             value="#{institutionBean.contactDescription}"
+                             maxlength="200"/>
+            </div>
+            <div>
+                <h:outputLabel for="contactAddress" value="#{i18n['forms.institution.contactAddress']}"/>
+                <h:inputText id="contactAddress"
+                             value="#{institutionBean.contactAddress}"
+                             maxlength="200"/>
+            </div>
+            <div>
+                <h:outputLabel for="contactPhone" value="#{i18n['forms.institution.phone']}"/>
+                <h:inputText id="contactPhone"
+                             value="#{institutionBean.contactPhone}"
+                             maxlength="50"/>
+            </div>
+            <div>
+                <h:outputLabel for="contactEmail" value="#{i18n['forms.institution.email']} *"/>
+                <h:message for="contactEmail"/>
+                <h:inputText id="contactEmail"
+                             value="#{institutionBean.contactEmail}"
+                             maxlength="100"/>
+            </div>
+            <div>
+                <h:outputLabel for="activeStatus" value="#{i18n['forms.institution.status']}"/>
+                <h:selectOneMenu id="activeStatus" value="#{institutionBean.activeStatus}">
+                    <f:selectItems value="#{institutionBean.activeStatusList}"/>
+                </h:selectOneMenu>
+            </div>
+
+            <div>
+                <p:messages id="messages" showDetail="true" autoUpdate="true"/>
+            </div>
+
+            <div class="actions">
+                <p:commandButton id="saveButton"
+                                 actionListener="#{institutionBean.saveInstitution}"
+                                 update="messages"
+                                 value="#{i18n['forms.save']}"
+                                 oncomplete="handleSaveRequest(xhr, status, args)"/>
+
+                <p:commandButton value="#{i18n['forms.close']}"
+                                 onclick="editDialog.hide()"
+                                 styleClass="secondary"/>
+            </div>
+        </p:panel>
+    </h:form>
+    <script type="text/javascript">
+        function handleSaveRequest(xhr, status, args) {
+            if(args.validationFailed || !args.valid) {
+                jQuery('#editDialog').effect("shake", { times:1 }, 100);
+            } else {
+                editDialog.hide();
+                location.reload(true);
+            }
+        }
+    </script>
+</cc:implementation>
+
+</h:body>
+</html>

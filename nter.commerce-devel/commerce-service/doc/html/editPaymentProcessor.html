@@ -1,0 +1,129 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Commerce Service - Edit Payment Processor</title>
+  </head>
+  <body>
+    <h2>Edit Payment Processor</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="2">Payment Processor - Amazon</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>
+            <select>
+              <option value="PayPal">PayPal</option>
+              <option value="Amazon">Amazon</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Active</td>
+          <td>
+            <input type="checkbox" checked="checked"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Account</td>
+          <td>
+            <input type="text" size="30" value="admin@nterlearning.org"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>
+            <input type="text" size="30" value="abc123"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Branding image URL (Our image displayed on Payment Processor site)</td>
+          <td>
+            <input type="text" size="40" value="http://commerce.nterlearning.org/images/ntercommerce.png"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Action URL (form action URL)</td>
+          <td>
+            <input type="text" size="40" value="https://api-3t.sandbox.paypal.com/nvp"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Notify URL (Asynchonous transaction notification)</td>
+          <td>
+            <input type="text" size="40" value="https://commerce.nterlearning.org/commerce-service-0.0.1/notification"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Return URL (Customer will be sent to this URL once transaction is complete)</td>
+          <td>
+            <input type="text" size="40" value="https://www.nterlearning.org/web/guest/course-details"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Cancel URL (Customer will be sent to this URL if the transaction is cancelled)</td>
+          <td>
+            <input type="text" size="40" value="https://www.nterlearning.org/web/guest/course-details"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Button Image URL</td>
+          <td>
+            <input type="text" size="40" value="https://www.paypal.com/en_US/i/btn/btn_xpressCheckout.gif"/>
+          </td>
+        </tr>
+        <tr>
+          <td>API Version</td>
+          <td>
+            <input type="text" size="10" value="2.0"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Administration fee (%)</td>
+          <td>
+            <input type="text" size="3" value="5%"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Referrer fee (%)</td>
+          <td>
+            <input type="text" size="3" value="10%"/>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="button" value="Save" onclick="window.location.href='payment-configuration.html'"/></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <input type="button" value="Cancel" onclick="window.location.href='payment-configuration.html'"/>
+    </p>
+    <h4>Notes</h4>   
+    <ul>
+      <li>Configuration API - getConfiguration(configId) / updateConfiguration(ConfigurationEntry)
+        <ul>
+          <li>ConfigurationEntry
+            <ul>
+              <li>Name: configId</li>
+              <li>Active: activeStatus</li>
+              <li>Account: sellerId</li>            
+              <li>Password: sellerPassword</li>
+              <li>Branding image URL: brandingImageURL</li>
+              <li>Action URL: actionURL</li>
+              <li>Notify URL: notifyURL</li>
+              <li>Return URL: returnURL</li>
+              <li>Cancel URL: cancelURL</li>
+              <li>Button URL: buttonURL</li>
+              <li>API Version: apiVersion</li>
+              <li>Administration fee: adminFee</li>
+              <li>Referrer fee: referrerFee</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>  
+  </body>
+</html>

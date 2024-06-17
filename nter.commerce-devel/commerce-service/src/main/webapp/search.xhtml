@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core" xml:lang="en" lang="en">
+<head>
+    <title>Search</title>
+</head>
+<body>
+<ui:composition template="/templates/fullTemplate.xhtml">
+    <ui:define name="title">#{i18n['title.search']}</ui:define>
+    <ui:define name="pageName">#{i18n['title.search']}</ui:define>
+    <ui:define name="body">
+        <h:form styleClass="search-form">
+            <h:outputLabel value="#{i18n['forms.searchTerm']}" for="searchInput"/>
+            <h:inputText id="searchInput"/>
+            <h:outputLabel value="#{i18n['forms.searchType']}"/>
+            <h:selectOneMenu id="itemType" equired="true" hideNoSelectionOption="true">
+                <f:selectItem itemLabel="#{i18n['forms.searchType.select']}" noSelectionOption="true"/>
+                <f:selectItem itemLabel="#{i18n['forms.searchType.courses']}"/>
+                <f:selectItem itemLabel="#{i18n['forms.searchType.transactions']}"/>
+                <f:selectItem itemLabel="#{i18n['forms.searchType.users']}"/>
+            </h:selectOneMenu>
+            <p:commandButton value="#{i18n['forms.search']}"/>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</body>
+</html>

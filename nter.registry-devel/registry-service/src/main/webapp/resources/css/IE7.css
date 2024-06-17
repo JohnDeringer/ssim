@@ -1,0 +1,9 @@
+header { zoom: 1; }
+nav { position: relative; }
+nav li { display: inline; }
+nav nav { left: 0; top: 2em; background-color: #FCFCF5; }
+nav nav ul { vertical-align: middle }
+.nav a { display: block; }
+
+.actions form { display: inline; }
+button { padding: 1px .4em; }

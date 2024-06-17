@@ -1,0 +1,31 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+    <context:property-placeholder location="commerce-client-beans-test.properties"/>
+
+    <bean id="transactionClient"
+          class="org.nterlearning.commerce.client.TransactionClientImpl">
+        <constructor-arg name="user" value="${user}"/>
+        <constructor-arg name="password" value="${password}"/>
+        <constructor-arg name="wsdlLocation" value="${TRANSACTION_WSDL_URL}"/>
+    </bean>
+
+    <bean id="configurationClient"
+          class="org.nterlearning.commerce.client.ConfigurationClientImpl">
+        <constructor-arg name="user" value="${user}"/>
+        <constructor-arg name="password" value="${password}"/>
+        <constructor-arg name="wsdlLocation" value="${CONFIGURATION_WSDL_URL}"/>
+    </bean>
+
+    <bean id="registryService" class="org.nterlearning.registry.client.RegistryImpl">
+        <constructor-arg name="user" value="${user}"/>
+        <constructor-arg name="password" value="${password}"/>
+        <constructor-arg name="wsdlLocation" value="${commerce.registry.wsdl.url}"/>
+    </bean>
+
+</beans>

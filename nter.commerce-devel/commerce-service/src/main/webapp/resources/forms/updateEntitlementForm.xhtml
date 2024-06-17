@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2011  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xml:lang="en" lang="en">
+<h:head/>
+<h:body>
+<cc:interface/>
+<cc:implementation>
+    <h:form id="entitlementBean" styleClass="edit-form">
+        <p:panel>
+            <div>
+                <h:outputLabel for="emailDisplay" value="#{i18n['label.user']}"/>
+                <h:inputText id="emailDisplay"
+                             disabled="true"
+                             value="#{entitlementBean.email}"/>
+                <h:inputHidden id="key" value="#{entitlementBean.key}"/>
+                <h:inputHidden id="subject" value="#{entitlementBean.subject}"/>
+                <h:inputHidden id="email" value="#{entitlementBean.email}"/>
+            </div>
+            <div>
+                <h:inputText id="resourceDisplay"
+                             disabled="true"
+                             value="#{entitlementBean.resource}"/>
+                <h:inputHidden id="resource" value="#{entitlementBean.resource}"/>
+            </div>
+            <div>
+                <h:outputLabel for="action"
+                               value="#{i18n['label.permission']}"/>
+                <h:selectOneMenu id="action"
+                                 value="#{entitlementBean.action}" >
+                    <f:selectItems value="#{entitlementBean.actions}"/>
+                </h:selectOneMenu>
+            </div>
+
+            <div>
+                <p:messages id="messages" showDetail="true" autoUpdate="true"/>
+            </div>
+
+            <div class="actions">
+                <p:commandButton id="saveButton"
+                                 actionListener="#{entitlementBean.save}"
+                                 update="messages"
+                                 value="#{i18n['forms.save']}"
+                                 oncomplete="handleSaveRequest(xhr, status, args)"/>
+
+                <p:commandButton value="#{i18n['forms.close']}"
+                                 onclick="editDialog.hide()"
+                                 styleClass="secondary"/>
+            </div>
+        </p:panel>
+    </h:form>
+
+    <script type="text/javascript">
+        function handleSaveRequest(xhr, status, args) {
+            if(args.validationFailed || !args.valid) {
+                jQuery('#editDialog').effect("shake", { times:1 }, 100);
+            } else {
+                editDialog.hide();
+                location.reload(true);
+            }
+        }
+    </script>
+
+</cc:implementation>
+
+</h:body>
+</html>

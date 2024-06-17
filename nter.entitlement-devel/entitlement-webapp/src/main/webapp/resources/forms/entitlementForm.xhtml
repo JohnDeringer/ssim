@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xml:lang="en" lang="en">
+<h:head/>
+<h:body>
+<cc:interface/>
+<cc:implementation>
+    <h:form id="entitlementForm" styleClass="edit-form">
+        <p:panel>
+            <div>
+                <h:outputLabel for="selectUser" value="#{i18n['label.user']}"/>
+                <h:selectOneMenu id="selectUser"
+                                 value="#{entitlementForm.selectedUser}"
+                                 effect="fold"
+                                 editable="true">
+                    <f:selectItem itemLabel="Select One" itemValue="" />
+                    <f:selectItems value="#{entitlementForm.users}"/>
+                </h:selectOneMenu>
+            </div>
+            <div>
+                <h:outputLabel for="selectInstitution"
+                               value="#{i18n['label.institution']}"/>
+                <h:selectOneMenu id="selectInstitution"
+                                 value="#{entitlementForm.selectedInstitution}" >
+                    <f:selectItems value="#{entitlementForm.institutionNames}"/>
+                </h:selectOneMenu>
+            </div>
+            <div>
+                <h:outputLabel for="selectPermission"
+                               value="#{i18n['label.permission']}"/>
+                <h:selectOneMenu id="selectPermission"
+                                 value="#{entitlementForm.selectedPermission}" >
+                    <f:selectItems value="#{entitlementForm.permissions}"/>
+                </h:selectOneMenu>
+            </div>
+            <div class="actions">
+                <p:commandButton value="#{i18n['forms.save']}"
+                                 action="#{entitlements.saveForm}"
+                                 update="entitlements"
+                                 onsuccess="editDialog.hide()"/>
+                <p:commandButton value="#{i18n['forms.close']}"
+                                 onclick="editDialog.hide()"
+                                 styleClass="secondary"/>
+            </div>
+        </p:panel>
+    </h:form>
+</cc:implementation>
+
+</h:body>
+</html>

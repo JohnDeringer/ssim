@@ -1,0 +1,13 @@
+<HTML>
+<BODY>
+Hi %s,<BR>
+<BR>
+We have received your request to change your email address. You will need to verify that this new email is correct before you can use it to log in or receive site emails. Please click the following link to verify your new e-mail address.<BR>
+<BR>
+<A HREF="%s">%s</A><BR>
+<BR>
+Please contact us with any problems.<BR>
+<BR>
+The NTER Team<BR>
+</BODY>
+</HTML>

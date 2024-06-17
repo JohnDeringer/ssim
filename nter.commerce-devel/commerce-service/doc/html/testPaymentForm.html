@@ -1,0 +1,51 @@
+<!--
+  ~ National Training and Education Resource (NTER)
+  ~ Copyright (C) 2012  SRI International
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or (at
+  ~ your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful, but
+  ~ WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  ~ General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+  ~ 02110-1301, USA.
+  -->
+<html>
+<head>
+<title>PayPalTest</title>
+</head>
+<body>
+
+<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="QS6F6B7D3R2Q8">
+<input type="hidden" name="lc" value="US">
+<input type="hidden" name="item_name" value="Weatherization 102">
+<input type="hidden" name="item_number" value="101b">
+<input type="hidden" name="amount" value="12.00">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="button_subtype" value="services">
+<input type="hidden" name="no_note" value="1">
+<input type="hidden" name="no_shipping" value="1">
+<input type="hidden" name="rm" value="1">
+<input type="hidden" name="return" value="https://www.nterlearning.org/web/guest/course-details">
+<input type="hidden" name="cancel_return" value="https://www.nterlearning.org/web/guest/course-details">
+<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHosted">
+<input type="hidden" name="address_override" value="1">
+<input type="hidden" name="notify_url" value="https://commerce.nterlearning.org/commerce-service-1.1.0/services/rest/transactions/notification">
+<input type="hidden" name="email" value="john.d_1303490303_per@sri.com">
+<input type="hidden" name="custom" value="studentId=john.deringer@sri.com|nterId=SRI International|cpId=SRI International">
+<input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+</body>
+</html>
+

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://nterlearning.org/xml/nter-registry/domain-objects_0.1.0.xsd"
+        xmlns:tns="http://nterlearning.org/xml/nter-registry/domain-objects_0.1.0.xsd"
+        xmlns:bl="http://nterlearning.org/xml/nter-registry/blacklist-objects_0.1.0.xsd"
+        elementFormDefault="qualified"
+        attributeFormDefault="qualified">
+
+    <import
+            namespace="http://nterlearning.org/xml/nter-registry/blacklist-objects_0.1.0.xsd"
+            schemaLocation="blacklist-objects_0.1.0.xsd"/>
+
+    <complexType name="institution">
+        <sequence>
+            <!-- institution name -->
+            <element name="name" type="string" minOccurs="1"
+                     maxOccurs="1"/>
+            <!-- institution description -->
+            <element name="description" type="string" minOccurs="0"
+                     maxOccurs="1"/>
+            <!-- contactInfo -->
+            <element name="contactInfo" type="tns:contact"
+                     minOccurs="1" maxOccurs="1"/>
+            <!-- Blacklist status -->
+            <element name="activeStatus" type="bl:activeStatusEnum" minOccurs="1" maxOccurs="1"/>
+            <!-- Services -->
+            <element name="service" type="tns:businessService" minOccurs="0"
+                     maxOccurs="unbounded"/>
+        </sequence>
+        <!-- institutionKey -->
+        <attribute name="key" type="long" use="optional"/>
+    </complexType>
+
+    <!-- Service -->
+    <complexType name="businessService">
+        <sequence>
+            <!-- institution name -->
+            <element name="institutionName" type="string"
+                     minOccurs="0" maxOccurs="1"/>
+            <!-- service name -->
+            <element name="name" type="string" minOccurs="1"
+                     maxOccurs="1">
+            </element>
+            <!-- service description -->
+            <element name="description" type="string" minOccurs="0"
+                     maxOccurs="1">
+            </element>
+            <!-- serviceType -->
+            <element name="serviceType" type="tns:serviceTypeEnum"
+                     minOccurs="1" maxOccurs="1"/>
+            <!-- bindings -->
+            <element name="binding" type="tns:binding" minOccurs="1"
+                     maxOccurs="unbounded"/>
+            <!-- Blacklist status -->
+            <element name="activeStatus" type="bl:activeStatusEnum" minOccurs="1" maxOccurs="1"/>
+
+        </sequence>
+        <!-- Key -->
+        <attribute name="key" type="long" use="optional"/>
+    </complexType>
+
+    <complexType name="binding">
+        <annotation>
+            <documentation><!-- TODO --></documentation>
+        </annotation>
+        <sequence>
+            <!-- binding description -->
+            <element name="description" type="string" minOccurs="0"
+                     maxOccurs="1">
+                <annotation>
+                    <documentation/>
+                </annotation>
+            </element>
+            <!-- accessPoint -->
+            <element name="accessPoint" type="tns:endPointType" maxOccurs="1"
+                     minOccurs="1">
+                <annotation>
+                    <documentation/>
+                </annotation>
+            </element>
+            <!-- bindingType -->
+            <element name="bindingType" type="tns:bindingTypeEnum" maxOccurs="1"
+                     minOccurs="1"/>
+        </sequence>
+        <attribute name="key" type="long" use="optional"/>
+    </complexType>
+
+    <complexType name="contact">
+        <sequence>
+            <!-- personName -->
+            <element name="personName" type="string" minOccurs="1"
+                     maxOccurs="1">
+                <annotation>
+                    <documentation/>
+                </annotation>
+            </element>
+            <!-- description -->
+            <element name="description" type="string" minOccurs="0"
+                     maxOccurs="1">
+                <annotation>
+                    <documentation/>
+                </annotation>
+            </element>
+            <!-- phone -->
+            <element name="phone" type="string" minOccurs="0"
+                     maxOccurs="1">
+                <annotation>
+                    <documentation/>
+                </annotation>
+            </element>
+            <!-- email -->
+            <element name="email" type="string" minOccurs="1"
+                     maxOccurs="1">
+                <annotation>
+                    <documentation/>
+                </annotation>
+            </element>
+            <!-- Address -->
+            <element name="address" type="string" minOccurs="0"
+                     maxOccurs="1">
+                <annotation>
+                    <documentation/>
+                </annotation>
+            </element>
+        </sequence>
+        <attribute name="key" type="long" use="optional"/>
+    </complexType>
+
+    <simpleType name="authInfo">
+        <restriction base="string"/>
+    </simpleType>
+
+    <simpleType name="tModelKey">
+        <restriction base="long"/>
+    </simpleType>
+
+    <simpleType name="endPointType">
+        <restriction base="anyURI"/>
+    </simpleType>
+
+    <simpleType name="serviceTypeEnum">
+        <restriction base="string">
+            <enumeration value="Content Repository"/>
+            <enumeration value="Course Reviews"/>
+            <enumeration value="NTER Portal"/>
+            <enumeration value="Search Indexer"/>
+            <enumeration value="Pub-Sub"/>
+            <enumeration value="NTER Service"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="bindingTypeEnum">
+        <restriction base="string">
+            <enumeration value="Course Catalog (Atom)"/>
+            <enumeration value="Student Progress (Atom)"/>
+            <enumeration value="Activity Stream (Atom)"/>
+            <enumeration value="REST"/>
+            <enumeration value="XML/HTTP"/>
+            <enumeration value="SOAPv1.1"/>
+            <enumeration value="SOAPv1.2"/>
+            <enumeration value="WebSite"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="requestStatus">
+        <restriction base="string">
+            <enumeration value="SUCCESS"/>
+            <enumeration value="FAILURE"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="categoryType">
+        <restriction base="string">
+            <enumeration value="status"/>
+            <enumeration value="namespace"/>
+            <enumeration value="service-type"/>
+            <enumeration value="binding-type"/>
+        </restriction>
+    </simpleType>
+
+</schema>

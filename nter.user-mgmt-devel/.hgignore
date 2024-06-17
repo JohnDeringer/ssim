@@ -1,0 +1,10 @@
+/target$
+/.settings$
+syntax: glob
+*.project
+*.classpath
+.settings
+build-info.json
+*.iml
+*.ipr
+*.iws

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xml:lang="en" lang="en">
+<h:head>
+    <title><ui:insert name="title"/> | #{i18n['site.name']}</title>
+</h:head>
+<h:body>
+    <!-- theme css included here instead of in the head so it comes after all of the other css -->
+    <link rel="stylesheet" type="text/css" href="themes/primefaces-nter/theme.css"/>
+    <script src="themes/primefaces-nter/js/modernizr-2.0.6.min.custom.js"></script>
+
+    <header role="banner">
+        <div>
+            <h1><h:link value="#{i18n['site.name']}" outcome="institutions"/></h1>
+        </div>
+        <div style="text-align:right">#{tabs.email}</div>
+        <nav role="navigation" class="#{tabs.subNavRendered ? 'has-subnav' : ''}">
+            <ul class="nav">
+                <h:form styleClass="nav">
+                    <li>
+                        <h:link value="#{i18n['pages.reports']}"  outcome="institutions"
+                                styleClass='#{(facesContext.viewRoot.viewId == "/institutions.xhtml" || tabs.subNavRendered) ? "current" : ""}'/>
+                        <h:panelGroup rendered='#{tabs.subNavRendered}'>
+                            <nav>
+                                <strong>
+                                    <h:outputText value="#{tabs.institutionName}:"/>
+                                </strong>
+                                <ul class="nav">
+                                    <li>
+                                        <h:link value="#{i18n['pages.salesSummary']}" outcome="salesSummary"
+                                                includeViewParams="true"
+                                                styleClass='#{facesContext.viewRoot.viewId == "/salesSummary.xhtml" ? "current" : ""}'>
+                                            <f:viewParam name="institutionName" value="#{tabs.institutionName}"/>
+                                        </h:link>
+                                    </li>
+                                    <li>
+                                        <h:link value="#{i18n['pages.transactions']}" outcome="transactions"
+                                                includeViewParams="true"
+                                                styleClass='#{facesContext.viewRoot.viewId == "/transactions.xhtml" ? "current" : ""}'>
+                                            <f:viewParam name="institutionName" value="#{tabs.institutionName}"/>
+                                        </h:link>
+                                    </li>
+                                    <li>
+                                        <h:link value="#{i18n['pages.disbursements']}" outcome="institutionConfiguration"
+                                                includeViewParams="true"
+                                                styleClass='#{facesContext.viewRoot.viewId == "/institutionConfiguration.xhtml" ? "current" : ""}'>
+                                            <f:viewParam name="institutionName" value="#{tabs.institutionName}"/>
+                                        </h:link>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </h:panelGroup>
+                    </li>
+                    <li>
+                        <h:link value="#{i18n['pages.paymentProcessors']}"
+                                rendered="#{entitlementUtil.globalAdmin}"
+                                outcome="paymentProcessors"
+                                styleClass='#{facesContext.viewRoot.viewId == "/paymentProcessors.xhtml" ? "current" : ""}'/>
+                    </li>
+                    <li>
+                        <h:link value="#{i18n['pages.entitlements']}"
+                                outcome="entitlements"
+                                styleClass='#{facesContext.viewRoot.viewId == "/entitlements.xhtml" ? "current" : ""}'/>
+                    </li>
+
+                    <!--
+                    <li>
+                        <h:link value="#{i18n['pages.search']}"  outcome="search"
+                        styleClass='#{facesContext.viewRoot.viewId == "/search.xhtml" ? "current" : ""}'/>
+                    </li>
+
+                    <li>
+                        <h:link value="#{i18n['pages.disbursements']}"
+                                outcome="disbursements"
+                        styleClass='#{facesContext.viewRoot.viewId == "/disbursements.xhtml" ? "current" : ""}'/>
+                    </li>
+                   -->
+                    <li>
+                        <h:link value="#{i18n['pages.accounting']}"
+                                rendered="#{entitlementUtil.globalAdmin}"
+                                outcome="accounting"
+                        styleClass='#{facesContext.viewRoot.viewId == "/accounting.xhtml" ? "current" : ""}'/>
+                    </li>
+                    <li>
+                        <h:link value="#{i18n['pages.serverSettings']}"
+                                rendered="#{entitlementUtil.globalAdmin}"
+                                outcome="serverSettings"
+                        styleClass='#{facesContext.viewRoot.viewId == "/serverSettings.xhtml" ? "current" : ""}'/>
+                    </li>
+                    <li>
+                        <h:commandLink value="#{i18n['pages.signOut']}" action="#{authController.signOut}"/>
+                    </li>
+                </h:form>
+            </ul>
+        </nav>
+        <ui:insert name="subNav"/>
+    </header>
+
+    <div id="main" role="main">
+        <h1><ui:insert name="pageName"></ui:insert></h1>
+        <ui:insert name="body"></ui:insert>
+    </div>
+
+    <footer role="contentinfo"></footer>
+
+</h:body>
+</html>
+

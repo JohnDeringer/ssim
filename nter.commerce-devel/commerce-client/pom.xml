@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.nterlearning</groupId>
+        <artifactId>commerce</artifactId>
+        <version>1.1.0-SNAPSHOT</version>
+    </parent>
+
+    <groupId>org.nterlearning</groupId>
+    <artifactId>commerce-client</artifactId>
+    <packaging>jar</packaging>
+    <name>Commerce Client</name>
+    <description>Commerce Service Client API</description>
+
+    <properties>
+        <basedir>.</basedir>
+
+        <transaction-api.wsdl>
+            transaction-api_0.1.0.wsdl
+        </transaction-api.wsdl>
+        <transaction-client-namespace>
+            org.nterlearning.commerce.transaction.client
+        </transaction-client-namespace>
+
+        <configuration-api.wsdl>
+            configuration-api_0.1.0.wsdl
+        </configuration-api.wsdl>
+        <configuration-client-namespace>
+            org.nterlearning.commerce.configuration.client
+        </configuration-client-namespace>
+
+    </properties>
+
+    <dependencies>
+        <!-- NTER - registry -->
+        <dependency>
+            <groupId>org.nterlearning</groupId>
+            <artifactId>registry-client</artifactId>
+            <version>${registry.client.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- commerce-wsdl-->
+        <dependency>
+            <groupId>org.nterlearning</groupId>
+            <artifactId>commerce-wsdl</artifactId>
+            <version>${project.parent.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <!-- Spring-web -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+        <!-- Security -->
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-ws-security</artifactId>
+            <version>${cxf.version}</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.ws.security</groupId>
+            <artifactId>wss4j</artifactId>
+            <version>${wss4j.version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>unpack-wsdl-dependency</id>
+                        <phase>initialize</phase>
+                        <goals>
+                            <goal>unpack</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <artifactItems>
+                        <artifactItem>
+                            <groupId>org.nterlearning</groupId>
+                            <artifactId>commerce-wsdl</artifactId>
+                            <version>${project.parent.version}</version>
+                            <outputDirectory>
+                                target/wsdl
+                            </outputDirectory>
+                            <includes>*.xsd, *.wsdl</includes>
+                        </artifactItem>
+                    </artifactItems>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.cxf</groupId>
+                <artifactId>cxf-codegen-plugin</artifactId>
+                <version>${cxf.version}</version>
+                <executions>
+                    <execution>
+                        <id>generate-sources</id>
+                        <configuration>
+                            <wsdlOptions>
+                                <wsdlOption>
+                                    <wsdl>
+                                        ${basedir}/target/wsdl/${configuration-api.wsdl}
+                                    </wsdl>
+                                    <extraargs>
+                                        <extraarg>-p</extraarg>
+                                        <extraarg>
+                                            ${configuration-client-namespace}
+                                        </extraarg>
+                                    </extraargs>
+                                </wsdlOption>
+                                <wsdlOption>
+                                    <wsdl>
+                                        ${basedir}/target/wsdl/${transaction-api.wsdl}
+                                    </wsdl>
+                                    <bindingFiles>
+                                        <bindingFile>
+                                            ${basedir}/src/main/resources/binding.xml
+                                        </bindingFile>
+                                    </bindingFiles>
+                                    <extraargs>
+                                        <extraarg>-p</extraarg>
+                                        <extraarg>
+                                            ${transaction-client-namespace}
+                                        </extraarg>
+                                    </extraargs>
+                                </wsdlOption>
+                            </wsdlOptions>
+                        </configuration>
+                        <goals>
+                            <goal>wsdl2java</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Unit Test -->
+            <!-- skipTests = true -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${surefire-plugin.version}</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+
+        </plugins>
+
+    </build>
+
+    <distributionManagement>
+        <site>
+            <id>commerce.nterlearning.org</id>
+            <url>commerce/commerce-client</url>
+        </site>
+    </distributionManagement>
+
+</project>

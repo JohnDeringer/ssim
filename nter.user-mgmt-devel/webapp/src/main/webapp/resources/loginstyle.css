@@ -1,0 +1,230 @@
+/* minimal reset */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+input, select {
+    vertical-align: middle;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 600px;
+    font: 85%/1.4 Arial, Helvetica, Verdana, sans-serif;
+    color: #333333;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.8em;
+    margin: 0 0 .2em;
+}
+
+section {
+    margin-bottom: 1em;
+}
+
+section:after {
+    content: ' ';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+a { color:#32358F; }
+a:visited { color:#45485C; }
+a:hover, a:active, a:focus { color:#6E3E00; }
+a:focus { outline: 1px dotted; }
+
+p { margin-bottom: 1.4em; }
+
+label {
+    display: block;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="file"], select, textarea, .textarea {
+    background-image: url("images/input_shadow.png");
+    background-repeat: no-repeat;
+    border-color: #BFBFBF #DEDEDE #DEDEDE #BFBFBF;
+    border-style: solid;
+    border-width: 1px;
+    font: 1em Arial, Helvetica, Verdana, sans-serif;
+    padding: 5px 1px;
+}
+
+.button, input[type="button"], input[type="submit"], input[type="reset"], button {
+	display: inline-block;
+	text-decoration: none;
+	text-shadow: none;
+	-moz-user-select: none; -webkit-user-select:none;
+	color:#383838;
+	font-weight:bold;
+	padding: .2em .4em;
+	border: 1px solid #8a8a8a;
+	line-height: 1.4;
+	background-color: #e6e6e6;
+	background-image: -moz-linear-gradient(top, #f9f9f9 0%, #eee 50%, #e5e5e5 52%, #d5d5d5 100%); background-image: linear-gradient(top, #f9f9f9 0%, #eee 50%, #e5e5e5 52%, #d5d5d5 100%);
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px rgba(255,255,255,.5) inset, -1px -1px 1px rgba(0,0,0,.1) inset;
+}
+
+.button:hover, .button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, button:hover, button:focus {
+    text-decoration: none;
+	color:#383838;
+	background-color: #dadada;
+	background-image: -moz-linear-gradient(top, #ededed 0%, #e2e2e2 50%, #d5d5d5 52%, #ccc 100%); background-image: linear-gradient(top, #ededed 0%, #e2e2e2 50%, #d5d5d5 52%, #ccc 100%);
+}
+
+.button:active, input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:active, button:active {
+    text-decoration: none;
+	color:#383838;
+	border-color: #744d00;
+	background-color: #ffd987;
+	background-image: -moz-linear-gradient(top, #fffcef 0%, #fff7d8 17%, #f7d979 50%, #ffd987 52%, #ffe4b2 88%); background-image: linear-gradient(top, #fffcef 0%, #fff7d8 17%, #f7d979 50%, #ffd987 52%, #ffe4b2 88%);
+	text-shadow: 0 0 1px white;
+}
+
+label, .formrow {
+    display: block;
+    padding-bottom: .7em;
+	zoom: 1;
+}
+
+.formrow label {
+    padding-bottom: 0;
+}
+
+input[aria-invalid="true"] {
+    background-color: #fff5f5;
+    border-color: #ff8888;
+    background-image: none;
+    box-shadow: 0 0 3px rgba(255, 0, 0, .4);
+}
+
+em.error {
+    background: url("images/error.png") no-repeat scroll 0 2px;
+    padding-left: 18px;
+    display: block;
+    color: #cc0000;
+    margin: .2em 0 0;
+    font-style: normal;
+	zoom: 1;
+}
+form > em.error {
+    background-color: #fff5f5;
+    border: 1px solid #cc8888;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	margin-bottom: .4em;
+	color: #990000;
+    box-shadow: 0 0 3px rgba(144, 0, 0, .4);
+}
+
+.help {
+    color: #888;
+    font-style: normal;
+}
+
+form {
+    padding: 0 20%;
+	zoom: 1;
+}
+.agreementform {
+	display: inline;
+	padding: 0;
+}
+
+input.textfield {
+    width: 100%;
+    margin-left: -2px;
+    margin-top: .1em;
+}
+
+input.submit {
+    float: right;
+    font-size: 100%;
+}
+.longform input.submit {
+	float: none;
+}
+.longform .secondary {
+	margin-left: .5em;
+	padding-left: .75em;
+	border-left: 1px solid;
+}
+
+.forgotpw {
+    float: left;
+}
+.forgotpw-return {
+    float: left;
+	width: 50%;
+}
+.forgotpw-return > * {
+	display: block;
+	float: left;
+	white-space: nowrap;
+}
+.forgotpw-return > :first-child {
+	padding-right: .5em;
+	margin-right: .5em;
+	border-right: 1px solid;
+}
+.forgotpw-return > :last-child {
+	border-right: none;
+}
+
+.signup {
+    clear: both;
+    text-align: right;
+    display: block;
+    padding-top: .5em;
+}
+
+.openid-options {
+    list-style-type: none;
+    margin-top: 1em;
+}
+
+.openid-options li {
+    float: left;
+    padding-right: 1em;
+}
+
+.openid-options a {
+    font-size: 150%;
+    padding: .5em 1em;
+    display: block;
+}
+
+.openid-options a img {
+    border: 0;
+    display: block;
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ National Training and Education Resource (NTER)
+  ~ Copyright (C) 2012  SRI International
+  ~
+  ~ This program is free software; you can redistribute it and/or modify
+  ~ it under the terms of the GNU General Public License as published by
+  ~ the Free Software Foundation; either version 2 of the License, or (at
+  ~ your option) any later version.
+  ~
+  ~ This program is distributed in the hope that it will be useful, but
+  ~ WITHOUT ANY WARRANTY; without even the implied warranty of
+  ~ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+  ~ General Public License for more details.
+  ~
+  ~ You should have received a copy of the GNU General Public License
+  ~ along with this program; if not, write to the Free Software
+  ~ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+  ~ 02110-1301, USA.
+  -->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xml:lang="en" lang="en">
+<h:head/>
+<h:body>
+<cc:interface>
+</cc:interface>
+<cc:implementation>
+
+    <h:form id="manualTransaction" class="edit-form">
+        <p:panel>
+            <div class="ctrlHolder">
+                <h:outputLabel for="institutionName" value="#{i18n['forms.manualTransaction.institution']}" />
+                <h:selectOneMenu id="institutionName" value="#{manualTransaction.institutionName}">
+                    <f:selectItems value="#{manualTransaction.institutionNames}" />
+                </h:selectOneMenu>
+            </div>
+
+            <div class="ctrlHolder">
+                <h:outputLabel for="transactionType" value="#{i18n['forms.manualTransaction.transactionType']}" />
+                <h:selectOneMenu id="transactionType" value="#{manualTransaction.transactionType}">
+                    <f:selectItems value="#{manualTransaction.transactionTypes}" />
+                </h:selectOneMenu>
+            </div>
+
+            <div class="ctrlHolder">
+                <h:outputLabel for="paymentType" value="#{i18n['forms.manualTransaction.paymentType']}" />
+                <h:selectOneMenu id="paymentType" value="#{manualTransaction.paymentType}">
+                    <f:selectItems value="#{manualTransaction.paymentTypes}" />
+                </h:selectOneMenu>
+            </div>
+
+            <div class="ctrlHolder">
+                <h:outputLabel for="paymentProcessor" value="#{i18n['forms.manualTransaction.paymentProcessor']}" />
+                <h:selectOneMenu id="paymentProcessor" value="#{manualTransaction.paymentProcessor}">
+                    <f:selectItems value="#{manualTransaction.paymentProcessors}" />
+                </h:selectOneMenu>
+            </div>
+
+            <div class="ctrlHolder">
+                <h:outputLabel for="receiverEmail" value="#{i18n['forms.manualTransaction.receiverEmail']}" />
+                <h:inputText id="receiverEmail" value="#{manualTransaction.receiverEmail}"/>
+            </div>
+
+            <div class="ctrlHolder">
+                <h:outputLabel for="amount" value="#{i18n['forms.manualTransaction.amount']}" />
+                <h:inputText id="amount" value="#{manualTransaction.amount}"/>
+            </div>
+
+            <div class="actions">
+                <p:commandButton action="#{manualTransaction.saveTransaction}"
+                                 value="#{i18n['forms.save']}"
+                                 update="manualTransactionDialogPanel"
+                                 onsuccess="manualTransactionDialog.hide()"/>
+                <p:commandButton value="#{i18n['forms.close']}"
+                                 onclick="manualTransactionDialog.hide()"
+                                 styleClass="secondary"/>
+            </div>
+        </p:panel>
+    </h:form>
+
+</cc:implementation>
+
+</h:body>
+</html>

@@ -1,0 +1,193 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<wsdl:definitions name="TransactionAPI"
+                  targetNamespace="http://nterlearning.org/xml/commerce/transaction-api_0.1.0.wsdl"
+                  xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+                  xmlns:tns="http://nterlearning.org/xml/commerce/transaction-api_0.1.0.wsdl"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:face="http://nterlearning.org/xml/commerce/transaction-interface_0.1.0.wsdl"
+                  xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+                  xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy"
+                  xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+        >
+
+    <wsdl:import
+            namespace="http://nterlearning.org/xml/commerce/transaction-interface_0.1.0.wsdl"
+            location="transaction-interface_0.1.0.wsdl"/>
+
+    <wsdl:binding
+            name="TransactionAPISoapBinding"
+            type="face:TransactionInterface">
+
+        <soap12:binding style="document"
+                        transport="http://schemas.xmlsoap.org/soap/http"/>
+
+        <wsdl:operation name="getTransactionById">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:getTransactionById"
+                              style="document"/>
+            <wsdl:input name="getTransactionById">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getTransactionByIdResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getChildTransactionsById">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:getChildTransactionsById"
+                              style="document"/>
+            <wsdl:input name="getChildTransactionsById">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getChildTransactionsByIdResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactionsByStudentId">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:getTransactionsByStudentId"
+                              style="document"/>
+            <wsdl:input name="getTransactionsByStudentId">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getTransactionsByStudentIdResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactionsByInstitution">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:getTransactionsByInstitution"
+                              style="document"/>
+            <wsdl:input name="getTransactionsByInstitution">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getTransactionsByInstitutionResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactionSummaryByInstitution">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:getTransactionSummaryByInstitution"
+                              style="document"/>
+            <wsdl:input name="getTransactionSummaryByInstitution">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getTransactionSummaryByInstitutionResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactionsByCourseId">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:getTransactionsByCourseId"
+                              style="document"/>
+            <wsdl:input name="getTransactionsByCourseId">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getTransactionsByCourseIdResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactionsByTransactionType">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:getTransactionsByTransactionType"
+                              style="document"/>
+            <wsdl:input name="getTransactionsByTransactionType">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getTransactionsByTransactionTypeResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="createPaymentTransaction">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:createPaymentTransaction"
+                              style="document"/>
+            <wsdl:input name="createPaymentTransaction">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="createPaymentTransactionResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactions">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:getTransactions"
+                              style="document"/>
+            <wsdl:input name="getTransactions">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getTransactionsResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPaymentStatus">
+            <soap12:operation soapAction="urn:getPaymentStatus"
+                              style="document"/>
+            <wsdl:input name="getPaymentStatus">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getPaymentStatusResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+            <wsdl:fault name="validationError">
+		        <soap12:fault name="validationError" use="literal"/>
+	        </wsdl:fault>
+        </wsdl:operation>
+
+        <wsdl:operation name="getTransactionTypes">
+            <soap12:operation soapAction="urn:getTransactionTypes"
+                              style="document"/>
+            <wsdl:input name="getTransactionTypes">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getTransactionTypesResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+    </wsdl:binding>
+
+    <wsdl:service name="TransactionAPI">
+        <wsdl:port binding="tns:TransactionAPISoapBinding" name="TransactionAPISoap12EndPoint">
+            <soap12:address
+                    location="/TransactionAPI"/>
+        </wsdl:port>
+    </wsdl:service>
+
+    <wsp:Policy wsu:Id="securityPolicy">
+        <sp:SupportingTokens>
+            <wsp:Policy>
+                <sp:UsernameToken/>
+            </wsp:Policy>
+        </sp:SupportingTokens>
+    </wsp:Policy>
+
+</wsdl:definitions>

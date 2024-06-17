@@ -1,0 +1,8 @@
+target$
+syntax: glob
+.idea/
+*.iml
+*.DS_Store
+*.ipr
+*.iws
+*.maven

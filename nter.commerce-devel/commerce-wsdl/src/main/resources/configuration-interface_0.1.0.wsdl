@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<wsdl:definitions name="ConfigurationInterface"
+                  targetNamespace="http://nterlearning.org/xml/commerce/configuration-interface_0.1.0.wsdl"
+                  xmlns:tns="http://nterlearning.org/xml/commerce/configuration-interface_0.1.0.wsdl"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ifo="http://nterlearning.org/xml/commerce/configuration-interface_0.1.0.xsd"
+        >
+
+    <wsdl:types>
+        <xs:schema>
+            <xs:import
+                    namespace="http://nterlearning.org/xml/commerce/configuration-interface_0.1.0.xsd"
+                    schemaLocation="configuration-interface_0.1.0.xsd"
+                    />
+        </xs:schema>
+    </wsdl:types>
+
+    <wsdl:message name="createPaymentConfig">
+        <wsdl:part element="ifo:CreatePaymentConfig" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="createPaymentConfigResponse">
+        <wsdl:part element="ifo:CreatePaymentConfigResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="createOrUpdateCommerceConfig">
+        <wsdl:part element="ifo:CreateOrUpdateCommerceConfig" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="createOrUpdateCommerceConfigResponse">
+        <wsdl:part element="ifo:CreateOrUpdateCommerceConfigResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="updatePaymentConfig">
+        <wsdl:part element="ifo:UpdatePaymentConfig" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="updatePaymentConfigResponse">
+        <wsdl:part element="ifo:UpdatePaymentConfigResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="removePaymentConfig">
+        <wsdl:part element="ifo:RemovePaymentConfig" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="removePaymentConfigResponse">
+        <wsdl:part element="ifo:RemovePaymentConfigResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getPaymentConfigs">
+        <wsdl:part element="ifo:GetPaymentConfigs" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getPaymentConfigsResponse">
+        <wsdl:part element="ifo:GetPaymentConfigsResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getPaymentConfig">
+        <wsdl:part element="ifo:GetPaymentConfig" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getPaymentConfigResponse">
+        <wsdl:part element="ifo:GetPaymentConfigResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getClientPaymentConfig">
+        <wsdl:part element="ifo:GetClientPaymentConfig" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getClientPaymentConfigResponse">
+        <wsdl:part element="ifo:GetClientPaymentConfigResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:message name="getCommerceConfig">
+        <wsdl:part element="ifo:GetCommerceConfig" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="getCommerceConfigResponse">
+        <wsdl:part element="ifo:GetCommerceConfigResponse" name="parameters">
+        </wsdl:part>
+    </wsdl:message>
+
+    <wsdl:portType name="ConfigurationInterface">
+
+        <wsdl:operation name="createPaymentConfig">
+            <wsdl:input message="tns:createPaymentConfig"
+                        name="createPaymentConfig">
+            </wsdl:input>
+            <wsdl:output message="tns:createPaymentConfigResponse"
+                         name="createPaymentConfigResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="createOrUpdateCommerceConfig">
+            <wsdl:input message="tns:createOrUpdateCommerceConfig"
+                        name="createOrUpdateCommerceConfig">
+            </wsdl:input>
+            <wsdl:output message="tns:createOrUpdateCommerceConfigResponse"
+                         name="createOrUpdateCommerceConfigResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="updatePaymentConfig">
+            <wsdl:input message="tns:updatePaymentConfig"
+                        name="updatePaymentConfig">
+            </wsdl:input>
+            <wsdl:output message="tns:updatePaymentConfigResponse"
+                         name="updatePaymentConfigResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="removePaymentConfig">
+            <wsdl:input message="tns:removePaymentConfig"
+                        name="removePaymentConfig">
+            </wsdl:input>
+            <wsdl:output message="tns:removePaymentConfigResponse"
+                         name="removePaymentConfigResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPaymentConfigs">
+            <wsdl:input message="tns:getPaymentConfigs"
+                        name="getPaymentConfigs">
+            </wsdl:input>
+            <wsdl:output message="tns:getPaymentConfigsResponse"
+                         name="getPaymentConfigsResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getPaymentConfig">
+            <wsdl:input message="tns:getPaymentConfig"
+                        name="getPaymentConfig">
+            </wsdl:input>
+            <wsdl:output message="tns:getPaymentConfigResponse"
+                         name="getPaymentConfigResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getClientPaymentConfig">
+            <wsdl:input message="tns:getClientPaymentConfig"
+                        name="getClientPaymentConfig">
+            </wsdl:input>
+            <wsdl:output message="tns:getClientPaymentConfigResponse"
+                         name="getClientPaymentConfigResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getCommerceConfig">
+            <wsdl:input message="tns:getCommerceConfig"
+                        name="getCommerceConfig">
+            </wsdl:input>
+            <wsdl:output message="tns:getCommerceConfigResponse"
+                         name="getCommerceConfigResponse">
+            </wsdl:output>
+        </wsdl:operation>
+
+    </wsdl:portType>
+
+</wsdl:definitions>

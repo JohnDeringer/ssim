@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xml:lang="en" lang="en">
+<h:head>
+    <title>Reports</title>
+</h:head>
+<h:body>
+<ui:composition template="/templates/fullTemplate.xhtml">
+    <ui:define name="title">#{i18n['title.reports']}</ui:define>
+    <ui:define name="pageName">#{i18n['title.reports']}</ui:define>
+    <ui:define name="body">
+        <h:form id="institutionsForm">
+            <!-- Session timeout -->
+            <p:poll interval="60"
+                listener="#{idleMonitorController.idleListener}"
+                widgetVar="poll" autoStart="true" update="idleMessage"/>
+            <p:growl id="idleMessage" showDetail="true" sticky="true"/>
+
+            <p:dataList id="data"
+                        itemType="none"
+                        rows="10"
+                        paginator="TRUE"
+                        resizableColumns="FALSE"
+                        paginatorPosition="bottom"
+                        paginatorAlwaysVisible="false"
+                        value="#{institutions.institutions}"
+                        var="institution"
+                        styleClass="institutions"
+                        emptyMessage="#{i18n['forms.institutions.empty']}"
+                        type="ordered">
+
+                <p:column sortBy="#{institution}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.institution']}"/>
+                    </f:facet>
+                    <div class="name">#{institution}</div>
+                    <h:link outcome="transactions" value="#{i18n['title.transactions']}">
+                       <f:param name="institutionName" value="#{institution}"/>
+                    </h:link>
+                    <h:link outcome="salesSummary" value="#{i18n['pages.salesSummary']}">
+                        <f:param name="institutionName" value="#{institution}"/>
+                    </h:link>
+                    <h:link outcome="disbursements"
+                            value="#{i18n['pages.disbursements']}">
+                        <f:param name="institutionName" value="#{institution}"/>
+                    </h:link>
+                </p:column>
+            </p:dataList>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</h:body>
+</html>

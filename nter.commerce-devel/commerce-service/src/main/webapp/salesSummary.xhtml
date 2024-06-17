@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xml:lang="en" lang="en">
+<head>
+    <title>Sales Summary</title>
+</head>
+<body>
+<ui:composition template="/templates/fullTemplate.xhtml">
+    <ui:define name="title"><h:outputText value="#{i18n['pages.salesSummary']}"/></ui:define>
+    <ui:define name="pageName"><h:outputText value="#{i18n['pages.salesSummary']}"/></ui:define>
+    <ui:define name="body">
+        <div>
+            <label>#{i18n['label.institution']}</label>: <h:outputText value="#{salesSummary.institutionName}"/>
+        </div>
+        <br/>
+        <h:form id="salesForm">
+            <!-- Session timeout -->
+            <p:poll interval="60"
+                listener="#{idleMonitorController.idleListener}"
+                widgetVar="poll" autoStart="true" update="idleMessage"/>
+            <p:growl id="idleMessage" showDetail="true" sticky="true"/>
+
+            <!-- Date selector -->
+            <div class="data-selector">
+                <label>#{i18n['forms.date.startDate']}
+                    <p:calendar id="startDate" value="#{salesSummary.startDate}"
+                                showOn="button"/>
+                    <p:watermark value="#{i18n['label.dateFormat']}" for="startDate"/>
+                </label>
+                <label>#{i18n['forms.date.endDate']}
+                    <p:calendar id="endDate" value="#{salesSummary.endDate}"
+                                showOn="button"/>
+                    <p:watermark value="#{i18n['label.dateFormat']}" for="endDate"/>
+                </label>
+
+                <p:commandButton value="#{i18n['forms.update']}"
+                                 update="salesTable"
+                                 actionListener="#{salesSummary.dateUpdate}">
+                </p:commandButton>
+            </div>
+
+            <div align="right">
+                <h:commandLink >
+                    <p:graphicImage value="/images/csv.png" />
+                    <p:dataExporter type="csv" target="salesTable"
+                                    fileName="#{i18n['file.salesSummary']}"/>
+                </h:commandLink>
+            </div>
+
+            <p:dataTable id="salesTable"
+                         value="#{salesSummary.transactions}"
+                         var="transaction"
+                         paginator="true"
+                         paginatorPosition="bottom"
+                         rows="10">
+                <p:column styleClass="text">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.courseName']}"/>
+                    </f:facet>
+                    <h:link value="#{transaction.courseName}" outcome="courseTransactions">
+                        <f:param name="courseId" value="#{transaction.courseId}"/>
+                        <f:param name="courseName" value="#{transaction.courseName}"/>
+                    </h:link>
+                </p:column>
+                <p:column styleClass="number">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.price']}"/>
+                    </f:facet>
+                    <h:outputText value="#{transaction.price}">
+                        <f:convertNumber groupingUsed="true"
+                                         minFractionDigits="2"
+                                         currencySymbol="$"
+                                         type="currency"/>
+                    </h:outputText>
+                </p:column>
+                <p:column styleClass="number">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.sales']}"/>
+                    </f:facet>
+                    <h:outputText value="#{transaction.sales}"/>
+                </p:column>
+
+                <p:column styleClass="number">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.returns']}"/>
+                    </f:facet>
+                    <h:outputText value="#{transaction.returns}"/>
+                </p:column>
+
+                <p:column styleClass="number">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.revenue']}"/>
+                    </f:facet>
+                    <h:outputText value="#{transaction.grossRevenue}">
+                        <f:convertNumber groupingUsed="true"
+                                         minFractionDigits="2"
+                                         currencySymbol="$"
+                                         type="currency"/>
+                    </h:outputText>
+                </p:column>
+
+                <p:column styleClass="number">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.fees']}"/>
+                    </f:facet>
+                    <h:outputText value="#{transaction.fees}">
+                        <f:convertNumber groupingUsed="true"
+                                         minFractionDigits="2"
+                                         currencySymbol="$"
+                                         type="currency"/>
+                    </h:outputText>
+                </p:column>
+
+                <p:column styleClass="number">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['label.net']}"/>
+                    </f:facet>
+                    <h:outputText value="#{transaction.netRevenue}">
+                        <f:convertNumber groupingUsed="true"
+                                         minFractionDigits="2"
+                                         currencySymbol="$"
+                                         type="currency"/>
+                    </h:outputText>
+                </p:column>
+
+            </p:dataTable>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</body>
+</html>

@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://nterlearning.org/xml/nter-registry/registry-interface_0.1.0.xsd"
+        xmlns:do="http://nterlearning.org/xml/nter-registry/domain-objects_0.1.0.xsd"
+        xmlns:bl="http://nterlearning.org/xml/nter-registry/blacklist-objects_0.1.0.xsd"
+        elementFormDefault="qualified"
+        attributeFormDefault="qualified">
+
+    <import
+            namespace="http://nterlearning.org/xml/nter-registry/domain-objects_0.1.0.xsd"
+            schemaLocation="domain-objects_0.1.0.xsd"/>
+    <import
+            namespace="http://nterlearning.org/xml/nter-registry/blacklist-objects_0.1.0.xsd"
+            schemaLocation="blacklist-objects_0.1.0.xsd"/>
+
+    <element name="CreateInstitution">
+        <complexType>
+            <sequence>
+                <element name="institution" type="do:institution" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="CreateInstitutionResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="do:requestStatus" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="UpdateInstitution">
+        <complexType>
+            <sequence>
+                <element name="institution" type="do:institution" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="UpdateInstitutionResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="do:requestStatus" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="RemoveInstitution">
+        <complexType>
+            <sequence>
+                <element name="institutionKey" type="do:tModelKey" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="RemoveInstitutionResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="do:requestStatus" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetInstitutionByKey">
+        <complexType>
+            <sequence>
+                <element name="institutionKey" type="do:tModelKey" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetInstitutionByKeyResponse">
+        <complexType>
+            <sequence>
+                <element name="institution" type="do:institution" minOccurs="0"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetInstitutionByName">
+        <complexType>
+            <sequence>
+                <element name="institutionName" type="string" minOccurs="1"
+                         maxOccurs="1" form="qualified" />
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetInstitutionByNameResponse">
+        <complexType>
+            <sequence>
+                <element name="institution" type="do:institution" minOccurs="0"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetInstitutionByAccessPoint">
+        <complexType>
+            <sequence>
+                <element name="endPoint" type="do:endPointType" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetInstitutionByAccessPointResponse">
+        <complexType>
+            <sequence>
+                <element name="institution" type="do:institution" minOccurs="0"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetInstitutions">
+        <complexType>
+            <sequence>
+                <element name="status" type="bl:activeStatusEnum" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+             </sequence>
+        </complexType>
+    </element>
+    <element name="GetInstitutionsResponse">
+        <complexType>
+            <sequence>
+                <element name="institution" type="do:institution" minOccurs="1"
+                         maxOccurs="unbounded" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="CreateService">
+        <complexType>
+            <sequence>
+                <element name="institutionKey" type="do:tModelKey" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+                <element name="service" type="do:businessService" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="CreateServiceResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="do:requestStatus" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="UpdateService">
+        <complexType>
+            <sequence>
+                <element name="service" type="do:businessService" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="UpdateServiceResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="do:requestStatus" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="RemoveService">
+        <complexType>
+            <sequence>
+                 <element name="serviceKey" type="do:tModelKey" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="RemoveServiceResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="do:requestStatus" minOccurs="1"
+                         maxOccurs="1" form="qualified" />
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetServiceByKey">
+        <complexType>
+            <sequence>
+                <element name="serviceKey" type="do:tModelKey" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetServiceByKeyResponse">
+        <complexType>
+            <sequence>
+                <element name="service" type="do:businessService" minOccurs="0"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetServiceByName">
+        <complexType>
+            <sequence>
+                <element name="institutionName" type="string" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+                <element name="serviceName" type="string" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetServiceByNameResponse">
+        <complexType>
+            <sequence>
+                <element name="service" type="do:businessService" minOccurs="0"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetServices">
+        <complexType>
+            <sequence>
+              <element name="status" type="bl:activeStatusEnum" minOccurs="1"
+                       maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetServicesResponse">
+        <complexType>
+            <sequence>
+                <element name="services" type="do:businessService" minOccurs="0"
+                         maxOccurs="unbounded" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetServicesByServiceType">
+        <complexType>
+            <sequence>
+                <element name="serviceType" type="do:serviceTypeEnum" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+                <element name="status" type="bl:activeStatusEnum" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetServicesByServiceTypeResponse">
+        <complexType>
+            <sequence>
+                <element name="services" type="do:businessService" minOccurs="0"
+                         maxOccurs="unbounded" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetServicesByServiceAndBindingType">
+        <complexType>
+            <sequence>
+                <element name="serviceType" type="do:serviceTypeEnum" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+                <element name="bindingType" type="do:bindingTypeEnum" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+                <element name="status" type="bl:activeStatusEnum" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetServicesByServiceAndBindingTypeResponse">
+        <complexType>
+            <sequence>
+                <element name="services" type="do:businessService" minOccurs="0"
+                         maxOccurs="unbounded" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetServiceTypes">
+        <complexType>
+            <sequence/>
+        </complexType>
+    </element>
+    <element name="GetServiceTypesResponse">
+        <complexType>
+            <sequence>
+                <element name="serviceType" type="do:serviceTypeEnum" minOccurs="1"
+                         maxOccurs="unbounded" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetBindingTypes">
+        <complexType>
+            <sequence/>
+        </complexType>
+    </element>
+    <element name="GetBindingTypesResponse">
+        <complexType>
+            <sequence>
+                <element name="bindingType" type="do:bindingTypeEnum" minOccurs="1"
+                         maxOccurs="unbounded" form="qualified" />
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetStatusTypes">
+        <complexType>
+            <sequence/>
+        </complexType>
+    </element>
+    <element name="GetStatusTypesResponse">
+        <complexType>
+            <sequence>
+                <element name="activeStatus" type="bl:activeStatusEnum" minOccurs="1"
+                         maxOccurs="unbounded" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="RemoveBinding">
+        <complexType>
+            <sequence>
+                 <element name="bindingKey" type="do:tModelKey" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="RemoveBindingResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="do:requestStatus" minOccurs="1"
+                         maxOccurs="1" form="qualified" />
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetBindingsByAccessPoint">
+        <complexType>
+            <sequence>
+                <element name="accessPoint" type="do:endPointType" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetBindingsByAccessPointResponse">
+        <complexType>
+            <sequence>
+                <element name="bindings" type="do:binding" minOccurs="0"
+                         maxOccurs="unbounded" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="GetBindingByKey">
+        <complexType>
+            <sequence>
+                <element name="key" type="long" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="GetBindingByKeyResponse">
+        <complexType>
+            <sequence>
+                <element name="binding" type="do:binding" minOccurs="0"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+<!--
+    <element name="GetAuthToken">
+        <complexType>
+            <attribute name="userID" type="string"/>
+            <attribute name="password" type="string"/>
+        </complexType>
+    </element>
+    <element name="GetAuthTokenResponse">
+        <complexType>
+            <sequence>
+                <element name="authToken" type="do:authInfo" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <element name="DiscardAuthToken">
+        <complexType>
+            <sequence>
+                <element name="authToken" type="do:authInfo" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+    <element name="DiscardAuthTokenResponse">
+        <complexType>
+            <sequence>
+                <element name="status" type="do:requestStatus" minOccurs="1"
+                         maxOccurs="1" form="qualified"/>
+            </sequence>
+        </complexType>
+    </element>
+-->
+</schema>

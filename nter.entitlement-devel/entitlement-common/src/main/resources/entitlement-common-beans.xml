@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <bean id="propertyPlaceholderConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>
+                    classpath:entitlement-common-beans.properties
+                </value>
+                <value>file:///${NTER_PROPS}</value>
+            </list>
+        </property>
+        <property name="ignoreResourceNotFound" value="true"/>
+    </bean>
+
+    <context:annotation-config/>
+
+    <bean id="identityServiceClient"
+          class="org.nterlearning.entitlement.common.IdentityServiceClient">
+        <constructor-arg name="wsdlLocation"
+                         value="${entitlement.idp.wsdl.url}"/>
+        <constructor-arg name="username"
+                         value="${entitlement.idp.email}"/>
+        <constructor-arg name="password"
+                         value="${entitlement.idp.password}"/>
+    </bean>
+
+    <bean id="identityService"
+          class="org.nterlearning.usermgmt.service.jaxws.IdentityServiceService"
+          factory-bean="identityServiceClient"
+          factory-method="getIdentityService">
+    </bean>
+
+
+</beans>

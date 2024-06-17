@@ -1,0 +1,54 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Commerce Service - Payment Processors</title>
+  </head>
+  <body>
+    <h2>Payment Processors</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Status</th>
+          <th>Account #</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>PayPal</td>
+          <td>Active</td>
+          <td>admin@nterlearning.org</td>
+          <td><input type="button" value="Edit" onclick="window.location.href='editPaymentProcessor.html'"/></td>
+        </tr>  
+        <tr>
+          <td>Amazon</td>
+          <td>Inactive</td>
+          <td>admin@nterlearning.org</td>
+          <td><input type="button" value="Edit" onclick="window.location.href='editPaymentProcessor.html'"/></td>
+        </tr>
+        <tr>
+          <td colspan="4"><input type="button" value="Add Payment Processor" onclick="window.location.href='addPaymentProcessor.html'"/></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <input type="button" value="Home" onclick="window.location.href='index.html'"/>
+    </p>
+    <h4>Notes</h4>   
+    <ul>
+      <li>Configuration API - getConfigurations()
+        <ul>
+          <li>ConfigurationEntry
+            <ul>
+              <li>Name: configId</li>
+              <li>Status: activeStatus</li>
+              <li>Account #: sellerId</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>We should probably add delete functionality - see: removeConfiguration</li>
+    </ul>
+  </body>
+</html>

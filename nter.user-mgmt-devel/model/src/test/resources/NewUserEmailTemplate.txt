@@ -1,0 +1,13 @@
+<HTML>
+<BODY>
+Hi %s,<BR>
+<BR>
+Thank you for signing up for NTER.  Please click the following link to verify your e-mail address.<BR>
+<BR>
+<A HREF="%s">%s</A><BR>
+<BR>
+Please contact us with any problems.<BR>
+<BR>
+The NTER Team<BR>
+</BODY>
+</HTML>

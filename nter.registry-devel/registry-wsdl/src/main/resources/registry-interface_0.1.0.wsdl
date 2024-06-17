@@ -1,0 +1,411 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<wsdl:definitions name="TransactionInterface"
+                  targetNamespace="http://nterlearning.org/xml/nter-registry/registry-interface_0.1.0.wsdl"
+                  xmlns:tns="http://nterlearning.org/xml/nter-registry/registry-interface_0.1.0.wsdl"
+                  xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+                  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+                  xmlns:ifo="http://nterlearning.org/xml/nter-registry/registry-interface_0.1.0.xsd"
+        >
+
+    <wsdl:types>
+        <xs:schema>
+            <xs:import
+                    namespace="http://nterlearning.org/xml/nter-registry/registry-interface_0.1.0.xsd"
+                    schemaLocation="registry-interface_0.1.0.xsd"
+                    />
+        </xs:schema>
+    </wsdl:types>
+
+    <wsdl:message name="createInstitution">
+        <wsdl:part element="ifo:CreateInstitution"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="createInstitutionResponse">
+        <wsdl:part element="ifo:CreateInstitutionResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="updateInstitution">
+        <wsdl:part element="ifo:UpdateInstitution"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="updateInstitutionResponse">
+        <wsdl:part element="ifo:UpdateInstitutionResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="removeInstitution">
+        <wsdl:part element="ifo:RemoveInstitution"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="removeInstitutionResponse">
+        <wsdl:part element="ifo:RemoveInstitutionResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getInstitutionByKey">
+        <wsdl:part element="ifo:GetInstitutionByKey"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getInstitutionByKeyResponse">
+        <wsdl:part element="ifo:GetInstitutionByKeyResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getInstitutionByName">
+        <wsdl:part element="ifo:GetInstitutionByName"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getInstitutionByNameResponse">
+        <wsdl:part element="ifo:GetInstitutionByNameResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getInstitutionByAccessPoint">
+        <wsdl:part element="ifo:GetInstitutionByAccessPoint"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getInstitutionByAccessPointResponse">
+        <wsdl:part element="ifo:GetInstitutionByAccessPointResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getInstitutions">
+        <wsdl:part element="ifo:GetInstitutions"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getInstitutionsResponse">
+        <wsdl:part element="ifo:GetInstitutionsResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="createService">
+        <wsdl:part element="ifo:CreateService"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="createServiceResponse">
+        <wsdl:part element="ifo:CreateServiceResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="updateService">
+        <wsdl:part element="ifo:UpdateService"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="updateServiceResponse">
+        <wsdl:part element="ifo:UpdateServiceResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="removeService">
+        <wsdl:part element="ifo:RemoveService"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="removeServiceResponse">
+        <wsdl:part element="ifo:RemoveServiceResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getServiceByKey">
+        <wsdl:part element="ifo:GetServiceByKey"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getServiceByKeyResponse">
+        <wsdl:part element="ifo:GetServiceByKeyResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getServiceByName">
+        <wsdl:part element="ifo:GetServiceByName"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getServiceByNameResponse">
+        <wsdl:part element="ifo:GetServiceByNameResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getServices">
+        <wsdl:part element="ifo:GetServices"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getServicesResponse">
+        <wsdl:part element="ifo:GetServicesResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getServicesByServiceType">
+        <wsdl:part element="ifo:GetServicesByServiceType"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getServicesByServiceTypeResponse">
+        <wsdl:part element="ifo:GetServicesByServiceTypeResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getServicesByServiceAndBindingType">
+        <wsdl:part element="ifo:GetServicesByServiceAndBindingType"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getServicesByServiceAndBindingTypeResponse">
+        <wsdl:part element="ifo:GetServicesByServiceAndBindingTypeResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getServiceTypes">
+        <wsdl:part element="ifo:GetServiceTypes"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getServiceTypesResponse">
+        <wsdl:part element="ifo:GetServiceTypesResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getBindingTypes">
+        <wsdl:part element="ifo:GetBindingTypes"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getBindingTypesResponse">
+        <wsdl:part element="ifo:GetBindingTypesResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getStatusTypes">
+        <wsdl:part element="ifo:GetStatusTypes"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getStatusTypesResponse">
+        <wsdl:part element="ifo:GetStatusTypesResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="removeBinding">
+        <wsdl:part element="ifo:RemoveBinding"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="removeBindingResponse">
+        <wsdl:part element="ifo:RemoveBindingResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getBindingsByAccessPoint">
+        <wsdl:part element="ifo:GetBindingsByAccessPoint"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getBindingsByAccessPointResponse">
+        <wsdl:part element="ifo:GetBindingsByAccessPointResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="getBindingByKey">
+        <wsdl:part element="ifo:GetBindingByKey"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getBindingByKeyResponse">
+        <wsdl:part element="ifo:GetBindingByKeyResponse"
+                   name="response"/>
+    </wsdl:message>
+<!--
+    <wsdl:message name="getAuthToken">
+        <wsdl:part element="ifo:GetAuthToken"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="getAuthTokenResponse">
+        <wsdl:part element="ifo:GetAuthTokenResponse"
+                   name="response"/>
+    </wsdl:message>
+
+    <wsdl:message name="discardAuthToken">
+        <wsdl:part element="ifo:DiscardAuthToken"
+                   name="request"/>
+    </wsdl:message>
+    <wsdl:message name="discardAuthTokenResponse">
+        <wsdl:part element="ifo:DiscardAuthTokenResponse"
+                   name="response"/>
+    </wsdl:message>
+-->
+    <wsdl:portType name="RegistryInterface">
+
+        <wsdl:operation name="createInstitution">
+            <wsdl:input message="tns:createInstitution"
+                        name="createInstitution"/>
+            <wsdl:output message="tns:createInstitutionResponse"
+                         name="createInstitutionResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="updateInstitution">
+            <wsdl:input message="tns:updateInstitution"
+                        name="updateInstitution"/>
+            <wsdl:output message="tns:updateInstitutionResponse"
+                         name="updateInstitutionResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="removeInstitution">
+            <wsdl:input message="tns:removeInstitution"
+                        name="removeInstitution"/>
+            <wsdl:output message="tns:removeInstitutionResponse"
+                         name="removeInstitutionResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getInstitutionByName">
+            <wsdl:input message="tns:getInstitutionByName"
+                        name="getInstitutionByName"/>
+            <wsdl:output message="tns:getInstitutionByNameResponse"
+                         name="getInstitutionByNameResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getInstitutionByKey">
+            <wsdl:input message="tns:getInstitutionByKey"
+                        name="getInstitutionByKey"/>
+            <wsdl:output message="tns:getInstitutionByKeyResponse"
+                         name="getInstitutionByKeyResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getInstitutionByAccessPoint">
+            <wsdl:input message="tns:getInstitutionByAccessPoint"
+                        name="getInstitutionByAccessPoint"/>
+            <wsdl:output message="tns:getInstitutionByAccessPointResponse"
+                         name="getInstitutionByAccessPointResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getInstitutions">
+            <wsdl:input message="tns:getInstitutions"
+                        name="getInstitutions"/>
+            <wsdl:output message="tns:getInstitutionsResponse"
+                         name="getInstitutionsResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="createService">
+            <wsdl:input message="tns:createService"
+                        name="createService"/>
+            <wsdl:output message="tns:createServiceResponse"
+                         name="createServiceResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="updateService">
+            <wsdl:input message="tns:updateService"
+                        name="updateService"/>
+            <wsdl:output message="tns:updateServiceResponse"
+                         name="updateServiceResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="removeService">
+            <wsdl:input message="tns:removeService"
+                        name="removeService"/>
+            <wsdl:output message="tns:removeServiceResponse"
+                         name="removeServiceResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getServiceByKey">
+            <wsdl:input message="tns:getServiceByKey"
+                        name="getServiceByKey"/>
+            <wsdl:output message="tns:getServiceByKeyResponse"
+                         name="getServiceByKeyResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getServiceByName">
+            <wsdl:input message="tns:getServiceByName"
+                        name="getServiceByName"/>
+            <wsdl:output message="tns:getServiceByNameResponse"
+                         name="getServiceByNameResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getServices">
+            <wsdl:input message="tns:getServices"
+                        name="getServices"/>
+            <wsdl:output message="tns:getServicesResponse"
+                         name="getServicesResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getServicesByServiceType">
+            <wsdl:input message="tns:getServicesByServiceType"
+                        name="getServicesByServiceType"/>
+            <wsdl:output message="tns:getServicesByServiceTypeResponse"
+                         name="getServicesByServiceTypeResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getServicesByServiceAndBindingType">
+            <wsdl:input message="tns:getServicesByServiceAndBindingType"
+                        name="getServicesByServiceAndBindingType"/>
+            <wsdl:output
+                    message="tns:getServicesByServiceAndBindingTypeResponse"
+                    name="getServicesByServiceAndBindingTypeResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getServiceTypes">
+            <wsdl:input message="tns:getServiceTypes"
+                        name="getServiceTypes"/>
+            <wsdl:output message="tns:getServiceTypesResponse"
+                         name="getServiceTypesResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getBindingTypes">
+            <wsdl:input message="tns:getBindingTypes"
+                        name="getBindingTypes"/>
+            <wsdl:output message="tns:getBindingTypesResponse"
+                         name="getBindingTypesResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getStatusTypes">
+            <wsdl:input message="tns:getStatusTypes"
+                        name="getStatusTypes"/>
+            <wsdl:output message="tns:getStatusTypesResponse"
+                         name="getStatusTypesResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="removeBinding">
+            <wsdl:input message="tns:removeBinding"
+                        name="removeBinding"/>
+            <wsdl:output message="tns:removeBindingResponse"
+                         name="removeBindingResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getBindingsByAccessPoint">
+            <wsdl:input message="tns:getBindingsByAccessPoint"
+                        name="getBindingsByAccessPoint"/>
+            <wsdl:output message="tns:getBindingsByAccessPointResponse"
+                         name="getBindingsByAccessPointResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="getBindingByKey">
+            <wsdl:input message="tns:getBindingByKey"
+                        name="getBindingByKey"/>
+            <wsdl:output message="tns:getBindingByKeyResponse"
+                         name="getBindingByKeyResponse"/>
+        </wsdl:operation>
+<!--
+        <wsdl:operation name="getAuthToken">
+            <wsdl:input message="tns:getAuthToken"
+                        name="getAuthToken"/>
+            <wsdl:output message="tns:getAuthTokenResponse"
+                         name="getAuthTokenResponse"/>
+        </wsdl:operation>
+
+        <wsdl:operation name="discardAuthToken">
+            <wsdl:input message="tns:discardAuthToken"
+                        name="discardAuthToken"/>
+            <wsdl:output message="tns:discardAuthTokenResponse"
+                         name="discardAuthTokenResponse"/>
+        </wsdl:operation>
+ -->
+    </wsdl:portType>
+
+</wsdl:definitions>

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.nterlearning</groupId>
+    <artifactId>commerce</artifactId>
+    <version>1.1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Commerce</name>
+    <description>Commerce</description>
+    <url>http://commerce.nterlearning.org</url>
+
+    <modules>
+        <module>commerce-service</module>
+        <module>commerce-client</module>
+        <module>commerce-wsdl</module>
+    </modules>
+
+    <properties>
+        <entitlement.client.version>[1.1.6, 1.2.0)</entitlement.client.version>
+        <idp.client.version>[1.6.1, 1.7.0)</idp.client.version>
+        <registry.client.version>1.1.1</registry.client.version>
+
+        <paypal-sdk.version>4.3.1</paypal-sdk.version>
+
+        <servlet.version>2.5</servlet.version>
+        <jstl.version>1.2</jstl.version>
+        <jsf.version>2.1.3</jsf.version>
+        <jsf.el.version>2.2.1-b05</jsf.el.version>
+        <primefaces.version>3.0.M4</primefaces.version>
+
+        <dbcp.version>1.4</dbcp.version>
+        <mysql-connector.version>5.1.6</mysql-connector.version>
+        <hibernate.jpa.version>1.0.0.Final</hibernate.jpa.version>
+        <hibernate-entitymanager.version>3.6.0.CR2</hibernate-entitymanager.version>
+        <hyperjaxb3.version>0.5.6</hyperjaxb3.version>
+        <jaxb2-basics.version>0.6.1</jaxb2-basics.version>
+        <jaxb2.version>2.2</jaxb2.version>
+        <xerces.version>2.10.0</xerces.version>
+        <commons-httpclient.version>3.1</commons-httpclient.version>
+
+        <spring.version>3.1.0.RELEASE</spring.version>
+        <cxf.version>2.5.2</cxf.version>
+        <commons-lang.version>2.6</commons-lang.version>
+        <wss4j.version>1.6.5</wss4j.version>
+        <bouncycastle.version>1.46</bouncycastle.version>
+
+        <intellij.annotations.version>9.0.4</intellij.annotations.version>
+        <slf4j.version>1.6.1</slf4j.version>
+        <log4j.version>1.2.16</log4j.version>
+
+        <junit.version>4.8.1</junit.version>
+        <surefire-plugin.version>2.9</surefire-plugin.version>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven-site.version>3.0</maven-site.version>
+        <maven-project-info-reports.version>2.4</maven-project-info-reports.version>
+        <maven-javadoc.version>2.8</maven-javadoc.version>
+    </properties>
+
+    <dependencies>
+
+        <!-- CXF -->
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-frontend-jaxws</artifactId>
+            <version>${cxf.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-rt-transports-http</artifactId>
+            <version>${cxf.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework</groupId>
+                    <artifactId>spring-web</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- logging -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+        <!-- Testing -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <version>${spring.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>commons-httpclient</groupId>
+            <artifactId>commons-httpclient</artifactId>
+            <version>${commons-httpclient.version}</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Annotations -->
+        <dependency>
+            <groupId>com.intellij</groupId>
+            <artifactId>annotations</artifactId>
+            <version>${intellij.annotations.version}</version>
+            <scope>compile</scope>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+
+        <plugins>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.0</version>
+                <configuration>
+                    <reportPlugins>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-project-info-reports-plugin</artifactId>
+                            <version>2.4</version>
+                            <configuration>
+                                <dependencyDetailsEnabled>false</dependencyDetailsEnabled>
+                                <dependencyLocationsEnabled>false</dependencyLocationsEnabled>
+                            </configuration>
+                            <reports>
+                                <report>dependencies</report>
+                                <report>scm</report>
+                            </reports>
+                        </plugin>
+                        <plugin>
+                            <groupId>org.apache.maven.plugins</groupId>
+                            <artifactId>maven-javadoc-plugin</artifactId>
+                            <version>2.8</version>
+                        </plugin>
+                    </reportPlugins>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.9</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.8</version>
+                <configuration>
+                    <show>public</show>
+                    <nohelp>true</nohelp>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+
+    </build>
+
+    <repositories>
+		<repository>
+			<id>nterlearning</id>
+			<url>http://repository.nterlearning.org/repo</url>
+		</repository>
+	</repositories>
+
+	<distributionManagement>
+
+		<repository>
+			<id>nterlearning</id>
+			<url>http://repository.nterlearning.org/libs-release-local</url>
+		</repository>
+
+		<snapshotRepository>
+			<id>nterlearning</id>
+			<name>NTER Learning Shapshots</name>
+			<url>http://repository.nterlearning.org/libs-snapshot-local</url>
+			<uniqueVersion>false</uniqueVersion>
+		</snapshotRepository>
+
+	</distributionManagement>
+
+</project>

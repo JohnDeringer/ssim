@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://nterlearning.org/xml/entitlement/domain-objects_0.1.0.xsd"
+        xmlns:tns="http://nterlearning.org/xml/entitlement/domain-objects_0.1.0.xsd"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        elementFormDefault="qualified"
+        attributeFormDefault="qualified">
+
+    <xs:complexType name="subject">
+        <annotation>
+            <xs:documentation>Subject/user</xs:documentation>
+        </annotation>
+        <xs:sequence>
+            <!-- subjectId -->
+            <xs:element name="subjectId" type="tns:subjectId"
+                        minOccurs="1" maxOccurs="1"/>
+            <!-- email -->
+            <xs:element name="email" type="tns:email"
+                        minOccurs="1" maxOccurs="1"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="entitlementPolicy">
+        <xs:annotation>
+            <xs:documentation>
+                A policy maps a subject to a resource for the purpose of authorization
+            </xs:documentation>
+        </xs:annotation>
+        <xs:sequence>
+            <!-- realm -->
+            <xs:element name="realm" type="tns:realm" minOccurs="0"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Security realm</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- subject -->
+            <xs:element name="subject" type="tns:subjectId" minOccurs="1"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Normally a user, could also be a machine</xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- resourceId -->
+            <xs:element name="resource" type="tns:resource" minOccurs="1"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>An object that can be assigned subjects for authorization
+                    </xs:documentation>
+                </annotation>
+            </xs:element>
+            <!-- action -->
+            <xs:element name="action" type="tns:action" minOccurs="1"
+                        maxOccurs="1">
+                <annotation>
+                    <xs:documentation>Authorization level</xs:documentation>
+                </annotation>
+            </xs:element>
+        </xs:sequence>
+        <!-- policyKey -->
+        <attribute name="key" type="long" use="optional"/>
+    </xs:complexType>
+
+    <!-- Simple Types -->
+
+    <xs:simpleType name="email">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="realm">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="policyKey">
+        <xs:restriction base="xs:long"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="subjectId">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <xs:simpleType name="resource">
+        <xs:restriction base="xs:string"/>
+    </xs:simpleType>
+
+    <simpleType name="requestStatus">
+        <restriction base="string">
+            <enumeration value="SUCCESS"/>
+            <enumeration value="FAILURE"/>
+        </restriction>
+    </simpleType>
+
+    <!-- Permission type - Keep the order (ordinalValue) of the enums -->
+    <xs:simpleType name="action">
+        <annotation>
+            <xs:documentation>Authorization level</xs:documentation>
+        </annotation>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="NONE"/>
+            <xs:enumeration value="READ"/>
+            <xs:enumeration value="WRITE"/>
+            <xs:enumeration value="ADMIN"/>
+            <xs:enumeration value="GLOBAL_ADMIN"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+</schema>

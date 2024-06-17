@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<faces-config xmlns="http://java.sun.com/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"
+              version="2.0">
+    <application>
+        <el-resolver>org.springframework.web.jsf.el.SpringBeanFacesELResolver</el-resolver>
+        <variable-resolver>
+            org.springframework.web.jsf.DelegatingVariableResolver
+        </variable-resolver>
+        <resource-bundle>
+            <base-name>messages</base-name>
+            <var>i18n</var>
+        </resource-bundle>
+    </application>
+
+    <navigation-rule>
+        <from-view-id>/entitlements.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>entitlementDetailsBean</from-outcome>
+            <to-view-id>/entitlementDetails.xhtml</to-view-id>
+            <redirect include-view-params="true"/>
+        </navigation-case>
+    </navigation-rule>
+
+    <navigation-rule>
+        <from-view-id>*</from-view-id>
+        <navigation-case>
+            <from-outcome>institutions</from-outcome>
+            <to-view-id>/institutions.xhtml</to-view-id>
+            <redirect include-view-params="true"/>
+        </navigation-case>
+        <!--
+        <navigation-case>
+            <from-outcome>entitlements</from-outcome>
+            <to-view-id>/entitlements.xhtml</to-view-id>
+            <redirect/>
+        </navigation-case>
+        -->
+        <navigation-case>
+            <from-outcome>paymentProcessors</from-outcome>
+            <to-view-id>/paymentProcessors.xhtml</to-view-id>
+            <redirect/>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>search</from-outcome>
+            <to-view-id>/search.xhtml</to-view-id>
+            <redirect/>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>serverSettings</from-outcome>
+            <to-view-id>/serverSettings.xhtml</to-view-id>
+            <redirect/>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>login</from-outcome>
+            <to-view-id>/login.xhtml</to-view-id>
+            <redirect/>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>institutionDetails</from-outcome>
+            <to-view-id>/disbursements.xhtml</to-view-id>
+            <redirect include-view-params="true"/>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>salesSummary</from-outcome>
+            <to-view-id>/salesSummary.xhtml</to-view-id>
+            <redirect include-view-params="true"/>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>transactions</from-outcome>
+            <to-view-id>/transactions.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>transactionDetails</from-outcome>
+            <to-view-id>/transactionDetails.xhtml</to-view-id>
+            <redirect include-view-param="true"/>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>disbursements</from-outcome>
+            <to-view-id>/disbursements.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+</faces-config>

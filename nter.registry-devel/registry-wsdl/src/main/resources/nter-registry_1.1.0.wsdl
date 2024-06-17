@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<wsdl:definitions name="RegistryService"
+    targetNamespace="http://nterlearning.org/xml/nter-registry/nter-registry_0.1.0.wsdl"
+    xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+    xmlns:tns="http://nterlearning.org/xml/nter-registry/nter-registry_0.1.0.wsdl"
+    xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+    xmlns:face="http://nterlearning.org/xml/nter-registry/registry-interface_0.1.0.wsdl"
+    xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy"
+    xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy"
+    xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd"
+>
+
+    <wsdl:import
+            namespace="http://nterlearning.org/xml/nter-registry/registry-interface_0.1.0.wsdl"
+            location="registry-interface_0.1.0.wsdl"/>
+
+    <wsdl:binding
+            name="RegistryServiceSoapBinding"
+            type="face:RegistryInterface">
+
+        <soap12:binding style="document"
+                        transport="http://schemas.xmlsoap.org/soap/http"/>
+
+        <wsdl:operation name="createInstitution">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:createInstitution"
+                              style="document"/>
+            <wsdl:input name="createInstitution">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="createInstitutionResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="updateInstitution">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:updateInstitution"
+                              style="document"/>
+            <wsdl:input name="updateInstitution">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="updateInstitutionResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="removeInstitution">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:removeInstitution"
+                              style="document"/>
+            <wsdl:input name="removeInstitution">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="removeInstitutionResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getInstitutionByKey">
+            <soap12:operation soapAction="urn:getInstitutionByKey"
+                              style="document"/>
+            <wsdl:input name="getInstitutionByKey">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getInstitutionByKeyResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getInstitutionByName">
+            <soap12:operation soapAction="urn:getInstitutionByName"
+                              style="document"/>
+            <wsdl:input name="getInstitutionByName">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getInstitutionByNameResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getInstitutionByAccessPoint">
+            <soap12:operation soapAction="urn:getInstitutionByAccessPoint"
+                              style="document"/>
+            <wsdl:input name="getInstitutionByAccessPoint">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getInstitutionByAccessPointResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getInstitutions">
+            <soap12:operation soapAction="urn:getInstitutions"
+                              style="document"/>
+            <wsdl:input name="getInstitutions">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getInstitutionsResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="createService">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:createService"
+                              style="document"/>
+            <wsdl:input name="createService">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="createServiceResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="updateService">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:updateService"
+                              style="document"/>
+            <wsdl:input name="updateService">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="updateServiceResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="removeService">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:removeService"
+                              style="document"/>
+            <wsdl:input name="removeService">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="removeServiceResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getServiceByKey">
+            <soap12:operation soapAction="urn:getServiceByKey"
+                              style="document"/>
+            <wsdl:input name="getServiceByKey">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getServiceByKeyResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getServiceByName">
+            <soap12:operation soapAction="urn:getServiceByName"
+                              style="document"/>
+            <wsdl:input name="getServiceByName">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getServiceByNameResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getServices">
+            <soap12:operation soapAction="urn:getServices"
+                              style="document"/>
+            <wsdl:input name="getServices">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getServicesResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getServicesByServiceType">
+            <soap12:operation soapAction="urn:getServicesByServiceType"
+                              style="document"/>
+            <wsdl:input name="getServicesByServiceType">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getServicesByServiceTypeResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getServicesByServiceAndBindingType">
+            <soap12:operation soapAction="urn:getServicesByServiceAndBindingType"
+                              style="document"/>
+            <wsdl:input name="getServicesByServiceAndBindingType">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getServicesByServiceAndBindingTypeResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getServiceTypes">
+            <soap12:operation soapAction="urn:getServiceTypes"
+                              style="document"/>
+            <wsdl:input name="getServiceTypes">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getServiceTypesResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getBindingTypes">
+            <soap12:operation soapAction="urn:getBindingTypes"
+                              style="document"/>
+            <wsdl:input name="getBindingTypes">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getBindingTypesResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getStatusTypes">
+            <soap12:operation soapAction="urn:getStatusTypes"
+                              style="document"/>
+            <wsdl:input name="getStatusTypes">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getStatusTypesResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="removeBinding">
+            <wsp:PolicyReference URI="#securityPolicy"/>
+            <soap12:operation soapAction="urn:removeBinding"
+                              style="document"/>
+            <wsdl:input name="removeBinding">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="removeBindingResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getBindingsByAccessPoint">
+            <soap12:operation soapAction="urn:getBindingsByAccessPoint"
+                              style="document"/>
+            <wsdl:input name="getBindingsByAccessPoint">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getBindingsByAccessPointResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+        <wsdl:operation name="getBindingByKey">
+            <soap12:operation soapAction="urn:getBindingByKey"
+                              style="document"/>
+            <wsdl:input name="getBindingByKey">
+                <soap12:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="getBindingByKeyResponse">
+                <soap12:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+
+    </wsdl:binding>
+
+    <wsdl:service name="RegistryService">
+        <wsdl:port binding="tns:RegistryServiceSoapBinding"
+                   name="RegistryServiceSoap12EndPoint">
+            <soap12:address
+                    location="/RegistryService"/>
+        </wsdl:port>
+    </wsdl:service>
+
+    <wsp:Policy wsu:Id="securityPolicy">
+        <sp:SupportingTokens>
+            <wsp:Policy>
+                <sp:UsernameToken/>
+            </wsp:Policy>
+        </sp:SupportingTokens>
+    </wsp:Policy>
+
+</wsdl:definitions>

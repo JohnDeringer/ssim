@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui" xml:lang="en" lang="en">
+<h:head/>
+<h:body>
+<cc:interface/>
+<cc:implementation>
+    <h:form id="businessServiceBean" class="edit-form">
+        <p:panel id="servicePanel">
+
+            <div>
+                <h:outputLabel for="institutionName" value="#{i18n['forms.institution.name']}"/>
+                <h:selectOneMenu id="institutionName" value="#{businessServiceBean.institutionName}">
+                    <f:selectItems value="#{businessServiceBean.institutionNames}"/>
+                </h:selectOneMenu>
+            </div>
+
+            <div>
+                <p:focus for="serviceName"/>
+                <h:outputLabel for="serviceName" value="#{i18n['forms.service.name']} *"/>
+                <h:inputText id="serviceName"
+                             value="#{businessServiceBean.serviceName}"
+                             maxlength="49"/>
+            </div>
+            <div>
+                <h:outputLabel for="description" value="#{i18n['forms.service.description']}"/>
+                <h:inputText id="description"
+                             value="#{businessServiceBean.description}"
+                             maxlength="100"/>
+            </div>
+
+            <div>
+                <h:outputLabel for="serviceType" value="#{i18n['forms.service.serviceType']}"/>
+                <h:selectOneMenu id="serviceType" value="#{businessServiceBean.serviceType}">
+                    <f:selectItems value="#{businessServiceBean.serviceTypeList}"/>
+                </h:selectOneMenu>
+            </div>
+            <div>
+                <h:outputLabel for="activeStatus" value="#{i18n['forms.institution.status']}"/>
+                <h:selectOneMenu id="activeStatus" value="#{businessServiceBean.activeStatus}">
+                    <f:selectItems value="#{businessServiceBean.activeStatusList}"/>
+                </h:selectOneMenu>
+            </div>
+
+            <div>
+                <p:messages id="messages" showDetail="true" autoUpdate="true"/>
+            </div>
+
+            <div class="actions">
+                <p:commandButton actionListener="#{businessServiceBean.saveService}"
+                                 update="messages"
+                                 value="#{i18n['forms.save']}"
+                                 oncomplete="handleSaveRequest(xhr, status, args)"/>
+                <p:commandButton value="#{i18n['forms.close']}"
+                                 onclick="addServiceDialog.hide()"
+                                 styleClass="secondary"/>
+            </div>
+        </p:panel>
+    </h:form>
+    <script type="text/javascript">
+        function handleSaveRequest(xhr, status, args) {
+            if(args.validationFailed || !args.valid) {
+                jQuery('#addServiceDialog').effect("shake", { times:1 }, 100);
+            } else {
+                addServiceDialog.hide();
+                location.reload(true);
+            }
+        }
+    </script>
+</cc:implementation>
+
+</h:body>
+</html>

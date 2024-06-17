@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2011  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:cc="http://java.sun.com/jsf/composite"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui" xml:lang="en" lang="en">
+<h:head/>
+<h:body>
+<cc:interface/>
+<cc:implementation>
+    <h:form id="bindingBean" class="edit-form">
+        <p:panel id="bindingPanel">
+            <h:inputHidden id="bindingKey" value="#{bindingBean.bindingKey}"/>
+            <div>
+                <p:focus for="description"/>
+                <h:outputLabel for="description" value="#{i18n['forms.binding.description']} *"/>
+                <h:inputText id="description"
+                             value="#{bindingBean.description}"
+                             maxlength="200"/>
+            </div>
+            <div>
+                <h:outputLabel for="bindingType" value="#{i18n['forms.binding.bindingType']}"/>
+                <h:selectOneMenu id="bindingType" value="#{bindingBean.bindingType}">
+                    <f:selectItems value="#{bindingBean.bindingTypes}"/>
+                </h:selectOneMenu>
+            </div>
+            <div>
+                <h:outputLabel for="endpoint" value="#{i18n['forms.binding.endpoint']} *"/>
+                <h:inputText id="endpoint"
+                             value="#{bindingBean.endpoint}"
+                             maxlength="200"/>
+            </div>
+
+            <div>
+                <p:messages id="messages" showDetail="true" autoUpdate="true"/>
+            </div>
+
+            <div class="actions">
+                <!-- Save Binding -->
+                <p:commandButton actionListener="#{bindingBean.saveBinding}"
+                                 update="messages"
+                                 value="#{i18n['forms.save']}"
+                                 oncomplete="handleSaveRequest(xhr, status, args)">
+                    <f:param name="serviceKey"
+                         value="#{bindingBean.serviceKey}"/>
+                </p:commandButton>
+                <!-- Delete Binding -->
+                &nbsp;
+                <p:commandButton
+                        value="#{i18n['forms.binding.delete']}"
+                        actionListener="#{bindingBean.removeBinding}"
+                        action="serviceDetails.xhtml"
+                        ajax="FALSE">
+                    <f:param name="serviceKey"
+                            value="#{bindingBean.serviceKey}"/>
+                </p:commandButton>
+                <!-- Close -->
+                <p:commandButton value="#{i18n['forms.close']}"
+                                 onclick="editBindingDialog.hide()"
+                                 styleClass="secondary"/>
+            </div>
+        </p:panel>
+    </h:form>
+    <script type="text/javascript">
+        function handleSaveRequest(xhr, status, args) {
+            if(args.validationFailed || !args.valid) {
+                jQuery('#editBindingDialog').effect("shake", { times:1 }, 100);
+            } else {
+                editBindingDialog.hide();
+                location.reload(true);
+            }
+        }
+    </script>
+</cc:implementation>
+
+</h:body>
+</html>

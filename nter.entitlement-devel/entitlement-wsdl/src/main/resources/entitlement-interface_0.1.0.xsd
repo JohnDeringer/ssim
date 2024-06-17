@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://nterlearning.org/xml/entitlement/entitlement-interface_0.1.0.xsd"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:do="http://nterlearning.org/xml/entitlement/domain-objects_0.1.0.xsd"
+        elementFormDefault="qualified"
+        attributeFormDefault="qualified">
+
+    <xs:import namespace="http://nterlearning.org/xml/entitlement/domain-objects_0.1.0.xsd"
+               schemaLocation="domain-objects_0.1.0.xsd"/>
+
+    <xs:element name="CreatePolicy">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="entitlementPolicy" type="do:entitlementPolicy"
+                            form="qualified" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CreatePolicyResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="status" type="do:requestStatus"
+                            form="qualified" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="UpdatePolicy">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="entitlementPolicy" type="do:entitlementPolicy"
+                            form="qualified" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="UpdatePolicyResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element form="qualified" minOccurs="1" maxOccurs="1"
+                            name="status" type="do:requestStatus"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="RemovePolicyByKey">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="policyKey" type="do:policyKey"
+                            form="qualified" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RemovePolicyByKeyResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="status" type="do:requestStatus"
+                            form="qualified" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="RemovePolicy">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="realm" type="do:realm"
+                            form="qualified" minOccurs="0" maxOccurs="1"/>
+                <xs:element name="subject" type="do:subjectId"
+                            form="qualified" minOccurs="1" maxOccurs="1"/>
+                <xs:element name="resource" type="do:resource"
+                            form="qualified" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="RemovePolicyResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="status" type="do:requestStatus"
+                            form="qualified" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetAllPolicies">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetAllPoliciesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="entitlementPolicy"
+                            type="do:entitlementPolicy"
+                            form="qualified"
+                            minOccurs="1"
+                            maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetPolicyBySubject">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="realm" type="do:realm"
+                            form="qualified"
+                            minOccurs="0"
+                            maxOccurs="1"/>
+                <xs:element name="subject" type="do:subjectId"
+                            form="qualified"
+                            minOccurs="1"
+                            maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPolicyBySubjectResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="entitlementPolicy" type="do:entitlementPolicy"
+                            form="qualified" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetPolicyByResource">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="realm" type="do:realm"
+                            form="qualified" minOccurs="1" />
+                <xs:element name="resource" type="do:resource"
+                            form="qualified" minOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPolicyByResourceResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="entitlementPolicy" type="do:entitlementPolicy"
+                            form="qualified" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetPolicyByRealm">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="realm" type="do:realm"
+                            form="qualified" minOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPolicyByRealmResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="entitlementPolicy" type="do:entitlementPolicy"
+                            form="qualified" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetPolicyByKey">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="policyKey" type="do:policyKey"
+                            form="qualified" minOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPolicyByKeyResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="entitlementPolicy" type="do:entitlementPolicy"
+                            form="qualified" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetPolicy">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="realm" type="do:realm"
+                            form="qualified" minOccurs="1" />
+                <xs:element name="subject" type="do:subjectId"
+                            form="qualified" minOccurs="1" />
+                <xs:element name="resource" type="do:resource"
+                            form="qualified" minOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPolicyResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="entitlementPolicy" type="do:entitlementPolicy"
+                            form="qualified" minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetAuthorization">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="realm" type="do:realm"
+                            form="qualified" minOccurs="1" />
+                <xs:element name="subject" type="do:subjectId"
+                            form="qualified" minOccurs="1" />
+                <xs:element name="resource" type="do:resource"
+                            form="qualified" minOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetAuthorizationResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="action" type="do:action"
+                            form="qualified" minOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetSubjects">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetSubjectsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="subject" type="do:subject"
+                            form="qualified" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetResources">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetResourcesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="resource" type="do:resource"
+                            form="qualified" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetActions">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetActionsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="action" type="do:action"
+                            form="qualified" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetRealms">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetRealmsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="realm" type="do:realm"
+                            form="qualified" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</schema>

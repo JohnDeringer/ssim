@@ -1,0 +1,149 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>nter-idp-metadata</artifactId>
+    <groupId>org.nterlearning</groupId>
+    <version>1.4.1-SNAPSHOT</version>
+    <relativePath>..</relativePath>
+  </parent>
+  <artifactId>nter-idp-metadata-service</artifactId>
+  <packaging>war</packaging>
+  <build>
+  <plugins>
+  			<!--  Generate a WSDL from the JAX-WS annotated class. Putting generated classes in 
+			generated-sources for use by other plugins -->
+			<plugin>
+				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-java2ws-plugin</artifactId>
+				<version>${cxf.version}</version>
+				<dependencies>
+					<dependency>
+						<groupId>org.apache.cxf</groupId>
+						<artifactId>cxf-rt-frontend-simple</artifactId>
+						<version>${cxf.version}</version>
+					</dependency>
+				</dependencies>
+
+				<executions>
+					<execution>
+						<id>process-classes</id>
+						<phase>process-classes</phase>
+						<goals>
+							<goal>java2ws</goal>
+						</goals>
+						<configuration>
+							<className>org.nterlearning.metadata.MetaDataAdder</className>
+							<genWsdl>true</genWsdl>
+							<genWrapperbean>false</genWrapperbean>
+							<genClient>true</genClient>
+							<attachWsdl>true</attachWsdl>
+							<verbose>true</verbose>
+							<argline>-s ${generated.sources}</argline>
+						</configuration>
+
+					</execution>
+				</executions>
+			</plugin>
+
+<!-- generating client side stub classes now from the generated wsdl. Also compiling them
+Have to run this in process-classes phase so that compile has completed generating the WSDL!!!!! -->
+			<plugin>
+				<groupId>org.apache.cxf</groupId>
+				<artifactId>cxf-codegen-plugin</artifactId>
+				<version>${cxf.version}</version>
+				<executions>
+					<execution>
+						<id>process-classes</id>
+						<phase>process-classes</phase>
+						<configuration>
+							<sourceRoot>${generated.sources}</sourceRoot>
+							<wsdlOptions>
+								<wsdlOption>
+									<wsdl>${project.build.directory}/generated/wsdl/MetaDataAdder.wsdl</wsdl>
+
+									<extraargs>
+										<extraarg>-compile</extraarg>
+									</extraargs>
+								</wsdlOption>
+							</wsdlOptions>
+						</configuration>
+						<goals>
+							<goal>wsdl2java</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		
+		<!--  Create the -client jar with the generated classes from the WSDL -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>jar</goal>
+						</goals>
+						<configuration>
+							<classesDirectory>${generated.sources}</classesDirectory>
+							<classifier>client</classifier>
+							<includes>
+								<include>**/*.class</include>
+							</includes>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+  </plugins>
+  <pluginManagement>
+  	<plugins>
+  		<!--This plugin's configuration is used to store Eclipse m2e settings only. It has no influence on the Maven build itself.-->
+  		<plugin>
+  			<groupId>org.eclipse.m2e</groupId>
+  			<artifactId>lifecycle-mapping</artifactId>
+  			<version>1.0.0</version>
+  			<configuration>
+  				<lifecycleMappingMetadata>
+  					<pluginExecutions>
+  						<pluginExecution>
+  							<pluginExecutionFilter>
+  								<groupId>org.apache.cxf</groupId>
+  								<artifactId>
+  									cxf-codegen-plugin
+  								</artifactId>
+  								<versionRange>[2.5.2,)</versionRange>
+  								<goals>
+  									<goal>wsdl2java</goal>
+  								</goals>
+  							</pluginExecutionFilter>
+  							<action>
+  								<ignore />
+  							</action>
+  						</pluginExecution>
+  					</pluginExecutions>
+  				</lifecycleMappingMetadata>
+  			</configuration>
+  		</plugin>
+  	</plugins>
+  </pluginManagement>
+  </build>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.nterlearning</groupId>
+  		<artifactId>nter-common</artifactId>
+  		<version>1.2.3</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.nterlearning</groupId>
+  		<artifactId>nter-user-mgmt-service</artifactId>
+  		<version>1.6.0</version>
+  		<classifier>client</classifier>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.nterlearning</groupId>
+  		<artifactId>nter-user-mgmt-factory</artifactId>
+  		<version>1.6.0</version>
+  	</dependency>
+  </dependencies>
+</project>

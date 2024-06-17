@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui"
+      xml:lang="en" lang="en">
+<head>
+    <title>Server Settings</title>
+</head>
+<body>
+<ui:composition template="/templates/fullTemplate.xhtml">
+    <ui:define name="title">#{i18n['title.serverSettings']}</ui:define>
+    <ui:define name="pageName">#{i18n['title.serverSettings']}</ui:define>
+    <ui:define name="body">
+        <h:form id="serverSettingsForm" styleClass="edit-form uniForm">
+            <!-- Session timeout -->
+            <p:poll interval="60"
+                listener="#{idleMonitorController.idleListener}"
+                widgetVar="poll" autoStart="true" update="idleMessage"/>
+            <p:growl id="idleMessage" showDetail="true" sticky="true"/>
+
+            <div class="ctrlHolder">
+                <h:outputLabel value="#{i18n['forms.globalConfig.adminFee']}" for="adminFee"/>
+                <h:inputText value="#{serverSettings.adminFee}" id="adminFee">
+                    <f:validateDoubleRange minimum="0" maximum="100"/>
+                </h:inputText>
+                <h:message for="adminFee" showSummary="true" showDetail="false"/>
+            </div>
+            <div class="ctrlHolder">
+                <h:outputLabel value="#{i18n['forms.globalConfig.referrerFee']}" for="referralFee"/>
+                <h:inputText value="#{serverSettings.referralFee}" id="referralFee">
+                    <f:validateDoubleRange minimum="0" maximum="100"/>
+                </h:inputText>
+                <h:message for="referralFee" showSummary="true" showDetail="false"/>
+            </div>
+            <div class="actions">
+                <p:commandButton value="#{i18n['forms.save']}" action="#{serverSettings.save}" update="serverSettingsForm"/>
+            </div>
+        </h:form>
+    </ui:define>
+</ui:composition>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:jaxws="http://cxf.apache.org/jaxws"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+
+<!--  note assumption of localhost, will need to change the address attribute if you want to test
+this differently!!!!! - MMF -->
+    <jaxws:client id="idClient"
+                  serviceClass="org.nterlearning.usermgmt.service.IdentityService"
+                  address="https://login.nterlearning.org/nter-user-mgmt-service-1.6/services/IdentityService" />
+</beans>

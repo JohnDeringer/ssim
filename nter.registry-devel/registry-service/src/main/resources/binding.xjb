@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jaxb:bindings
+        version="2.0"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+        xmlns:hj="http://hyperjaxb3.jvnet.org/ejb/schemas/customizations"
+        xmlns:orm="http://java.sun.com/xml/ns/persistence/orm">
+
+<!--
+ALL     Cascade all operations
+MERGE   Cascade merge operation
+PERSIST Cascade persist operation
+REFRESH Cascade refresh operation
+REMOVE  Cascade remove operation
+-->
+
+    <jaxb:bindings schemaLocation="domain-objects_0.1.0.xsd" node="/xs:schema">
+
+        <jaxb:schemaBindings>
+            <jaxb:package name="org.nterlearning.xml.nter_registry.domain_objects_0_1_0"/>
+        </jaxb:schemaBindings>
+
+        <hj:ignored-package name="org.nterlearning.xml.nter_registry.registry_interface_0_1_0"/>
+
+        <!-- Institution -->
+        <jaxb:bindings node="xs:complexType[@name='institution']">
+            <hj:entity class="Institution">
+                <orm:table name="INSTITUTION">
+                <orm:unique-constraint>
+                    <orm:column-name>INSTITUTION_NAME</orm:column-name>
+                </orm:unique-constraint>
+                </orm:table>
+            </hj:entity>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='institution']//xs:element[@name='name']">
+            <hj:basic name="name">
+                <orm:column name="INSTITUTION_NAME" length="75" nullable="false"/>
+            </hj:basic>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='institution']//xs:element[@name='contactInfo']">
+            <hj:one-to-one name="contactInfo">
+                <orm:join-column name="CONTACT_INFO_ID" unique="true"/>
+            </hj:one-to-one>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='institution']//xs:attribute[@name='key']">
+            <hj:id name="key">
+				<orm:column name="INSTITUTION_ID"/>
+			    <orm:generated-value strategy="AUTO"/>
+			</hj:id>
+        </jaxb:bindings>
+
+        <!-- Service -->
+        <jaxb:bindings node="xs:complexType[@name='businessService']">
+            <hj:entity class="BusinessService">
+                <orm:table name="SERVICE">
+                    <orm:unique-constraint>
+                        <orm:column-name>SERVICE_NAME</orm:column-name>
+                    </orm:unique-constraint>
+                </orm:table>
+            </hj:entity>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='businessService']//xs:element[@name='name']">
+            <hj:basic name="name">
+                <orm:column name="SERVICE_NAME" length="50" nullable="false"/>
+            </hj:basic>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='institution']//xs:element[@name='service']">
+            <hj:one-to-many name="institution">
+                <orm:join-column name="INSTITUTION_ID" nullable="false"/>
+            </hj:one-to-many>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='businessService']//xs:element[@name='serviceType']">
+            <hj:many-to-one name="serviceType" merge="false">
+                <orm:join-column name="SERVICE_TYPE_ID" nullable="false"/>
+                <orm:cascade>
+                    <orm:cascade-refresh/>
+                </orm:cascade>
+            </hj:many-to-one>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='businessService']//xs:attribute[@name='key']">
+            <hj:id name="key">
+				<orm:column name="SERVICE_ID"/>
+			    <orm:generated-value strategy="AUTO"/>
+			</hj:id>
+        </jaxb:bindings>
+
+        <!--
+                  <orm:cascade-persist/>
+                    <orm:cascade-merge/>
+                            -->
+
+        <!-- Binding -->
+        <jaxb:bindings node="xs:complexType[@name='binding']">
+            <hj:entity class="Binding">
+                <orm:table name="BINDING"/>
+            </hj:entity>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='binding']//xs:element[@name='accessPoint']">
+            <hj:basic name="accessPoint">
+                <orm:column name="END_POINT" length="50" nullable="false"/>
+            </hj:basic>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='businessService']//xs:element[@name='binding']">
+            <hj:one-to-many name="binding">
+                <orm:join-column name="SERVICE_ID" nullable="false"/>
+            </hj:one-to-many>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='binding']//xs:element[@name='bindingType']">
+            <hj:many-to-one name="bindingType" merge="false">
+                <orm:join-column name="BINDING_TYPE_ID" nullable="false"/>
+                <orm:cascade>
+                    <orm:cascade-refresh/>
+                </orm:cascade>
+            </hj:many-to-one>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='binding']//xs:attribute[@name='key']">
+            <hj:id name="key">
+				<orm:column name="BINDING_ID"/>
+			    <orm:generated-value strategy="AUTO"/>
+			</hj:id>
+        </jaxb:bindings>
+
+        <!-- Contact Info -->
+        <jaxb:bindings node="xs:complexType[@name='contact']">
+            <hj:entity class="Contact">
+                <orm:table name="CONTACT_INFO"/>
+            </hj:entity>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='contact']//xs:element[@name='personName']">
+            <hj:basic name="personName">
+                <orm:column name="PERSON_NAME" length="100" nullable="false"/>
+            </hj:basic>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='contact']//xs:attribute[@name='key']">
+            <hj:id name="key">
+				<orm:column name="CONTACT_INFO_ID"/>
+			    <orm:generated-value strategy="AUTO"/>
+			</hj:id>
+        </jaxb:bindings>
+
+        <!-- ServiceType -->
+        <jaxb:bindings node="xs:complexType[@name='serviceType']">
+            <hj:entity class="ServiceType">
+                <orm:table name="SERVICE_TYPE">
+                    <orm:unique-constraint>
+                        <orm:column-name>VALUE</orm:column-name>
+                    </orm:unique-constraint>
+                </orm:table>
+            </hj:entity>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='serviceType']//xs:element[@name='value']">
+            <hj:basic name="value">
+                <orm:column name="VALUE" length="100" nullable="false"/>
+            </hj:basic>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='serviceType']//xs:attribute[@name='key']">
+            <hj:id name="key">
+				<orm:column name="SERVICE_TYPE_ID"/>
+			    <orm:generated-value strategy="AUTO"/>
+			</hj:id>
+        </jaxb:bindings>
+
+        <!-- BindingType -->
+        <jaxb:bindings node="xs:complexType[@name='bindingType']">
+            <hj:entity class="BindingType">
+                <orm:table name="BINDING_TYPE">
+                    <orm:unique-constraint>
+                        <orm:column-name>VALUE</orm:column-name>
+                    </orm:unique-constraint>
+                </orm:table>
+            </hj:entity>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='bindingType']//xs:element[@name='value']">
+            <hj:basic name="value">
+                <orm:column name="VALUE" length="100" nullable="false"/>
+            </hj:basic>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='bindingType']//xs:attribute[@name='key']">
+            <hj:id name="key">
+				<orm:column name="BINDING_TYPE_ID"/>
+			    <orm:generated-value strategy="AUTO"/>
+			</hj:id>
+        </jaxb:bindings>
+
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="blacklist-objects_0.1.0.xsd" node="/xs:schema">
+        <jaxb:schemaBindings>
+            <jaxb:package name="org.nterlearning.xml.nter_registry.blacklist_objects_0_1_0"/>
+        </jaxb:schemaBindings>
+
+        <hj:ignored-package name="org.nterlearning.xml.nter_registry.blacklist_interface_0_1_0"/>
+
+        <!-- BlackList
+                -->
+        <jaxb:bindings node="xs:complexType[@name='blacklistItem']">
+            <hj:entity class="BlacklistItem">
+                <orm:table name="BLACK_LIST">
+                    <orm:unique-constraint>
+                        <orm:column-name>NAME</orm:column-name>
+                    </orm:unique-constraint>
+                </orm:table>
+            </hj:entity>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='blacklistItem']//xs:element[@name='name']">
+            <hj:basic name="name">
+                <orm:column name="NAME" length="100" nullable="false"/>
+            </hj:basic>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='blacklistItem']//xs:element[@name='location']">
+            <hj:basic name="location">
+                <orm:column name="LOCATION" length="50" nullable="false"/>
+            </hj:basic>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='blacklistItem']//xs:element[@name='status']">
+            <hj:many-to-one name="activeStatus" merge="false">
+                <orm:join-column name="ACTIVE_STATUS_ID" nullable="false"/>
+                <orm:cascade>
+                    <orm:cascade-refresh/>
+                </orm:cascade>
+            </hj:many-to-one>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='blacklistItem']//xs:attribute[@name='key']">
+            <hj:id name="key">
+				<orm:column name="BLACK_LIST_ID"/>
+			    <orm:generated-value strategy="AUTO"/>
+			</hj:id>
+        </jaxb:bindings>
+
+        <!-- ActiveStatus -->
+        <jaxb:bindings node="xs:complexType[@name='activeStatus']">
+            <hj:entity class="ActiveStatus">
+                <orm:table name="ACTIVE_STATUS">
+                    <orm:unique-constraint>
+                        <orm:column-name>VALUE</orm:column-name>
+                    </orm:unique-constraint>
+                </orm:table>
+            </hj:entity>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='activeStatus']//xs:element[@name='value']">
+            <hj:basic name="value">
+                <orm:column name="VALUE" length="50" nullable="false"/>
+            </hj:basic>
+        </jaxb:bindings>
+        <jaxb:bindings node="xs:complexType[@name='activeStatus']//xs:attribute[@name='key']">
+            <hj:id name="key">
+				<orm:column name="ACTIVE_STATUS_ID"/>
+			    <orm:generated-value strategy="AUTO"/>
+			</hj:id>
+        </jaxb:bindings>
+
+    </jaxb:bindings>
+
+</jaxb:bindings>

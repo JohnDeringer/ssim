@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:cxf="http://cxf.apache.org/core"
+xmlns:jaxws="http://cxf.apache.org/jaxws"  
+xmlns:soap="http://cxf.apache.org/bindings/soap"
+xmlns:security="http://www.springframework.org/schema/security"
+xmlns:context="http://www.springframework.org/schema/context"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+http://cxf.apache.org/jaxws 
+	http://cxf.apache.org/schemas/jaxws.xsd
+http://cxf.apache.org/core 
+	http://cxf.apache.org/schemas/core.xsd
+http://www.springframework.org/schema/security
+	http://www.springframework.org/schema/security/spring-security-3.1.0.xsd
+http://www.springframework.org/schema/context 
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+   ">
+
+<context:component-scan base-package="org.nterlearning.usermgmt.service"/>
+
+<context:property-placeholder location="file:///${NTER_PROPS}"/>
+ 
+ 
+    <!-- The CXF Bus -->
+	<cxf:bus>
+	    <cxf:features>
+	        <cxf:logging />
+	    </cxf:features>
+
+	    <cxf:properties>
+	        <entry key="ws-security.validate.token" value="true" />
+	        <entry key="ws-security.ut.no-callbacks" value="true" />
+	        <entry key="ws-security.ut.validator" value-ref="wsValidator" />
+	    </cxf:properties>
+
+        <cxf:inInterceptors>
+	        <ref bean="logIn" />
+	    </cxf:inInterceptors>
+	    <cxf:outInterceptors>
+	        <ref bean="logOut" />
+	    </cxf:outInterceptors>
+	    <cxf:inFaultInterceptors>
+	        <ref bean="logIn" />
+	    </cxf:inFaultInterceptors>
+	    <cxf:outFaultInterceptors>
+	        <ref bean="logOut" />
+	    </cxf:outFaultInterceptors>
+	</cxf:bus>
+	
+<jaxws:endpoint id="endpoint_identityservices"
+	implementor="#id_service" 
+	address="/IdentityService">
+	
+	<jaxws:inInterceptors>
+            <ref bean="wss4jIn" />
+    </jaxws:inInterceptors>
+</jaxws:endpoint>
+
+    <bean id="logIn" class="org.apache.cxf.interceptor.LoggingInInterceptor" />
+    <bean id="logOut" class="org.apache.cxf.interceptor.LoggingOutInterceptor" />
+    
+<bean id="id_service"
+	class = "org.nterlearning.usermgmt.service.IdentityServiceImpl">
+	<constructor-arg ref="bean_userDao"/>
+</bean>
+
+<bean id="bean_ldapServer_noUser"
+        class="org.springframework.security.ldap.DefaultSpringSecurityContextSource">
+  <constructor-arg value="${usermgmt.ldap.url}"/>
+</bean>
+
+<bean id="bean_contextSource_noUser" class="org.springframework.ldap.core.support.LdapContextSource">
+	<property name="url" value="${usermgmt.ldap.url}" />
+	<property name="base" value="${usermgmt.ldap.base}" />
+</bean>
+
+<!-- THESE NEEDED FOR UserDao BEAN -->
+
+
+<bean id="bean_contextSource" class="org.springframework.ldap.core.support.LdapContextSource">
+	<property name="url" value="${usermgmt.ldap.url}" />
+	<property name="base" value="${usermgmt.ldap.base}" />
+	<property name="userDn" value="${usermgmt.ldap.userDn}" />
+	<property name="password" value="${usermgmt.ldap.password}" />
+</bean>
+
+<bean id="bean_ldapTemplate" class="org.springframework.ldap.core.LdapTemplate">
+	<constructor-arg ref="bean_contextSource" />
+</bean>
+
+<bean id="bean_user" class="org.nterlearning.usermgmt.model.UserImpl" scope="prototype"/>
+
+<bean id="bean_userDao" class="org.nterlearning.usermgmt.persistence.UserDaoImpl">
+	<property name="ldapTemplate" ref="bean_ldapTemplate" />
+	<property name="group" value="${usermgmt.ldap.group}"/>
+</bean>
+
+<bean id="wss4jIn" class="org.apache.cxf.ws.security.wss4j.WSS4JInInterceptor">
+    <constructor-arg>
+     <map>
+         <entry key="action" value="UsernameToken" />
+         <entry key="passwordType" value="PasswordText" />
+     </map>
+    </constructor-arg>
+</bean>
+
+<bean id="wsValidator" class="org.nterlearning.usermgmt.service.UserMgmtValidator">
+        <property name="identityService" ref="id_service"/>
+    </bean>
+
+</beans>

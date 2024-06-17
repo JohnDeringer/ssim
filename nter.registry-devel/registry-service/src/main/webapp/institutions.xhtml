@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:forms="http://java.sun.com/jsf/composite/forms"
+      xml:lang="en" lang="en">
+<h:head>
+    <title>#{i18n['title.institutions']}</title>
+</h:head>
+<h:body>
+<ui:composition template="/templates/fullTemplate.xhtml">
+    <ui:define name="title">#{i18n['title.institutions']}</ui:define>
+    <ui:define name="pageName">#{i18n['title.institutions']}</ui:define>
+    <ui:define name="body">
+
+        <h:form id="institutionsBean" prependId="false">
+            <p:dataTable id="institutionsDataTable"
+                         itemType="none"
+                         rows="10"
+                         paginator="TRUE"
+                         resizableColumns="FALSE"
+                         paginatorPosition="bottom"
+                         paginatorAlwaysVisible="false"
+                         value="#{institutionsBean.institutions}"
+                         var="institution"
+                         styleClass="institutions"
+                         emptyMessage="#{i18n['forms.institutions.empty']}"
+                         type="ordered">
+                <p:column sortBy="#{institution.name}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['forms.institutions.name']}" />
+                    </f:facet>
+                    <h:link outcome="institutionBean"
+                            value="#{institution.name}" >
+                        <f:param name="institutionName" value="#{institution.name}"/>
+                    </h:link>
+                </p:column>
+                <p:column sortBy="#{institution.description}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['forms.institutions.description']}" />
+                    </f:facet>
+                    <h:outputLabel value="#{institution.description}"/>
+                </p:column>
+                <p:column sortBy="#{institution.contactInfo.personName}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['forms.institutions.contact']}" />
+                    </f:facet>
+                    <h:outputLabel value="#{institution.contactInfo.personName}"/>
+                </p:column>
+                <p:column sortBy="#{institution.contactInfo.email}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['forms.institutions.email']}" />
+                    </f:facet>
+                    <h:outputLabel value="#{institution.contactInfo.email}"/>
+                </p:column>
+                <p:column sortBy="#{institution.activeStatus}">
+                    <f:facet name="header">
+                        <h:outputText value="#{i18n['forms.institutions.status']}" />
+                    </f:facet>
+                    <h:outputLabel value="#{institution.activeStatus}"/>
+                </p:column>
+            </p:dataTable>
+
+            <br/>
+
+            <p:commandButton
+                    value="#{i18n['forms.institutions.add']}"
+                    update="institutionDialogPanel"
+                    onclick="editDialog.show()">
+            </p:commandButton>
+        </h:form>
+
+        <p:dialog id="editDialog"
+                  widgetVar="editDialog"
+                  modal="true"
+                  visible="#{facesContext.maximumSeverity != null}">
+		    <h:panelGroup id="institutionDialogPanel">
+                <forms:addInstitutionForm/>
+            </h:panelGroup>
+        </p:dialog>
+
+    </ui:define>
+</ui:composition>
+
+</h:body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Commerce Service - Add Payment Processor</title>
+  </head>
+  <body>
+    <h2>Add Payment Processor</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="2">Payment Processor</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Name</td>
+          <td>
+            <select>
+              <option value="PayPal">PayPal</option>
+              <option value="Amazon">Amazon</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Active</td>
+          <td>
+            <input type="checkbox"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Account</td>
+          <td>
+            <input type="text" size="30"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td>
+            <input type="text" size="30"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Branding image URL (Our image displayed on Payment Processor site)</td>
+          <td>
+            <input type="text" size="40"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Action URL (form action URL)</td>
+          <td>
+            <input type="text" size="40"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Notify URL (Asynchonous transaction notification)</td>
+          <td>
+            <input type="text" size="40"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Return URL (Customer will be sent to this URL once transaction is complete)</td>
+          <td>
+            <input type="text" size="40"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Cancel URL (Customer will be sent to this URL if the transaction is cancelled)</td>
+          <td>
+            <input type="text" size="40"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Button URL</td>
+          <td>
+            <input type="text" size="40"/>
+          </td>
+        </tr>
+        <tr>
+          <td>API Version</td>
+          <td>
+            <input type="text" size="10"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Administration fee (%)</td>
+          <td>
+            <input type="text" size="3"/>
+          </td>
+        </tr>
+        <tr>
+          <td>Referrer fee (%)</td>
+          <td>
+            <input type="text" size="3"/>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="button" value="Save" onclick="window.location.href='payment-configuration.html'"/></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <input type="button" value="Cancel" onclick="window.location.href='payment-configuration.html'"/>
+    </p>
+    <h4>Notes</h4>   
+    <ul>
+      <li>Configuration API - createConfiguration(configurationEntry)
+        <ul>
+          <li>ConfigurationEntry
+            <ul>
+              <li>Name: configId</li>
+              <li>Active: activeStatus</li>
+              <li>Account: sellerId</li>            
+              <li>Password: sellerPassword</li>
+              <li>Branding image URL: brandingImageURL</li>
+              <li>Action URL: actionURL</li>
+              <li>Notify URL: notifyURL</li>
+              <li>Return URL: returnURL</li>
+              <li>Cancel URL: cancelURL</li>
+              <li>Button URL: buttonURL</li>
+              <li>API Version: apiVersion</li>
+              <li>Administration fee: adminFee</li>
+              <li>Referrer fee: referrerFee</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>&nbsp;</li>
+      <li>ActionURL, ReturnURL, CancelURL and ButtonImageURL may not be neccessary in the service. We may want to populate those form fields in the Course Detail Page and not pull the info from the Commerce Service.</li>
+      <li>&nbsp;</li>
+      <li>Example 'PayPal Express Checkout' form post
+        <pre>
+          <code>
+&lt;form method=post action=https://api-3t.sandbox.paypal.com/nvp&gt;
+  &lt;input type=hidden name=USER value=API_username&gt; 
+  &lt;input type=hidden name=PWD value=API_password&gt; 
+  &lt;input type=hidden name=SIGNATURE value=API_signature&gt;
+  &lt;input type=hidden name=VERSION value=XX.0&gt; 
+  &lt;input type=hidden name=PAYMENTREQUEST_0_PAYMENTACTION value=Sale&gt; 
+  &lt;input name=PAYMENTREQUEST_0_AMT value=19.95&gt; 
+  &lt;input type=hidden name=RETURNURL value=https://www.YourReturnURL.com&gt; 
+  &lt;input type=hidden name=CANCELURL value=https://www.YourCancelURL.com&gt; 
+  &lt;input type=submit name=METHOD value=SetExpressCheckout&gt;
+&lt;/form&gt;  
+          </code>  
+        </pre>
+      </li>
+      <li>
+        PayPal responds with a message, such as the one shown below. Note the status, which
+        should include ACK set to Success, and a token that is used in subsequent steps.
+        <pre>
+          <code>
+TIMESTAMP=2007%2d04%2d05T23%3a23%3a07Z
+&CORRELATIONID=63cdac0b67b50
+&ACK=Success
+&VERSION=XX%2e000000
+&BUILD=1%2e0006
+&TOKEN=EC%2d1NK66318YB717835M; 
+          </code>  
+        </pre>  
+      </li>
+      <li>     
+        If the operation was successful, use the token and redirect your browser to the PayPal log in, as follows:<br/>
+        <pre>
+          <code>
+https://www.sandbox.paypal.com/cgi-bin/webscr?cmd=_express-checkout&token=EC-1NK66318YB717835M
+          </code>  
+        </pre>
+      </li>
+    </ul>
+  </body>
+</html>

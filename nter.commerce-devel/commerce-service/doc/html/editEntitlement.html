@@ -1,0 +1,64 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Commerce Service - Edit Entitlement</title>
+  </head>
+  <body>
+    <h2>Edit Entitlement - User-2</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="2">Entitlement</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Institution</td>
+          <td>
+            <select>
+              <option value="NWTP1key">NWTP-1</option>
+              <option value="NWTP2key" selected="selected">NWTP-2</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>User</td>
+          <td>
+            <label>User-2</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Permisssion</td>
+          <td>
+            <select>
+              <option value="NONE">NONE</option>
+              <option value="READ">READ</option>
+              <option value="WRITE" selected="selected">WRITE</option>
+              <option value="ADMIN">ADMIN</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="button" value="Save" onclick="window.location.href='entitlement.html'"/></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <input type="button" value="Cancel" onclick="window.location.href='entitlement.html'"/>
+    </p>
+    <h4>Notes</h4>   
+    <ul>
+      <li>Entitlement API - getPolicy(subjectId, resourceId) / updatePolicy(entitlementPolicy)
+        <ul>
+          <li>EntitlementPolicy
+            <ul>
+              <li>Institution: resourceId</li>
+              <li>User: subjectId</li>
+              <li>Permisssion: action</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>

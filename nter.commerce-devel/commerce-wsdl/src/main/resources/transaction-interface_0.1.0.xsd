@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ * National Training and Education Resource (NTER)
+ * Copyright (C) 2012  SRI International
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or (at
+ * your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301, USA.
+-->
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://nterlearning.org/xml/commerce/transaction-interface_0.1.0.xsd"
+        xmlns:tns="http://nterlearning.org/xml/commerce/transaction-interface_0.1.0.xsd"
+        xmlns:xs="http://www.w3.org/2001/XMLSchema"
+        xmlns:do="http://nterlearning.org/xml/commerce/domain-objects_0.1.0.xsd"
+        elementFormDefault="qualified"
+        attributeFormDefault="qualified">
+
+    <xs:import namespace="http://nterlearning.org/xml/commerce/domain-objects_0.1.0.xsd"
+               schemaLocation="domain-objects_0.1.0.xsd"/>
+
+    <xs:element name="CreatePaymentTransaction">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="paymentTransaction" type="do:paymentTransaction"
+                            form="qualified" minOccurs="1" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="CreatePaymentTransactionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="status" type="do:requestStatus"
+                            form="qualified" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetPaymentStatus">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="institution" type="xs:string"
+                            form="qualified" minOccurs="1"/>
+                <xs:element name="studentId" type="do:studentId"
+                            form="qualified" minOccurs="1"/>
+                <xs:element name="courseId" type="do:itemNumber"
+                            form="qualified" minOccurs="1"/>
+                <xs:element name="price" type="do:currency"
+                            form="qualified" minOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetPaymentStatusResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="status" type="do:paymentStatus" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="ValidationError" type="tns:validationError"/>
+
+    <xs:element name="GetTransactionById">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="transactionId" type="do:transactionId"
+                            form="qualified" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTransactionByIdResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="paymentTransaction" type="do:paymentTransaction"
+                            minOccurs="0" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetChildTransactionsById">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="transactionId" type="do:transactionId"
+                            form="qualified" minOccurs="1" maxOccurs="1"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetChildTransactionsByIdResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="paymentTransaction" type="do:paymentTransaction"
+                            minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetTransactionsByStudentId">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="studentId" type="do:studentId"
+                            form="qualified" minOccurs="1"/>
+                <xs:element name="fromDate" type="xs:date"
+                            form="qualified" minOccurs="0"/>
+                <xs:element name="toDate" type="xs:date"
+                            form="qualified" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTransactionsByStudentIdResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="paymentTransaction" type="do:paymentTransaction"
+                            minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetTransactionsByInstitution">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="institution" type="xs:string"
+                            form="qualified" minOccurs="1"/>
+                <xs:element name="fromDate" type="xs:date"
+                            form="qualified" minOccurs="0"/>
+                <xs:element name="toDate" type="xs:date"
+                            form="qualified" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTransactionsByInstitutionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="paymentTransaction" type="do:paymentTransaction"
+                            minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetTransactionSummaryByInstitution">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="institution" type="xs:string"
+                            form="qualified" minOccurs="1"/>
+                <xs:element name="fromDate" type="xs:date"
+                            form="qualified" minOccurs="0"/>
+                <xs:element name="toDate" type="xs:date"
+                            form="qualified" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTransactionSummaryByInstitutionResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="paymentTransaction" type="do:paymentTransaction"
+                            minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetTransactionsByCourseId">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="courseId" type="do:itemNumber"
+                            form="qualified" minOccurs="1"/>
+                <xs:element name="fromDate" type="xs:date"
+                            form="qualified" minOccurs="0"/>
+                <xs:element name="toDate" type="xs:date"
+                            form="qualified" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTransactionsByCourseIdResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="paymentTransaction" type="do:paymentTransaction"
+                            minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetTransactionsByTransactionType">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="institution" type="xs:string"
+                            form="qualified" minOccurs="1"/>
+                <xs:element name="transactionType" type="do:transactionType"
+                            form="qualified" minOccurs="1"/>
+                <xs:element name="fromDate" type="xs:date"
+                            form="qualified" minOccurs="0"/>
+                <xs:element name="toDate" type="xs:date"
+                            form="qualified" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTransactionsByTransactionTypeResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="paymentTransaction" type="do:paymentTransaction"
+                            minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetTransactions">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="fromDate" type="xs:date"
+                            form="qualified" minOccurs="0"/>
+                <xs:element name="toDate" type="xs:date"
+                            form="qualified" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTransactionsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="paymentTransaction" type="do:paymentTransaction"
+                            minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="GetTransactionTypes">
+        <xs:complexType>
+            <xs:sequence/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="GetTransactionTypesResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="transactionType" type="do:transactionType"
+                            minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="validationError">
+        <xs:sequence>
+            <xs:element name="message" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</schema>

@@ -1,0 +1,60 @@
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>NTER Commerce Service - Entitlement</title>
+  </head>
+  <body>
+    <h2>Entitlement</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Institution</th>
+          <th>User</th>
+          <th>Permisssion</th>
+          <th>Edit</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>NWTP-1</td>
+          <td>User-1</td>
+          <td>READ</td>
+          <td><input type="button" value="Edit" onclick="window.location.href='editEntitlement.html'"/></td>
+        </tr>  
+        <tr>
+          <td>NWTP-1</td>
+          <td>User-2</td>
+          <td>WRITE</td>
+          <td><input type="button" value="Edit" onclick="window.location.href='editEntitlement.html'"/></td>
+        </tr>
+        <tr>
+          <td>NWTP-2</td>
+          <td>User-3</td>
+          <td>ADMIN</td>
+          <td><input type="button" value="Edit" onclick="window.location.href='editEntitlement.html'"/></td>
+        </tr>
+        <tr>
+          <td colspan="4"><input type="button" value="Add Entitlement" onclick="window.location.href='addEntitlement.html'"/></td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      <input type="button" value="Home" onclick="window.location.href='index.html'"/>
+    </p>
+    <h4>Notes</h4>   
+    <ul>
+      <li>Entitlement API - getAllPolicies()
+        <ul>
+          <li>EntitlementPolicy
+            <ul>
+              <li>Institution: resourceId</li>
+              <li>User: subjectId</li>
+              <li>Permisssion: action</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>We should probably add delete functionality - see: removePolicy</li>
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+         http://www.springframework.org/schema/tx
+         http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+    <bean id="propertyPlaceholderConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>
+                    classpath:commerce-beans-test.properties
+                </value>
+                <value>file:///${NTER_PROPS}</value>
+            </list>
+        </property>
+        <property name="ignoreResourceNotFound" value="true"/>
+    </bean>
+
+	<bean
+		class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
+
+    <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+	    <property name="driverClassName" value="${commerce.db.driver}"/>
+	    <property name="url" value="${commerce.db.url}"/>
+	    <property name="username" value="${commerce.db.user}"/>
+	    <property name="password" value="${commerce.db.password}"/>
+        <property name="validationQuery" value="${commerce.db.validation}"/>
+    </bean>
+
+	<bean id="entityManagerFactory"
+		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+	   <property name="persistenceUnitName" value="org.nterlearning.commerce.persistence" />
+	   <property name="persistenceXmlLocation" value="classpath*:META-INF/persistence.xml"/>
+	   <property name="dataSource" ref="dataSource" />
+	</bean>
+
+	<bean id="jpaTransactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+	</bean>
+
+	<tx:annotation-driven transaction-manager="jpaTransactionManager" />
+
+    <bean id="transactionDao" class="org.nterlearning.commerce.persistence.TransactionDaoImpl">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
+
+    <bean id="configurationDao" class="org.nterlearning.commerce.persistence.ConfigurationDaoImpl">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
+
+    <bean id="payPalValidation" class="org.nterlearning.commerce.service.paypal.PayPalValidation">
+        <property name="configurationModel" ref="configurationModel"/>
+    </bean>
+
+    <bean id="transactionModel" class="org.nterlearning.commerce.model.TransactionModelImpl">
+        <property name="transactionDao" ref="transactionDao"/>
+        <property name="configurationDao" ref="configurationDao"/>
+    </bean>
+
+    <bean id="transactionImpl" class="org.nterlearning.commerce.service.TransactionImpl">
+        <property name="transactionModel" ref="transactionModel"/>
+        <property name="commerceRealm" value="${commerce.realm}"/>
+        <property name="wsValidator" ref="wsValidator"/>
+        <property name="entitlement" ref="entitlementService"/>
+        <property name="payPalValidation" ref="payPalValidation"/>
+    </bean>
+
+    <bean id="configurationModel" class="org.nterlearning.commerce.model.ConfigurationModelImpl">
+        <property name="configurationDao" ref="configurationDao"/>
+    </bean>
+
+    <bean id="configurationImpl" class="org.nterlearning.commerce.service.ConfigurationImpl">
+        <property name="configurationModel" ref="configurationModel"/>
+    </bean>
+
+    <bean id="registryService" class="org.nterlearning.registry.client.RegistryImpl">
+        <constructor-arg name="user" value="${commerce.registry.email}"/>
+        <constructor-arg name="password" value="${commerce.registry.password}"/>
+        <constructor-arg name="wsdlLocation" value="${commerce.registry.wsdl.url}"/>
+    </bean>
+
+    <bean id="entitlementService" class="org.nterlearning.entitlement.client.EntitlementService">
+        <constructor-arg name="user" value="${commerce.entitlement.email}"/>
+        <constructor-arg name="password" value="${commerce.entitlement.password}"/>
+        <constructor-arg name="wsdlLocation" value="${commerce.entitlement.wsdl.url}"/>
+    </bean>
+
+    <bean id="realmBean" class="org.nterlearning.commerce.managed.RealmBean">
+         <property name="commerceRealm" value="${commerce.realm}"/>
+    </bean>
+
+    <bean id="wsValidator" class="org.nterlearning.commerce.service.WSValidator">
+        <property name="identityService" ref="identityService"/>
+    </bean>
+
+    <import resource="classpath:META-INF/cxf/cxf.xml"/>
+    <import resource="classpath:META-INF/cxf/cxf-extension-soap.xml"/>
+    <import resource="classpath:META-INF/cxf/cxf-servlet.xml"/>
+
+    <bean id="identityServiceClient"
+          class="org.nterlearning.commerce.service.IdentityServiceClient">
+        <constructor-arg name="wsdlLocation" value="${commerce.idp.wsdl.url}"/>
+        <constructor-arg name="username" value="${commerce.idp.email}"/>
+        <constructor-arg name="password" value="${commerce.idp.password}"/>
+    </bean>
+
+    <bean id="identityService"
+          class="org.nterlearning.usermgmt.service.jaxws.IdentityServiceService"
+          factory-bean="identityServiceClient"
+          factory-method="getIdentityService">
+    </bean>
+
+</beans>
