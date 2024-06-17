@@ -1,0 +1,423 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Add a Videoed Encounter</title>
+	<link rel="stylesheet" href="css/smoothness/jquery-ui-1.8.23.custom.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+	<script src="js/interaction.js"></script>
+</head>
+<body>
+	<h1>Add a Videoed Encounter</h1>
+	<form id="upload" class="page upload-form" method="post"
+          action="http://localhost:8086/ssim-repository-service-1.0.0/rest/encounterAPI/createEncounter">
+		<div class="left-col">
+			<section>
+				<h2>Video</h2>
+				<div class="form-row">
+					<label for="original-video">Original Video</label>
+					<input type="file" name="original-video" id="original-video" value="SPD_011666_6963@20090106213654.eaf"/>
+				</div>
+				<div class="form-row">
+					<label for="converted-video">Converted Video</label>
+					<input type="file" name="converted-video" id="converted-video" value="SFPD_ShesGotaBeer_BA_05252012.eaf"/>
+				</div>
+				<div class="form-row">
+					<label for="video-audio">Audio Channel</label>
+					<input type="file" name="video-audio" id="video-audio" value="SFPD_AnythingElse_UK_05212012.eaf"/>
+				</div>
+				<div class="form-row">
+					<label for="alternate-audio">Alternate Audio Source</label>
+					<input type="file" name="alternate-audio" id="alternate-audio" value="SFPD_MoveAlong_Homeless_UK_050212.eaf"/>
+				</div>
+				<div class="form-row">
+					<label for="corpus">Corpus</label>
+					<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/corpus" name="corpus" id="corpus" value="the Corpus"/>
+				</div>
+
+				<h3>Related to previously uploaded video:</h3>
+				<ul id="related-video-display" class="subitem-list"></ul>
+				<button type="button" id="related-video-search" class="add-more">Find a video...</button>
+			</section>
+
+			<section>
+				<h2>Collection Metadata</h2>
+				<div class="form-row">
+					<label for="collection-date">Collection Date</label>
+					<input type="date" name="colection-date" id="collection-date" value="12/12/2012"/>
+				</div>
+				<div class="form-row">
+					<label for="collection-time">Collection Time</label>
+					<input type="text" name="colection-time" id="collection-time" value="1:00pm"/>
+				</div>
+				<div class="form-row">
+					<label for="general-collection-time">Daylight Conditions</label>
+					<select name="general-colection-time" id="general-collection-time">
+						<option value=""></option>
+						<option value="light" selected>Light</option>
+						<option value="dark">Dark</option>
+						<option value="dusk">Dusk</option>
+					</select>
+				</div>
+				<div class="form-row">
+					<label for="geographic-location">Geographic Location</label>
+					<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/geoLocations" name="geographic-location" id="geographic-location" value="here"/>
+				</div>
+				<div class="form-row">
+					<label for="site-location">Site</label>
+					<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/sites" name="site-location" id="site-location" value="earth"/>
+				</div>
+				<div class="form-row">
+					<label for="video-quality">Video Quality</label>
+					<select name="video-quality" id="video-quality">
+						<option value=""></option>
+						<option value="good" selected>Good</option>
+						<option value="ok">Okay</option>
+						<option value="partly-usable">Partly Usable</option>
+						<option value="bad">Bad</option>
+					</select>
+				</div>
+				<div class="form-row">
+					<label for="audio-quality">Audio Quality</label>
+					<select name="audio-quality" id="audio-quality">
+						<option value=""></option>
+						<option value="good" selected>Good</option>
+						<option value="ok">Okay</option>
+						<option value="partly-usable">Partly Usable</option>
+						<option value="bad">Bad</option>
+					</select>
+				</div>
+				<div class="form-row">
+					<label for="collector">Collector</label>
+					<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/collectors" name="collector" id="collector" value="me"/>
+				</div>
+				<input type="hidden" name="data-descriptor" value="video" />
+			</section>
+
+			<section>
+                <!--
+				<h2>Encounter Metadata</h2>
+				<ul id="encounter-list" class="subitem-list"></ul>
+				<button type="button" class="add-encounter-metadata add-more">Enter encounter metadata...</button>
+			   -->
+
+                <h2>Encounter Metadata</h2>
+                <div class="form-row">
+					<label for="encounter-name">Encounter Name</label>
+					<input type="text" name="encounter-name" id="encounter-name" value="Encounter1"/>
+				</div>
+
+				<div class="form-row">
+					<fieldset>
+						<legend>Domain</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="radio" name="encounter-domain" id="encounter-domain-military" value="military" checked/>
+								<label for="encounter-domain-military">Military</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-domain" id="encounter-domain-law" value="law" />
+								<label for="encounter-domain-law">Law Enforcement</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-domain" id="encounter-domain-other" value="other" />
+								<label for="encounter-domain-other">Other</label>
+								<label class="other-label-hidden" for="encounter-domain-other-value">Other Domain</label>
+								<input type="text" class="subfield autocomplete" data-autocomplete-source="domain" name="encounter-domain-other-value" id="encounter-domain-other-value" />
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<label for="encounter-num-participants">Number of Key Participants</label>
+					<input type="number" name="encounter-num-participants" id="encounter-num-participants" step="1" min="0" value="3"/>
+				</div>
+
+				<div class="form-row">
+					<fieldset>
+						<legend>Are Bystanders Present</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="radio" name="encounter-bystanders" id="encounter-bystanders-yes" value="yes" checked/>
+								<label for="encounter-bystanders-yes">Yes</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-bystanders" id="encounter-bystanders-no" value="no" />
+								<label for="encounter-bystanders-no">No</label>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<label for="encounter-reason">Reason for Encounter</label>
+					<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/encounterReasons" name="encounter-reason" id="encounter-reason" value="Harassment"/>
+				</div>
+
+				<div class="form-row">
+					<label for="encounter-duration">Duration of Encounter</label>
+					<input type="time" name="encounter-duration" id="encounter-duration" value="long"/>
+				</div>
+
+				<div class="form-row">
+					<label for="encounter-quality">Quality of Encounter</label>
+					<textarea name="encounter-quality" id="encounter-quality">Good</textarea>
+				</div>
+
+				<div class="form-row">
+					<fieldset>
+						<legend>Is this the first encounter between participants?</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="radio" name="encounter-first-encounter" id="encounter-first-encounter-yes" value="yes" checked/>
+								<label for="encounter-first-encounter-yes">Yes</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-first-encounter" id="encounter-first-encounter-no" value="no" />
+								<label for="encounter-first-encounter-no">No</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-first-encounter" id="encounter-first-encounter-unknown" value="unknown" />
+								<label for="encounter-first-encounter-unknown">Don't Know</label>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<fieldset>
+						<legend>Are participants familiar with each other?</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="radio" name="encounter-familiar" id="encounter-familiar-yes" value="yes" checked/>
+								<label for="encounter-familiar-yes">Yes</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-familiar" id="encounter-familiar-no" value="no" />
+								<label for="encounter-familiar-no">No</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-familiar" id="encounter-familiar-unknown" value="unknown" />
+								<label for="encounter-familiar-unknown">Don't Know</label>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+			<!--
+						<fieldset>
+						<legend>Key Participants</legend>
+						<div class="rows">
+							<ul id="participant-list" class="subitem-list"></ul>
+							<button type="button" class="add-participant-metadata add-more">Add a participant...</button>
+                        </div>
+					</fieldset>
+              -->
+               <section>
+
+				<h2>Add a Participant</h2>
+				<div class="form-row">
+					<fieldset>
+						<legend>Participant Type</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="radio" name="type" id="type-institutional" value="institutional" />
+								<label for="type-institutional">Institutional</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="type" id="type-civilian" value="civilian" checked/>
+								<label for="type-civilian">Civilian</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="type" id="type-other" value="other" />
+								<label for="type-other">Other</label>
+								<label class="other-label-hidden" for="type-other-value">Other</label>
+								<input type="text" class="subfield autocomplete" data-autocomplete-source="participantType" name="type-other-value" id="type-other-value" />
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<fieldset>
+						<legend>Gender</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="radio" name="gender" id="gender-female" value="female" />
+								<label for="gender-female">Female</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="gender" id="gender-male" value="male" checked/>
+								<label for="gender-male">Male</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="gender" id="gender-unknown" value="unknown" />
+								<label for="gender-unknown">Don't know/other</label>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<label for="age">Age</label>
+					<select name="age" id="age">
+						<option></option>
+						<option>18-24</option>
+						<option selected>25-29</option>
+						<option>30-34</option>
+						<option>35-39</option>
+						<option>40-44</option>
+						<option>45-49</option>
+						<option>50-54</option>
+						<option>55-59</option>
+						<option>60-64</option>
+						<option>65-69</option>
+						<option>70+</option>
+					</select>
+				</div>
+
+				<div class="form-row">
+					<label for="codename">Codename</label>
+					<input type="text" name="codename" id="codename" value="IM1"/>
+				</div>
+
+				<div class="form-row">
+					<label for="rank">Rank</label>
+					<select name="rank" id="rank">
+                        <option>Private</option>
+						<option selected>SGT</option>
+					</select>
+				</div>
+
+				<div class="form-row">
+					<label for="role">Role</label>
+					<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/roles" name="role" id="role" value="Heavy"/>
+				</div>
+
+				<div class="form-row">
+					<label for="ethnicity">Ethnicity</label>
+					<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/ethnicities" name="ethnicity" id="ethnicity" value="Blank"/>
+				</div>
+
+				<fieldset class="multi-section" data-multi-template="language-template">
+					<legend>First Language(s)</legend>
+					<div class="rows">
+						<div class="multi">
+							<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/languages" name="participant-language" id="participant-language" value="unknown"/>
+						</div>
+						<button type="button" class="add-language add-more">Add another language</button>
+					</div>
+				</fieldset>
+
+				<div class="form-row">
+					<label for="origin">Geographic Origin</label>
+					<input type="text" class="autocomplete" data-autocomplete-source="origin" name="origin" id="origin" value="Earth"/>
+				</div>
+
+				<div class="form-row">
+					<label for="sociometric-badge">Sociometric Badge Output</label>
+					<input type="file" name="sociometric-badge" id="sociometric-badge" value="AWALP April 2012 Transcript 2nd Group Tab-delimited.txt"/>
+				</div>
+
+				<div class="form-row">
+					<label for="comments">Comments</label>
+					<textarea name="participant-comments" id="participant-comments">participant comments</textarea>
+				</div>
+
+			</section>
+
+
+				</div>
+
+
+				<fieldset class="multi-section" data-multi-template="language-template">
+					<legend>Language(s) of Encounter</legend>
+					<div class="rows">
+						<div class="multi">
+							<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/languages" name="encounter-language" id="encounter-language" />
+						</div>
+						<button type="button" class="add-language add-more">Add another language</button>
+					</div>
+				</fieldset>
+
+				<div class="form-row">
+					<label for="comments">Comments</label>
+					<textarea name="encounter-comments" id="encounter-comments">encounter comments</textarea>
+				</div>
+
+
+            </section>
+
+
+		</div>
+
+		<div class="right-col">
+			<section>
+				<h2>Transcripts</h2>
+				<h3>Orthographic</h3>
+				<div class="form-row">
+					<label for="elan-trascript-orthographic">Native ELAN</label>
+					<input type="file" name="elan-trascript-orthographic" id="elan-trascript-orthographic" value="SFPD_ManfromLineUp_BA_05252012.eaf"/>
+				</div>
+				<div class="form-row">
+					<label for="traditional-trascript-orthographic">Traditional</label>
+					<input type="file" name="traditional-trascript-orthographic" id="traditional-trascript-orthographic" value="SPD_023486_7420@20090524014031.eaf"/>
+				</div>
+				<div class="form-row">
+					<label for="tab-delimited-trascript-orthographic">Tab-Delimited</label>
+					<input type="file" name="tab-delimited-trascript-orthographic" id="tab-delimited-trascript-orthographic" value="SPD_022289_7456@20090331021724.eaf"/>
+				</div>
+
+				<h3>CA-Style</h3>
+				<div class="form-row">
+					<label for="elan-trascript-ca">Native ELAN</label>
+					<input type="file" name="elan-trascript-ca" id="elan-trascript-ca" value="SPD_023649_6709@20090529023720.eaf"/>
+				</div>
+				<div class="form-row">
+					<label for="traditional-trascript-ca">Traditional</label>
+					<input type="file" name="traditional-trascript-ca" id="traditional-trascript-ca" value="SPD_012097_7506@20090125132144.txt"/>
+				</div>
+				<div class="form-row">
+					<label for="tab-delimited-trascript-ca">Tab-Delimited</label>
+					<input type="file" name="tab-delimited-trascript-ca" id="tab-delimited-trascript-ca" value="SFPD_MoveAlongDrinkingComplianceandResistance_UK_05142012.eaf"/>
+				</div>
+				<div class="form-row">
+					<label for="tab-delimited-trascript-ca">Other Format</label>
+					<input type="file" name="other-trascript-ca" id="other-trascript-ca" value="SPD_012256_6353@20090202005048.eaf"/>
+				</div>
+			</section>
+
+			<section>
+				<h2>Stimulated Recall Interview Transcript/Notes</h2>
+				<div class="multi-section" data-multi-template="simulated-recall-interview-template">
+					<div class="multi">
+						<div class="form-row">
+							<label for="simulated-recall-transcript-0">File</label>
+							<input type="file" name="simulated-recall-transcript-0" id="simulated-recall-transcript-0" />
+						</div>
+						<div class="form-row">
+							<label for="simulated-recall-description-0">Description</label>
+							<textarea name="simulated-recall-description-0" id="simulated-recall-description-0">Stimulated Recall Interview Transcript description-0</textarea>
+						</div>
+					</div>
+					<button type="button" id="add-simulated-recall-interview" class="add-more">Add another file</button>
+				</div>
+			</section>
+
+			<section>
+				<h2><label for="comments">Comments</label></h2>
+				<textarea name="interview-comments" id="interview-comments" class="no-label">Stimulated Recall Interview Transcript comments</textarea>
+			</section>
+		</div>
+
+		<div class="actions">
+			<button type="submit">Save</button>
+		</div>
+	</form>
+
+</body>
+</html>

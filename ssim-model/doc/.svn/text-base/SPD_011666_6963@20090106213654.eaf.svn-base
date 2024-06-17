@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2012-06-08T17:35:30-08:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///F:/colleen/SSIM/transcription/6963@20090106213654.mpg" MIME_TYPE="video/mpeg" RELATIVE_MEDIA_URL="../../6963@20090106213654.mpg"/>
+        <MEDIA_DESCRIPTOR EXTRACTED_FROM="file:///F:/colleen/SSIM/transcription/6963@20090106213654.mpg" MEDIA_URL="file:///F:/colleen/SSIM/transcription/6963@20090106213654.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../6963@20090106213654.wav"/>
+        <PROPERTY NAME="lastUsedAnnotationId">51</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="107150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="108710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="110620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="130760"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="130810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="133210"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="133330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="136300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="136620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="137810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="137940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="139330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="139490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="140720"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="707990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="709170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="709230"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="709940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="709980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="711130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="711730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="714960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="715450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="716260"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="716380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="716900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="718270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="719210"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="720400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="721750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="722200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="726310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="726850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="727780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="728050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="733050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="733220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="734630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="736320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="736830"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="737390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="738020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="738210"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="739710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="1002920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="1003840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="1005450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="1005600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="1006370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="1007050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="1007420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="1008130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="1008160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="1008200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="1008620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="1009030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="1028840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="1031330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="1031500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="1033560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="1034490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="1035410"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="1037350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="1037760"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="1038000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="1038590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="1039730"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="1040570"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="1040590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="1041350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="1041840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="1042660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="1042890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="1043270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="1044470"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="1044630"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="1045380"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="1045500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="1047550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="1049690"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="1050130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="1050180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="1050650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="1050760"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="1051560"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="1053060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="1053800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="1054990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="1085210"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="1087340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="1087890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="1088550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="1089060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="1089700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="1090010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="1091910"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="1095570"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="1096200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="1096230"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="1097020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="1098200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="1099110"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="IM1" TIER_ID="IM1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>okay sir. you're being voice recorded. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>you have the right to remain silent. anything you say can be used against you in a court of law. you have the right at this time to talk to a lawyer and have him present with you while you're being questioned. if you cannot afford to hire a lawyer one will be appointed to represent you before any questioning if you wish. if you decide at any time to exercise these rights do not answer any questions or make any statements. do you understand each of the rights i've explained to you? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts6" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>uh just drinking in public and then d._o._c. wants to talk to you. that's all. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>you've been very cooperative. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts48" TIME_SLOT_REF2="ts49">
+                <ANNOTATION_VALUE>yes sir. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts54" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>in the bag sir. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>smells pretty good. isn't that cherry smell? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts61" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>it's definitely cherry. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts82" TIME_SLOT_REF2="ts84">
+                <ANNOTATION_VALUE>yeah. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51" TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>i think so. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts97" TIME_SLOT_REF2="ts99">
+                <ANNOTATION_VALUE>sir come out.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts102">
+                <ANNOTATION_VALUE>last door to the left. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="CM1" TIER_ID="CM1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts7">
+                <ANNOTATION_VALUE>yeah i do but did i do anything wrong? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>okay. so. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>thank you sir. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts16" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>how you doing sir? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>uh i reported everything. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>i did. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>i don't know why they arrested me.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>i was following. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts39">
+                <ANNOTATION_VALUE>uh yes they did but uh yes sir yes sir. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts41" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>uh no.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>excuse me officer?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts51">
+                <ANNOTATION_VALUE>you got my wallet too right? uh,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts55">
+                <ANNOTATION_VALUE>okay. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>hello. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>it's good. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts72" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>{laughs}</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>you talking about the uh,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29" TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>they be coming up with else though huh?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30" TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts94">
+                <ANNOTATION_VALUE>thank you sir. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31" TIME_SLOT_REF1="ts98" TIME_SLOT_REF2="ts100">
+                <ANNOTATION_VALUE>okay. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="IM2" TIER_ID="IM2">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts17">
+                <ANNOTATION_VALUE>good evening sir. how you doing? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>did they tell you why you're under arrest? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>you didn't report?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>oh they got you twisted? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>oh they're saying that d._o._c. wants to talk to you. guess you weren't following the rules or something? i don't know. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>all right. well you got to talk to them about that. they just tell us to bring you in. did they uh tell you about your rights and stuff? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38" TIME_SLOT_REF1="ts38" TIME_SLOT_REF2="ts40">
+                <ANNOTATION_VALUE>very good. all right. anything else sir? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>all right. thank you. good night. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="IM3" TIER_ID="IM3">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40" TIME_SLOT_REF1="ts50" TIME_SLOT_REF2="ts52">
+                <ANNOTATION_VALUE>if it's under it's in your bag. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>what's is that strawberry or cherry flavoring? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42" TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>cherry?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43" TIME_SLOT_REF1="ts67" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>was it good?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44" TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts73">
+                <ANNOTATION_VALUE>i'll have to try it one time. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45" TIME_SLOT_REF1="ts76" TIME_SLOT_REF2="ts77">
+                <ANNOTATION_VALUE>smells good. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46" TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts83">
+                <ANNOTATION_VALUE>hm?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47" TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>((though the)) (()) they could smell it?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a48" TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>and make sure you tell him he was cooperating very well. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a49" TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>he was being good. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a50" TIME_SLOT_REF1="ts95" TIME_SLOT_REF2="ts96">
+                <ANNOTATION_VALUE>yeah man. hopefully they'll let you out in the morning. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

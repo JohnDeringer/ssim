@@ -1,0 +1,1881 @@
+IM1   <FOR>Namaste</FOR> 
+
+CM1   <FOR>namaste</FOR>
+
+CM1   <FOR>namaste</FOR>
+
+IM1   My name is %name
+      (0.29)
+
+TM1   <FOR>(())</FOR>
+      (0.66)
+
+IM1   This is my friend
+      (2.21)
+
+IM2   <FOR>namaste</FOR> %name
+
+IM2   <FOR>namaste</FOR> %name
+      (0.27)
+
+TM1   <FOR>(())</FOR>
+      (0.07)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   where are you coming from?
+      (0.86)
+
+IM1   We're coming from the United States.  
+      (0.8)
+
+TM1   <FOR>(())</FOR>
+      (0.09)
+
+IM1   We've been invited here by the Indian 
+      Government to help
+
+TM1   <FOR>(())</FOR>
+      (0.79)
+
+IM1   you guys and assist in any way we can 
+      with the integration
+      (0.51)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   uh he said that (())
+      (0.03)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (2.23)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.14)
+
+TM1   So why are you guys here?  What are 
+      you guys going to do?
+
+IM1   umm
+      (1.06)
+
+IM1   We're here to just uh figure out what 
+      what what you guys are all about and 
+      how we can help in any way.
+      (0.95)
+
+TM1   <FOR>(())</FOR>
+      (0.11)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   He said how do you that know there's 
+      any problems that are going on here?
+      (0.06)
+
+IM1   We don't.  What's what's your name?
+      (0.22)
+
+TM1   <FOR>(())</FOR>
+      (0.12)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.06)
+
+TM1   His name is %name
+      (0.15)
+
+IM1   %name?
+      (0.15)
+
+IM1   Did you write that down?
+      (0.07)
+
+IM1   And then?
+      (0.59)
+
+TM1   <FOR>(())</FOR>
+      (0.09)
+
+CM3   %name
+      (0.32)
+
+TM1   Uh his name is %name
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.72)
+
+TM1   He says that you got to kick the 
+      police out because (())
+
+IM1   He doesn't like the police?
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (2.79)
+
+IM1   And uh how's how's the family?
+      (1.95)
+
+TM1   <FOR>(())</FOR>
+      (0.33)
+
+CM1   <FOR>(())<FOR>
+
+CM1   <FOR>(())<FOR>
+      (0.19)
+
+TM1   He said he had children die two weeks 
+      ago.
+      (0.35)
+
+IM1   Aw tell him I'm sorry to hear that.
+      (0.28)
+
+TM1   <FOR>(())</FOR>
+      (0.88)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.2)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.19)
+
+CM2   <FOR>(())</FOR>
+      (0.09)
+
+CM1   <FOR>(())<FOR>
+
+CM1   <FOR>(())<FOR>
+      (0.26)
+
+TM1   We're just stressed out about all the 
+      problems that are going on (()) we 
+      can't really concentrate (())
+
+IM1   Tell him I'm sorry to hear about that 
+      (())
+      (0.04)
+
+TM1   <FOR>(())</FOR>
+      (0.27)
+
+CM2   <FOR>(())</FOR>
+      (0.02)
+
+CM1   <FOR>(())<FOR>
+
+CM1   <FOR>(())<FOR>
+      (0.18)
+
+TM1   uh do you guys know who the commander 
+      is?
+      (0.16)
+
+IM1   That's me
+      (0.47)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.34)
+
+TM1   (()) he's his friend.
+      (0.14)
+
+TM1   <FOR>(())</FOR>
+      (0.05)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.11)
+
+IM1   What what are they smoking?  Uh a 
+      certain flavor?
+      (0.31)
+
+TM1   <FOR>(())</FOR>
+      (0.13)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   Its called shisha
+
+IM1   What flavor?
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())<?FOR>
+
+CM1   <FOR>(())<?FOR>
+
+TM1   Its tobacco
+      (0.09)
+
+IM1   Just straight tobacco?  Do they ever 
+      smoke flavor tobacco?
+      (0.11)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.13)
+
+TM1   He's like he's very old so he doesn't 
+      like (()).
+      (1.11)
+
+IM2   I apologize I didn't catch the 
+      gentleman's name.
+
+IM2   I apologize I didn't catch the 
+      gentleman's name.
+      (0.03)
+
+TM1   Okay  uh his name is
+      (1.59)
+
+IM2   %name
+
+IM2   %name
+      (0.38)
+
+TM1   His name is %name
+
+IM2   %name
+
+IM2   %name
+      (0.23)
+
+IM2   %name
+
+IM2   %name
+
+TM1   %name
+      (2.04)
+
+TM1   <FOR>(())</FOR>
+      (0.53)
+
+TM1   And his name is %name
+
+IM2   %name?
+
+IM2   %name?
+      (0.85)
+
+IM1   Which one is the elder of (())
+      (0.6)
+
+TM1   Umm <FOR>(())</FOR>
+
+IM1   Who is in charge?
+      (1.99)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+
+CM3   <FOR>(())</FOR>
+      (0.05)
+
+TM1   They're from separate villages so they 
+      each have their own village.  And 
+      they're all gathering together
+
+CM3   <FOR>(())</FOR>
+      (1.86)
+
+IM1   And what uh what uh who is the elder 
+      of Sepkati?
+      (0.65)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.21)
+
+TM1   %name
+      (1.1)
+
+IM1   And what villages are they from?
+      (0.35)
+
+TM1   <FOR>(())</FOR>
+      (0.93)
+
+CM3   Katagori
+      (0.52)
+
+TM1   Uh %name is from Kata-Katagori
+      (0.71)
+
+IM2   Is from where?
+
+IM2   Is from where?
+      (0.09)
+
+TM1   Katagori
+
+IM2   Katagori?
+
+IM2   Katagori?
+      (0.02)
+
+TM1   yeah Katagori
+      (0.94)
+
+IM2   Okay
+
+IM2   Okay
+      (1.7)
+
+TM1   um uh <FOR>(())</FOR>
+      (1.29)
+
+CM2   Arogon
+      (0.34)
+
+TM1   Arogon
+      (1.52)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.53)
+
+TM1   um what are you guys writing?
+
+IM1   uh we're just taking notes so we can 
+      understand better
+
+TM1   <FOR>(())</FOR>
+      (0.13)
+
+IM2   Their their concerns are very 
+      important to us and we don't want to 
+      forget anything.
+
+IM2   Their their concerns are very 
+      important to us and we don't want to 
+      forget anything.
+      (0.05)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.16)
+
+CM2   <FOR>(())</FOR>
+
+TM1   That's fine.
+      (4.25)
+
+TM1   He said after writing all this and 
+      doing all the interrogation are you 
+      guys act-ready to help?  Or actually 
+      going to help or you just came here to 
+      talk?
+
+IM1   First off we're just here to kinda 
+      access access what's going on in their 
+      village and what concerns they do have.
+      (0.23)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+
+TM1   He says that the Indian Government a 
+      year ago came too and asked them all 
+      these questions, but they failed to 
+      take any actions.  Are you guys going 
+      to follow on the same path and just 
+      ask, interrogate them and not do 
+      anything about it?
+
+IM1   Well we're not really here to 
+      interrogate.  We'd like to build a 
+      relationship with you guys and get to 
+      know each other a little better
+      (0.29)
+
+TM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   They said that you know that as 
+      village elders they talk about 
+      problems and you know they try to 
+      solve it because obviously (()) that 
+      so they are still not sure how can 
+      they make sure that we are actually 
+      going to listen to their problems and 
+      going to help them (())
+
+IM1   Sure, we can we can address that after 
+      we get to know each other a little 
+      better.
+      (0.03)
+
+TM1   <FOR>(())</FOR>
+      (0.09)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   Uh what do you want to ask?
+      (0.07)
+
+IM1   Um well first and foremost we'd we'd 
+      like just to know how you guys are 
+      doing as a whole, your welfare and 
+      well-being
+      (0.15)
+
+TM1   <FOR>(())</FOR>
+      (0.13)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.03)
+
+TM1   He says that they are okay but they 
+      are very poor so you know they can't 
+      really afford too much food so.
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   (()) He says one of the biggest things 
+      is shortage of money.
+
+IM1   What do you guys do for the for the 
+      local economy?  What drives your local 
+      economy?
+
+TM1   <FOR>(())</FOR>
+      (0.02)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   He says that the men go outside of the 
+      village and find work and then they 
+      come back (())
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   Um they don't really have much work 
+      here to do (())
+
+IM1   And that's how it is with the other 
+      two villages as well
+
+CM3   <FOR>(())</FOR>
+
+CM1   <FOR>(())<FOR>
+
+CM1   <FOR>(())<FOR>
+      (7.96)
+
+TM1   Yeah that's what he said that's why 
+      they're, that pretty much all the 
+      other villages have the same problem.
+
+IM1   Okay
+      (3.16)
+
+IM1   There any problems in the in the 
+      village that?
+
+CM3   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.02)
+
+TM1   <FOR>(())</FOR>
+      (0.13)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.08)
+
+TM1   He said they could tell you and
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.05)
+
+TM1   and that's why they they're actually 
+      gathered up to talk about their 
+      problems so but they they're elders 
+      you know so they could tell you but as 
+      long as you are ready to help.  As I 
+      mentioned earlier
+      (0.02)
+
+IM1   Sure we can do the best we can but we 
+      won't know what we can do unless we 
+      figure out what you guys actually need 
+      help with.
+
+TM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (1.65)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   He says ask whatever you want and you 
+      know they will tell you and you can 
+      really see what other (())
+
+IM1   Um what are, is there problems with 
+      crime in this area or destruction of 
+      property or
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (0.64)
+
+CM2   <FOR>(())</FOR>
+
+TM1   Every village has different problems
+
+CM2   <FOR>(())</FOR>
+
+TM1   Umhm the the people from outside and 
+      come in and they dig in their their 
+      land and but they they he can't 
+      understand what they are digging for?
+      (1.31)
+
+CM2   <FOR>(())</FOR>
+      (0.02)
+
+TM1   He says its his land he owns it and 
+      they don't even ask his permission or 
+      care to ask.  Without without his 
+      permission they just start digging
+
+IM1   Are they digging with big pieces of 
+      equipment or is it it individual 
+      people with shovels?
+      (0.1)
+
+TM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+
+TM1   uh-huh
+      (9.24)
+
+TM1   Okay
+      (7.37)
+
+TM1   He says that uh a lot of people, 
+      they're bringing from (()) they don't 
+      even hire our people so that they 
+      don't get paid you know, but they 
+      bring people from outside and each 
+      individual you know digs into separate 
+      places but at times you know they will 
+      bring in the machine and dig in one 
+      certain place and work on that certain 
+      you know area.
+      (0.09)
+
+IM2   And they don't know who who these 
+      people are?  Who's hiring the people 
+      to dig?
+
+IM2   And they don't know who who these 
+      people are?  Who's hiring the people 
+      to dig?
+
+TM1   Uh he thinks that they come from 
+      Bangladesh but you know he doesn't 
+      know for sure who's hiring and who's 
+      doing the work.
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (5.92)
+
+TM1   He says that he can't I mean even if 
+      he did want to figure out what was 
+      going on, they have weapons and they 
+      will scare them off.
+      (0.06)
+
+IM1   Oh okay.  So so they're hostile?
+
+TM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+
+TM1   uh-huh
+      (12.2)
+
+TM1   mhm
+      (14.31)
+
+TM1   <FOR>(())</FOR> One or two times that 
+      they tried um to get into their farm, 
+      not farm the land, and try to ask them 
+      why they were digging, its his 
+      property and they tell him that they 
+      have permission and what he perceived 
+      or what he thinks that they got 
+      information or somebody to sign that 
+      didn't know what they were signing the 
+      paper of and just kind of gave them 
+      permission but  they couldn't really 
+      read the paper what it said so in 
+      their perspective they believe they 
+      own the information or they own the 
+      land, which is not actually true 
+      because its his land
+
+CM2   English
+      (33.8)
+
+TM1   <FOR>(())</FOR>
+      (0.32)
+
+CM2   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (5.69)
+
+TM1   Uh what he's trying to say that he 
+      fears they will actually find 
+      something while they're digging and 
+      his main concern is if he is actually 
+      going to get a part of it or any of it 
+      or are they just going to take it for 
+      themselves.
+
+IM1   ah I see
+      (1.91)
+
+IM1   Taking the resources.
+
+TM1   Ah yes
+      (0.51)
+
+IM1   How does the the police chief or the 
+      police in your area interact with 
+      these people who are digging?
+
+TM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (0.44)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   They said they said they don't even 
+      concern or care about the police over 
+      here.  Both of them feel like you know 
+      they take money and they take bribes 
+      and they you know don't work for the 
+      people they work for someone else.  
+      Somebody
+      (0.39)
+
+IM1   The police?
+
+TM1   The police.  The local police.  They 
+      don't trust them, they don't ask them 
+      for anything.  Instead they think that 
+      they're trouble.
+      (0.93)
+
+IM1   And that goes for all three villages?
+      (0.12)
+
+TM1   <FOR>(())</FOR>
+      (0.04)
+
+CM3   <FOR>(())</FOR>
+
+TM1   Yea the whole India he said
+
+CM2   <FOR>(())</FOR>
+      (0.31)
+
+IM1   mmm
+      (2.75)
+
+IM1   And the police report to the state?
+      (0.88)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM3   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (2.54)
+
+TM1   They said they said that they don't 
+      have any authority.  They do whatever 
+      they want to do.
+
+IM1   Just do what they want?
+
+TM1   Yeah
+      (0.89)
+
+IM1   Now has uh there been any unusual 
+      activity recently uh that's not normal 
+      around here?
+      (1.4)
+
+TM1   <FOR>(())</FOR>
+
+CM3   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (0.47)
+
+TM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (2.28)
+
+TM1   I'll be right back (())
+      (0.21)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (2.69)
+
+TM1   <FOR>(())</FOR>
+      (0.83)
+
+UM1   <FOR>(())</FOR>
+
+IM2   (())
+
+IM2   (())
+
+TM1   He says that uh (()) are going into 
+      the village
+      (1.29)
+
+IM2   (())
+
+IM2   (())
+
+IM1   (())
+
+IM2   (()) make sure we're not going into 
+      the village and disrupting the people
+
+IM2   (()) make sure we're not going into 
+      the village and disrupting the people
+      (4.19)
+
+IM1   (())
+      (1.19)
+
+TM1   <FOR>(())</FOR>
+
+IM2   (())
+
+IM2   (())
+
+IM1   (())
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+
+UM1   <FOR>(())</FOR>
+      (0.06)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+IM1   So back to any uh any difference in 
+      activity?  Anything new that
+
+TM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (1.03)
+
+CM3   <FOR>(())</FOR>
+      (0.89)
+
+TM1   They come and they pick up the girls 
+      and women from their village
+
+IM1   And what village is that?
+      (0.52)
+
+TM1   um
+      (1.49)
+
+IM1   ka-ka-katagal
+      (0.32)
+
+TM1   Katagori
+
+CM3   Katagori
+      (2.21)
+
+IM1   So they pick up the girls and and 
+      who's picking up the women?
+      (0.07)
+
+TM1   <FOR>(())</FOR>
+      (0.45)
+
+CM3   <FOR>(())</FOR>
+
+TM1   He said they don't know.  They bring 
+      the car and they take them away.
+      (0.46)
+
+CM3   <FOR>(())</FOR>
+
+TM1   He said that they tell their families 
+      that they're going to marry the women 
+      or daughters and they take them away 
+      and (()) with that excuse
+      (0.2)
+
+IM1   So the women don't come back?
+
+TM1   <FOR>(())</FOR>
+      (0.3)
+
+CM3   <FOR>(())</FOR>
+
+TM1   Once they leave, they never come back
+      (0.37)
+
+IM1   um
+      (0.02)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.02)
+
+TM1   He says uh you know they have heard 
+      and they have heard from people that 
+      you know in the news that police 
+      invaded you know some places and they 
+      found like a house with a lot of 
+      prostitutes so you know that they 
+      could relate to his village with the 
+      girls being kidnapped.
+      (1.65)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   (()) they think that they could be the 
+      girls and women that they kidnapped 
+      from their village that are being 
+      prostituted
+
+IM1   Okay
+      (1.27)
+
+IM1   Okay
+      (0.58)
+
+IM1   Now now what does the uh the police, 
+      they know about this or do they just 
+      not not pay attention to it?
+      (0.49)
+
+TM1   <FOR>(())</FOR>
+
+CM3   <FOR>(())</FOR>
+      (0.17)
+
+TM1   He says they know everything they they 
+      live in our you know village.  They 
+      know what's going on but they don't 
+      help
+      (1.73)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.44)
+
+TM1   Everything runs with money, money 
+      power (()) police
+      (2.36)
+
+IM1   Uh drugs.  Is drugs a problem in any 
+      of the three villages?
+
+TM1   <FOR>(())</FOR>
+      (1.27)
+
+CM2   <FOR>(())</FOR>
+
+TM1   <FOR>(())</FOR>
+      (1.23)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   He said they don't even have money to 
+      eat how would you expect them (())
+
+IM1   Okay
+      (4.54)
+
+TM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+
+CM3   <FOR>(())</FOR>
+
+TM1   Okay
+      (3.53)
+
+TM1   Okay
+      (0.24)
+
+TM1   So his problem you know he told you 
+      his problem.  That's one of the 
+      biggest problems in his village.  You 
+      know (())
+
+IM1   The girls
+      (3.13)
+
+IM1   And his is the digging in the holes.  
+      Digging holes.  Digging his land.  
+
+TM1   Yep
+      (1.35)
+
+TM1   Yep
+      (1.47)
+
+IM1   and how about
+      (0.21)
+
+TM1   and (()) we should ask him now
+      (0.76)
+
+TM1   <FOR>(())</FOR>
+      (0.4)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.24)
+
+TM1   The rich people come and they bring uh 
+      paint and they hire girls and people 
+      over here you know to work for them.
+      (0.73)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.06)
+
+TM1   He says they tell them to separate the 
+      paint into oil and the the powder and 
+      and and after that the paint and after 
+      like two weeks, at a certain time, the 
+      powder and oil again become a powder.
+      (1.18)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.04)
+
+TM1   He says that uh for the for the oil 
+      they furnish the furniture you know 
+      rub it on the stuff they have, but for 
+      uh the powder, they bring their jars 
+      and they tell them to fill it up and 
+      they give them, that's how they get 
+      paid.  You know every jar they fill 
+      they get
+
+IM1   So they don't don't know what the 
+      po-powder is being used for?
+
+TM1   Absolutely not
+      (0.37)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.02)
+
+TM1   Its all its all that you give them the 
+      jar with the powder and (())
+      (0.77)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.02)
+
+TM1   Um people are dying you know his son 
+      died  (()) weeks ago (())
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   (())
+      (1.8)
+
+TM1   (()) who are working there, their eyes 
+      get really red.  You know their skin 
+      starts ra you know rash
+
+IM1   With the with the paint?
+      (0.25)
+
+TM1   With the paint.  Anybody who's working 
+      there, they're getting really sick. 
+      (())
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   They have no doctors.  They don't have 
+      no means
+
+IM1   So no doctors, no medical supplies?
+
+TM1   No none at all and they're hoping that 
+      you guys will bring some.  That you 
+      guys could help them medically
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   They're not as good to help these sick
+
+IM1   Any of the villages have any medical 
+      doctors or medical supplies
+
+TM1   <FOR>(())</FOR>
+
+CM3   <FOR>(())</FOR>
+
+TM1   He said up to 100 Kilo, about 100 
+      kilometers (()) any of the village 
+      (0.59)
+
+IM1   Now has there been any hostile 
+      violence, shootings, bombings, in this 
+      area?
+      (0.4)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM3   <FOR>(())</FOR>
+      (9.31)
+
+TM1   They say that they come at night and 
+      that at night they hear a lot of gun 
+      noises, gun shots.  Everybody's here.  
+      They stay inside
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   He says that usually they hear noises 
+      from the south side. 
+
+IM1   Of the village?
+
+TM1   Yeah and that's where (())
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.05)
+
+TM1   And uh we hear noise at the north 
+      side, like up up up over there
+
+IM1   Just gun shots and bombs and 
+
+TM1   yeah
+      (0.83)
+
+TM1   At night, at night time
+      (0.2)
+
+CM2   <FOR>(())</FOR>
+
+TM1   The noise are so loud that even he can 
+      hear it from his village, which is far 
+      from here.
+
+IM1   um
+      (0.57)
+
+IM1   And is there any damage that you guys 
+      see the next morning from 
+      (0.37)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   <FOR>(())</FOR>
+      (0.6)
+
+TM1   He says its all noises, its so far 
+      away you know they actually don't go 
+      that far to look around
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   That from noise it looks, sounds like 
+      its close but actually its very far 
+      and that the noise is so loud they 
+      could hear it from so far
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.71)
+
+TM1   He says that he can't really do much.  
+      They come at night (())
+      (0.81)
+
+CM3   <FOR>(())</FOR>
+
+TM1   (())
+      (4.86)
+
+TM1   You know he says that everyone is so 
+      far away
+      (0.38)
+
+IM1   Tell them that that I am just going to 
+      ask my friend here is he has any 
+      questions
+
+TM1   <FOR>(())</FOR>
+      (0.02)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   Yeah that's fine you can ask him 
+      questions
+
+IM1   Do you have any questions?
+      (0.37)
+
+IM2   um
+
+IM2   um
+      (6.84)
+
+IM1   (())
+      (0.91)
+
+IM2   What's what's their uh what's their 
+      relationship with the rest of the 
+      province?
+
+IM2   What's what's their uh what's their 
+      relationship with the rest of the 
+      province?
+      (1.61)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (0.32)
+
+TM1   He says that these villages close by 
+      you know so thats why they come 
+      together, but they don't really you 
+      know stay in touch or relate to other 
+      people that often
+
+IM2   They don't associate with the other 
+      villages in the province 
+
+IM2   They don't associate with the other 
+      villages in the province 
+      (0.03)
+
+TM1   Um pretty much they associate (()) 
+      within these three villages.  Every 
+      once they will come once or twice and 
+      talk about problems
+      (1.51)
+
+IM2   Okay
+
+IM2   Okay
+      (1.84)
+
+IM2   um
+
+IM2   um
+      (2.15)
+
+IM2   Any questions of us?
+
+IM2   Any questions of us?
+      (0.39)
+
+TM1   <FOR>(())</FOR>
+      (1.08)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.07)
+
+TM1   Do you guys have anyone who can help 
+      their woman who are sick?
+
+IM1   Sick?  So your concerns, your concern 
+      is is the medical needs right?
+      (0.4)
+
+TM1   Yeah
+      (0.45)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.55)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   And and and the uh the noises, the gun 
+      shots
+
+IM1   noises
+      (0.9)
+
+IM1   And then your concern is is the women 
+      being kidnapped? 
+
+TM1   <FOR>(())</FOR>
+
+CM3   <FOR>(())</FOR>
+
+TM1   (())
+      (2.4)
+
+TM1   And they have no means to making money 
+      so you know sometimes people (()) 
+      married because they pay them
+      (0.7)
+
+IM1   And then your concerns is just your 
+      land's being taken
+      (0.08)
+
+TM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (0.03)
+
+TM1   (())
+      (0.49)
+
+IM1   (())
+      (0.7)
+
+IM2   The the one thing that they need to uh 
+      just to understand uh at this time 
+      we're we're just we're a small kind of 
+      advanced team come in here and 
+      introduce ourselves what we're here 
+      and voice let them voice their 
+      concerns.  Um soon there will be a a 
+      larger element from the U.S. invited 
+      by the government that will be 
+      arriving here uh and they could quite 
+      possibly have a doctor with them 
+      maybe, but we we don't know for sure, 
+      but we're going to make sure we voice 
+      those concerns with them.
+
+IM2   The the one thing that they need to uh 
+      just to understand uh at this time 
+      we're we're just we're a small kind of 
+      advanced team come in here and 
+      introduce ourselves what we're here 
+      and voice let them voice their 
+      concerns.  Um soon there will be a a 
+      larger element from the U.S. invited 
+      by the government that will be 
+      arriving here uh and they could quite 
+      possibly have a doctor with them 
+      maybe, but we we don't know for sure, 
+      but we're going to make sure we voice 
+      those concerns with them.
+      (0.56)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   What if you guys just say that and 
+      never come back?  How do you know that 
+      they're actually going to come back 
+      and bring help?  
+      (0.43)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.06)
+
+TM1   And the reason why we ask  you several 
+      you know several times is because the 
+      Indian Government did the same thing.  
+      They ask, they uh seem all concerned, 
+      but they never came to help.
+
+IM2   Uh I completely understand that a-and 
+      I understand your concern and there's 
+      really only one way to find out.  To 
+      see if we come back.
+
+IM2   Uh I completely understand that a-and 
+      I understand your concern and there's 
+      really only one way to find out.  To 
+      see if we come back.
+
+TM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+
+IM1   (())
+      (5.28)
+
+TM1   mhm
+      (7.4)
+
+TM1   <FOR>(())</FOR>
+
+CM3   English
+
+TM1   That's fine.  I know.  That's fine.   
+      If they do bring, if you guys do bring 
+      people next time, are they going to 
+      you know do the same thing and ask 
+      them questions and not do anything or 
+      actually you know next time they come 
+      in they'll bring in actually help help 
+      them out.
+
+CM3   (())
+      (14.52)
+
+IM1   Um we're not sure about if we could 
+      bring help right away, but we do we do 
+      is we appreciate the trust you've put 
+      in us by voicing your concerns with us 
+      and you guys will have our trust 
+      knowing that we are going to do what 
+      we can, when we can, to help.
+      (0.8)
+
+TM1   <FOR>(())</FOR>
+      (0.22)
+
+CM2   <FOR>(())</FOR>
+      (0.09)
+
+TM1   All he's trying to say is next time 
+      you come, don't come without help
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   <FOR>(())</FOR>
+      (1.89)
+
+TM1   Uh he asks would you be able to bring 
+      them weapons or leave your guns with 
+      them for their security?  
+      (0.33)
+
+IM1   No, we can't leave our weapons
+      (0.55)
+
+TM1   <FOR>(())</FOR>
+
+IM2   What what what do they, why why does 
+      he bring that, why does he ask that 
+      question?
+
+IM2   What what what do they, why why does 
+      he bring that, why does he ask that 
+      question?
+      (0.42)
+
+TM1   <FOR>(())</FOR>
+      (0.56)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.27)
+
+TM1   He says that people are who are coming 
+      in you know they start (()) their land 
+      and (()) the villages.  They don't 
+      have anything to defend themselves.  
+      They can't really throw rocks and 
+      sticks so.  
+      (0.53)
+
+IM2   Well the police, the the police leave 
+      at night?
+
+IM2   Well the police, the the police leave 
+      at night?
+      (0.59)
+
+TM1   <FOR>(())</FOR>
+      (0.27)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.34)
+
+TM1   He says the police, as they mentioned 
+      earlier, you know only work for money 
+      so they don't do anything you know 
+      unless they're getting paid (())
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM3   <FOR>(())</FOR>
+
+TM1   At night, at nigh time even the police 
+      doesn't go out
+      (0.46)
+
+IM2   um
+
+IM2   um
+      (1.29)
+
+IM1   Do you have anything?
+      (0.17)
+
+IM2   Well that's, my concern is that police 
+      aspect there
+
+IM2   Well that's, my concern is that police 
+      aspect there
+      (0.85)
+
+IM1   Maybe we'll see if they could walk us 
+      through the village and show us around
+
+IM2   Yeah
+
+IM2   Yeah
+      (0.42)
+
+IM1   Can, ask him if if they mind walking 
+      us through the village so we can get 
+      to know the area
+      (0.2)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+TM1   He says no that shouldn't be a 
+      problem, but do you have any other 
+      questions for them?
+      (1.14)
+
+IM1   Uh not at this time, but we appreciate 
+      you voicing your concern with us and 
+      we will take what we've written down 
+      and do our best for you guys 
+      (0.29)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.29)
+
+TM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (0.68)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (6.43)
+
+TM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+
+CM2   <FOR>(())</FOR>
+      (0.02)
+
+CM1   <FOR>(())</FOR>
+
+CM1   <FOR>(())</FOR>
+      (0.32)
+
+TM1   Okay.  They said that you know just 
+      wait outside for a minute or two while 
+      they finish up the talking and you 
+      know finish up their meeting and they 
+      will meet us and take us (())
+
+IM1   Okay
+      (2.77)
+
+IM1   Okay
+      (0.59)
+
+IM1   <FOR>Namaste</FOR>
+
+CM3   <FOR>(())</FOR>
+      (1.04)
+
+TM1   Thank you <FOR>(())</FOR>
+      (518.27)
+
+TM1   <FOR>namaste</FOR>
+      (1.88)
+
+IM1   <FOR>Namaste</FOR>
+      (2.13)
+
+IM1   Ask them how are we doing?
+      (0.78)
+
+TM1   <FOR>(())</FOR>
+      (1.12)
+
+TM1   They said they're fine (())
+      (2.59)
+
+IM1   And uh this is the process with taking 
+      out the uh lead and the powder?
+      (0.46)
+
+TM1   <FOR>(())</FOR>
+      (4.25)
+
+TM1   She says first tell us why you are 
+      asking (())
+
+IM1   Oh my name's %name 
+      (0.5)
+
+TM1   <FOR>(())</FOR>
+      (1.27)
+
+IM1   My friend
+      (0.31)
+
+IM2   %name
+
+IM2   %name
+      (0.44)
+
+TM1   <FOR>(())</FOR>
+      (1.11)
+
+IM1   We're here with the uh United States 
+      helping in any way we can to assist
+      (0.51)
+
+TM1   <FOR>(())</FOR>
+      (2.87)
+
+TM1   (()) 
+      (0.36)
+
+IM1   Is this where you you all live?
+
+TM1   <FOR>(())</FOR>
+      (3.45)
+
+TM1   (())
+
+IM2   And everybody does the same job?
+
+IM2   And everybody does the same job?
+      (0.28)
+
+TM1   <FOR>(())</FOR>
+      (4.1)
+
+TM1   (())
+
+IM1   Yeah
+      (2.96)
+
+IM1   How how long does it take you girls to 
+      put out a jar? (())
+      (0.1)
+
+TM1   <FOR>(())</FOR>
+      (1.24)
+
+TM1   Seven days
+      (0.31)
+
+IM1   (())
+
+TM1   (())
+
+IM1   And you don't know what the powder is 
+      being used for?
+      (0.03)
+
+TM1   <FOR>(())</FOR>
+      (2.46)
+
+TM1   (())
+      (4.27)
+
+IM1   Do you guys have any information on on 
+      the people that you sell it to?
+      (0.55)
+
+TM1   <FOR>(())<>/FOR
+      (1.52)
+
+IM2   (())
+
+IM2   (())
+
+TM1   (())
+      (2.36)
+
+IM1   Any physical description?
+      (0.24)
+
+TM1   <FOR>(())</FOR>
+      (0.91)
+
+TM1   (())
+      (1.59)
+
+TM1   (())
+      (4.37)
+
+TM1   (())
+      (6.96)
+
+IM2   (())
+
+IM2   (())
+
+IM1   Well where do they, where's the 
+      transactions?
+      (1.12)
+
+TM1   <FOR>(())</FOR>
+      (14.3)
+
+TM1   (())
+      (29.38)
+
+TM1   <FOR>(())</FOR>
+      (8.46)
+
+TM1   They said they don't help them or they 
+      don't bother them (())
+      (1.97)
+
+IM1   (())
+      (0.5)
+
+TM1   <FOR>(())</FOR>
+      (4.95)
+
+TM1   (())
+
+IM1   (()) And ask them if there is any way 
+      we can get a small sample.
+      (0.28)
+
+TM1   <FOR>(())</FOR>
+      (1.22)
+
+TM1   What are you going, why would you need 
+      it for? (())
+      (1.31)
+
+IM1   The small sample?
+      (0.11)
+
+TM1   Yeah
+      (0.86)
+
+IM1   (())
+      (0.72)
+
+TM1   <FOR>(())</FOR>
+
+IM1   (())
+
+TM1   <FOR>(())</FOR>
+

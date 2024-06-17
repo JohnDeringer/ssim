@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="artifactsType" type="artifactsTypeType"/>
+  <xs:complexType name="artifactsTypeType">
+    <xs:sequence>
+      <xs:element name="interview-transcript" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="participantSearch.xml"/>
+            <xs:enumeration value="JSON_PAYLOADS.txt"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="data-descriptor"/>
+      <xs:element type="xs:string" name="corpus"/>
+      <xs:element type="xs:string" name="collection-date"/>
+      <xs:element type="xs:string" name="collection-time"/>
+      <xs:element type="xs:string" name="geographic-location"/>
+      <xs:element type="xs:string" name="site-location"/>
+      <xs:element type="xs:string" name="collector"/>
+      <xs:element type="xs:string" name="comments"/>
+      <xs:element type="encountersType" name="encounters"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="encountersType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="encounter-name"/>
+      <xs:element type="xs:string" name="encounter-domain"/>
+      <xs:element type="xs:string" name="encounter-num-participants"/>
+      <xs:element type="xs:string" name="encounter-bystanders"/>
+      <xs:element type="xs:string" name="encounter-reason"/>
+      <xs:element type="xs:string" name="encounter-duration"/>
+      <xs:element type="xs:string" name="encounter-quality"/>
+      <xs:element type="xs:string" name="encounter-first-encounter"/>
+      <xs:element type="xs:string" name="encounter-familiar"/>
+      <xs:element type="xs:string" name="encounter-languages"/>
+      <xs:element type="xs:string" name="encounter-comments"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

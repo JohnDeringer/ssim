@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+            elementFormDefault="qualified"
+            xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            targetNamespace="http://ssim.sri.com/encounter_0.1.0.xsd"
+            xmlns:tns="http://ssim.sri.com/encounter_0.1.0.xsd">
+
+  <xs:element name="artifacts" type="tns:artifactsType"/>
+
+  <xs:complexType name="participantsType">
+    <xs:sequence>
+      <xs:element name="type">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="institutional"/>
+            <xs:enumeration value="civilian"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="gender">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="male"/>
+            <xs:enumeration value="female"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="age"/>
+      <xs:element name="codename">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="role"/>
+      <xs:element type="xs:string" name="ethnicity"/>
+      <xs:element type="xs:string" name="participant-languages" minOccurs="0"/>
+      <xs:element type="xs:string" name="origin"/>
+      <xs:element type="xs:string" name="sociometric-badge" minOccurs="0"/>
+      <xs:element type="xs:string" name="participant-comments"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="encountersType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="encounter-domain"/>
+      <xs:element name="encounter-num-participants">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="encounter-bystanders">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="no"/>
+            <xs:enumeration value="yes"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="encounter-reason">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="drunk driving"/>
+            <xs:enumeration value="domestic dispute"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="encounter-duration"/>
+      <xs:element type="xs:string" name="encounter-quality"/>
+      <xs:element name="encounter-first-encounter">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="yes"/>
+            <xs:enumeration value="no"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="encounter-familiar">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="no"/>
+            <xs:enumeration value="yes"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="encounter-languages" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="encounter-comments"/>
+      <xs:element type="tns:participantsType" name="participants" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="xs:string" name="encounter-name" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="artifactsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="original-video"/>
+      <xs:element type="xs:string" name="converted-video"/>
+      <xs:element type="xs:string" name="video-audio"/>
+      <xs:element type="xs:string" name="alternate-audio"/>
+      <xs:element type="xs:string" name="corpus"/>
+      <xs:element type="xs:string" name="colection-date"/>
+      <xs:element type="xs:string" name="colection-time"/>
+      <xs:element type="xs:string" name="general-colection-time"/>
+      <xs:element type="xs:string" name="geographic-location"/>
+      <xs:element type="xs:string" name="site-location"/>
+      <xs:element type="xs:string" name="video-quality"/>
+      <xs:element type="xs:string" name="audio-quality"/>
+      <xs:element type="xs:string" name="collector"/>
+      <xs:element type="xs:string" name="data-descriptor"/>
+      <xs:element type="xs:string" name="elan-trascript-orthographic"/>
+      <xs:element type="xs:string" name="traditional-trascript-orthographic"/>
+      <xs:element type="xs:string" name="tab-delimited-trascript-orthographic"/>
+      <xs:element type="xs:string" name="elan-trascript-ca"/>
+      <xs:element type="xs:string" name="traditional-trascript-ca"/>
+      <xs:element type="xs:string" name="tab-delimited-trascript-ca"/>
+      <xs:element type="xs:string" name="other-trascript-ca"/>
+      <xs:element type="xs:string" name="comments"/>
+      <xs:element type="tns:stimulated-recall-interviewsType" name="stimulated-recall-interviews"/>
+      <xs:element type="tns:encountersType" name="encounters" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="stimulated-recall-interviewsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="stimulated-recall-transcript"/>
+      <xs:element type="xs:string" name="stimulated-recall-description"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

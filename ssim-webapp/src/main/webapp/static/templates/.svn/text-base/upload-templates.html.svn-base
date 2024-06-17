@@ -1,0 +1,374 @@
+<div id="templates">
+	<!-- these are fragments to add into other pages, not to be shown as a single page -->
+	<div id="encounter-metadata-template">
+		<form id="encounter-metadata" class="page encounter-form validate" data-encounter-num="{num}">
+			<section>
+				<h2>Encounter Metadata</h2>
+				<input type="hidden" name="encounter-name" value="" />
+				<div class="form-row">
+					<fieldset>
+						<legend>Domain</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="radio" name="encounter-domain" id="encounter-domain-military" value="military" class="required" />
+								<label for="encounter-domain-military">Military</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-domain" id="encounter-domain-law" value="law" class="required" />
+								<label for="encounter-domain-law">Law Enforcement</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-domain" id="encounter-domain-other" value="other" class="required" />
+								<label for="encounter-domain-other">Other</label>
+								<label class="other-label-hidden" for="encounter-domain-other-value">Other Domain</label>
+								<input type="text" class="subfield autocomplete" data-autocomplete-source="domain" data-autocomplete-save="domain" data-autocomplete-param="domain" name="encounter-domain-other-value" id="encounter-domain-other-value" />
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<label for="encounter-num-participants">Number of Key Participants</label>
+					<input type="number" name="encounter-num-participants" id="encounter-num-participants" step="1" min="0" class="digit numParticipants" />
+				</div>
+
+				<div class="form-row">
+					<fieldset>
+						<legend>Are Bystanders Present</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="radio" name="encounter-bystanders" id="encounter-bystanders-yes" value="yes" />
+								<label for="encounter-bystanders-yes">Yes</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-bystanders" id="encounter-bystanders-no" value="no" />
+								<label for="encounter-bystanders-no">No</label>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<label for="encounter-reason">Reason for Encounter</label>
+					<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/encounterReasons" data-autocomplete-save="/ssim-repository-service-1.0.0/rest/encounterAPI/encounterReason" data-autocomplete-param="encounterReason" name="encounter-reason" id="encounter-reason" />
+				</div>
+
+				<div class="form-row">
+					<label for="encounter-duration">Duration of Encounter</label>
+					<input name="encounter-duration" id="encounter-duration" class="duration" placeholder="HH:MM:SS" />
+				</div>
+
+				<div class="form-row">
+					<label for="encounter-quality">Quality of Encounter</label>
+					<textarea name="encounter-quality" id="encounter-quality"></textarea>
+				</div>
+
+				<div class="form-row">
+					<fieldset>
+						<legend>Is this the first encounter between participants?</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="radio" name="encounter-first-encounter" id="encounter-first-encounter-yes" value="yes" />
+								<label for="encounter-first-encounter-yes">Yes</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-first-encounter" id="encounter-first-encounter-no" value="no" />
+								<label for="encounter-first-encounter-no">No</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-first-encounter" id="encounter-first-encounter-unknown" value="unknown" />
+								<label for="encounter-first-encounter-unknown">Don't Know</label>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<fieldset>
+						<legend>Are participants familiar with each other?</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="radio" name="encounter-familiar" id="encounter-familiar-yes" value="yes" />
+								<label for="encounter-familiar-yes">Yes</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-familiar" id="encounter-familiar-no" value="no" />
+								<label for="encounter-familiar-no">No</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="encounter-familiar" id="encounter-familiar-unknown" value="unknown" />
+								<label for="encounter-familiar-unknown">Don't Know</label>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<fieldset>
+						<legend>Key Participants</legend>
+						<div class="rows">
+							<ul id="participant-list" class="subitem-list"></ul>
+							<button type="button" class="add-participant-metadata add-more">Add a participant...</button>
+						</div>
+					</fieldset>
+				</div>
+
+				
+				<fieldset class="multi-section" data-multi-template="language-template">
+					<legend>Language(s) of Encounter</legend>
+					<div class="rows">
+						<div class="multi">
+							<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/languages" data-autocomplete-save="/ssim-repository-service-1.0.0/rest/encounterAPI/language" data-autocomplete-param="language" name="encounter-languages-0" id="encounter-languages-0" />
+						</div>
+						<button type="button" class="add-language add-more">Add another language</button>
+					</div>
+				</fieldset>
+
+				<div class="form-row">
+					<label for="encounter-comments">Comments</label>
+					<textarea name="encounter-comments" id="encounter-comments"></textarea>
+				</div>
+
+				<div class="actions">
+					<button type="button" class="save-encounter-metadata">Save Encounter Metadata</button>
+					<button type="button" class="cancel-encounter-metadata">Cancel</button>
+				</div>
+			</section>
+		</form>
+	</div>
+
+	<div id="participant-metadata-template">
+		<form id="participant-metadata" class="page participant-form validate" data-encounter-num="{enc}" data-participant-num="{par}">
+			<section>
+				<h2>Add a Participant</h2>
+				<div class="form-row">
+					<fieldset>
+						<legend>Participant Type</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="radio" name="type" id="type-institutional" value="institutional" />
+								<label for="type-institutional">Institutional</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="type" id="type-civilian" value="civilian" />
+								<label for="type-civilian">Civilian</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="type" id="type-other" value="other" />
+								<label for="type-other">Other</label>
+								<label class="other-label-hidden" for="type-other-value">Other</label>
+								<input type="text" class="subfield autocomplete" data-autocomplete-source="participantType" data-autocomplete-save="participantType" data-autocomplete-param="participantType" name="type-other-value" id="type-other-value" />
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<fieldset>
+						<legend>Gender</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="radio" name="gender" id="gender-female" value="female" />
+								<label for="gender-female">Female</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="gender" id="gender-male" value="male" />
+								<label for="gender-male">Male</label>
+							</div>
+							<div class="radio-row">
+								<input type="radio" name="gender" id="gender-unknown" value="unknown" />
+								<label for="gender-unknown">Don't know/other</label>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<label for="age">Age</label>
+					<select name="age" id="age">
+						<option></option>
+						<option>18-24</option>
+						<option>25-29</option>
+						<option>30-34</option>
+						<option>35-39</option>
+						<option>40-44</option>
+						<option>45-49</option>
+						<option>50-54</option>
+						<option>55-59</option>
+						<option>60-64</option>
+						<option>65-69</option>
+						<option>70+</option>
+					</select>
+				</div>
+
+				<div class="form-row">
+					<label for="codename">Codename</label>
+					<input type="text" name="codename" id="codename" />
+				</div>
+
+				<div class="form-row">
+					<label for="rank">Rank</label>
+					<select name="rank" id="rank"></select>
+				</div>
+
+				<div class="form-row">
+					<label for="role">Role</label>
+					<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/roles" data-autocomplete-save="/ssim-repository-service-1.0.0/rest/encounterAPI/role" data-autocomplete-param="role" name="role" id="role" />
+				</div>
+
+				<div class="form-row">
+					<label for="ethnicity">Ethnicity</label>
+					<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/ethnicities" data-autocomplete-save="/ssim-repository-service-1.0.0/rest/encounterAPI/ethnicity" data-autocomplete-param="ethnicity" name="ethnicity" id="ethnicity" />
+				</div>
+
+				<fieldset class="multi-section" data-multi-template="language-template">
+					<legend>First Language(s)</legend>
+					<div class="rows">
+						<div class="multi">
+							<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/languages" data-autocomplete-save="/ssim-repository-service-1.0.0/rest/encounterAPI/language" data-autocomplete-param="language" name="participant-languages-0" id="participant-languages-0" />
+						</div>
+						<button type="button" class="add-language add-more">Add another language</button>
+					</div>
+				</fieldset>
+
+				<div class="form-row">
+					<label for="origin">Geographic Origin</label>
+					<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/geoLocations" data-autocomplete-save="/ssim-repository-service-1.0.0/rest/encounterAPI/geoLocation" data-autocomplete-param="geographicLocation" name="origin" id="origin" />
+				</div>
+
+				<div class="form-row field-match-row">
+					<label for="time-in-country">Time in Country</label>
+					<input type="number" class="digit unitless" step="1" min="0" name="time-in-country" id="time-in-country" />
+					<span class="field-units">days</span>
+				</div>
+
+				<div class="form-row">
+					<label for="sociometric-badge">Sociometric Badge Output</label>
+					<input type="file" name="sociometric-badge" id="sociometric-badge" />
+				</div>
+
+				<div class="form-row">
+					<label for="participant-comments">Comments</label>
+					<textarea name="participant-comments" id="participant-comments"></textarea>
+				</div>
+
+				<div class="actions">
+					<button type="button" class="save-participant-metadata">Save Participant</button>
+					<button type="button" class="cancel-participant-metadata">Cancel</button>
+				</div>
+			</section>
+		</form>
+	</div>
+
+	<div id="related-video-template">
+		<li>
+			<span class="video-name content"></span>
+			<div class="actions">
+				<button class="remove list-action">Remove</button>
+			</div>
+		</li>
+	</div>
+
+	<div id="video-search-template">
+		<form id="related-video-search-form" class="narrow-form">
+			<label for="related-video-name">Search for all or part of a file name</label>
+			<input type="text" name="related-video-name" id="related-video-name" />
+			<button type="submit">Search</button>
+		</form>
+	</div>
+
+	<div id="video-search-results-template">
+		<h4>Results</h4>
+		<ul class="video-search-results">
+		</ul>
+	</div>
+
+	<div id="video-search-single-result-template">
+		<li>
+			<label class="matched-video">
+				<input type="checkbox" value="{video-id}" />
+				{video-name}
+			</label>
+			<ul class="also-related">
+			</ul>
+		</li>
+	</div>
+
+	<div id="video-search-also-related-template">
+		<li>
+			<label>
+				<input type="checkbox" value="{video-id}" />
+				{video-name}
+			</label>
+		</li>
+	</div>
+
+	<div id="upload-template">
+		<div class="multi">
+			<div class="multi">
+				<input type="file" name="{fieldname}-{num}" id="{fieldname}-{num}" />
+			</div>
+		</div>
+	</div>
+
+	<div id="upload-success-template">
+		<span class="upload-status upload-success">Successfully uploaded {file}</span>
+	</div>
+
+	<div id="upload-error-template">
+		<span class="upload-status upload-error">Could not upload {file}: {error}</span>
+	</div>
+
+	<div id="stimulated-recall-interview-template">
+		<div class="multi">
+			<div class="form-row">
+				<label for="stimulated-recall-transcript-{num}">File</label>
+				<input type="file" name="stimulated-recall-transcript-{num}" id="stimulated-recall-transcript-{num}" />
+			</div>
+			<div class="form-row">
+				<label for="stimulated-recall-description-{num}">Description</label>
+				<textarea name="stimulated-recall-description-{num}" id="stimulated-recall-description-{num}"></textarea>
+			</div>
+		</div>
+	</div>
+
+	<div id="encounter-list-template">
+		<li>
+			<span class="content">Encounter {num}</span>
+			<div class="actions">
+				<button type="button" class="edit-encounter-metadata list-action" data-encounter-num="{num}">Edit</button>
+				<button type="button" class="remove-encounter-metadata list-action" data-encounter-num="{num}">Remove</button>
+			</div>
+		</li>
+	</div>
+
+	<div id="participant-list-template">
+		<li>
+			<span class="content">{codename}</span>
+			<div class="actions">
+				<button type="button" class="edit-participant-metadata list-action" data-encounter-num="{enc}" data-participant-num="{par}">Edit</button>
+				<button type="button" class="remove-participant-metadata list-action" data-encounter-num="{enc}" data-participant-num="{par}">Remove</button>
+			</div>
+		</li>
+	</div>
+
+	<div id="language-template">
+		<div class="multi">
+			<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/languages" data-autocomplete-save="/ssim-repository-service-1.0.0/rest/encounterAPI/language" data-autocomplete-param="language" name="{fieldname}-{num}" id="{fieldname}-{num}" />
+		</div>
+	</div>
+
+	<div id="new-autocomplete-warning-template">\
+		<div class="warning-message warning">This value has not been used before. It will be added to the list when you save this section.</div>
+	</div>
+
+	<div id="not-enough-participants-template">
+		<div>
+			You said there were {indicated} participants but you did not enter data for all of them.
+		</div>
+	</div>
+
+	<div id="remove-template">
+		<button type="button" class="remove">Remove</button>
+	</div>
+</div>

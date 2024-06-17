@@ -1,0 +1,17 @@
+<fileRequest>
+<format>original-video</format>
+	<format>converted-video</format>
+	<format>video-audio</format>
+	<format>alternate-audio</format>
+	<format>stimulated-recall-transcript</format>
+	<format>sociometric-badge</format>
+	<format>elan-transcript-orthographic</format>
+	<format>traditional-transcript-orthographic</format>
+	<format>tab-delimited-transcript-orthographic</format>
+	<format>elan-transcript-ca</format>
+	<format>traditional-transcript-ca</format>
+	<format>tab-delimited-transcript-ca</format>
+	<format>other-transcript-ca</format>
+	<file>Sample Result 2</file>
+	<file>Sample Result 3</file>
+</fileRequest>

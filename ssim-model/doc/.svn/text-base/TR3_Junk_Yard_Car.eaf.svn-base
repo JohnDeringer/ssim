@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2012-04-20T16:04:34-05:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/mardikidwell/Documents/Mardi Kidwell/Transcriptions/TR3 Junk Yard Car Transcript UNH/TR3 Junk Yard Car.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="./TR3 Junk Yard Car.mov"/>
+        <MEDIA_DESCRIPTOR EXTRACTED_FROM="file:///Users/mardikidwell/Documents/Mardi Kidwell/Transcriptions/TR3 Junk Yard Car Transcript UNH/TR3 Junk Yard Car.mov" MEDIA_URL="file:///Users/mardikidwell/Documents/Mardi Kidwell/Transcriptions/TR3 Junk Yard Car Transcript UNH/TR3 Junk Yard Car.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./TR3 Junk Yard Car.wav"/>
+        <PROPERTY NAME="lastUsedAnnotationId">0</PROPERTY>
+    </HEADER>
+    <TIME_ORDER/>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

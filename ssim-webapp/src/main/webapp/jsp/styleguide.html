@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Sample Style</title>
+	<link rel="stylesheet" href="css/jquery-ui-custom/jquery-ui-1.8.23.custom.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,700' rel='stylesheet' type='text/css'>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+	<script src="js/uploadify/jquery.uploadify.min.js"></script>
+	<script src="js/validation/dist/jquery.validate.min.js"></script>
+	<script src="js/interaction.js"></script>
+</head>
+<body data-templates="upload-templates.html">
+	<div class="wrapper">
+		<h1>Sample Style Heading</h1>
+		<form id="upload" class="page upload-form validate">
+			<div class="left-col">
+				<section>
+					<h2>Sub-heading</h2>
+					<div class="form-row">
+						<label for="corpus">Corpus</label>
+						<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/corpus" data-autocomplete-save="/ssim-repository-service-1.0.0/rest/encounterAPI/corpus" data-autocomplete-param="corpus" name="corpus" id="corpus" />
+					</div>
+
+					<h3>Related to previously uploaded video:</h3>
+					<ul id="related-video-display" class="subitem-list"></ul>
+					<button type="button" id="related-video-search" class="add-more">Find a video...</button>
+				</section>
+
+				<section>
+					<h2>Another Heading</h2>
+					<div class="form-row">
+						<label for="collection-date">Collection Date</label>
+						<input type="date" name="collection-date" id="collection-date" class="date" placeholder="MM/DD/YYYY" />
+					</div>
+					<div class="form-row">
+						<label for="collection-time">Collection Time</label>
+						<input type="text" name="collection-time" id="collection-time" class="time" placeholder="HH:MM:SS" />
+					</div>
+					<div class="form-row">
+						<label for="general-collection-time">Daylight Conditions</label>
+						<select name="general-collection-time" id="general-collection-time">
+							<option value=""></option>
+							<option value="light">Light</option>
+							<option value="dark">Dark</option>
+							<option value="dusk">Dusk</option>
+						</select>
+					</div>
+					<div class="form-row">
+						<fieldset>
+							<legend>Domain</legend>
+							<div class="rows">
+								<div class="radio-row">
+									<input type="radio" name="encounter-domain" id="encounter-domain-military" value="military" />
+									<label for="encounter-domain-military">Military</label>
+								</div>
+								<div class="radio-row">
+									<input type="radio" name="encounter-domain" id="encounter-domain-law" value="law" />
+									<label for="encounter-domain-law">Law Enforcement</label>
+								</div>
+								<div class="radio-row">
+									<input type="radio" name="encounter-domain" id="encounter-domain-other" value="other" />
+									<label for="encounter-domain-other">Other</label>
+									<label class="other-label-hidden" for="encounter-domain-other-value">Other Domain</label>
+									<input type="text" class="subfield autocomplete" data-autocomplete-source="domain" data-autocomplete-save="domain" data-autocomplete-param="domain" name="encounter-domain-other-value" id="encounter-domain-other-value" />
+								</div>
+							</div>
+						</fieldset>
+					</div>
+					<fieldset class="multi-section" data-multi-template="language-template">
+						<legend>Language(s) of Encounter</legend>
+						<div class="rows">
+							<div class="multi">
+								<input type="text" class="autocomplete" data-autocomplete-source="/ssim-repository-service-1.0.0/rest/encounterAPI/languages" data-autocomplete-save="/ssim-repository-service-1.0.0/rest/encounterAPI/language" data-autocomplete-param="language" name="encounter-languages-0" id="encounter-languages-0" />
+							</div>
+							<button type="button" class="add-language add-more">Add another language</button>
+						</div>
+					</fieldset>
+				</section>
+
+				<section>
+					<h2>Encounter Metadata</h2>
+					<ul id="encounter-list" class="subitem-list"></ul>
+					<button type="button" class="add-encounter-metadata add-more no-encounters">Enter encounter metadata...</button>
+					<button type="button" class="add-encounter-metadata add-more has-encounters" style="display:none;">Add another encounter for this video...</button>
+				</section>
+			</div>
+
+			<div class="right-col">
+				<section>
+					<h2>Transcripts</h2>
+					<h3>Orthographic</h3>
+					<div class="form-row">
+						<label for="elan-transcript-orthographic">Native ELAN</label>
+						<input type="file" name="elan-transcript-orthographic" id="elan-transcript-orthographic" />
+					</div>
+					<div class="form-row">
+						<label for="traditional-transcript-orthographic">Traditional</label>
+						<input type="file" name="traditional-transcript-orthographic" id="traditional-transcript-orthographic" />
+					</div>
+					<div class="form-row">
+						<label for="tab-delimited-transcript-orthographic">Tab-Delimited</label>
+						<input type="file" name="tab-delimited-transcript-orthographic" id="tab-delimited-transcript-orthographic" />
+					</div>
+
+					<h3>CA-Style</h3>
+					<div class="form-row">
+						<label for="elan-transcript-ca">Native ELAN</label>
+						<input type="file" name="elan-transcript-ca" id="elan-transcript-ca" />
+					</div>
+					<div class="form-row">
+						<label for="traditional-transcript-ca">Traditional</label>
+						<input type="file" name="traditional-transcript-ca" id="traditional-transcript-ca" />
+					</div>
+					<div class="form-row">
+						<label for="tab-delimited-transcript-ca">Tab-Delimited</label>
+						<input type="file" name="tab-delimited-transcript-ca" id="tab-delimited-transcript-ca" />
+					</div>
+					<div class="form-row">
+						<label for="tab-delimited-transcript-ca">Other Format</label>
+						<input type="file" name="other-transcript-ca" id="other-transcript-ca" />
+					</div>
+				</section>
+
+				<section>
+					<h2>Stimulated Recall Interview Transcript/Notes</h2>
+					<div class="multi-section" data-multi-template="stimulated-recall-interview-template" data-grouped-multi-name="stimulated-recall-interviews">
+						<div class="multi">
+							<div class="form-row">
+								<label for="stimulated-recall-transcript-0">File</label>
+								<input type="file" name="stimulated-recall-transcript-0" id="stimulated-recall-transcript-0" />
+							</div>
+							<div class="form-row">
+								<label for="stimulated-recall-description-0">Description</label>
+								<textarea name="stimulated-recall-description-0" id="stimulated-recall-description-0"></textarea>
+							</div>
+						</div>
+						<button type="button" id="add-stimulated-recall-interview" class="add-more">Add another file</button>
+					</div>
+				</section>
+
+				<section>
+					<h2><label for="comments">Comments</label></h2>
+					<textarea name="comments" id="comments" class="no-label"></textarea>
+				</section>
+			</div>
+
+			<div class="actions">
+				<button type="submit">Save</button>
+			</div>
+		</form>
+	</div>
+
+</body>
+</html>

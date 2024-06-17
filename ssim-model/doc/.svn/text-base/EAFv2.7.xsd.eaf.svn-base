@@ -1,0 +1,42 @@
+<ANNOTATION_DOCUMENT DATE="2008-09-28T18:49:45" AUTHOR="string" VERSION="string" FORMAT="2.7">
+  <HEADER MEDIA_FILE="string" TIME_UNITS="milliseconds">
+    <!--Zero or more repetitions:-->
+    <MEDIA_DESCRIPTOR MEDIA_URL="http://www.corp.edu/quae/ventos" RELATIVE_MEDIA_URL="http://www.your.org/per/turbine" MIME_TYPE="string" TIME_ORIGIN="10" EXTRACTED_FROM="http://www.test.org/nimborum/fremunt"/>
+    <!--Zero or more repetitions:-->
+    <LINKED_FILE_DESCRIPTOR LINK_URL="http://www.my.com/profundum/sceptra" RELATIVE_LINK_URL="http://www.test.com/iovis/flammato" MIME_TYPE="string" TIME_ORIGIN="10" ASSOCIATED_WITH="http://www.sample.com/bella/nubibus"/>
+    <!--Zero or more repetitions:-->
+    <PROPERTY NAME="string">string</PROPERTY>
+  </HEADER>
+  <TIME_ORDER>
+    <!--Zero or more repetitions:-->
+    <TIME_SLOT TIME_SLOT_ID="string" TIME_VALUE="7"/>
+  </TIME_ORDER>
+  <!--Zero or more repetitions:-->
+  <TIER TIER_ID="string" PARTICIPANT="string" ANNOTATOR="string" LINGUISTIC_TYPE_REF="string" DEFAULT_LOCALE="string" PARENT_REF="string">
+    <!--Zero or more repetitions:-->
+    <ANNOTATION>
+      <!--You have a CHOICE of the next 2 items at this level-->
+      <ALIGNABLE_ANNOTATION ANNOTATION_ID="string" EXT_REF="string string" TIME_SLOT_REF1="string" TIME_SLOT_REF2="string" SVG_REF="string">
+        <ANNOTATION_VALUE>string</ANNOTATION_VALUE>
+      </ALIGNABLE_ANNOTATION>
+      <REF_ANNOTATION ANNOTATION_ID="string" EXT_REF="string" ANNOTATION_REF="string" PREVIOUS_ANNOTATION="string">
+        <ANNOTATION_VALUE>string</ANNOTATION_VALUE>
+      </REF_ANNOTATION>
+    </ANNOTATION>
+  </TIER>
+  <!--Zero or more repetitions:-->
+  <LINGUISTIC_TYPE LINGUISTIC_TYPE_ID="string" TIME_ALIGNABLE="false" CONSTRAINTS="string" GRAPHIC_REFERENCES="false" CONTROLLED_VOCABULARY_REF="string" EXT_REF="string" LEXICON_REF="string"/>
+  <!--Zero or more repetitions:-->
+  <LOCALE LANGUAGE_CODE="string" COUNTRY_CODE="string" VARIANT="string"/>
+  <!--Zero or more repetitions:-->
+  <CONSTRAINT STEREOTYPE="string" DESCRIPTION="string"/>
+  <!--Zero or more repetitions:-->
+  <CONTROLLED_VOCABULARY CV_ID="string" DESCRIPTION="string" EXT_REF="string">
+    <!--Zero or more repetitions:-->
+    <CV_ENTRY DESCRIPTION="string" EXT_REF="string">string</CV_ENTRY>
+  </CONTROLLED_VOCABULARY>
+  <!--Zero or more repetitions:-->
+  <LEXICON_REF LEX_REF_ID="string" NAME="string" TYPE="string" URL="string" LEXICON_ID="string" LEXICON_NAME="string" DATCAT_ID="string" DATCAT_NAME="string"/>
+  <!--Zero or more repetitions:-->
+  <EXTERNAL_REF EXT_REF_ID="string" TYPE="resource_url" VALUE="string"/>
+</ANNOTATION_DOCUMENT>

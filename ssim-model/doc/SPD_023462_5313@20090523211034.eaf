@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2012-08-27T10:13:28-08:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///C:/Documents and Settings/lorio/Desktop/Lori's transcriptions/SPD/SPD 023462/5313@20090523211034.mpg" MIME_TYPE="video/mpeg" RELATIVE_MEDIA_URL="./5313@20090523211034.mpg"/>
+        <MEDIA_DESCRIPTOR EXTRACTED_FROM="file:///C:/Documents and Settings/lorio/Desktop/Lori's transcriptions/SPD/SPD 023462/5313@20090523211034.mpg" MEDIA_URL="file:///C:/Documents and Settings/lorio/Desktop/Lori's transcriptions/SPD/SPD 023462/5313@20090523211034.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./5313@20090523211034.wav"/>
+        <PROPERTY NAME="lastUsedAnnotationId">112</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="59440"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="62170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="63820"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="64150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="65090"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="66900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="67660"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="68360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="69160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="69390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="70090"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="71130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="71290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="71700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="72210"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="72960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="73635"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="74860"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="76217"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="76300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="77135"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="77417"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="78150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="78417"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="79925"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="80017"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="80150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="80535"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="81070"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="82040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="82475"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="84705"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="91395"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="92595"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="93495"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="94650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="94895"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="95960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="96050"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="97330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="98240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="98250"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="112770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="115130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="115450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="116610"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="117200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="118925"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="119300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="121855"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="121895"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="122950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="123400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="123775"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="124850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="125300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="125450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="125700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="126475"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="127500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="128150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="128555"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="329405"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="329835"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="331035"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="331205"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="331785"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="331865"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="334135"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="336310"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="339955"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="340950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="341970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="343085"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="343845"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="347240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="348320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="351460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="416590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="419110"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="422080"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="423940"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="428300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="429120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="429140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="430150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="430240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="432810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="435460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="436100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="445850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="450780"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="457505"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="458100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="461445"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="464565"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="465300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="466135"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="467305"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="467405"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="469445"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="469935"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="471495"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="473795"/>
+        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="473955"/>
+        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="475535"/>
+        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="476205"/>
+        <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="479485"/>
+        <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="480045"/>
+        <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="482395"/>
+        <TIME_SLOT TIME_SLOT_ID="ts111" TIME_VALUE="484795"/>
+        <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="486775"/>
+        <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="487425"/>
+        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="488505"/>
+        <TIME_SLOT TIME_SLOT_ID="ts115" TIME_VALUE="535575"/>
+        <TIME_SLOT TIME_SLOT_ID="ts116" TIME_VALUE="541545"/>
+        <TIME_SLOT TIME_SLOT_ID="ts117" TIME_VALUE="541905"/>
+        <TIME_SLOT TIME_SLOT_ID="ts118" TIME_VALUE="543045"/>
+        <TIME_SLOT TIME_SLOT_ID="ts119" TIME_VALUE="545215"/>
+        <TIME_SLOT TIME_SLOT_ID="ts120" TIME_VALUE="549345"/>
+        <TIME_SLOT TIME_SLOT_ID="ts121" TIME_VALUE="549505"/>
+        <TIME_SLOT TIME_SLOT_ID="ts122" TIME_VALUE="550195"/>
+        <TIME_SLOT TIME_SLOT_ID="ts123" TIME_VALUE="551075"/>
+        <TIME_SLOT TIME_SLOT_ID="ts124" TIME_VALUE="553395"/>
+        <TIME_SLOT TIME_SLOT_ID="ts125" TIME_VALUE="554605"/>
+        <TIME_SLOT TIME_SLOT_ID="ts126" TIME_VALUE="559235"/>
+        <TIME_SLOT TIME_SLOT_ID="ts127" TIME_VALUE="560125"/>
+        <TIME_SLOT TIME_SLOT_ID="ts128" TIME_VALUE="561775"/>
+        <TIME_SLOT TIME_SLOT_ID="ts129" TIME_VALUE="563935"/>
+        <TIME_SLOT TIME_SLOT_ID="ts130" TIME_VALUE="566760"/>
+        <TIME_SLOT TIME_SLOT_ID="ts131" TIME_VALUE="568425"/>
+        <TIME_SLOT TIME_SLOT_ID="ts132" TIME_VALUE="577160"/>
+        <TIME_SLOT TIME_SLOT_ID="ts133" TIME_VALUE="580550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="583030"/>
+        <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="583330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="589300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="589960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="592700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts139" TIME_VALUE="593500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts140" TIME_VALUE="597450"/>
+        <TIME_SLOT TIME_SLOT_ID="ts141" TIME_VALUE="603300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts142" TIME_VALUE="605300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts143" TIME_VALUE="610970"/>
+        <TIME_SLOT TIME_SLOT_ID="ts144" TIME_VALUE="612430"/>
+        <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="612640"/>
+        <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="617085"/>
+        <TIME_SLOT TIME_SLOT_ID="ts147" TIME_VALUE="617190"/>
+        <TIME_SLOT TIME_SLOT_ID="ts148" TIME_VALUE="619300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts149" TIME_VALUE="619740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts150" TIME_VALUE="620270"/>
+        <TIME_SLOT TIME_SLOT_ID="ts151" TIME_VALUE="620490"/>
+        <TIME_SLOT TIME_SLOT_ID="ts152" TIME_VALUE="620740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts153" TIME_VALUE="620790"/>
+        <TIME_SLOT TIME_SLOT_ID="ts154" TIME_VALUE="621095"/>
+        <TIME_SLOT TIME_SLOT_ID="ts155" TIME_VALUE="621600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts156" TIME_VALUE="622550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts157" TIME_VALUE="622800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts158" TIME_VALUE="630620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="633800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="633840"/>
+        <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="635100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="636520"/>
+        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="638420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts164" TIME_VALUE="638420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts165" TIME_VALUE="638800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts166" TIME_VALUE="643120"/>
+        <TIME_SLOT TIME_SLOT_ID="ts167" TIME_VALUE="643150"/>
+        <TIME_SLOT TIME_SLOT_ID="ts168" TIME_VALUE="645880"/>
+        <TIME_SLOT TIME_SLOT_ID="ts169" TIME_VALUE="646990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts170" TIME_VALUE="647910"/>
+        <TIME_SLOT TIME_SLOT_ID="ts171" TIME_VALUE="649240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts172" TIME_VALUE="652170"/>
+        <TIME_SLOT TIME_SLOT_ID="ts173" TIME_VALUE="652200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts174" TIME_VALUE="652550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts175" TIME_VALUE="653930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts176" TIME_VALUE="656770"/>
+        <TIME_SLOT TIME_SLOT_ID="ts177" TIME_VALUE="657740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts178" TIME_VALUE="664930"/>
+        <TIME_SLOT TIME_SLOT_ID="ts179" TIME_VALUE="665060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts180" TIME_VALUE="666370"/>
+        <TIME_SLOT TIME_SLOT_ID="ts181" TIME_VALUE="666460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts182" TIME_VALUE="667700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts183" TIME_VALUE="668220"/>
+        <TIME_SLOT TIME_SLOT_ID="ts184" TIME_VALUE="669800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts185" TIME_VALUE="670960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts186" TIME_VALUE="672750"/>
+        <TIME_SLOT TIME_SLOT_ID="ts187" TIME_VALUE="675040"/>
+        <TIME_SLOT TIME_SLOT_ID="ts188" TIME_VALUE="677390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts189" TIME_VALUE="679600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts190" TIME_VALUE="680710"/>
+        <TIME_SLOT TIME_SLOT_ID="ts191" TIME_VALUE="682000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts192" TIME_VALUE="686420"/>
+        <TIME_SLOT TIME_SLOT_ID="ts193" TIME_VALUE="688400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts194" TIME_VALUE="689400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts195" TIME_VALUE="690060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts196" TIME_VALUE="691540"/>
+        <TIME_SLOT TIME_SLOT_ID="ts197" TIME_VALUE="692180"/>
+        <TIME_SLOT TIME_SLOT_ID="ts198" TIME_VALUE="692340"/>
+        <TIME_SLOT TIME_SLOT_ID="ts199" TIME_VALUE="692910"/>
+        <TIME_SLOT TIME_SLOT_ID="ts200" TIME_VALUE="693650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts201" TIME_VALUE="694480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts202" TIME_VALUE="695650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts203" TIME_VALUE="697590"/>
+        <TIME_SLOT TIME_SLOT_ID="ts204" TIME_VALUE="697700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts205" TIME_VALUE="698330"/>
+        <TIME_SLOT TIME_SLOT_ID="ts206" TIME_VALUE="698990"/>
+        <TIME_SLOT TIME_SLOT_ID="ts207" TIME_VALUE="699950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts208" TIME_VALUE="703800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts209" TIME_VALUE="704960"/>
+        <TIME_SLOT TIME_SLOT_ID="ts210" TIME_VALUE="705620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts211" TIME_VALUE="705890"/>
+        <TIME_SLOT TIME_SLOT_ID="ts212" TIME_VALUE="705980"/>
+        <TIME_SLOT TIME_SLOT_ID="ts213" TIME_VALUE="706010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts214" TIME_VALUE="711140"/>
+        <TIME_SLOT TIME_SLOT_ID="ts215" TIME_VALUE="711400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts216" TIME_VALUE="718200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts217" TIME_VALUE="720000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts218" TIME_VALUE="720400"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="IF1" TIER_ID="IF1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>{noise of traffic} audio and video recorded. okay? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts5">
+                <ANNOTATION_VALUE>you're gonna stay right here. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts6" TIME_SLOT_REF2="ts9">
+                <ANNOTATION_VALUE>don't move %name. don't move. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts10" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>bring your seat back like i told you. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts14" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>bring your seat back. ah!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts18" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>{noise of taser} %name stop! stop!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>sorry. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts36" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>are you okay sir? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts40" TIME_SLOT_REF2="ts41">
+                <ANNOTATION_VALUE>stop. stop. stop. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts45">
+                <ANNOTATION_VALUE>who did i who did i hit with this? are you sure you're okay? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts47" TIME_SLOT_REF2="ts49">
+                <ANNOTATION_VALUE>okay. you're not you're not hurt?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts50" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>(()) all right. i'm so sorry. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts68">
+                <ANNOTATION_VALUE>%name. why'd you do this? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts69" TIME_SLOT_REF2="ts71">
+                <ANNOTATION_VALUE>di- as he runs with a taser dart in him and his- all just running across the wrong people and they're all like ah!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts74" TIME_SLOT_REF2="ts75">
+                <ANNOTATION_VALUE>i know. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts76" TIME_SLOT_REF2="ts78">
+                <ANNOTATION_VALUE>i'm in the union. great. ((can we)) get a bag for his stuff. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts94" TIME_SLOT_REF2="ts97">
+                <ANNOTATION_VALUE>((lis- listen)) i saw out of the corner of my eye i saw somebody run and i ((first)) thought it was the citizen trying to keep him inside or something. i didn't realize it was (()).</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts98" TIME_SLOT_REF2="ts99">
+                <ANNOTATION_VALUE>thank you. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts101" TIME_SLOT_REF2="ts103">
+                <ANNOTATION_VALUE>{background noise} here's a bag for ((his stuff)). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts105" TIME_SLOT_REF2="ts106">
+                <ANNOTATION_VALUE>i know. what the hell? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts107" TIME_SLOT_REF2="ts109">
+                <ANNOTATION_VALUE>why you get on the ground for him and you run from me? what the hell is that all about? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts111" TIME_SLOT_REF2="ts112">
+                <ANNOTATION_VALUE>did he stop for you? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts120" TIME_SLOT_REF2="ts122">
+                <ANNOTATION_VALUE>what? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts124" TIME_SLOT_REF2="ts126">
+                <ANNOTATION_VALUE>what? running from me is not kind of cooperative. sorry. you failed. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts129" TIME_SLOT_REF2="ts131">
+                <ANNOTATION_VALUE>yeah after he threw his lit cigarette at me. that's ((what)) got my taser out. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts132" TIME_SLOT_REF2="ts134">
+                <ANNOTATION_VALUE>is the other one in his pant leg down here? put {background noise} (()) the other one in his pant leg wrapped around him. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts139" TIME_SLOT_REF2="ts141">
+                <ANNOTATION_VALUE>{background noise} %name see if you can find out where this went. i think the other one's in him sarge. why didn't it work dang it? i think all both of them went into his clothing. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29" TIME_SLOT_REF1="ts148" TIME_SLOT_REF2="ts150">
+                <ANNOTATION_VALUE>no. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30" TIME_SLOT_REF1="ts168" TIME_SLOT_REF2="ts171">
+                <ANNOTATION_VALUE>you're the one that ran from the police and we're fucked up? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31" TIME_SLOT_REF1="ts179" TIME_SLOT_REF2="ts181">
+                <ANNOTATION_VALUE>what are you calling me? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32" TIME_SLOT_REF1="ts182" TIME_SLOT_REF2="ts185">
+                <ANNOTATION_VALUE>wow. do you know you get a hundred extra days for swearing at the police? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a109" TIME_SLOT_REF1="ts186" TIME_SLOT_REF2="ts187">
+                <ANNOTATION_VALUE>okay. (()). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a90" TIME_SLOT_REF1="ts209" TIME_SLOT_REF2="ts212">
+                <ANNOTATION_VALUE>we're walking. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33" TIME_SLOT_REF1="ts215" TIME_SLOT_REF2="ts217">
+                <ANNOTATION_VALUE>no. he was holding a real cigarette up there when he he li- he literally threw it at me and if i hadn't of gotten out of the way he would have hit me with a lit cigarette so that's,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="CM1" TIER_ID="CM1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34" TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts7">
+                <ANNOTATION_VALUE>why are you (())?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35" TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts11">
+                <ANNOTATION_VALUE>why are you (())?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts15">
+                <ANNOTATION_VALUE>why are you ((pushing))?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37" TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts67">
+                <ANNOTATION_VALUE>no. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38" TIME_SLOT_REF1="ts70" TIME_SLOT_REF2="ts77">
+                <ANNOTATION_VALUE>you know why? you know why y- you know you know why? because my probation officer's thorough and i have i've been i'm in the union and i'm trying to be good man.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a92" TIME_SLOT_REF1="ts81" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>{background noise} (()) warrant for my arrest. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a93" TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts85">
+                <ANNOTATION_VALUE>why? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a94" TIME_SLOT_REF1="ts87" TIME_SLOT_REF2="ts88">
+                <ANNOTATION_VALUE>((why do i got to fuck-)) you don't have a warrant. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a95" TIME_SLOT_REF1="ts89" TIME_SLOT_REF2="ts90">
+                <ANNOTATION_VALUE>why? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a108" TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>you know ((i don't have nothing to lose)). you're gonna fucking leave me on my my side?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39" TIME_SLOT_REF1="ts93" TIME_SLOT_REF2="ts95">
+                <ANNOTATION_VALUE>((okay)) well you guys (()) like that you know? you know? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40" TIME_SLOT_REF1="ts96" TIME_SLOT_REF2="ts100">
+                <ANNOTATION_VALUE>you guys don't want me to suffer. right? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41" TIME_SLOT_REF1="ts102" TIME_SLOT_REF2="ts104">
+                <ANNOTATION_VALUE>i didn't ke- i didn't keep i didn't keep running from you. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42" TIME_SLOT_REF1="ts115" TIME_SLOT_REF2="ts116">
+                <ANNOTATION_VALUE>will you guys let me will you guys let me get hey hey officer? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43" TIME_SLOT_REF1="ts118" TIME_SLOT_REF2="ts121">
+                <ANNOTATION_VALUE>hey officer? hey officers? excuse me officer? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44" TIME_SLOT_REF1="ts123" TIME_SLOT_REF2="ts125">
+                <ANNOTATION_VALUE>uh i've been kind of cooperative. i know i was i was, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45" TIME_SLOT_REF1="ts127" TIME_SLOT_REF2="ts128">
+                <ANNOTATION_VALUE>all right. whatever. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46" TIME_SLOT_REF1="ts130" TIME_SLOT_REF2="ts133">
+                <ANNOTATION_VALUE>i didn't i- i would never i didn't try to do that on purpose officer. officer i- i didn't try officer i didn't try to do that on purpose ((dropped the stuff)) on you. {background noise} i would never,   </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47" TIME_SLOT_REF1="ts135" TIME_SLOT_REF2="ts136">
+                <ANNOTATION_VALUE>{background noise} you guys got a dog too. you guys got a dog too. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a97" TIME_SLOT_REF1="ts137" TIME_SLOT_REF2="ts138">
+                <ANNOTATION_VALUE>i didn't try i didn't try to ((hurt)) you. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a48" TIME_SLOT_REF1="ts140" TIME_SLOT_REF2="ts142">
+                <ANNOTATION_VALUE>all right. whatever man. can you get do you know where (()) at? i didn't try to do nothing to you. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a49" TIME_SLOT_REF1="ts143" TIME_SLOT_REF2="ts144">
+                <ANNOTATION_VALUE>i didn't try to hurt you. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a50" TIME_SLOT_REF1="ts146" TIME_SLOT_REF2="ts154">
+                <ANNOTATION_VALUE>will you at least let me get my methadone before i go to jail? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51" TIME_SLOT_REF1="ts157" TIME_SLOT_REF2="ts161">
+                <ANNOTATION_VALUE>i have my methadone. will you at least let me you guys know i had it on me. ((so)) please let me have it ((soon)) so i don't suffer so much. you guys know that,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52" TIME_SLOT_REF1="ts162" TIME_SLOT_REF2="ts163">
+                <ANNOTATION_VALUE>you guys know, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53" TIME_SLOT_REF1="ts166" TIME_SLOT_REF2="ts169">
+                <ANNOTATION_VALUE>{background noise of creaking} you guys are fucked up. you won't even let me get a (()). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54" TIME_SLOT_REF1="ts170" TIME_SLOT_REF2="ts172">
+                <ANNOTATION_VALUE>so so if i didn't run from you you would have let me have my methadone? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a55" TIME_SLOT_REF1="ts175" TIME_SLOT_REF2="ts176">
+                <ANNOTATION_VALUE>no you're yeah you're lying already. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56" TIME_SLOT_REF1="ts177" TIME_SLOT_REF2="ts178">
+                <ANNOTATION_VALUE>you're a lying ass bitch anyway. {background noise of paper crumpling} you're a lying ass bitch anyway. you're a lying ass bitch anyway. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a57" TIME_SLOT_REF1="ts180" TIME_SLOT_REF2="ts183">
+                <ANNOTATION_VALUE>you're a lying bitch anyway. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a58" TIME_SLOT_REF1="ts184" TIME_SLOT_REF2="ts189">
+                <ANNOTATION_VALUE>i don't care. i don't give a fuck {background noise} you fucking ((ass)). you're fucking lying. you're lying. you're lying. you're saying ((if)) i don't care,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a59" TIME_SLOT_REF1="ts192" TIME_SLOT_REF2="ts198">
+                <ANNOTATION_VALUE>good. take me to the take me to the precinct and i get my methadone and you know what? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a60" TIME_SLOT_REF1="ts201" TIME_SLOT_REF2="ts205">
+                <ANNOTATION_VALUE>well m- help me up i'm not gonna j- i can't i can't stand up. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a61" TIME_SLOT_REF1="ts206" TIME_SLOT_REF2="ts210">
+                <ANNOTATION_VALUE>no. help me up because i can't stand up. what? you gonna you gonna fucking, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a98" TIME_SLOT_REF1="ts213" TIME_SLOT_REF2="ts214">
+                <ANNOTATION_VALUE>you gonna fucking break my fucking wrist too? ((you fucking let them beat me)).  </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="CM2" TIER_ID="CM2">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a62" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts21">
+                <ANNOTATION_VALUE>{noise of taser} (()) what's this? (()). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a63" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts27">
+                <ANNOTATION_VALUE>that hit my fucking shoulder dude. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a64" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>oh that's cool. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a65" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>that actually just hit me right (()). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a66" TIME_SLOT_REF1="ts34" TIME_SLOT_REF2="ts37">
+                <ANNOTATION_VALUE>(()) the fuck off me all right? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a67" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>i'm great yeah. that (()).</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a68" TIME_SLOT_REF1="ts44" TIME_SLOT_REF2="ts46">
+                <ANNOTATION_VALUE>yeah. it literally went like this. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a69" TIME_SLOT_REF1="ts48" TIME_SLOT_REF2="ts51">
+                <ANNOTATION_VALUE>no. i'm i'm good but,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a70" TIME_SLOT_REF1="ts53" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>no it's cool. no. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a71" TIME_SLOT_REF1="ts58" TIME_SLOT_REF2="ts60">
+                <ANNOTATION_VALUE>is there, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="CM3" TIER_ID="CM3">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a72" TIME_SLOT_REF1="ts22" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>(()) hurting you're hurting people.  </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a73" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts35">
+                <ANNOTATION_VALUE>(()) you okay? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a74" TIME_SLOT_REF1="ts52" TIME_SLOT_REF2="ts55">
+                <ANNOTATION_VALUE>if he was hurt he deserves it. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a75" TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts61">
+                <ANNOTATION_VALUE>yeah. it's not the ((easiest)) people. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="IM1" TIER_ID="IM1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a76" TIME_SLOT_REF1="ts64" TIME_SLOT_REF2="ts66">
+                <ANNOTATION_VALUE>no needles right? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a99" TIME_SLOT_REF1="ts79" TIME_SLOT_REF2="ts80">
+                <ANNOTATION_VALUE>((you want)) hey. roll over on your stomach. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a100" TIME_SLOT_REF1="ts84" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>on your stomach. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a77" TIME_SLOT_REF1="ts117" TIME_SLOT_REF2="ts119">
+                <ANNOTATION_VALUE>hey wait. let me take a quick shot of him here. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a78" TIME_SLOT_REF1="ts145" TIME_SLOT_REF2="ts147">
+                <ANNOTATION_VALUE>no. that's okay sir. we appreciate that. i'm just gonna take some pictures of you okay? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a101" TIME_SLOT_REF1="ts149" TIME_SLOT_REF2="ts151">
+                <ANNOTATION_VALUE>no {background noise}.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a79" TIME_SLOT_REF1="ts152" TIME_SLOT_REF2="ts156">
+                <ANNOTATION_VALUE>i'm sorry but i don't have any. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a80" TIME_SLOT_REF1="ts158" TIME_SLOT_REF2="ts160">
+                <ANNOTATION_VALUE>we can't ((in case)) you overdose sir. we'll have to have medics ((for that)). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a81" TIME_SLOT_REF1="ts165" TIME_SLOT_REF2="ts167">
+                <ANNOTATION_VALUE>%name you want to turn your cover your head or something? i want to take a picture of (()). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a102" TIME_SLOT_REF1="ts173" TIME_SLOT_REF2="ts174">
+                <ANNOTATION_VALUE>yep.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a110" TIME_SLOT_REF1="ts194" TIME_SLOT_REF2="ts195">
+                <ANNOTATION_VALUE>sit up. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a111" TIME_SLOT_REF1="ts196" TIME_SLOT_REF2="ts197">
+                <ANNOTATION_VALUE>stand up. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a103" TIME_SLOT_REF1="ts199" TIME_SLOT_REF2="ts200">
+                <ANNOTATION_VALUE>stand up. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a112" TIME_SLOT_REF1="ts202" TIME_SLOT_REF2="ts203">
+                <ANNOTATION_VALUE>i'm not gonna help you. ((i've heard)) enough.  </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a104" TIME_SLOT_REF1="ts204" TIME_SLOT_REF2="ts207">
+                <ANNOTATION_VALUE>put your butt underneath you and stand up. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a105" TIME_SLOT_REF1="ts208" TIME_SLOT_REF2="ts211">
+                <ANNOTATION_VALUE>((which one))? all right. we'll walk. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a82" TIME_SLOT_REF1="ts216" TIME_SLOT_REF2="ts218">
+                <ANNOTATION_VALUE>are we gonna go with him (())? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="CM4" TIER_ID="CM4">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a83" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>{noise of taser} ((wire's not on))?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a84" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>i think we'll forget about it. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="IM2" TIER_ID="IM2">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a106" TIME_SLOT_REF1="ts72" TIME_SLOT_REF2="ts73">
+                <ANNOTATION_VALUE>((nice move)).</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a85" TIME_SLOT_REF1="ts108" TIME_SLOT_REF2="ts110">
+                <ANNOTATION_VALUE>because you saw a big man chasing like five block i'd get down too. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a86" TIME_SLOT_REF1="ts113" TIME_SLOT_REF2="ts114">
+                <ANNOTATION_VALUE>yeah. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a107" TIME_SLOT_REF1="ts153" TIME_SLOT_REF2="ts155">
+                <ANNOTATION_VALUE>no. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a87" TIME_SLOT_REF1="ts159" TIME_SLOT_REF2="ts164">
+                <ANNOTATION_VALUE>this could have been avoided very easily. you chose not to. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a88" TIME_SLOT_REF1="ts188" TIME_SLOT_REF2="ts190">
+                <ANNOTATION_VALUE>excuse me sir. you're the one that's lying. you're lying on the ground. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a89" TIME_SLOT_REF1="ts191" TIME_SLOT_REF2="ts193">
+                <ANNOTATION_VALUE>yes sir. all right. we're gonna have you come into the precinct to take care of business. okay? if you want to get up on your own, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

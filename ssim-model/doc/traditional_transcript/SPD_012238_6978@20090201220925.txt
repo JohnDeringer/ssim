@@ -1,0 +1,831 @@
+IM1       whatever. 
+
+CM1       uh whatever. 
+          (0.27)
+
+IM1       (()) just stay here.  
+
+IM2       ((you're not safe to stay)). 
+          (0.51)
+
+CM1       oh okay.  
+
+IM1       okay. 
+
+IM2       ((that's the point)). 
+
+IM1       but you're not (()) all 
+          right? so, 
+
+IM2       hey. 
+
+CM1       am- am i under arrest? yes or 
+          no? am i under arrest? yes or 
+          no? 
+
+IM2       you might be. you might be if 
+          you keep lipping off. 
+
+CM1       no. no. 
+
+IM2       yes. yes. 
+
+CM1       no. if i'm under arrest. yes 
+          or no? i'm asking you. 
+
+IM1       ((why))?
+          (0.7)
+
+IM2       ((i'm done talking with this 
+          guy. i've been talking to a 
+          complete idiot)). 
+
+CM1       no. i'm asking am i under 
+          arrest? yes or no? if if i am 
+          under arrest then i have the 
+          right to have a lawyer before 
+          you ah i ask answer any 
+          questions. 
+
+IM1       yeah. she (()). 
+
+IM2       sorry. sorry. 
+          (4.7)
+
+IM2       how about this? we've got to 
+          discuss some things with you 
+          right now. 
+
+IM1       yeah. ((just be a)) moment. 
+
+CM1       no. no. unless i- unless i-,
+
+IM1       actually actually yes.
+
+CM1       no. okay. unless i'm u- am i 
+          under arrest? yes or no? if 
+          i'm under arrest i'm not 
+          going to answer- answer 
+          anything. there you go. 
+          (3.37)
+
+IM2       (()). 
+
+CM1       i- i and uh i want a lawyer 
+          before i answer any more 
+          questions. 
+
+IM1       okay. that's fine. 
+          (4.55)
+
+CM1       and my dog has to stay with 
+          me. he cannot be separated 
+          away from me. that's my 
+          service dog and i have,
+
+IM2       okay. just go ahead and lean 
+          over the car. 
+
+CM1       okay okay. if i have a 
+          seizure my dog cannot be 
+          separated from me. that's a 
+          medical dog. that's my 
+          medical dog and he cannot be 
+          separated from me. 
+
+IM2       ((very good)). 
+          (1.84)
+
+IM2       let me talk to her. 
+
+IM1       yep. 
+          (2.2)
+
+IM1       {talking in background to 
+          CM1} okay. cool. let me find 
+          (()) dog okay? 
+
+CM1       no. no ((please)). 
+
+IM1       no now listen listen to me 
+          ((for one second)). 
+
+CM1       (()) hold on. hold on. hold 
+          on. 
+
+IM2       are you %name? 
+
+CF1       (())?
+
+IM2       okay. 
+
+CF1       okay. 
+
+IM2       so what happened earlier? 
+
+CF1       uh i went to see ((%name)). 
+          we- his dog he had attacked 
+          me and he pushed me down and 
+          was calling me names. hooker 
+          and sh- all this bullshit and 
+          ((so we tried to)) (()) him 
+          there. ((he was saying that)) 
+          his dog never got ((to me. i 
+          was locked up in the 
+          bathroom)). so anyway i just 
+          went back to the store. the 
+          dog's right behind you right 
+          there. (()) shape. i'm sorry. 
+
+IM2       okay. 
+          (4.5)
+
+IM2       okay. 
+          (0.95)
+
+IM2       it's okay. 
+
+CF1       mhm. yeah i know. 
+          (0.25)
+
+IM2       so he assaulted you a couple 
+          of hours ago? 
+
+CF1       ((came back)). 
+          (0.51)
+
+CF1       yeah. two hours ago. ((and he 
+          punched me in the side 
+          also)). then he came back to 
+          the store ((room)) to get 
+          something and he came ((with 
+          the dog)). ((goes)) my life 
+          ((was)) standing right right 
+          behind him. 
+
+IM2       okay. 
+          (1.2)
+
+IM2       okay. 
+          (11.1)
+
+CF1       ((said he wanted to play 
+          games. his)) (()) one. 
+
+IM2       spell your last name for me.
+
+CF1       %spelled_name. 
+          (3.3)
+
+IM2       first name?
+
+CF1       %name.
+          (0.1)
+
+IM2       spell it. 
+
+CF1       %spelled_name. 
+          (2.4)
+
+CF1       ((i couldn't call back. 
+          eventually i called back 
+          and)), 
+          (0.6)
+
+IM2       %name. middle initial?
+
+CF1       %spelled_name.
+
+IM2       %spelled_name? date of birth?
+
+CF1       %birthdate. 
+          (2.4)
+
+CF1       ((it says %name)). 
+          (0.1)
+
+IM2       where where you living at? 
+
+CF1       um i live right behind uh 
+          right behind the apartments 
+          over here. 
+
+IM2       what's the address? 
+
+CF1       um my roommate's right there. 
+          i could i could get him. 
+          (0.2)
+
+IM2       you just moved in here? 
+
+CF1       i live in apartment number 
+          %home_address. (()).
+          (0.95)
+
+IM2       so what so what time did this 
+          happen? 
+          (0.1)
+
+CF1       uh two hours back. in the day 
+          time. 
+
+IM2       you don't remember what time?
+
+CF1       well the game had just 
+          started. 
+
+IM2       the game had just started? 
+
+CF1       yeah. ((like two hours ago)). 
+
+IM2       s- okay. so about four 
+          o'clock? that sound about 
+          right? 
+
+CM1       {talking in background} (()). 
+          i asked ((her)). (())? she 
+          said no. so i have i have 
+          ((hurt her)) (()). 
+
+CF1       cool {laughs}. 
+          (1.7)
+
+CF1       did i hand you a card? 
+          (0.4)
+
+IM2       yeah you did. i'll give it 
+          back to you in just a second. 
+
+CF1       okay. 
+          (0.4)
+
+CF1       okay. 
+          (0.8)
+
+IM2       what were you doing?
+          (0.1)
+
+CF1       what was i doing? oh me? 
+
+IM2       yeah. you were watching the 
+          game. where were you were 
+          watching it at your 
+          apartment? 
+
+CF1       yeah. 
+
+IM2       and then this dude came over? 
+
+CF1       uh um no. ((not with me)). my 
+          roommate came over to go get 
+          some shit at the (()) store. 
+
+IM2       oh okay. so you were watching 
+          the game. went to %name's 
+          mart to get some s-, 
+
+CF1       yep. game and came from the 
+          store ((down the street)). 
+          (0.2)
+
+CF1       yep and he come runs out to 
+          his dog and and to his dog 
+          (()) ran across the street. 
+          (3.65)
+
+CF1       {loud music in background} he 
+          got nerve huh? 
+
+IM2       ((he got it)). 
+
+CF1       yeah. 
+          (1.4)
+
+CM1       {talking to other IM in 
+          background} no i asked (()). 
+          i had to rest and i said no. 
+          i'm out of breath. (()). 
+
+CF1       i don't know. maybe decide 
+          people (()) they knew. 
+
+IM2       okay. so what did he do? 
+
+CF1       he sicked the dog on me so i 
+          ran across the street to try 
+          to get rid of the dog and 
+          then he was right behind the 
+          dog and then he pushed me 
+          down and then kicked me in 
+          the head and and the dog 
+          (()).  
+
+IM2       he pushed you down and kicked 
+          you in your head? 
+
+CF1       yes.
+
+IM2       do you have any bumps or 
+          bruises on your head? 
+
+CF1       i got a little bump when i 
+          was (()) check. i'm okay. 
+          ((i'll be back woman. i had 
+          it coming)). 
+
+CM1       {talking in background} (()) 
+          i- i was (()). i (()).
+          (1.2)
+
+CF1       minding my own business you 
+          know? i've been in lived over 
+          here almost been here all my 
+          life. never had a problem. 
+          never. 
+
+IM2       okay. 
+          (1.0)
+
+IM2       okay. 
+          (0.3)
+
+IM2       and you're sure that's that 
+          guy? 
+
+CF1       ((oh yeah i'm positive)). 
+          yeah. a hundred percent 
+          positive. yep. it's a hundred 
+          percent. 
+          (1.55)
+
+IM2       hang on over here for me for 
+          a minute. hang out over here 
+          for me for a minute okay? 
+
+CF1       ((okay. you gonna arrest 
+          him))?
+          (0.9)
+
+CF1       (()) i'm sorry (()). 
+
+IM2       i won't. 
+          (8.35)
+
+IM2       {talking to IM1} %name will 
+          be happy. very happy. 
+
+IM1       why?
+
+IM2       tell you in a minute. 
+          (2.8)
+
+CM1       what am i being charged with? 
+          (0.5)
+
+CM1       what am i- no no. bullshit. 
+          what am i being charged with? 
+
+IM1       ((what))?
+          (1.3)
+
+IM1       right now? obstruction right 
+          now. 
+
+CM1       oh obstruction? oh bullshit. 
+          i was not under arrest when 
+          you uh when you detained me. 
+
+CM1       so i want to know what am i 
+          being charged with? hey i'm 
+          cuffed. i'm cuffed. 
+
+IM1       i i just told you that. 
+
+CM1       no. bullshit. no. bullshit. 
+          what am i being charged with 
+          ((motherfucker))? 
+
+IM1       you make the laws now? you 
+          make the laws now? 
+          (0.15)
+
+CM1       no. what am i being charged 
+          with? am i uh am i ten thirty 
+          two? no i'm not. i'm not. i'm 
+          ((negative)) ten thirty two. 
+          you know what? i'm gonna 
+          ((report you)) or something. 
+          you have no right to cuff me 
+          or even detain me. i'm not 
+          under arrest. 
+
+IM1       okay. you're right. ((i'm 
+          not)) you're not being video 
+          and audio recorded right now. 
+          you understand? ((it's)) off. 
+          okay.
+
+CM1       i'm gonna contact the 
+          a._p._l._u. and have them 
+          fucking uh have your (()) 
+          ((dog alone)).   
+          (3.05)
+
+CM1       you leave my dog alone too. 
+          (1.1)
+
+IM1       (()) your dog? 
+          (0.6)
+
+CM1       not at all. (()). 
+          (8.25)
+
+CM1       what am i being charged with? 
+          if you're gonna arrest me 
+          you're gonna cuff me you got 
+          to charge me with something. 
+          you can't just cuff me for 
+          your own safety. 
+
+IM2       right. okay well i can. i can 
+          ((cuff you)). 
+
+CM1       no you can't. 
+
+IM2       yeah. i'm glad you know the 
+          law ((seriously)).
+
+CM1       oh no. bullshit. bullshit 
+          motherfucker. 
+
+IM2       thank you.
+
+CM1       oh bullshit. 
+
+IM2       thank you.
+
+CM1       i asked you am i being 
+          arrested and you said no. 
+          (()). you want to charge me. 
+
+IM2       you're not free to leave. 
+          you're not under arrest. 
+          you're not free to leave.   
+          (0.1)
+
+CM1       that's (()) bullshit. 
+          ((you're gonna)) lock ((me)) 
+          away. 
+
+IM1       {talking on phone}. 
+
+IM2       no. (()) this guy's an idiot. 
+
+CM1       (()) fuck you. 
+          (3.17)
+
+IM1       {talking on phone}
+          (1.2)
+
+IM1       {talking on phone}
+          (3.4)
+
+IM1       {talking on phone}
+
+CM1       (()) fuck your name. i want 
+          your name.
+          (1.0)
+
+CM1       yeah. i want your name. 
+
+IM2       don- don't step ((come and 
+          take it)). 
+
+IM1       {talking on phone}. 
+
+IM2       ((yeah)) (()). 
+
+CM1       i want your name on paper so 
+          i can,
+
+IM2       you can have it. i'll write 
+          it down for you. don't worry. 
+          i'll write it down. 
+
+CM1       good. don't- no fucking 
+          ((force on me. okay. ignore 
+          me)). 
+
+IM1       
+
+IM2       or what? what are you gonna 
+          do? are you threatening me? 
+          ((are you gonna threaten me))?
+
+IM1       what's he doing? 
+
+CM1       uh hey i'm calm. (()).
+
+IM2       are you threatening me? 
+
+CM1       who? me? 
+
+IM1       %name. %name. 
+
+IM2       (()) okay. ((just checking)).
+
+CM1       hey hey. you fucking cuffed 
+          me down. i'm cuffed. 
+
+IM2       shut your mouth and sit down. 
+          you understand me? 
+
+CM1       fuck you.
+
+IM1       hold on. i got to go. 
+
+IM2       %name. 
+          (2.4)
+
+IM2       knock it off. why are you 
+          pushing me? why are you 
+          pushing me? 
+
+IM1       hey. relax dude. relax. 
+          relax.  
+
+CM1       i'm not pushing you. i'm 
+          cuffed. i'm cuffed. i'm 
+          cuffed. 
+
+IM2       why are you pushing me? 
+          (0.4)
+
+IM2       ignore it. 
+
+CM1       oh fuck you. 
+          (0.75)
+
+CM1       i'm cuffed. so you know what? 
+          you're fucking (()) abusing 
+          me. 
+
+IM2       ((mule kicking)). 
+          (0.27)
+
+IM2       ((let's go)). nope. ((let's 
+          go)). sit down or i'll make 
+          you sit down. it's okay. 
+          (1.25)
+
+IM2       let's go. put your head down. 
+
+CM1       what are you gonna do? give 
+          me a spring test? 
+          (0.15)
+
+IM2       all right. keep it like that 
+          huh? 
+          (1.0)
+
+IM1       ((i get it later)). 
+          (0.7)
+
+IM2       okay. (()). here. 
+          (0.4)
+
+IM1       let's go. 
+          (0.8)
+
+IM1       don't kick it man. 
+
+CM1       i'm not kicking. 
+          (0.1)
+
+IM1       get in the car. let's go. 
+
+IM2       i get it up. 
+          (2.2)
+
+IM1       grab his legs %name. they 
+          don't kick. 
+
+CM1       i'm not kicking. 
+
+IM2       ((you search him))? let's go. 
+
+IM1       you're making this so hard on 
+          yourself man. 
+
+CM1       what? what? what am i being 
+          arrested for? 
+
+IM2       you're being arrested for 
+          assault. 
+
+CM1       oh bullshit. you arrested me 
+          first. 
+
+IM2       you driving ((with me))?
+          (3.1)
+
+IM1       ((all right)). let's go. 
+          (1.6)
+
+IM2       {talking to IM1 to turn CM1 
+          around}?
+          (3.9)
+
+IM1       all right. let's go. you 
+          gonna relax or you gonna get 
+          sprayed? what do you want? 
+
+CM1       you can spray me. use the 
+          taser.
+
+IM1       let's go. 
+          (0.3)
+
+IM1       let's go. 
+          (0.2)
+
+CM1       get your hand off my throat. 
+          that's illegal. oh now you 
+          want to hurt me. 
+          (0.3)
+
+IM2       it's gonna be like that huh? 
+
+CM1       ((get you. i kill you)). 
+          (6.8)
+
+CM1       uh. ((man)). 
+          (0.3)
+
+IM2       (()).
+          (1.2)
+
+IM2       there we go. thank you. 
+          (13.7)
+
+CM1       what are you gonna do with my 
+          dog? 
+          (0.5)
+
+IM1       you're under arrest for 
+          assault.
+          (0.1)
+
+CM1       bullshit. 
+
+IM1       on the complainant and you're 
+          under arrest for assault on 
+          my partner. 
+
+CM1       bullshit.
+          (0.5)
+
+CM1       well fine. i'm cuffed but i 
+          want my dog and i want my 
+          lawyer.
+
+IM1       {talking to IM}
+          (7.8)
+
+IM1       {talking to IM}
+          (5.2)
+
+IM1       %name you want me to give you 
+          the dog to your to your your 
+          buddy? otherwise it's going 
+          to the pound.
+          (0.2)
+
+CM1       well then you pay for that. 
+          you pay for that. 
+          (0.9)
+
+CM1       what am i being charged with?
+
+IM1       you're being charged with 
+          assault. 
+          (0.6)
+
+CM1       prove it. prove it 
+          motherfucker. prove it. 
+
+IM1       okay. that's not my job. 
+
+CM1       what? okay. well that's your 
+          job. you're gonna charge me 
+          you got to prove it in court. 
+          (214.4)
+
+CM1       ((i'm straight out of 
+          homes)). i don't mess around 
+          <FOR>esse<FOR>. and (()) 
+          happens anything (()) happens 
+          to me. he's spraying my 
+          canine. ((yep)) and i can sue 
+          you guys i my ((parent)) can 
+          sue you and fine. fine. 
+          (14.9)
+
+CM1       ah. ach! shut the light off. 
+          (4.55)
+
+IM2       ((what))? oh you want me to 
+          help you now? 
+          (0.7)
+
+CM1       ah. ha. 
+          (0.05)
+
+IM2       he says the light hurts his 
+          eyes. 
+
+IM1       hey %name. hey dude. 
+          {knocking on window} hey 
+          homie. i got to talk to you 
+          for a second dude. 
+
+IM2       {making growling noises} ah. 
+          ah!
+          (1.7)
+
+IM2       %name. %name. talk to me. 
+          this is officer happy. hey i 
+          don't want to take your dog 
+          to the pound but you're gonna 
+          force me to. i can give him 
+          to your roommate. would you 
+          like me to give your dog to 
+          your roommate? 
+          (0.6)
+
+IM2       %name?
+          (2.0)
+
+IM2       %name.
+          (1.4)
+
+IM2       hey %name. okay. so this is 
+          your last opportunity %name. 
+          (1.3)
+
+IM2       let me just clear put it out 
+          on the table. if you don't 
+          allow me to give your dog to 
+          your roommate your dog is 
+          going to the pound. 
+          (1.5)
+
+IM2       but i don't know what's gonna 
+          happen from there. i don't 
+          know if you'll ever see the 
+          dog again. is that what you 
+          want? okay. dog's going to 
+          the pound. glad you're being 
+          sound recorded. you have the 
+          right to remain silent. 
+          anything you say can be used 
+          against you in a court of 
+          law. you have the right at 
+          this time to talk to a lawyer 
+          and have your lawyer present 
+          with you while you're being 
+          questioned. if you cannot 
+          afford to hire a lawyer one 
+          will be appointed to 
+          represent you before any 
+          questioning if you wish. you 
+          can decide at any time and 
+          exercise these rights. do not 
+          answer any questions or make 
+          any statements. do you 
+          understand each of these 
+          rights i have explained to 
+          you? in addition washington 
+          state law requires i advise 
+          you you have the right to a 
+          lawyer. if you're unable to 
+          pay for a lawyer you're 
+          entitled to have one provided 
+          without charge. 
+          (0.7)
+
+IM1       okay. 
+
+IM2       {talking to IM1 about the dog}
+
+CM1       ah ((i'm not sorry)). 
+
+IM2       {talking to IM1about the dog}
+          (23.0)
+
+IM2       {talking to dog}
+          (0.5)
+
+IM1       %name you're being sound 
+          recorded. 
+

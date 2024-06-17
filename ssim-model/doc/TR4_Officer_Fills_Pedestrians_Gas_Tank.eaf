@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2012-04-24T16:21:57-05:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/mardikidwell/Documents/Mardi Kidwell/Transcriptions/TR4 Officer Fills Pedestrians Gas Tank/TR4 Officer Fills Pedestrians Gas Tank.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="./TR4 Officer Fills Pedestrians Gas Tank.mov"/>
+        <MEDIA_DESCRIPTOR EXTRACTED_FROM="file:///Users/mardikidwell/Documents/Mardi Kidwell/Transcriptions/TR4 Officer Fills Pedestrians Gas Tank/TR4 Officer Fills Pedestrians Gas Tank.mov" MEDIA_URL="file:///Users/mardikidwell/Documents/Mardi Kidwell/Transcriptions/TR4 Officer Fills Pedestrians Gas Tank/TR4 Officer Fills Pedestrians Gas Tank.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./TR4 Officer Fills Pedestrians Gas Tank.wav"/>
+        <PROPERTY NAME="lastUsedAnnotationId">24</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="12"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="1006"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="1559"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="3081"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="3162"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="4144"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="4702"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="4950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="5346"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="6321"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="6900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="7727"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="11464"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="12014"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="22004"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="23019"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="53203"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="60004"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="64247"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="65149"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="71801"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="75350"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="75622"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="76547"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="78742"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="81964"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="82105"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="82266"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="82480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="82903"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="95060"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="95460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="95503"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="96171"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="116002"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="117035"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="121525"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="122201"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="123427"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="125800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="126031"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="126438"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="126598"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="127003"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="Kellie Averell" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Citizen Male 1" TIER_ID="CM1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>(Delta Zeal)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>yeah I coasted (through)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>huh-</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>(...)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>wha happened</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>ow .uh</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>I really need someone to (...) that show where that (1) officer got hit (.) by (.2) that (1.5) passing c^ar|</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>like dis gu:y</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts26" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>[right</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts32" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>°[thank y_ou_°</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts37" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>AYHH</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts40" TIME_SLOT_REF2="ts42">
+                <ANNOTATION_VALUE>thanks a lot </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="Kellie Averell" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Institutional Male 1" TIER_ID="IM1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts5">
+                <ANNOTATION_VALUE>°well ya-ou almost (made it to the exit)°</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>(where it's empty)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>ye:a:h</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>well fortunately yur (four- or) three lanes wide: (.) so:</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts27">
+                <ANNOTATION_VALUE>people don't ca:re: (.) I'm on my cell: phone:: I gotta go some:wh:er[e:</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>&gt;(...)&lt;</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts33">
+                <ANNOTATION_VALUE>(°thank yo[u-°)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts35" TIME_SLOT_REF2="ts36">
+                <ANNOTATION_VALUE>(you're jus stalling it)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts41">
+                <ANNOTATION_VALUE>o:k^ay| (.) well if it's runnin you better get outta here before yur- (...) (st)alls</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts43" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>^see ya| </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

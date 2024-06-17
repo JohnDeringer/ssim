@@ -1,0 +1,92 @@
+body { margin: 0 auto; color: #222; }
+.left-col { width: 48%; float: left;}
+.right-col { width: 48%; float: right; }
+.one-third { width: 32%; }
+.two-thirds { width: 64%; }
+.actions { clear: both; padding-top: 2em; }
+.actions:after { content: ' '; display: block; clear: both; line-height: 0; }
+
+/*h1 { margin: 1em 0 0; }
+h2 { margin: 2.1em 0 .7em; }
+h3 { margin: 1.4em 0 .35em; }*/
+section:first-child h2, #search-form h2, .search-results h2 { margin-top: 1em; }
+.left-col h3:first-child, .right-col h3:first-child { margin-top: 0; margin-bottom: 1em; }
+
+p { margin: 0 0 1em; }
+
+ul { margin: 0; }
+
+.form-row, .multi { margin: .7em 0; position: relative; }
+.multi:first-child { margin-top: 0; }
+.multi-section .add-more { margin-top: -.7em; display: block; }
+fieldset { border: none; margin: 0; padding: 0; }
+label { width: 29%; display: inline-block; }
+input, textarea, select, .andor-section { display: inline-block; vertical-align: bottom; width: 67%; margin-left: 2%; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.warning-message, label.error { width: auto; display: block; }
+.form-row label.error, .form-row .warning-message { margin-left: 31.5%; }
+.form-row .rows label.error, .form-row .rows .warning-message { margin-left: 0; }
+.multi input, .multi textarea, .multi select { width: 100%; } /* like encounter & participant metatadata languages */
+.multi .form-row input, .multi .form-row textarea, .multi .form-row select { width: 67%; } /* like stimulated recall interview transcripts */
+.multi input[type="file"] { width: auto; }
+legend { margin: 0; padding: 0; position: absolute; width: 29%; }
+fieldset .rows { position: relative; left: 31%; width: 67%; margin-left: .31em; }
+textarea, select[type='multiple'], .rows { vertical-align: top; }
+input[type='radio'], input[type='checkbox'] { width: auto; margin: 0; vertical-align: baseline; }
+fieldset input, fieldset textarea, fieldset select { margin-left: 0; }
+.no-label { width: 100%; margin-left: 0; }
+.radio-row .subfield { display: block; width: 29%; margin-left: 1.3em; }
+.radio-row label { width: auto; }
+.radio-row fieldset.subfield { width: auto; }
+.radio-row fieldset.subfield .andor-section { width: 100%; margin-left: 0; }
+
+.multi .remove, .upload-success .remove { position: absolute; top: -1px; right: -2em; }
+
+.item-list { margin: -1em 0; padding: 0; }
+.item-list li { margin: 1em 0; padding: 0; list-style: none; }
+.item-list p { margin: .25em 0; }
+.item-list .actions { padding-top: 0; }
+.checkbox-list { margin: -.5em 0; padding-left: 20px; }
+.checkbox-list label { width: auto; }
+.checkbox-list input { margin-left: -20px; }
+.ui-dialog .checkbox-list li { margin: .5em 0; }
+
+.subitem-list { margin: 0; padding: 0; }
+.subitem-list li { margin: 0; padding: 0; list-style: none; }
+.subitem-list li:last-child { margin-bottom: .35em; }
+.subitem-list .content {}
+.subitem-list .actions { margin-left: 2em; padding: 0; display: inline; }
+
+.search-list { margin: 1em 0 0; padding: 0; list-style: none; }
+.search-list li { margin: .7em 0; padding: 0; }
+.search-list li:last-child { margin-bottom: 0; }
+
+.andor-section .multiple { margin-left: 0; margin-right: 1%; width: 82%; }
+.multiple { width: 55%; margin-right: .6%; }
+.field-match-row .field-match { width: 29%; margin-right: 1%; vertical-align: middle; }
+.field-match-row .field { width: 69%; vertical-align: middle; } /* like search with "starts with/contains/etc" */
+.field-match-row .multiple, .field-match-row .unitless { width: 51%; margin-right: 1%; }
+.andor-select, .multi .andor-select { width: auto; vertical-align: middle; }
+.andor-section .multi { margin: .2em 0; }
+.field-match-row .field-units { width: 16.5%; }
+
+.turn-followed-by, .encounter-followed-by {
+	margin: 1.4em 0;
+	width: auto;
+}
+.participant-followed-by { font-style: italic; font-weight: bold; }
+
+
+.search-results h3 { margin-top: 0; }
+.search-results .actions { padding: .35em 3.03%; background-color: #ccc; }
+.search-results .actions label { line-height: 1.5; }
+.search-results .actions .right-col { text-align: right; }
+.search-results .checkbox-list { margin-left: 3.03%; }
+.search-params-container { margin: 1em 0; }
+.search-params-list { /*margin: .7em 0;*/ margin: 0; }
+.search-params-list dt { font-weight: bold; display: inline; }
+.search-params-list dd { margin-left: 0; display: inline; }
+
+.narrow-form label { width: auto; }
+.narrow-form input { width: auto; margin: .2em 0; }
+
+.other-label-hidden { display:  none; }

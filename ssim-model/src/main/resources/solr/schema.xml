@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema name="utterances" version="1.0">
+ 
+ <types>
+    <fieldType name="tint" class="solr.TrieIntField" precisionStep="8" omitNorms="true" positionIncrementGap="0"/>
+    <fieldType name="tlong" class="solr.TrieLongField" precisionStep="8" positionIncrementGap="0"/>
+    <fieldType name="string" class="solr.StrField" sortMissingLast="true" omitNorms="true"/>
+ </types>
+ 
+ <fields>
+   <field name="artifactId" type="tlong" indexed="true" stored="true" multiValued="false" required="true" />
+   <field name="fileId" type="tlong" indexed="true" stored="true" multiValued="false" required="true" />
+   <field name="lineId" type="tlong" indexed="true" stored="true" multiValued="false" required="true" />
+   <field name="utterance" type="string" indexed="true" stored="true" multiValued="false" required="true" />
+   <field name="annotation" type="string" indexed="true" stored="true" multiValued="false" required="false" />
+ </fields>
+ 
+
+ <uniqueKey>lineId</uniqueKey>
+
+ <defaultSearchField>utterance</defaultSearchField>
+ 
+ <solrQueryParser defaultOperator="OR"/>
+ 
+</schema>
+
+
+

@@ -1,0 +1,52 @@
+IM1	IM1	101.962	103.273	{background noise of dogs barking} get out of the car now. 
+IM1	IM1	104.419	105.626	get out of the car. 
+IM1	IM1	107.66	108.86	{giving dog commands} get him (()). get him. 
+IM1	IM1	110.08	110.79	get him. 
+IM1	IM1	111.47	112.32	don't you touch ((him)). 
+IM1	IM1	131.291	132.837	get out of the car now.
+IM1	IM1	133.866	135.132	get out or you're gonna get hurt. 
+IM1	IM1	145.759	146.862	((just)) be like that. 
+IM1	IM1	154.9	156.7	okay sir. 
+IM1	IM1	160.51	161.46	okay sir? 
+IM1	IM1	250.44	251.747	you have my (())?
+IM1	IM1	317.135	319.345	((nice work)) (()). 
+IM1	IM1	465.655	466.285	sir.
+IM2	IM2	103.457	104.645	(()) now. 
+IM2	IM2	112.72	113.83	(()) here. 
+IM2	IM2	140.468	142.361	((lay flat)) on your back. 
+IM2	IM2	224.329	226.129	(()). 
+IM2	IM2	315.487	316.672	((fuck dude)). 
+IM2	IM2	437.725	441.225	i won't be caught with (()). huh?
+IM2	IM2	441.282	443.382	nah i would like that (()). 
+CF1	CF1	109.338	113.028	stop. stop %name. don't you touch ((him)). 
+CF1	CF1	125.752	126.468	((stop)).
+CM1	CM1	139.1	141.6	what did i do? 
+CM1	CM1	152.75	153.783	(()) ow. 
+CM1	CM1	157.586	159.608	ow. ow!
+CM1	CM1	159.863	160.25	ow. 
+CM1	CM1	161.461	161.66	ouch. 
+CM1	CM1	164.22	164.382	ouch. 
+CM1	CM1	245.037	245.682	ow. 
+CM1	CM1	246.33	248.5	whoa. oh.  
+CM1	CM1	257.9	259.47	((my leg)). 
+CM1	CM1	271.076	273.804	ow. ooh.
+CM1	CM1	275.368	275.851	ow. 
+CM1	CM1	278.965	279.316	ow. 
+CM1	CM1	281.38	286.292	oh. oh oh. oh. oh my god. 
+CM1	CM1	287.148	287.812	please. 
+CM1	CM1	288.881	289.814	oh. 
+CM1	CM1	296.515	297.345	please. 
+CM1	CM1	303.239	303.84	ow. 
+CM1	CM1	322.095	322.767	oh. 
+CM1	CM1	325.96	328.464	 ow. 
+CM1	CM1	332.61	333.168	ow. 
+CM1	CM1	347.046	347.636	(()). 
+CM1	CM1	376.177	377.505	ach. fuck. 
+CM1	CM1	382.19	382.84	(()).
+CM1	CM1	404.1	406.54	oh. (()). 
+CM1	CM1	411.686	414.04	(()). 
+CM1	CM1	419.48	420.8	uh ow. 
+CM1	CM1	462.298	462.845	ah.
+IM3	IM3	436.391	438.791	did he get in there ((for you))?  
+IM3	IM3	440.399	441.899	((i can)) get it.
+IM3	IM3	507.346	510.653	{unintelligible conversations periodically throughout entire video}

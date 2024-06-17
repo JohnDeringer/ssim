@@ -1,0 +1,805 @@
+package com.sri.ssim.model;
+
+import com.sri.ssim.client.SolrFacade;
+import com.sri.ssim.common.MatchType;
+import com.sri.ssim.common.SolrResponse;
+import com.sri.ssim.file.DocumentLoader;
+import com.sri.ssim.file.TimedUtterance;
+import com.sri.ssim.persistence.*;
+import com.sri.ssim.rest.*;
+
+import org.apache.commons.lang.StringUtils;
+
+import org.apache.solr.client.solrj.SolrServerException;
+import org.apache.solr.client.solrj.response.QueryResponse;
+import org.apache.solr.common.SolrDocument;
+import org.apache.solr.common.SolrDocumentList;
+import org.apache.solr.common.params.ModifiableSolrParams;
+
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import java.io.File;
+
+import java.util.*;
+
+/**
+ * @author <a href="mailto:john.deringer@sri.com">John Deringer</a>
+ *         Date: 8/28/12
+ */
+public class EncounterModelImpl implements EncounterModel {
+
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
+
+    @Autowired
+    private EncounterDao encounterDao;
+
+    @Autowired
+    private SolrFacade solrFacade;
+
+    @Autowired
+    private DocumentLoader documentLoader;
+
+    private static final String AND = "and";
+    private static final String OR = "or";
+    private static final String YES = "yes";
+    private static final String NO = "no";
+
+    @Override
+    public Artifact createArtifact(Artifact artifactEntity) {
+        return encounterDao.createArtifact(artifactEntity);
+    }
+
+    @Override
+    public Encounter createEncounter(@NotNull Encounter encounterEntity) {
+        return encounterDao.createEncounter(encounterEntity);
+    }
+
+    @Override
+    @NotNull
+    public Collector createCollector(@NotNull Collector collectorEntity) {
+        logger.info("createCollector [" + collectorEntity.getValue() + "]");
+        Collector entity =
+                encounterDao.findCollectorByValue(collectorEntity.getValue());
+        if (entity != null) {
+            logger.warn("Unable to create Collector with value [" +
+                    collectorEntity.getValue() + "] because it already exists");
+        } else {
+            entity = encounterDao.createCollector(collectorEntity);
+        }
+
+        return entity;
+    }
+
+    @Override
+    @NotNull
+    public Corpus createCorpus(@NotNull Corpus corpusEntity) {
+        logger.info("createCorpus [" + corpusEntity.getValue() + "]");
+        Corpus entity =
+                encounterDao.findCorpusByValue(corpusEntity.getValue());
+        if (entity != null) {
+            logger.warn("Unable to create Corpus with value [" +
+                    corpusEntity.getValue() + "] because it already exists");
+        } else {
+            entity = encounterDao.createCorpus(corpusEntity);
+        }
+
+        return entity;
+    }
+
+    @Override
+    @NotNull
+    public EncounterQuality createEncounterQuality(
+            @NotNull EncounterQuality encounterQualityEntity) {
+        logger.info("createEncounterQuality [" + encounterQualityEntity.getValue() + "]");
+        EncounterQuality entity =
+                encounterDao.findEncounterQualityByValue(
+                        encounterQualityEntity.getValue()
+                );
+        if (entity != null) {
+            logger.warn("Unable to create EncounterQuality with value [" +
+                    encounterQualityEntity.getValue() + "] because it already exists");
+        } else {
+            entity = encounterDao.createEncounterQuality(encounterQualityEntity);
+        }
+
+        return entity;
+    }
+
+    @Override
+    @NotNull
+    public EncounterReason createEncounterReason(
+            @NotNull EncounterReason encounterReasonEntity) {
+        logger.info("createEncounterReason [" + encounterReasonEntity.getValue() + "]");
+        EncounterReason entity =
+                encounterDao.findEncounterReasonByValue(
+                        encounterReasonEntity.getValue());
+        if (entity != null) {
+            logger.warn("Unable to create EncounterReason with value [" +
+                    encounterReasonEntity.getValue() + "] because it already exists");
+        } else {
+            entity = encounterDao.createEncounterReason(encounterReasonEntity);
+        }
+
+        return entity;
+    }
+
+    @Override
+    @NotNull
+    public Ethnicity createEthnicity(@NotNull Ethnicity ethnicityEntity) {
+        logger.info("createEthnicity [" + ethnicityEntity.getValue() + "]");
+        Ethnicity entity =
+                encounterDao.findEthnicityByValue(
+                        ethnicityEntity.getValue());
+        if (entity != null) {
+            logger.warn("Unable to create Ethnicity with value [" +
+                    ethnicityEntity.getValue() + "] because it already exists");
+        } else {
+            entity = encounterDao.createEthnicity(ethnicityEntity);
+        }
+
+        return entity;
+    }
+
+    @Override
+    @NotNull
+    public FileType createFileType(@NotNull FileType fileTypeEntity) {
+        logger.info("createFileType [" + fileTypeEntity.getValue() + "]");
+        FileType entity =
+                encounterDao.findFileTypeByValue(fileTypeEntity.getValue());
+        if (entity != null) {
+            logger.warn("Unable to create FileType with value [" +
+                    fileTypeEntity.getValue() + "] because it already exists");
+        } else {
+            entity = encounterDao.createFileType(fileTypeEntity);
+        }
+
+        return entity;
+    }
+
+    @Override
+    @NotNull
+    public GeneralTime createGeneralTime(@NotNull GeneralTime generalTimeEntity) {
+        logger.info("createGeneralTime [" + generalTimeEntity.getValue() + "]");
+        GeneralTime entity =
+                encounterDao.findGeneralTimeByValue(generalTimeEntity.getValue());
+        if (entity != null) {
+            logger.warn("Unable to create GeneralTime with value [" +
+                    generalTimeEntity.getValue() + "] because it already exists");
+        } else {
+            entity = encounterDao.createGeneralTime(generalTimeEntity);
+        }
+
+        return entity;
+    }
+
+    @Override
+    @NotNull
+    public GeographicLocation createGeographicOrigin(
+            @NotNull GeographicLocation geographicLocationEntity) {
+        logger.info("createGeographicOrigin [" + geographicLocationEntity.getValue() + "]");
+        GeographicLocation entity =
+                encounterDao.findGeographicLocationByValue(
+                        geographicLocationEntity.getValue());
+        if (entity != null) {
+            logger.warn("Unable to create GeographicLocation with value [" +
+                    geographicLocationEntity.getValue() + "] because it already exists");
+        } else {
+            entity = encounterDao.createGeographicLocation(geographicLocationEntity);
+        }
+
+        return entity;
+    }
+
+    @Override
+    @NotNull
+    public Language createLanguage(@NotNull Language languageEntity) {
+        logger.info("createLanguage [" + languageEntity.getValue() + "]");
+        Language entity =
+                encounterDao.findLanguageByValue(languageEntity.getValue());
+        if (entity != null) {
+            logger.warn("Unable to create Language with value [" +
+                    languageEntity.getValue() + "] because it already exists");
+        } else {
+            entity = encounterDao.createLanguage(languageEntity);
+        }
+
+        return entity;
+    }
+
+    @Override
+    @NotNull
+    public Rank createRank(@NotNull Rank rankEntity) {
+        logger.info("createRank [" + rankEntity.getValue() + "]");
+        Rank entity =
+                encounterDao.findRankByValue(rankEntity.getValue());
+        if (entity != null) {
+            logger.warn("Unable to create Rank with value [" +
+                    rankEntity.getValue() + "] because it already exists");
+        } else {
+            entity = encounterDao.createRank(rankEntity);
+        }
+
+        return entity;
+    }
+
+    @Override
+    @NotNull
+    public Role createRole(@NotNull Role roleEntity) {
+        logger.info("createRole [" + roleEntity.getValue() + "]");
+        Role entity =
+                encounterDao.findRoleByValue(roleEntity.getValue());
+        if (entity != null) {
+            logger.warn("Unable to create Role with value [" +
+                    roleEntity.getValue() + "] because it already exists");
+        } else {
+            entity = encounterDao.createRole(roleEntity);
+        }
+
+        return entity;
+    }
+
+    @Override
+    @NotNull
+    public Site createSite(@NotNull Site siteEntity) {
+        logger.info("createSite [" + siteEntity.getValue() + "]");
+        Site entity =
+                encounterDao.findSiteByValue(siteEntity.getValue());
+        if (entity != null) {
+            logger.warn("Unable to create Site with value [" +
+                    siteEntity.getValue() + "] because it already exists");
+        } else {
+            entity = encounterDao.createSite(siteEntity);
+        }
+
+        return entity;
+    }
+
+    @Override
+    public List<ArtifactFile> getArtifactsForProcessing() {
+        return encounterDao.findFilesForProcessing();
+    }
+
+    @Override
+    public List<Collector> getCollectors() {
+        return encounterDao.findCollectors();
+    }
+
+    @Override
+    public List<Collector> getCollectors(@NotNull String root) {
+        return encounterDao.findCollectors(root);
+    }
+
+    @Override
+    public List<Corpus> getCorpus() {
+        return encounterDao.findCorpus();
+    }
+
+    @Override
+    public List<Corpus> getCorpus(String root) {
+        return encounterDao.findCorpus(root);
+    }
+
+    @Override
+    public Domain getDomainByValue(@NotNull String value) {
+        return encounterDao.findDomainByValue(value);
+    }
+
+    @Override
+    public Encounter getEncounter(@NotNull String encounterName) {
+        return encounterDao.findEncounterByName(encounterName);
+    }
+
+    @Override
+    public List<Encounter> getEncounters(String filename)  {
+        return encounterDao.findEncountersByFilename(filename);
+    }
+
+    @Override
+    public Set<EncounterResponse> getEncountersBySearch(SearchType search) {
+        List<Long> solrIds = new ArrayList<Long>();
+        Map<SolrResponse, Integer> solrResponseCountMap = new HashMap<SolrResponse, Integer>();
+
+        for (TranscriptType transcript : search.getTranscript()) {
+
+            // "followed-by":"immediately", "anywhere" first pass will be 'null'
+            String followedBy = transcript.getFollowedBy();
+
+            // Note: if "followed-by" = "anywhere" do nothing, else ???
+
+            StringBuilder queryParam = new StringBuilder();
+            String searchPhrase = null;
+
+            // Annotations
+            List<AnnotationsType> annotations = transcript.getAnnotations();
+            if (!annotations.isEmpty()) {
+                for (AnnotationsType annotationsType : annotations) {
+                    String annotation = annotationsType.getAnnotation();
+                    if (StringUtils.isNotEmpty(annotation)) {
+                        // Set the default search phrase to return to the client
+                        if (searchPhrase == null) {
+                            searchPhrase = annotation;
+                        }
+                        String andOr = annotationsType.getAndor();
+                        logger.debug("Annotation.andOr [" + andOr + "]");
+                        String annotationMatch = annotationsType.getAnnotationMatch();
+                        MatchType matchType = MatchType.valueOf(annotationMatch);
+                        logger.debug("Annotation.matchType [" + matchType + "]");
+                        switch (matchType) {
+                        case includes:
+                            logger.debug("Includes [" + matchType + "]");
+                            if (StringUtils.isNotEmpty(andOr) &&
+                                    andOr.equalsIgnoreCase(OR)) {
+                                queryParam.append("annotation:");
+                                queryParam.append("*");
+                                queryParam.append(annotation);
+                                queryParam.append("*");
+                                queryParam.append(" OR ");
+                            } else if (StringUtils.isNotEmpty(andOr) &&
+                                    andOr.equalsIgnoreCase(AND)) {
+                                queryParam.append("annotation:");
+                                queryParam.append("*");
+                                queryParam.append(annotation);
+                                queryParam.append("*");
+                                queryParam.append(" AND ");
+                            } else {
+                                queryParam.append("annotation:");
+                                queryParam.append("*");
+                                queryParam.append(annotation);
+                                queryParam.append("*");
+                            }
+                            break;
+                        case notincludes:
+                            logger.debug("notIncludes [" + matchType + "]");
+                            if (StringUtils.isNotEmpty(andOr) &&
+                                    andOr.equalsIgnoreCase(OR)) {
+                                queryParam.append("-annotation:");
+                                queryParam.append(annotation);
+                                queryParam.append(" OR ");
+                            } else if (StringUtils.isNotEmpty(andOr) &&
+                                    andOr.equalsIgnoreCase(AND)) {
+                                queryParam.append("-annotation:");
+                                queryParam.append(annotation);
+                                queryParam.append(" AND ");
+                            } else {
+                                queryParam.append("-annotation:");
+                                queryParam.append(annotation);
+                                //queryParam.append("*");
+                            }
+                            break;
+                        default:
+                            logger.debug("Matches [" + matchType + "]");
+                            queryParam.append("annotation:");
+                            queryParam.append(annotation);
+                        }
+                    }
+                } // End for - annotations
+            } // End empty - annotations
+
+            // Phrases
+            List<PhraseType> phrases = transcript.getPhrases();
+            if (!phrases.isEmpty()) {
+                for (PhraseType phraseType : transcript.getPhrases()) {
+                    String phrase = phraseType.getPhrase();
+                    if (StringUtils.isNotEmpty(phrase)) {
+                        // Set the default search phrase to return to the client
+                        if (searchPhrase == null) {
+                            searchPhrase = phrase;
+                        }
+                        String andOr = phraseType.getAndor();
+                        logger.debug("Phrase.andOr [" + andOr + "]");
+                        String phraseMatch = phraseType.getPhraseMatch();
+                        MatchType matchType = MatchType.valueOf(phraseMatch);
+                        logger.debug("Phrase.matchType [" + matchType + "]");
+                        switch (matchType) {
+                        case includes:
+                            logger.debug("Includes [" + matchType + "]");
+                            if (StringUtils.isNotEmpty(andOr) &&
+                                    andOr.equalsIgnoreCase(OR)) {
+                                queryParam.append("utterance:");
+                                queryParam.append("*");
+                                queryParam.append(phrase);
+                                queryParam.append("*");
+                                queryParam.append(" OR ");
+                            } else if (StringUtils.isNotEmpty(andOr) &&
+                                    andOr.equalsIgnoreCase(AND)) {
+                                queryParam.append("utterance:");
+                                queryParam.append("*");
+                                queryParam.append(phrase);
+                                queryParam.append("*");
+                                queryParam.append(" AND ");
+                            } else {
+                                queryParam.append("utterance:");
+                                queryParam.append("*");
+                                queryParam.append(phrase);
+                                queryParam.append("*");
+                            }
+                        break;
+                        case notincludes:
+                            logger.debug("notIncludes [" + matchType + "]");
+                            if (StringUtils.isNotEmpty(andOr) &&
+                                    andOr.equalsIgnoreCase(OR)) {
+                                queryParam.append("-utterance:");
+                                queryParam.append(phrase);
+                                queryParam.append(" OR ");
+                            } else if (StringUtils.isNotEmpty(andOr) &&
+                                    andOr.equalsIgnoreCase(AND)) {
+                                queryParam.append("-utterance:");
+                                queryParam.append(phrase);
+                                queryParam.append(" AND ");
+                            } else {
+                                queryParam.append("-utterance:");
+                                queryParam.append(phrase);
+                                //queryParam.append("*");
+                            }
+                        break;
+                        default:
+                            logger.debug("Matches [" + matchType + "]");
+                            queryParam.append("utterance:");
+                            queryParam.append(phrase);
+                        }
+                    }
+                } // End for - phrases
+            } // End empty - phrase
+
+            // Solr call
+            if (queryParam.length() > 0) {
+                logger.debug("Solr.queryParam [" + queryParam + "]");
+                ModifiableSolrParams params = new ModifiableSolrParams();
+                params.set("q", queryParam.toString());
+                try {
+                    QueryResponse response = solrFacade.query(params);
+                    logger.info("SOLR response [" + response + "]");
+                    SolrDocumentList docs = response.getResults();
+                    for (SolrDocument solrDocument : docs) {
+                        Object lineId = solrDocument.getFirstValue("lineId");
+                        Object artifactIdIdObj =
+                                solrDocument.getFirstValue("artifactId");
+                        if (artifactIdIdObj != null) {
+                            Long artifactId = (Long)artifactIdIdObj;
+
+                            SolrResponse solrResponse = new SolrResponse();
+                            solrResponse.setArtifactId(artifactId);
+                            solrResponse.setSearchItem(searchPhrase);
+
+                            Integer count = solrResponseCountMap.get(solrResponse);
+                            if (count == null) {
+                                count = 0;
+                            }
+                            count++;
+                            solrResponseCountMap.put(solrResponse, count);
+                        }
+                        if (lineId != null) {
+                            Long id = (Long)lineId;
+                            solrIds.add(id);
+                        }
+                    }
+                } catch (SolrServerException e) {
+                    logger.error("Error communicating with Solr", e);
+                }
+            } // End queryParam
+        }
+
+        Set<EncounterResponse> encounterResponseSet =
+                new TreeSet<EncounterResponse>();
+
+        String encounterName = null;
+        int hits = 0;
+        boolean resetCount;
+        for (Encounter encounter : encounterDao.findEncounters(search, solrIds)) {
+            EncounterResponse encounterResponse = new EncounterResponse();
+
+            // Artifact line Hits
+            SolrResponse solrResponse = new SolrResponse();
+            for (Artifact artifact : encounter.getArtifacts()) {
+                solrResponse.setArtifactId(artifact.getId());
+
+                Integer count = solrResponseCountMap.get(solrResponse);
+                if (count == null) {
+                    count = 0;
+                }
+                hits += count;
+            }
+
+            // Encounter name hits
+            if (encounterName != null && encounterName.equals(encounter.getName())) {
+                hits++;
+                resetCount = false;
+            } else {
+                resetCount = true;
+            }
+
+            if (hits == 0) {
+                hits = 1;
+            }
+
+            // EncounterName
+            encounterName = encounter.getName();
+            encounterResponse.setEncounterName(encounterName);
+            // Hits
+            encounterResponse.setHits(hits);
+            // Search Item - phrase, annotation
+            String searchItem = solrResponse.getSearchItem();
+            if (searchItem == null) {
+                searchItem = encounterName;
+            }
+            encounterResponse.setPhrase(searchItem);
+
+            if (resetCount) {
+                hits = 0;
+            }
+            encounterResponseSet.add(encounterResponse);
+        }
+
+        return encounterResponseSet;
+    }
+
+    // User selected find encounter by name, filter by 'other' criteria
+    private boolean isInList(List<Encounter> findByNameEncounters, Encounter encounter) {
+        if (findByNameEncounters == null) {
+            return true;
+        }
+
+        boolean isInList = false;
+        for (Encounter findByNameEncounter : findByNameEncounters) {
+            if (findByNameEncounter.getId().longValue() == encounter.getId().longValue()) {
+                isInList = true;
+                break;
+            }
+        }
+        return isInList;
+    }
+
+    @Override
+    public List<Encounter> getEncountersByArtifact(@NotNull String artifactName) {
+        return encounterDao.findEncountersByFilename(artifactName);
+    }
+
+
+    @Override
+    public Encounter updateEncounter(@NotNull Encounter encounterEntity) {
+        return encounterDao.updateEncounter(encounterEntity);
+    }
+
+
+    @Override
+    public List<EncounterQuality> getEncounterQualities() {
+        return encounterDao.findEncounterQualities();
+    }
+
+    @Override
+    public List<EncounterQuality> getEncounterQualities(@NotNull String root) {
+        return encounterDao.findEncounterQualities(root);
+    }
+
+    @Override
+    public List<EncounterReason> getEncounterReasons() {
+        return encounterDao.findEncounterReasons();
+    }
+
+    @Override
+    public List<EncounterReason> getEncounterReasons(@NotNull String root) {
+        return encounterDao.findEncounterReasons(root);
+    }
+
+    @Override
+    public List<Ethnicity> getEthnicities() {
+        return encounterDao.findEthnicities();
+    }
+
+    @Override
+    public List<Ethnicity> getEthnicities(@NotNull String root) {
+        return encounterDao.findEthnicities(root);
+    }
+
+    @Override
+    public File getFileForDownload(FileRequest fileRequest, String tmpFileName) {
+        Set<String> fileNames = new TreeSet<String>();
+        for (String encounterName : fileRequest.getFile()) {
+            // Search for encounter by name
+            Encounter encounter = encounterDao.findEncounterByName(encounterName);
+
+            if (encounter != null) {
+                // Gather the file names - from Artifact
+                for (Artifact artifact : encounter.getArtifacts()) {
+                    for (ArtifactFile artifactFile : artifact.getArtifactFiles()) {
+                        if (isRequestedFileType(fileRequest.getFormat(), artifactFile.getFileType())) {
+                            fileNames.add(artifactFile.getFileName());
+                        }
+                    }
+                }
+                // Gather the file names - Participant:Sociometric Badge
+                if (isSociometricBadgeRequest(fileRequest.getFormat())) {
+                    for (Participant participant : encounter.getParticipants()) {
+                        String sociometricBadge = participant.getSociometricBadge();
+                        if (StringUtils.isNotEmpty(sociometricBadge)) {
+                            fileNames.add(sociometricBadge);
+                        }
+                    }
+                }
+            } else {
+                logger.info("Unable to find encounter by name [" + encounterName + "]");
+            }
+        }
+
+        return documentLoader.getEncounterDocuments(fileNames, tmpFileName);
+    }
+
+    private boolean isSociometricBadgeRequest(List<FormatType> formatTypes) {
+        boolean isSociometricBadgeRequest = false;
+        for (FormatType formatType : formatTypes) {
+            if (formatType == FormatType.SOCIOMETRIC_BADGE) {
+                isSociometricBadgeRequest = true;
+                break;
+            }
+        }
+        return isSociometricBadgeRequest;
+    }
+
+    private boolean isRequestedFileType(List<FormatType> formatTypes, FormatType testFormatType) {
+        boolean isRequestedFileType = false;
+        for (FormatType formatType : formatTypes) {
+            if (formatType == testFormatType) {
+                isRequestedFileType = true;
+                break;
+            }
+        }
+        return isRequestedFileType;
+    }
+
+    private boolean isRequestedFileType(List<FormatType> formatTypes, FileType fileType) {
+        boolean isRequestedFileType = false;
+        for (FormatType formatType : formatTypes) {
+            logger.info("Compare formatType [" + formatType.value() +
+                    "] and fileType [" + fileType.getValue() + "]");
+            if (formatType.value().equals(fileType.getValue())) {
+                isRequestedFileType = true;
+                break;
+            }
+        }
+
+        return isRequestedFileType;
+    }
+
+    @Override
+    public List<ArtifactFile> getArtifactFilesLike(String like, int limit) {
+        return encounterDao.findArtifactFilesLike(like, limit);
+    }
+
+    @Override
+    public Gender getGenderByValue(@NotNull String value) {
+        return encounterDao.findGenderByValue(value);
+    }
+
+    @Override
+    public List<GeneralTime> getGeneralTimes() {
+        return encounterDao.findGeneralTimes();
+    }
+
+    @Override
+    public List<GeneralTime> getGeneralTimes(@NotNull String root) {
+        return encounterDao.findGeneralTimes(root);
+    }
+
+    @Override
+    public List<GeographicLocation> getGeographicOrigins() {
+        return encounterDao.findGeographicLocations();
+    }
+
+    @Override
+    public List<GeographicLocation> getGeographicOrigins(@NotNull String root) {
+        return encounterDao.findGeographicLocations(root);
+    }
+
+    @Override
+    public Interview getInterview(String name) {
+        return encounterDao.findInterviewByName(name);
+    }
+
+    @Override
+    public List<Language> getLanguages() {
+        return encounterDao.findLanguages();
+    }
+
+    @Override
+    public List<Language> getLanguages(@NotNull String root) {
+        return encounterDao.findLanguages(root);
+    }
+
+    @Override
+    public List<Participant> getParticipantsByEncounterId(Long encounterId) {
+        return encounterDao.findParticipantsByEncounterId(encounterId);
+    }
+
+    @Override
+    public ParticipantType getParticipantTypeByValue(@NotNull String value) {
+        return encounterDao.findParticipantTypeByValue(value);
+    }
+
+    @Override
+    public List<Rank> getRanks() {
+        return encounterDao.findRanks();
+    }
+
+    @Override
+    public List<Rank> getRanks(@NotNull String root) {
+        return encounterDao.findRanks(root);
+    }
+
+    @Override
+    public List<Role> getRoles() {
+        return encounterDao.findRoles();
+    }
+
+    @Override
+    public List<Role> getRoles(@NotNull String root) {
+        return encounterDao.findRoles(root);
+    }
+
+    @Override
+    public List<Site> getSites() {
+        return encounterDao.findSites();
+    }
+
+    @Override
+    public List<Site> getSites(@NotNull String root) {
+        return encounterDao.findSites(root);
+    }
+
+    @Override
+    public List<AudioQuality> getAudioQuality() {
+        return encounterDao.findAudioQualities();
+    }
+
+    @Override
+    public List<VideoQuality> getVideoQuality() {
+        return encounterDao.findVideoQualities();
+    }
+
+    @Override
+    public void markFileAsProcessed(@NotNull Long fileId) {
+        encounterDao.markFileAsProcessed(fileId);
+    }
+
+    @Override
+    @Nullable
+    public ArtifactFile processArtifact(@NotNull TimedUtterance timedUtterance) {
+        String filename = timedUtterance.getFilename();
+
+        logger.info("Updating Artifact model with file [" + filename + "]");
+
+        ArtifactFile artifactFile = null;
+        if (StringUtils.isNotEmpty(filename)) {
+
+            artifactFile = encounterDao.findFileByFilename(filename);
+            if (artifactFile != null) {
+                artifactFile.getLines().addAll(
+                        EntityUtil.toLineEntity(
+                                artifactFile,
+                                timedUtterance.getAnnotatedLines()
+                        )
+                );
+
+                artifactFile = encounterDao.updateArtifactFile(artifactFile);
+            } else {
+                logger.error("Unable to process artifact [" + filename +
+                        "] because I could not find it");
+            }
+        } else {
+            logger.error("Unable to find artifact using filename [" + filename + "]");
+        }
+
+        return artifactFile;
+    }
+
+    @Override
+    public Artifact updateArtifact(Artifact artifactEntity) {
+        return encounterDao.updateArtifact(artifactEntity);
+    }
+
+}

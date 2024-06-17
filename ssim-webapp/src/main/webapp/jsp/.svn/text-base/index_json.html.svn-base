@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.0/themes/base/jquery-ui.css" />
+
+    <script src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.0/jquery-ui.js"></script>
+
+<script>
+
+$(function() {
+    $("#collector").autocomplete({
+        source: function( request, response ) {
+            $.ajax({
+                url: "http://localhost:8080/ssim-repository-service-1.0.0/rest/encounterAPI/collectors",
+                dataType: "json",
+                data: {
+                    root: request.term
+                },
+                success: function( data ) {
+                    response( $.map( data.collector, function( item ) {
+                        return {
+                            label: item.value,
+                            value: item.value
+                        }
+                    }));
+                }
+            });
+        },
+        minLength: 1
+    });
+});
+
+function addCollector() {
+	$.ajax({
+		type: 'POST',
+		contentType: 'application/json',
+		url: "http://localhost:8080/ssim-repository-service-1.0.0/rest/encounterAPI/collector",
+		dataType: "json",
+		data: collectorToJSON(),
+		success: function(data, textStatus, jqXHR){
+		},
+		error: function(jqXHR, textStatus, errorThrown){
+			alert('error: ' + textStatus);
+		}
+	});
+}
+
+function collectorToJSON() {
+	return JSON.stringify({"collector":{
+		"value": $('#collector').val()
+		}
+    });
+}
+
+
+$(function() {
+    $("#geoLocation").autocomplete({
+        source: function( request, response ) {
+            $.ajax({
+                url: "http://localhost:8080/ssim-repository-service-1.0.0/rest/encounterAPI/geoLocations",
+                dataType: "json",
+                data: {
+                    root: request.term
+                },
+                success: function( data ) {
+                    response( $.map( data.geographicLocation, function( item ) {
+                        return {
+                            label: item.value,
+                            value: item.value
+                        }
+                    }));
+                }
+            });
+        },
+        minLength: 1
+    });
+});
+
+function addGeoLocation() {
+	$.ajax({
+		type: 'POST',
+		contentType: 'application/json',
+		url: "http://localhost:8080/ssim-repository-service-1.0.0/rest/encounterAPI/geoLocation",
+		dataType: "json",
+		data: geoLocationToJSON(),
+		success: function(data, textStatus, jqXHR){
+		},
+		error: function(jqXHR, textStatus, errorThrown){
+			alert('error: ' + textStatus);
+		}
+	});
+}
+
+function geoLocationToJSON() {
+	return JSON.stringify({"geographicLocation":{
+		"value": $('#geoLocation').val()
+		}
+    });
+}
+</script>
+</head>
+<body>
+
+
+<form id="collectorForm">
+<div class="ui-widget">
+    <label for="collector">Collector: </label>
+    <input id="collector" /> <button id="btnCollectorSave">Save</button>
+</div>
+</form>
+
+<form id="geoLocationForm">
+<div class="ui-widget">
+    <label for="geoLocation">GeoLocation: </label>
+    <input id="geoLocation" /> <button id="btnGeoLocationSave">Save</button>
+</div>
+</form>
+
+<script>
+$('#btnCollectorSave').click(function() {
+	addCollector();
+	return false;
+});
+
+$('#btnGeoLocationSave').click(function() {
+	addGeoLocation();
+	return false;
+});
+</script>
+
+</body>
+</html>

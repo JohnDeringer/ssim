@@ -1,0 +1,46 @@
+10
+
+dir
+234
+https://cmit.sri.com/svn/ssim/ssim-webapp/src/main/webapp
+https://cmit.sri.com/svn/ssim
+
+
+
+2013-01-31T23:04:46.754669Z
+234
+pgriffith
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fd9d65d5-0113-e5b7-fafe-b493fb201046
+
+
+
+
+
+
+
+
+((conflict index_json.html file update deleted edited (version https://cmit.sri.com/svn/ssim 3 181 ssim-webapp/src/main/webapp/index_json.html file) (version https://cmit.sri.com/svn/ssim 3 185 ssim-webapp/src/main/webapp/index_json.html none)))
+
+WEB-INF
+dir
+
+static
+dir
+
+jsp
+dir
+

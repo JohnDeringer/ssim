@@ -1,0 +1,1 @@
+{"filename":{"filename-match":"Starts with","filename":"encounter"},"transcript":[{"phrase":[{"phrase-match":"includes","phrase":"here"}],"speaker":[{"speaker-match":"includes","speaker":"IM1"}],"annotation":[{"annotation-match":"includes","annotation":""}],"turn-time":[{"turn-time-match":"Less than","turn-time":"2000"}],"words":[{"words-match":"Greater than","words":"5"}]}]}

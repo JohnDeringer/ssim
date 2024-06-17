@@ -1,0 +1,785 @@
+<div id="templates">
+	<!-- these are fragments to add into other pages, not to be shown as a single page -->
+	<div id="search-filename-template">
+		<!-- <form class="page search-filename-form"> -->
+			<section class="page search-filename new-constraint">
+				<h2>Find a video or interview by file name</h2>
+
+				<div class="form-row">
+					<fieldset class="field-match-row">
+						<legend>File name</legend>
+						<div class="rows">
+							<select name="filename-match" class="field-match">
+								<option value="beginning">Starts with</option>
+								<option value="end">Ends with</option>
+								<option value="contains">Contains</option>
+								<option value="matches">Matches exactly</option>
+							</select>
+							<input type="text" name="filename" class="field" />
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="actions">
+					<button type="submit" class="search-now">Search now</button>
+					<button type="button" class="add-search-constraints">Add more constraints</button>
+					<button type="button" class="cancel-search-page">Cancel</button>
+				</div>
+			</section>
+		<!-- </form> -->
+	</div>
+
+	<div id="search-transcripts-template">
+		<!-- <form class="page search-transcripts-form"> -->
+			<section class="page search-transcripts new-constraint">
+				<h2>Find encounters by transcript contents:</h2>
+
+				<section class="sub">
+					<div class="form-row">
+						<fieldset class="field-match-row" data-grouped-multi-name="phrase">
+							<legend>Phrase</legend>
+							<div class="rows andor-section">
+								<div class="multi" data-multi-num="{multinum}">
+									<select name="phrase-match-{multinum}" class="field-match">
+										<option value="includes">Includes</option>
+										<option value="notincludes">Doesn't include</option>
+										<option value="matches">Matches</option>
+									</select>
+									<input type="text" name="phrase-{multinum}" class="field multiple" />
+									<span class="andor">
+										<button type="button" class="and">and</button><span>/</span><button type="button" class="or">or</button>...
+									</span>
+								</div>
+							</div>
+						</fieldset>
+					</div>
+
+					<div class="form-row">
+						<fieldset class="field-match-row" data-grouped-multi-name="speaker">
+							<legend>Speaker</legend>
+							<div class="rows andor-section">
+								<div class="multi" data-multi-num="{multinum}">
+									<select name="speaker-match-{multinum}" class="field-match">
+										<option value="includes">Includes</option>
+										<option value="notincludes">Doesn't include</option>
+										<option value="matches">Matches</option>
+									</select>
+									<input type="text" name="speaker-{multinum}" class="field multiple" />
+									<span class="andor">
+										<button type="button" class="and">and</button>...
+									</span>
+								</div>
+							</div>
+						</fieldset>
+					</div>
+
+					<div class="form-row">
+						<fieldset class="field-match-row" data-grouped-multi-name="annotation">
+							<legend>Annotation</legend>
+							<div class="rows andor-section">
+								<div class="multi" data-multi-num="{multinum}">
+									<select name="annotation-match-{multinum}" class="field-match">
+										<option value="includes">Includes</option>
+										<option value="notincludes">Doesn't include</option>
+										<option value="matches">Matches</option>
+									</select>
+									<input type="text" name="annotation-{multinum}" class="field multiple" />
+									<span class="andor">
+										<button type="button" class="and">and</button><span>/</span><button type="button" class="or">or</button>...
+									</span>
+								</div>
+							</div>
+						</fieldset>
+					</div>
+
+					<div class="form-row">
+						<fieldset class="field-match-row" data-grouped-multi-name="turn-time">
+							<legend>Turn time</legend>
+							<div class="rows andor-section">
+								<div class="multi">
+									<select name="turn-time-match" class="field-match">
+										<option value="more">Greater than</option>
+										<option value="less">Less than</option>
+										<option value="equal">Equal to</option>
+									</select>
+									<input type="number" name="turn-time" class="field unitless number" />
+									<span class="field-unit">seconds</span>
+								</div>
+							</div>
+						</fieldset>
+					</div>
+
+					<div class="form-row">
+						<fieldset class="field-match-row" data-grouped-multi-name="words">
+							<legend>Number of words in turn</legend>
+							<div class="rows andor-section">
+								<div class="multi">
+									<select name="words-match" class="field-match">
+										<option value="more">Greater than</option>
+										<option value="less">Less than</option>
+										<option value="equal">Equal to</option>
+									</select>
+									<input type="number" name="words" class="field digit" />
+								</div>
+							</div>
+						</fieldset>
+					</div>
+
+					<button type="button" class="add-search-turn add-more">Add another turn</button>
+				</section>
+
+				<div class="actions">
+					<button type="submit" class="search-now">Search now</button>
+					<button type="button" class="add-search-constraints">Add more constraints</button>
+					<button type="button" class="cancel-search-page">Cancel</button>
+				</div>
+			</section>
+		<!-- </form> -->
+	</div>
+
+	<div id="search-encounter-metadata-template">
+		<!-- <form class="page search-encounter-metadata-form"> -->
+			<section class="page search-encounter-metadata new-constraint">
+				<h2>Find encounters with the following characteristics:</h2>
+
+				<div class="form-row">
+					<label for="search-data-descriptor">Data descriptor</label>
+					<select name="search-data-descriptor" id="search-data-descriptor">
+						<option></option>
+						<option value="cta-interview">Cognitive task analysis interview</option>
+						<option value="ethnographic-interview">Ethnographic interview</option>
+						<option value="video">Video</option>
+					</select>
+				</div>
+
+				<div class="form-row">
+					<fieldset>
+						<legend>Domain</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="checkbox" name="search-domain" id="search-domain-military" value="military" checked />
+								<label for="search-domain-military">Military</label>
+							</div>
+							<div class="radio-row">
+								<input type="checkbox" name="search-domain" id="search-domain-law" value="law" checked />
+								<label for="search-domain-law">Law enforcement</label>
+							</div>
+							<div class="radio-row">
+								<input type="checkbox" name="search-domain" id="search-domain-other" value="other" checked />
+								<label for="search-domain-other">Other</label>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<label for="search-reason">Reason for encounter</label>
+					<select name="search-reason" id="search-reason" class="select-fillin" data-fillin-source="/ssim-repository-service-1.0.0/rest/encounterAPI/allEncounterReasons">
+						<option></option>
+					</select>
+				</div>
+
+				<div class="form-row">
+					<fieldset class="field-match-row" data-grouped-multi-name="search-quality">
+						<legend>Quality of encounter</legend>
+						<div class="rows">
+							<div class="multi">
+								<select name="search-quality-match" class="field-match">
+									<option value="more">Greater than</option>
+									<option value="less">Less than</option>
+									<option value="equal">Equal to</option>
+								</select>
+								<select name="search-quality" class="select-fillin field" data-fillin-source="/ssim-repository-service-1.0.0/rest/encounterAPI/allEncounterQualities">
+									<option></option>
+								</select>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<fieldset class="field-match-row" data-grouped-multi-name="search-video-quality">
+						<legend>Video quality</legend>
+						<div class="rows">
+							<div class="multi">
+								<select name="search-video-quality-match" class="field-match">
+									<option value="more">Greater than</option>
+									<option value="less">Less than</option>
+									<option value="equal">Equal to</option>
+								</select>
+								<select name="search-video-quality" class="select-fillin field" data-fillin-source="/ssim-repository-service-1.0.0/rest/encounterAPI/allVideoQuality">
+									<option></option>
+								</select>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<fieldset class="field-match-row" data-grouped-multi-name="search-audio-quality">
+						<legend>Audio quality</legend>
+						<div class="rows">
+							<div class="multi">
+								<select name="search-audio-quality-match" class="field-match">
+									<option value="more">Greater than</option>
+									<option value="less">Less than</option>
+									<option value="equal">Equal to</option>
+								</select>
+								<select name="search-audio-quality" class="select-fillin field" data-fillin-source="/ssim-repository-service-1.0.0/rest/encounterAPI/allAudioQuality">
+									<option></option>
+								</select>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<label for="search-geo-location">Geographic location</label>
+					<select name="search-geo-location" id="search-geo-location" class="select-fillin" data-fillin-source="/ssim-repository-service-1.0.0/rest/encounterAPI/allGeoLocations">
+						<option></option>
+					</select>
+				</div>
+
+				<div class="form-row">
+					<label for="search-site">Site</label>
+					<select name="search-site" id="search-site" class="select-fillin" data-fillin-source="/ssim-repository-service-1.0.0/rest/encounterAPI/allSites">
+						<option></option>
+					</select>
+				</div>
+
+				<div class="form-row">
+					<fieldset class="field-match-row" data-grouped-multi-name="search-num-participants">
+						<legend>Number of key participants</legend>
+						<div class="rows">
+							<div class="multi">
+								<select name="search-num-participants-match" class="field-match">
+									<option value="more">Greater than</option>
+									<option value="less">Less than</option>
+									<option value="equal">Equal to</option>
+								</select>
+								<input type="number" name="search-num-participants" class="field digit" />
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<label for="search-bystanders">Bystanders present</label>
+					<select name="search-bystanders" id="search-bystanders">
+						<option></option>
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+					</select>
+				</div>
+
+				<div class="form-row">
+					<label for="search-first-encounter">First encounter between participants</label>
+					<select name="search-first-encounter" id="search-first-encounter">
+						<option></option>
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+						<option value="unknown">Unknown</option>
+					</select>
+				</div>
+
+				<div class="form-row">
+					<label for="search-familiar">Participants familiar with each other</label>
+					<select name="search-familiar" id="search-familiar">
+						<option></option>
+						<option value="yes">Yes</option>
+						<option value="no">No</option>
+						<option value="unknown">Unknown</option>
+					</select>
+				</div>
+
+				<div class="form-row">
+					<fieldset class="field-match-row" data-grouped-multi-name="search-duration">
+						<legend>Encounter duration</legend>
+						<div class="rows">
+							<div class="multi">
+								<select name="search-duration-match" class="field-match">
+									<option value="more">Greater than</option>
+									<option value="less">Less than</option>
+									<option value="equal">Equal to</option>
+								</select>
+								<input type="number" name="search-duration" class="field unitless number" />
+								<span class="field-unit">minutes</span>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<fieldset class="field-match-row" data-grouped-multi-name="search-date">
+						<legend>Date</legend>
+						<div class="rows andor-section">
+							<div class="multi" data-multi-num="0">
+								<select name="search-date-match-0" class="field-match">
+									<option value="before">Before</option>
+									<option value="after">After</option>
+									<option value="on">On</option>
+								</select>
+								<input type="date" name="search-date-0" class="field multiple" placeholder="MM/DD/YYYY" />
+								<span class="andor">
+									<button type="button" class="and">and</button><span>/</span><button type="button" class="or">or</button>...
+								</span>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<fieldset>
+						<legend>Time</legend>
+						<div class="rows">
+							<div class="radio-row">
+								<input type="checkbox" name="search-time" id="search-time-light" value="light" checked />
+								<label for="search-time-light">Light</label>
+							</div>
+							<div class="radio-row">
+								<input type="checkbox" name="search-time" id="search-time-dark" value="dark" checked />
+								<label for="search-time-dark">Dark</label>
+							</div>
+							<div class="radio-row">
+								<input type="checkbox" name="search-time" id="search-time-dusk" value="dusk" checked />
+								<label for="search-time-dusk">Dusk</label>
+							</div>
+							<div class="radio-row">
+								<input type="checkbox" name="search-time" id="search-time-specific" value="specific" />
+								<label for="search-time-specific">Specific time</label>
+								<fieldset class="field-match-row subfield" data-grouped-multi-name="search-time-specific">
+									<legend class="other-label-hidden">Specific time</legend>
+									<div class="andor-section">
+										<div class="multi">
+											<select name="search-time-specific-match" class="field-match">
+												<option value="before">Before</option>
+												<option value="after">After</option>
+												<option value="on">On</option>
+											</select>
+											<input type="time" name="search-time-specific-value" class="field multiple" placeholder="HH:MM:SS" />
+											<span class="andor">
+												<button type="button" class="and">and</button><span>/</span><button type="button" class="or">or</button>...
+											</span>
+										</div>
+									</div>
+								</fieldset>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<fieldset class="field-match-row"  data-grouped-multi-name="search-encounter-language">
+						<legend>Language</legend>
+						<div class="rows andor-section">
+							<div class="multi" data-multi-num="0">
+								<select name="search-encounter-language-0" class="select-fillin multiple" data-fillin-source="/ssim-repository-service-1.0.0/rest/encounterAPI/allLanguages">
+									<option></option>
+								</select>
+								<span class="andor">
+									<button type="button" class="and">and</button><span>/</span><button type="button" class="or">or</button>...
+								</span>
+							</div>
+						</div>
+					</fieldset>
+				</div>
+
+				<div class="form-row">
+					<label for="search-corpus">Corpus</label>
+					<select name="search-corpus" id="search-corpus" class="select-fillin" data-fillin-source="/ssim-repository-service-1.0.0/rest/encounterAPI/allCorpus">
+						<option></option>
+					</select>
+				</div>
+
+				<div class="form-row">
+					<label for="search-collector">Collector</label>
+					<select name="search-collector" id="search-collector" class="select-fillin" data-fillin-source="/ssim-repository-service-1.0.0/rest/encounterAPI/allCollectors">
+						<option></option>
+					</select>
+				</div>
+
+				<div class="actions">
+					<button type="submit" class="search-now">Search now</button>
+					<button type="button" class="add-search-constraints">Add more constraints</button>
+					<button type="button" class="cancel-search-page">Cancel</button>
+				</div>
+			</section>
+		<!-- </form> -->
+	</div>
+
+	<div id="search-participant-metadata-template">
+		<!-- <form class="page search-participant-metadata-form"> -->
+			<section class="page search-participant-metadata new-constraint">
+				<h2>Find encounters with participants with the following characteristics:</h2>
+
+				<section class="sub">
+					<div class="form-row">
+						<label for="search-participant-type">Participant type</label>
+						<select name="search-participant-type" id="search-participant-type">
+							<option></option>
+							<option value="institution">Institutional</option>
+							<option value="civilian">Civilian</option>
+							<option value="other">Other</option>
+						</select>
+					</div>
+
+					<div class="form-row">
+						<label for="search-gender">Gender</label>
+						<select name="search-gender" id="search-gender">
+							<option></option>
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							<option value="other">Other</option>
+						</select>
+					</div>
+
+					<div class="form-row">
+						<fieldset class="field-match-row" data-grouped-multi-name="search-age">
+							<legend>Age</legend>
+							<div class="rows andor-section">
+								<div class="multi" data-multi-num="{multinum}">
+									<select name="search-age-match-{multinum}" class="field-match">
+										<option value="more">Greater than</option>
+										<option value="less">Less than</option>
+										<option value="equal">Equal to</option>
+									</select>
+									<input type="number" name="search-age-{multinum}" class="field multiple digit" />
+									<span class="andor">
+										<button type="button" class="and">and</button><span>/</span><button type="button" class="or">or</button>...
+									</span>
+								</div>
+							</div>
+						</fieldset>
+					</div>
+
+					<div class="form-row">
+						<label for="search-codename">Code name</label>
+						<input type="text" name="search-codename" id="search-codename" />
+					</div>
+
+					<div class="form-row">
+						<fieldset class="field-match-row">
+							<legend>Military rank</legend>
+							<div class="rows">
+								<select name="search-mil-rank-match" class="field-match">
+									<option value="more">Greater than</option>
+									<option value="less">Less than</option>
+									<option value="equal">Equal to</option>
+								</select>
+								<select name="search-mil-rank" class="field">
+									<option></option>
+								</select>
+							</div>
+						</fieldset>
+					</div>
+
+					<div class="form-row">
+						<fieldset class="field-match-row">
+							<legend>Police rank</legend>
+							<div class="rows">
+								<select name="search-pol-rank-match" class="field-match">
+									<option value="more">Greater than</option>
+									<option value="less">Less than</option>
+									<option value="equal">Equal to</option>
+								</select>
+								<select name="search-pol-rank" class="field">
+									<option></option>
+								</select>
+							</div>
+						</fieldset>
+					</div>
+
+					<div class="form-row">
+						<label for="search-ethnicity">Ethnicity</label>
+						<select name="search-ethnicity" id="search-ethnicity" class="select-fillin" data-fillin-source="/ssim-repository-service-1.0.0/rest/encounterAPI/allEthnicities">
+							<option></option>
+						</select>
+					</div>
+
+					<div class="form-row">
+						<label for="search-first-language">First language</label>
+						<select name="search-first-language" id="search-first-language" class="select-fillin" data-fillin-source="/ssim-repository-service-1.0.0/rest/encounterAPI/allLanguages">
+							<option></option>
+						</select>
+					</div>
+
+					<div class="form-row">
+						<label for="search-geo-origin">Geographic origin</label>
+						<select name="search-geo-origin" id="search-geo-origin" class="select-fillin" data-fillin-source="/ssim-repository-service-1.0.0/rest/encounterAPI/allGeoLocations">
+							<option></option>
+						</select>
+					</div>
+
+					<div class="form-row">
+						<fieldset class="field-match-row">
+							<legend>Time in country</legend>
+							<div class="rows">
+								<select name="search-time-in-country-match" class="field-match">
+									<option value="more">Greater than</option>
+									<option value="less">Less than</option>
+									<option value="equal">Equal to</option>
+								</select>
+								<input type="number" name="search-time-in-country" class="field unitless number" />
+								<span class="field-units">
+									days
+								</span>
+							</div>
+						</fieldset>
+					</div>
+
+					<div class="form-row">
+						<label for="search-comments">Comments</label>
+						<input type="text" name="search-comments" id="search-comments" />
+					</div>
+
+					<button class="add-search-participant add-more" type="button">Add another participant</button>
+				</section>
+
+				<div class="actions">
+					<button type="submit" class="search-now">Search now</button>
+					<button type="button" class="add-search-constraints">Add more constraints</button>
+					<button type="button" class="cancel-search-page">Cancel</button>
+				</div>
+			</section>
+		<!-- </form> -->
+	</div>
+
+	<div id="search-next-turn-template">
+		<select name="followed-by" class="turn-followed-by">
+			<option value="immediately">Immediately followed by</option>
+			<option value="anywhere">Followed anywhere by</option>
+		</select>
+
+		<div class="form-row">
+			<fieldset class="field-match-row" data-grouped-multi-name="intervening-time">
+				<legend>Intervening time</legend>
+				<div class="rows andor-section">
+					<div class="multi">
+						<select name="intervening-time-match" class="field-match">
+							<option value="more">Greater than</option>
+							<option value="less">Less than</option>
+							<option value="equal">Equal to</option>
+						</select>
+						<input type="number" name="intervening-time" class="field unitless number" />
+						<span class="field-unit">seconds</span>
+					</div>
+				</div>
+			</fieldset>
+		</div>
+	</div>
+
+	<div id="search-next-participant-template">
+		<div class="participant-followed-by">and</div>
+	</div>
+
+	<div id="andor-template">
+		<select name="andor-{multinum}" class="andor-select">
+			<option value="and">and...</option>
+			<option value="or">or...</option>
+		</select>
+	</div>
+
+	<div id="and-template">
+		<span class="andor-select">
+			and...
+			<input type="hidden" name="andor-{multinum}" value="and" />
+		</span>
+	</div>
+
+	<div id="or-template">
+		<span class="andor-select">
+			or...
+			<input type="hidden" name="andor-{multinum}" value="or" />
+		</span>
+	</div>
+
+	<div id="remove-template">
+		<button type="button" class="remove">Remove</button>
+	</div>
+
+	<div id="search-shorthand-template">
+		<div class="search-params-container">
+			<strong>{heading}</strong>
+		</div>
+	</div>
+
+	<div id="search-shorthand-list-template">
+		<div>
+			<em class="list-separator">{separator}</em>
+			<dl class="search-params-list"></dl>
+		</div>
+	</div>
+
+	<div id="search-shorthand-row-template">
+		<div>
+			<dt>{label}:</dt>
+		</div>
+	</div>
+
+	<div id="search-shorthand-value-template">
+		<dd>
+			<span>{fieldMatch}</span>
+			<span>{field}</span>
+			<span>{fieldUnit}</span>
+			<i>{andor}</i>
+		</dd>
+	</div>
+
+	<div id="search-shorthand-modify-template">
+		<button class="modify">Modify</button>
+	</div>
+
+	<div id="search-results-template">
+		<section class="search-results">
+			<h2>Search Results</h2>
+			<div class="left-col one-third">
+				<h3>Searching for...</h3>
+				<div id="submitted-query"></div>
+				<button type="button" id="modify-search">Modify Search</button>
+			</div>
+			<div id="search-results-list" class="right-col two-thirds">
+			</form>
+		</section>
+	</div>
+
+	<div id="search-results-list-template">
+		<form id="search-results-form">
+			<div class="actions top-actions">
+				<label class="left-col">
+					<input type="checkbox" name="select-all" class="select-all" data-select-all-name="file" />
+					Select all
+				</label>
+				<div class="right-col">
+					<button type="submit">Download Selected</button>
+				</div>
+			</div>
+			<ul id="search-results" class="item-list checkbox-list"></ul>
+		</form>
+	</div>
+
+	<div id="search-single-result-transcript-template">
+		<li>
+			<label>
+				<input type="checkbox" name="file" value="{name}" />
+				<strong>{name}</strong>
+			</label>
+			<p>"{line}"</p>
+			<p>{hits}</p>
+		</li>
+	</div>
+
+	<div id="search-single-result-template">
+		<li>
+			<label>
+				<input type="checkbox" name="file" value="{name}" />
+				<strong>{name}</strong>
+			</label>
+		</li>
+	</div>
+
+	<div id="no-search-results-template">
+		<p>No encounters were found.</p>
+	</div>
+
+	<div id="search-download-formats-template">
+		<form id="search-download-form" action="" method="POST">
+			<ul class="left-col one-third item-list checkbox-list">
+				<li>
+					<label>
+						<input type="checkbox" name="format" value="original-video" />
+						Original Video
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="format" value="converted-video" />
+						Converted Video
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="format" value="video-audio" />
+						Audio Channel
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="format" value="alternate-audio" />
+						Alternate Audio
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="format" value="stimulated-recall-transcript" />
+						Stimulated Recall Interview
+					</label>
+				</li>
+				<li>
+					<label>
+						<input type="checkbox" name="format" value="sociometric-badge" />
+						Sociometric Badges
+					</label>
+				</li>
+			</ul>
+			<div class="left-col one-third">
+				<h3>Orthographic transcript</h3>
+				<ul class="item-list checkbox-list">
+					<li>
+						<label>
+							<input type="checkbox" name="format" value="elan-transcript-orthographic" />
+							Native ELAN
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="format" value="traditional-transcript-orthographic" />
+							Traditional
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="format" value="tab-delimited-transcript-orthographic" />
+							Tab-Delimited
+						</label>
+					</li>
+				</ul>
+			</div>
+			<div class="right-col one-third">
+				<h3>CA-Style transcript</h3>
+				<ul class="item-list checkbox-list">
+					<li>
+						<label>
+							<input type="checkbox" name="format" value="elan-transcript-ca" />
+							Native ELAN
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="format" value="traditional-transcript-ca" />
+							Traditional
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="format" value="tab-delimited-transcript-ca" />
+							Tab-Delimited
+						</label>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" name="format" value="other-transcript-ca" />
+							Other Format
+						</label>
+					</li>
+				</ul>
+			</div>
+			<div class="actions">
+				<button type="submit">Download Selected Types</button>
+			</div>
+		</form>
+	</div>
+
+	<div id="download-starting-template">
+		<p>Your download will start in a moment.</p>
+	</div>
+</div>

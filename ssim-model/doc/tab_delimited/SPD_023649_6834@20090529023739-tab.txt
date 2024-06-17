@@ -1,0 +1,30 @@
+CF1	CF1	412.51	413.28	stop it. 
+CF1	CF1	415.9	420.6	does nobody even fucking care? 
+CF1	CF1	420.9	426.3	i don't want to sit in your car. this is fucking sexual harassment!
+CF1	CF1	426.3	441.2	this is does no one see ((this is sexual harassment))? i am not a fucking prostitute. ((get me a)) ow! stop it! i am not a fucking prostitute you cannot fucking touch me like this! this is fucking horrible!
+CF1	CF1	442.3	450.0	ow! what? uh. 
+CF1	CF1	471.2	484.2	oh my god. oh my god. oh my god. 
+CF1	CF1	487.0	500.0	wait my fu- my dog. wait! %name is out there by herself. she needs someone with her. 
+CF1	CF1	506.8	514.1	why won't you sto- you saw i just got sexually harassed. you're supposed to be fucking doing something. 
+CF1	CF1	520.6	531.0	let me out. please. just let me the fuck out. i don't want anything to do with any of you fucking people. just let me out. 
+CF1	CF1	535.8	562.2	please can you just let me the fuck out. you guys already just hurt me more than you can even fucking guess. {background noise of car moving} why won't you let me out? you're just a fucking person like me. you know that was unfair. 
+CF1	CF1	571.5	577.0	oh my god. 
+CF1	CF1	618.1	622.5	{background noise of keys} you just tried to fucking bash my face ((in)). 
+IM1	IM1	419.3	421.4	get in my car. 
+IM1	IM1	422.0	423.7	get in my car. 
+IM1	IM1	426.4	428.8	i got it. i got it. 
+IM1	IM1	429.6	431.6	just (()). 
+IM1	IM1	434.0	437.4	come on get in the car. 
+IM1	IM1	440.2	442.9	come on get in the car. {noise of movement in car}
+IM1	IM1	444.5	447.4	no. (()). 
+IM1	IM1	449.1	453.3	her hand is watch your hands ma'am. 
+IM1	IM1	454.8	459.8	grab her head. grab her head. 
+IM2	IM2	410.1	416.9	(()) {background noise} come on. 
+IM2	IM2	419.8	422.9	((come on)) sit in the car. 
+IM2	IM2	423.3	427.5	turn around. ((there's nothing on)) this side. ((you got it))? 
+IM2	IM2	431.4	433.5	i'll get her. 
+IM2	IM2	437.9	440.8	(()) open? 
+IM2	IM2	441.1	443.5	nope. 
+IM2	IM2	443.5	445.5	((you got her))?
+IM2	IM2	452.6	456.9	relax. relax (()), 
+IM2	IM2	457.2	460.5	((sure)). 

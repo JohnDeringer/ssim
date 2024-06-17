@@ -1,0 +1,80 @@
+IM1	IM1	67.91	69.54	get back in your car. 
+IM1	IM1	70.17	71.67	get back in your car!
+IM1	IM1	76.76	79.42	you're gonna pay when i catch you motherfucker. 
+IM1	IM1	85.41	86.94	{talking to IM2} go around (()). 
+IM1	IM1	96.09	96.89	ooh. 
+IM1	IM1	110.31	114.3	{talking to IM2} (()) on the right. stand by. 
+IM1	IM1	177.98	179.69	(()) shut your fucking mouth. 
+IM1	IM1	188.6	189.83	shut your mouth. 
+IM1	IM1	190.72	192.77	negative. secure the car. 
+IM1	IM1	193.29	194.51	let people know where we're at. 
+IM1	IM1	201.1	203.15	uh someone secure our car. 
+IM1	IM1	205.06	207.18	yeah just a second here. you got his legs? 
+IM1	IM1	211.23	212.04	shut your mouth. 
+IM1	IM1	213.9	214.9	uh. 
+IM1	IM1	218.7	220.4	{speaker talks into radio} negative. 
+IM1	IM1	254.2	254.92	hey what's your name? 
+IM1	IM1	259.43	260.45	fantastic. 
+IM1	IM1	261.73	264.55	huh? i know. it sucks huh? that's why you shouldn't run from the police. 
+IM1	IM1	265.26	266.8	yeah. now you want to be cool. okay. 
+IM1	IM1	267.72	268.3	shut up. 
+IM1	IM1	275.22	276.32	this guy's (()). 
+IM1	IM1	279.84	282.16	nothing else (()) in the front. roll him over. 
+IM1	IM1	291.78	297.11	oh doesn't want to talk. ((well look at that)). are you winded? yeah. that's why you shouldn't run. 
+IM1	IM1	298.11	308.23	yeah you have the right to remain silent. anything you say can be used against a court of law. you have the right at this time to talk to attorney have one present with you while you're being questioned. you don't have to answer any question or make any statements at this time. you understand the rights i've just read you? 
+IM1	IM1	309.42	310.21	stand up. 
+IM1	IM1	313.97	315.19	who cares. keep walking. 
+IM1	IM1	316.43	317.75	get up and keep walking!
+IM1	IM1	320.635	322.035	((well)) get up. 
+IM1	IM1	325.31	326.07	stand up. 
+CM1	CM1	69.71	70.01	what? 
+CM1	CM1	176.74	178.05	wait (()). 
+CM1	CM1	180.89	182.27	i'll go wherever you want to go. 
+CM1	CM1	185.64	186.83	they're my keys. 
+CM1	CM1	187.7	189.3	keys. 
+CM1	CM1	210.35	211.17	i see, 
+CM1	CM1	212.1	212.94	i need a chair. 
+CM1	CM1	258.78	259.29	ow.
+CM1	CM1	260.47	261.52	((you already)) hit me. 
+CM1	CM1	264.32	264.98	yes sir. 
+CM1	CM1	266.83	267.83	((don't hit me again)).
+CM1	CM1	268.65	269.35	okay. 
+CM1	CM1	303.6	305.4	okay. 
+CM1	CM1	312.51	313.83	((what did i do))? 
+CM1	CM1	315.43	316.54	oh ow ow.
+CM1	CM1	317.65	319.72	i can't. can't. ow. 
+CM1	CM1	320.41	321.05	jesus. 
+CM1	CM1	321.7	323.98	okay. god.
+CM1	CM1	324.52	326.02	can i have my shoes ((please))?
+CM1	CM1	327.06	327.76	is that thing on?
+CM1	CM1	329.19	329.65	ow. 
+IM2	IM2	97.47	97.87	(()).
+IM2	IM2	177.63	181.23	get over there (()). (()) on your stomach. ((do it by yourself)).
+IM2	IM2	183.1	186.5	(()). sorry sorry. there is something. 
+IM2	IM2	189.55	190.54	want to use the taser?
+IM2	IM2	191.08	192.01	((that would be good)).
+IM2	IM2	203.41	204.99	you want him in handcuffs or not ((cuffs))? 
+IM2	IM2	206.35	207.55	got him. 
+IM2	IM2	257.55	258.62	he doesn't want to talk now. 
+IM2	IM2	274.91	275.76	what's your name dude?
+IM2	IM2	278.03	279.14	what's your name?
+IM2	IM2	288.49	289.12	what's your name? 
+IM2	IM2	301.55	302.65	((excuse me)). 
+IM2	IM2	319.75	320.52	%name will take care of him. 
+IM2	IM2	325.65	327.75	%name we got him. we got him. 
+IM2	IM2	335.57	340.23	have a seat in the back of my car and i'll put your shoe on. okay? ((have a seat)). 
+Radio	Radio	221.47	222.79	units slow down. 
+Radio	Radio	224.66	239.47	can we have one more unit coming in? make it go to the uh sixteen hundred block of pike place and there should be a black jaguar standing by there. 
+Radio	Radio	241.35	241.99	(()). 
+Radio	Radio	242.5	249.27	(()) the sixteen hundred block of pike place and stand by with a black jag on the east side of the street. 
+Radio	Radio	250.12	251.13	be there one second. 
+Radio	Radio	252.32	253.5	mary one will handle. 
+Radio	Radio	261.23	262.84	(()). 
+Radio	Radio	266.51	268.39	(()). 
+Radio	Radio	269.29	275.03	(()). 
+Radio	Radio	276.51	277.43	(()). 
+Radio	Radio	282.52	286.34	(()). 
+Radio	Radio	286.95	287.49	(()). 
+Radio	Radio	291.75	293.74	(()). 
+Radio	Radio	297.24	299.06	(()). 
+Radio	Radio	303.12	307.35	(()). 

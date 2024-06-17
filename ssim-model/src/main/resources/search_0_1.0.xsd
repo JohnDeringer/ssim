@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+           elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="search" type="searchType"/>
+  <xs:complexType name="transcriptType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="followed-by" minOccurs="0"/>
+      <xs:element type="intervening-timeType" name="intervening-time" minOccurs="0"/>
+      <xs:element type="phraseType" name="phrase" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="speakerType" name="speaker"/>
+      <xs:element type="annotationsType" name="annotation"/>
+      <xs:element type="turn-timeType" name="turn-time"/>
+      <xs:element type="wordsType" name="words"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="turn-timeType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="turn-time-match"/>
+      <xs:element type="xs:string" name="turn-time"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="speakerType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="speaker-match"/>
+      <xs:element type="xs:string" name="speaker"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="phraseType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="phrase-match"/>
+      <xs:element name="phrase">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="andor" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="annotationsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="annotation-match"/>
+      <xs:element type="xs:string" name="annotation"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="filenameType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="filename-match"/>
+      <xs:element type="xs:string" name="filename"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="wordsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="words-match"/>
+      <xs:element type="xs:string" name="words"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="intervening-timeType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="intervening-time-match"/>
+      <xs:element type="xs:string" name="intervening-time"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchType">
+    <xs:sequence>
+      <xs:element type="filenameType" name="filename"/>
+      <xs:element type="transcriptType" name="transcript" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

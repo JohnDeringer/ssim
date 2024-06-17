@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="fileRequest" type="fileRequestType"/>
+  <xs:complexType name="fileRequestType">
+    <xs:sequence>
+
+      <xs:element name="format" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="original-video"/>
+                <xs:enumeration value="video-audio"/>
+                <xs:enumeration value="alternate-audio"/>
+                <xs:enumeration value="stimulated-recall-transcript"/>
+                <xs:enumeration value="sociometric-badge"/>
+                <xs:enumeration value="elan-transcript-orthographic"/>
+                <xs:enumeration value="traditional-transcript-orthographic"/>
+                <xs:enumeration value="tab-delimited-transcript-orthographic"/>
+                <xs:enumeration value="elan-transcript-ca"/>
+                <xs:enumeration value="traditional-transcript-ca"/>
+                <xs:enumeration value="tab-delimited-transcript-ca"/>
+                <xs:enumeration value="other-transcript-ca"/>
+            </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+
+      <xs:element name="file" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ssim/!svn/ver/224/ssim-model/src/main/java/com/sri/ssim/file
+END
+DocumentWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ssim/!svn/ver/1/ssim-model/src/main/java/com/sri/ssim/file/DocumentWrapper.java
+END
+DocumentLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ssim/!svn/ver/224/ssim-model/src/main/java/com/sri/ssim/file/DocumentLoader.java
+END
+AnnotatedLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/ssim/!svn/ver/52/ssim-model/src/main/java/com/sri/ssim/file/AnnotatedLine.java
+END
+ElanErrorHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ssim/!svn/ver/1/ssim-model/src/main/java/com/sri/ssim/file/ElanErrorHandler.java
+END
+DocumentParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ssim/!svn/ver/52/ssim-model/src/main/java/com/sri/ssim/file/DocumentParser.java
+END
+ElanDocumentParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ssim/!svn/ver/52/ssim-model/src/main/java/com/sri/ssim/file/ElanDocumentParser.java
+END
+TimedUtterance.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ssim/!svn/ver/52/ssim-model/src/main/java/com/sri/ssim/file/TimedUtterance.java
+END
+ParserRouter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ssim/!svn/ver/76/ssim-model/src/main/java/com/sri/ssim/file/ParserRouter.java
+END

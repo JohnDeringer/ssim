@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2012-06-13T16:27:12-08:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///F:/colleen/SSIM/transcription/5452@20090709010643.mpg" MIME_TYPE="video/mpeg" RELATIVE_MEDIA_URL="../../5452@20090709010643.mpg"/>
+        <MEDIA_DESCRIPTOR EXTRACTED_FROM="file:///F:/colleen/SSIM/transcription/5452@20090709010643.mpg" MEDIA_URL="file:///F:/colleen/SSIM/transcription/5452@20090709010643.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="../../5452@20090709010643.wav"/>
+        <PROPERTY NAME="lastUsedAnnotationId">120</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="80390"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="87230"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="88700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="92700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="95875"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="97505"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="98085"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="100185"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="100965"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="102335"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="102515"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="104595"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="106300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="108100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="108800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="113525"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="114300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="115000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="115525"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="117635"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="117700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="117925"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="118805"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="119335"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="119335"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="120500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="121445"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="123200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="123900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="123985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="124700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="125000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="125200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="125985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="126900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="127400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="129600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="132200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="133300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="134000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="138600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="142400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="144800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="145500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="147800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="148600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="150500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="152500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="154000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="154200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="154700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="156145"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="157600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="157800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="159695"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="160100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="164100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="165900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="166100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="168700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="169600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="172000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="173700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="175275"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="176100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="177055"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="177235"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="178415"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="179085"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="180445"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="181000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="186600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="188400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="188800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="191600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="195000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="198700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="199400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="207300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="208800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="212300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="214200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts83" TIME_VALUE="215200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts84" TIME_VALUE="216550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts85" TIME_VALUE="218850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts86" TIME_VALUE="219850"/>
+        <TIME_SLOT TIME_SLOT_ID="ts87" TIME_VALUE="222550"/>
+        <TIME_SLOT TIME_SLOT_ID="ts88" TIME_VALUE="232900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts89" TIME_VALUE="235800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts90" TIME_VALUE="237700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts91" TIME_VALUE="239200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts92" TIME_VALUE="240700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts93" TIME_VALUE="240800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts94" TIME_VALUE="241100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts95" TIME_VALUE="244100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts96" TIME_VALUE="244800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts97" TIME_VALUE="245300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts98" TIME_VALUE="251200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts99" TIME_VALUE="253400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts100" TIME_VALUE="274025"/>
+        <TIME_SLOT TIME_SLOT_ID="ts101" TIME_VALUE="274695"/>
+        <TIME_SLOT TIME_SLOT_ID="ts102" TIME_VALUE="277300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts103" TIME_VALUE="277800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts104" TIME_VALUE="278500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts105" TIME_VALUE="285000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts106" TIME_VALUE="286400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts107" TIME_VALUE="290200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts108" TIME_VALUE="291700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts109" TIME_VALUE="295800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts110" TIME_VALUE="296400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts111" TIME_VALUE="296500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts112" TIME_VALUE="297300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts113" TIME_VALUE="306300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts114" TIME_VALUE="306900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts115" TIME_VALUE="309200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts116" TIME_VALUE="309600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts117" TIME_VALUE="315700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts118" TIME_VALUE="315700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts119" TIME_VALUE="315800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts120" TIME_VALUE="316700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts121" TIME_VALUE="326500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts122" TIME_VALUE="327700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts123" TIME_VALUE="327768"/>
+        <TIME_SLOT TIME_SLOT_ID="ts124" TIME_VALUE="327783"/>
+        <TIME_SLOT TIME_SLOT_ID="ts125" TIME_VALUE="329968"/>
+        <TIME_SLOT TIME_SLOT_ID="ts126" TIME_VALUE="330868"/>
+        <TIME_SLOT TIME_SLOT_ID="ts127" TIME_VALUE="332123"/>
+        <TIME_SLOT TIME_SLOT_ID="ts128" TIME_VALUE="332368"/>
+        <TIME_SLOT TIME_SLOT_ID="ts129" TIME_VALUE="333268"/>
+        <TIME_SLOT TIME_SLOT_ID="ts130" TIME_VALUE="333268"/>
+        <TIME_SLOT TIME_SLOT_ID="ts131" TIME_VALUE="333968"/>
+        <TIME_SLOT TIME_SLOT_ID="ts132" TIME_VALUE="333968"/>
+        <TIME_SLOT TIME_SLOT_ID="ts133" TIME_VALUE="335368"/>
+        <TIME_SLOT TIME_SLOT_ID="ts134" TIME_VALUE="339268"/>
+        <TIME_SLOT TIME_SLOT_ID="ts135" TIME_VALUE="341368"/>
+        <TIME_SLOT TIME_SLOT_ID="ts136" TIME_VALUE="341968"/>
+        <TIME_SLOT TIME_SLOT_ID="ts137" TIME_VALUE="346968"/>
+        <TIME_SLOT TIME_SLOT_ID="ts138" TIME_VALUE="347468"/>
+        <TIME_SLOT TIME_SLOT_ID="ts139" TIME_VALUE="351068"/>
+        <TIME_SLOT TIME_SLOT_ID="ts140" TIME_VALUE="394800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts141" TIME_VALUE="399200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts142" TIME_VALUE="411200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts143" TIME_VALUE="413200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts144" TIME_VALUE="418200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts145" TIME_VALUE="418700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts146" TIME_VALUE="420800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts147" TIME_VALUE="423000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts148" TIME_VALUE="423300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts149" TIME_VALUE="426900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts150" TIME_VALUE="427700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts151" TIME_VALUE="429400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts152" TIME_VALUE="429800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts153" TIME_VALUE="435600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts154" TIME_VALUE="436200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts155" TIME_VALUE="437200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts156" TIME_VALUE="439800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts157" TIME_VALUE="440000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts158" TIME_VALUE="442600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts159" TIME_VALUE="443100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts160" TIME_VALUE="443100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts161" TIME_VALUE="445100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts162" TIME_VALUE="445900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts163" TIME_VALUE="446600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts164" TIME_VALUE="449800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts165" TIME_VALUE="449800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts166" TIME_VALUE="452400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts167" TIME_VALUE="453500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts168" TIME_VALUE="453800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts169" TIME_VALUE="454685"/>
+        <TIME_SLOT TIME_SLOT_ID="ts170" TIME_VALUE="455800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts171" TIME_VALUE="456645"/>
+        <TIME_SLOT TIME_SLOT_ID="ts172" TIME_VALUE="460600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts173" TIME_VALUE="463600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts174" TIME_VALUE="466475"/>
+        <TIME_SLOT TIME_SLOT_ID="ts175" TIME_VALUE="467635"/>
+        <TIME_SLOT TIME_SLOT_ID="ts176" TIME_VALUE="480765"/>
+        <TIME_SLOT TIME_SLOT_ID="ts177" TIME_VALUE="482395"/>
+        <TIME_SLOT TIME_SLOT_ID="ts178" TIME_VALUE="493700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts179" TIME_VALUE="497740"/>
+        <TIME_SLOT TIME_SLOT_ID="ts180" TIME_VALUE="498300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts181" TIME_VALUE="500620"/>
+        <TIME_SLOT TIME_SLOT_ID="ts182" TIME_VALUE="502375"/>
+        <TIME_SLOT TIME_SLOT_ID="ts183" TIME_VALUE="505035"/>
+        <TIME_SLOT TIME_SLOT_ID="ts184" TIME_VALUE="505300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts185" TIME_VALUE="506585"/>
+        <TIME_SLOT TIME_SLOT_ID="ts186" TIME_VALUE="509875"/>
+        <TIME_SLOT TIME_SLOT_ID="ts187" TIME_VALUE="510395"/>
+        <TIME_SLOT TIME_SLOT_ID="ts188" TIME_VALUE="511035"/>
+        <TIME_SLOT TIME_SLOT_ID="ts189" TIME_VALUE="511525"/>
+        <TIME_SLOT TIME_SLOT_ID="ts190" TIME_VALUE="513355"/>
+        <TIME_SLOT TIME_SLOT_ID="ts191" TIME_VALUE="521820"/>
+        <TIME_SLOT TIME_SLOT_ID="ts192" TIME_VALUE="525950"/>
+        <TIME_SLOT TIME_SLOT_ID="ts193" TIME_VALUE="531005"/>
+        <TIME_SLOT TIME_SLOT_ID="ts194" TIME_VALUE="533495"/>
+        <TIME_SLOT TIME_SLOT_ID="ts195" TIME_VALUE="536300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts196" TIME_VALUE="553865"/>
+        <TIME_SLOT TIME_SLOT_ID="ts197" TIME_VALUE="554200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts198" TIME_VALUE="554789"/>
+        <TIME_SLOT TIME_SLOT_ID="ts199" TIME_VALUE="554895"/>
+        <TIME_SLOT TIME_SLOT_ID="ts200" TIME_VALUE="568449"/>
+        <TIME_SLOT TIME_SLOT_ID="ts201" TIME_VALUE="570508"/>
+        <TIME_SLOT TIME_SLOT_ID="ts202" TIME_VALUE="570900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts203" TIME_VALUE="571625"/>
+        <TIME_SLOT TIME_SLOT_ID="ts204" TIME_VALUE="637100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts205" TIME_VALUE="642500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts206" TIME_VALUE="699100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts207" TIME_VALUE="702000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts208" TIME_VALUE="702000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts209" TIME_VALUE="704400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts210" TIME_VALUE="710400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts211" TIME_VALUE="714000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts212" TIME_VALUE="745500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts213" TIME_VALUE="746700"/>
+        <TIME_SLOT TIME_SLOT_ID="ts214" TIME_VALUE="825500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts215" TIME_VALUE="832100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts216" TIME_VALUE="955300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts217" TIME_VALUE="971400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts218" TIME_VALUE="1003500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts219" TIME_VALUE="1006600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts220" TIME_VALUE="1038200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts221" TIME_VALUE="1056400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts222" TIME_VALUE="1057600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts223" TIME_VALUE="1060600"/>
+        <TIME_SLOT TIME_SLOT_ID="ts224" TIME_VALUE="1061400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts225" TIME_VALUE="1063500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts226" TIME_VALUE="1063900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts227" TIME_VALUE="1069000"/>
+        <TIME_SLOT TIME_SLOT_ID="ts228" TIME_VALUE="1074800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts229" TIME_VALUE="1077900"/>
+        <TIME_SLOT TIME_SLOT_ID="ts230" TIME_VALUE="1078500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts231" TIME_VALUE="1082200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts232" TIME_VALUE="1083400"/>
+        <TIME_SLOT TIME_SLOT_ID="ts233" TIME_VALUE="1093300"/>
+        <TIME_SLOT TIME_SLOT_ID="ts234" TIME_VALUE="1100200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts235" TIME_VALUE="1103200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts236" TIME_VALUE="1105800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts237" TIME_VALUE="1106100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts238" TIME_VALUE="1109100"/>
+        <TIME_SLOT TIME_SLOT_ID="ts239" TIME_VALUE="1122500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts240" TIME_VALUE="1127200"/>
+    </TIME_ORDER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" TIER_ID="default"/>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="IM1" TIER_ID="IM1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>{voice initially through radio} since we know you've got that ah crap. {background noise of car door} since we know you've got that gun go ahead and put your hands out the window. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>put your hands out the window %name since we know you got the gun. thank you. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts6" TIME_SLOT_REF2="ts9">
+                <ANNOTATION_VALUE>%name you're suspended with third degree. you can't be driving. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts10" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>you can't be driving. you're suspended in the third degree. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts17">
+                <ANNOTATION_VALUE>{background noise of car running} everybody keep your hands where we can see them. hands behind your back. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts18" TIME_SLOT_REF2="ts21">
+                <ANNOTATION_VALUE>you're going to jail for driving with license suspended. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts22" TIME_SLOT_REF2="ts25">
+                <ANNOTATION_VALUE>oh yeah. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts26" TIME_SLOT_REF2="ts29">
+                <ANNOTATION_VALUE>you have a driver's license sir? do you have a driver's license? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts30" TIME_SLOT_REF2="ts34">
+                <ANNOTATION_VALUE>hang on to her for a second please.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts36" TIME_SLOT_REF2="ts39">
+                <ANNOTATION_VALUE>yep you're suspended. i don't know. you weren't thinking about your (()). {background noise of car door slamming}</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts40" TIME_SLOT_REF2="ts41">
+                <ANNOTATION_VALUE>{speaks into radio} (()) one in custody. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts42" TIME_SLOT_REF2="ts47">
+                <ANNOTATION_VALUE>((what's up with)) that? no no y- you're clean. you got nothing wrong with you. but you're suspended and you're driving while your license is suspended.  </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts48" TIME_SLOT_REF2="ts51">
+                <ANNOTATION_VALUE>why are you driving? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts52" TIME_SLOT_REF2="ts55">
+                <ANNOTATION_VALUE>oh no no. you can be a police officer some day because you're so ((above)) (()). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts56" TIME_SLOT_REF2="ts57">
+                <ANNOTATION_VALUE>not even close. not even close. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts58" TIME_SLOT_REF2="ts61">
+                <ANNOTATION_VALUE>yep. so you're under arrest for driving with a license suspended in the third degree. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts62" TIME_SLOT_REF2="ts65">
+                <ANNOTATION_VALUE>yes ma'am. i am gonna take you to jail for driving. step back here. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts66" TIME_SLOT_REF2="ts69">
+                <ANNOTATION_VALUE>completely. totally. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts72">
+                <ANNOTATION_VALUE>you were operating a motor vehicle while your license is suspended in the third degree. that is a crime in the state of washington. have a seat. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts73" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>also keep in mind while you're in my vehicle you're being recorded. at this point you have the right to remain silent. anything you say could ((be)) used against you in a court of law. you have the right at this time to talk to a lawyer and have him present with you while you're being questioned. if you cannot afford to hire a lawyer one will be appointed to represent you for any questioning if you wish. if you decide at any time to exercise these rights ((do)) not answer questions or make any statements. in the state of washington you're entitled to an attorney. if you cannot afford an attorney one will be appointed to represent you at no cost. thank you very much. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts84" TIME_SLOT_REF2="ts86">
+                <ANNOTATION_VALUE>{background noise of car door slamming} sorry i (()). is that it? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts88" TIME_SLOT_REF2="ts89">
+                <ANNOTATION_VALUE>{background noise of door opening} oh yeah. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts91" TIME_SLOT_REF2="ts95">
+                <ANNOTATION_VALUE>i already told you driving with a license suspended in the third degree is a crime. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts100" TIME_SLOT_REF2="ts101">
+                <ANNOTATION_VALUE>ma'am? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts102" TIME_SLOT_REF2="ts105">
+                <ANNOTATION_VALUE>suspended in the third degree is a civil offense. you (()) you ((drove)). you ((drove)). that's enough. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts108" TIME_SLOT_REF2="ts109">
+                <ANNOTATION_VALUE>((yes)) ma'am. if you if you're gonna keep on,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts111" TIME_SLOT_REF2="ts117">
+                <ANNOTATION_VALUE>this is an arrest. you're under arrest. ((please)) ma'am ma'am listen to me. if you kick my vehicle if you kick my vehicle you will be restrained. i will hogtie your feet. do you understand me? if you want to be treated like an animal i will treat you like an animal. behave like a human being. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts118" TIME_SLOT_REF2="ts122">
+                <ANNOTATION_VALUE>you did it to yourself. you chose to drive while you're suspended. we'll talk about it some more when you calm down. if you kick if you kick my vehicle i will restrain your feet. do you understand me? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29" TIME_SLOT_REF1="ts124" TIME_SLOT_REF2="ts127">
+                <ANNOTATION_VALUE>do not kick my vehicle. move your foot into the vehicle. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30" TIME_SLOT_REF1="ts128" TIME_SLOT_REF2="ts131">
+                <ANNOTATION_VALUE>no. he's gone. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31" TIME_SLOT_REF1="ts132" TIME_SLOT_REF2="ts135">
+                <ANNOTATION_VALUE>they're leaving. they're on foot. they can't drive. they don't have licenses. get your ve- your foot back in my vehicle so it doesn't get caught in the door. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32" TIME_SLOT_REF1="ts136" TIME_SLOT_REF2="ts137">
+                <ANNOTATION_VALUE>they're gone. you're done. ma'am move your foot now. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33" TIME_SLOT_REF1="ts138" TIME_SLOT_REF2="ts139">
+                <ANNOTATION_VALUE>i will. move your foot. that's it. i'm gonna grab you in a second {noise of door slamming and traffic}.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34" TIME_SLOT_REF1="ts143" TIME_SLOT_REF2="ts144">
+                <ANNOTATION_VALUE>{sound of door opening} your friend would like her house keys off the key ring. is that okay with you? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35" TIME_SLOT_REF1="ts146" TIME_SLOT_REF2="ts147">
+                <ANNOTATION_VALUE>okay. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36" TIME_SLOT_REF1="ts148" TIME_SLOT_REF2="ts149">
+                <ANNOTATION_VALUE>hey! {background noise of CF1 moving against inside car} do not do that. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37" TIME_SLOT_REF1="ts150" TIME_SLOT_REF2="ts151">
+                <ANNOTATION_VALUE>you just, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38" TIME_SLOT_REF1="ts152" TIME_SLOT_REF2="ts153">
+                <ANNOTATION_VALUE>yes you did. i was closing that door and you keep your feet to yourself. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39" TIME_SLOT_REF1="ts154" TIME_SLOT_REF2="ts156">
+                <ANNOTATION_VALUE>turn around. {background noise} turn around. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40" TIME_SLOT_REF1="ts157" TIME_SLOT_REF2="ts161">
+                <ANNOTATION_VALUE>yes you did. hold still. hold sta-,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41" TIME_SLOT_REF1="ts162" TIME_SLOT_REF2="ts164">
+                <ANNOTATION_VALUE>hold yes (()) seatbelted. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a42" TIME_SLOT_REF1="ts166" TIME_SLOT_REF2="ts170">
+                <ANNOTATION_VALUE>just relax.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a43" TIME_SLOT_REF1="ts176" TIME_SLOT_REF2="ts177">
+                <ANNOTATION_VALUE>hey just relax. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a44" TIME_SLOT_REF1="ts186" TIME_SLOT_REF2="ts189">
+                <ANNOTATION_VALUE>she is not cooperating (()). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a45" TIME_SLOT_REF1="ts193" TIME_SLOT_REF2="ts194">
+                <ANNOTATION_VALUE>{background noise of car door opening} hop in. let's go. she's fighting. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a46" TIME_SLOT_REF1="ts196" TIME_SLOT_REF2="ts199">
+                <ANNOTATION_VALUE>i'm sure you will. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a47" TIME_SLOT_REF1="ts200" TIME_SLOT_REF2="ts203">
+                <ANNOTATION_VALUE>you can't be insured when you're suspended. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a48" TIME_SLOT_REF1="ts206" TIME_SLOT_REF2="ts209">
+                <ANNOTATION_VALUE>would now be a good time to remind you you're being recorded? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a49" TIME_SLOT_REF1="ts210" TIME_SLOT_REF2="ts211">
+                <ANNOTATION_VALUE>you go right ahead. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a50" TIME_SLOT_REF1="ts223" TIME_SLOT_REF2="ts226">
+                <ANNOTATION_VALUE>i don't know. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a51" TIME_SLOT_REF1="ts228" TIME_SLOT_REF2="ts230">
+                <ANNOTATION_VALUE>we're good. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a52" TIME_SLOT_REF1="ts234" TIME_SLOT_REF2="ts236">
+                <ANNOTATION_VALUE>okay. did you (()) yet? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="CF1" TIER_ID="CF1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a53" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts7">
+                <ANNOTATION_VALUE>(()) do nothing. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a54" TIME_SLOT_REF1="ts8" TIME_SLOT_REF2="ts11">
+                <ANNOTATION_VALUE>uh i didn't do nothing sir. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a55" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>((man)) (()). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a56" TIME_SLOT_REF1="ts16" TIME_SLOT_REF2="ts19">
+                <ANNOTATION_VALUE>what am i doing? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a57" TIME_SLOT_REF1="ts20" TIME_SLOT_REF2="ts23">
+                <ANNOTATION_VALUE>oh. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a58" TIME_SLOT_REF1="ts24" TIME_SLOT_REF2="ts27">
+                <ANNOTATION_VALUE>((please sir)). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a59" TIME_SLOT_REF1="ts32" TIME_SLOT_REF2="ts37">
+                <ANNOTATION_VALUE>((i'm going to jail for)) oh when ((did i get)) my license suspend? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a60" TIME_SLOT_REF1="ts38" TIME_SLOT_REF2="ts43">
+                <ANNOTATION_VALUE>oh (()) my cousin's fault. i swear (()) forgot (()) about. (()) my cousin. that was it. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a61" TIME_SLOT_REF1="ts44" TIME_SLOT_REF2="ts45">
+                <ANNOTATION_VALUE>i am but, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a62" TIME_SLOT_REF1="ts46" TIME_SLOT_REF2="ts49">
+                <ANNOTATION_VALUE>sir i'm always coming down here with my boyfriend. i came with my cousin and i'm not gonna stand here and lie to you. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a63" TIME_SLOT_REF1="ts50" TIME_SLOT_REF2="ts53">
+                <ANNOTATION_VALUE>because i was just trying to take him out. me and him can have fun. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a64" TIME_SLOT_REF1="ts54" TIME_SLOT_REF2="ts59">
+                <ANNOTATION_VALUE>i am. i'm not perfect. you know what i'm saying? i'm not perfect. i'm n- i'm not perfect sir. you know what i'm saying? i'm not perfect. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a65" TIME_SLOT_REF1="ts60" TIME_SLOT_REF2="ts63">
+                <ANNOTATION_VALUE>oh my goodness. you're gonna take me to jail (())?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a66" TIME_SLOT_REF1="ts64" TIME_SLOT_REF2="ts67">
+                <ANNOTATION_VALUE>are you serious? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a67" TIME_SLOT_REF1="ts68" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>i didn't even do nothing. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a68" TIME_SLOT_REF1="ts74" TIME_SLOT_REF2="ts75">
+                <ANNOTATION_VALUE>sir. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a69" TIME_SLOT_REF1="ts76" TIME_SLOT_REF2="ts77">
+                <ANNOTATION_VALUE>((i didn't)) do nothing. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a70" TIME_SLOT_REF1="ts78" TIME_SLOT_REF2="ts79">
+                <ANNOTATION_VALUE>oh. uh. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a71" TIME_SLOT_REF1="ts80" TIME_SLOT_REF2="ts81">
+                <ANNOTATION_VALUE>((i didn't)) do this. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a72" TIME_SLOT_REF1="ts83" TIME_SLOT_REF2="ts92">
+                <ANNOTATION_VALUE>oh my {background noise of door slamming} goodness! oh ((fucking)) do this. what the fuck! oh my! i cannot believe this shit. i didn't even do nothing! i didn't even do nothing. you're really gonna take me to jail for no fucking reason? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a73" TIME_SLOT_REF1="ts94" TIME_SLOT_REF2="ts96">
+                <ANNOTATION_VALUE>but come on you could have gave me a warning. what'd i do? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a74" TIME_SLOT_REF1="ts97" TIME_SLOT_REF2="ts98">
+                <ANNOTATION_VALUE>{background noise of speaker kicking police car} ((what the fuck)) (()) fucking. man i'm getting oh my goodness!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a75" TIME_SLOT_REF1="ts99" TIME_SLOT_REF2="ts103">
+                <ANNOTATION_VALUE>i cannot be- oh (()) ah! ((i didn't even fucking)) do nothing! {noise of kicking back of police car} ah! {noise of kicking car} uh f- man! i didn't fucking do nothing! get me out ((i didn't do)) shit! the fuck you trying to wait for all this to happen! i didn't do nothing you come and take me for no reason!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a76" TIME_SLOT_REF1="ts104" TIME_SLOT_REF2="ts106">
+                <ANNOTATION_VALUE>but i'm n- i didn't do nothing! that's what i'm saying. i didn't do nothing! i didn't do nothing. you guys asked me for s-.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a77" TIME_SLOT_REF1="ts107" TIME_SLOT_REF2="ts110">
+                <ANNOTATION_VALUE>{noise of kicking back of police car} m- get out of this motherfucker. i didn't do nothing! (()) arrest me for no reason!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a78" TIME_SLOT_REF1="ts112" TIME_SLOT_REF2="ts113">
+                <ANNOTATION_VALUE>but i didn't do nothing! you guys i've been honest with you guys! honest! i called (()) one of my cousins! you cannot, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a79" TIME_SLOT_REF1="ts114" TIME_SLOT_REF2="ts115">
+                <ANNOTATION_VALUE>okay. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a80" TIME_SLOT_REF1="ts116" TIME_SLOT_REF2="ts119">
+                <ANNOTATION_VALUE>i need to talk to somebody. i need to talk to somebody. how can you do this to me? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a81" TIME_SLOT_REF1="ts120" TIME_SLOT_REF2="ts121">
+                <ANNOTATION_VALUE>how ma- you do this to me? ((i was gonna)) have a good time. i was gonna have a good time ((how can you)) do this to me? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a82" TIME_SLOT_REF1="ts123" TIME_SLOT_REF2="ts125">
+                <ANNOTATION_VALUE>can i talk to them? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a83" TIME_SLOT_REF1="ts126" TIME_SLOT_REF2="ts129">
+                <ANNOTATION_VALUE>can i talk to my cousin ((please))? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a84" TIME_SLOT_REF1="ts130" TIME_SLOT_REF2="ts133">
+                <ANNOTATION_VALUE>where'd they go? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a85" TIME_SLOT_REF1="ts134" TIME_SLOT_REF2="ts140">
+                <ANNOTATION_VALUE>can i talk to someone ple- i didn't do nothing. i didn't do nothing okay ((get)) my keys please. i didn't do nothing {noise of door slamming}. ((i didn't)) do nothing. ((what the)) oh! (()) i didn't do nothing. i didn't fucking d- i didn't even do nothing! uh. i didn't even do nothing. uh m- mm. i didn't even do nothing. uh i didn't even do nothing. ((how are you gonna do this))? {background noise of door slamming} mm i i didn't even uh oh i didn't even do nothing. oh my goodness. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a86" TIME_SLOT_REF1="ts141" TIME_SLOT_REF2="ts142">
+                <ANNOTATION_VALUE>i didn't even do (()) uh oh my goodness. i ((didn't)) huh? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a87" TIME_SLOT_REF1="ts145" TIME_SLOT_REF2="ts159">
+                <ANNOTATION_VALUE>donf- don't talk to me please. for real don't talk to me. {noise of car door slamming and movement} fucking kick me! you better not kick me! you better not i didn't kick you! do not kick me! do not kick me! then i did not kick you! i didn't kick you! i did not kick you! nah didn't kick him he kicked me! he kicked me!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a88" TIME_SLOT_REF1="ts160" TIME_SLOT_REF2="ts167">
+                <ANNOTATION_VALUE>g- (()) holding me down! get off me! uh get off of me! i didn't even hold you down. get off me!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a89" TIME_SLOT_REF1="ts168" TIME_SLOT_REF2="ts172">
+                <ANNOTATION_VALUE>he's t- uh i didn't do nothing! ah {background noise of kicking inside of car} uh! </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a90" TIME_SLOT_REF1="ts173" TIME_SLOT_REF2="ts178">
+                <ANNOTATION_VALUE>uh fucking (()). uh. {background noise of kicking inside car} uh. fuck it. let me out. get me out of here now!</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a91" TIME_SLOT_REF1="ts180" TIME_SLOT_REF2="ts184">
+                <ANNOTATION_VALUE>{noise of speaker spitting} (()). you come here i'll spit on you. get in here i'll s-,</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a92" TIME_SLOT_REF1="ts188" TIME_SLOT_REF2="ts190">
+                <ANNOTATION_VALUE>so you're gonna take me to jail? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a93" TIME_SLOT_REF1="ts191" TIME_SLOT_REF2="ts192">
+                <ANNOTATION_VALUE>((what the)) fuck is this? man i cannot believe this shit. {noise of trunk closing}</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a94" TIME_SLOT_REF1="ts195" TIME_SLOT_REF2="ts197">
+                <ANNOTATION_VALUE>i cannot believe {background noise of car door slamming} this shit. i got to bail the fuck out. oh my goodness! what the fuck? you guys will punish you little faggot-ass officers. fa- i'm gonna bail out. watch. watch me. watch me bail the fuck out. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a95" TIME_SLOT_REF1="ts198" TIME_SLOT_REF2="ts201">
+                <ANNOTATION_VALUE>i sure am bitch. believe that. believe that hurry up and get me to the precinct so i can bail the fuck out. hurry up. ((license insured)). shit nothing. i got insurance. you didn't even look for that. you just got me because you wanted to get me. but don't trip. i'm getting my shit back. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a96" TIME_SLOT_REF1="ts202" TIME_SLOT_REF2="ts204">
+                <ANNOTATION_VALUE>it don't fu- i had insurance. you was just trying to fuck with me so for some reason you bitch-ass. that's what you was trying to do. {background noise of radio} i had insurance. all you had to do was give me a fucking ticket for a hundred dollar. hurry up and get me to the precinct so i can bail the fuck out. get me there. believe that i'm gonna call miss %fisher and get the fuck out of here. get me home. hurry up and get me there. for real. you was planning to do that shit. faggot-ass officer. don't know why ((you)) like you guys. hurry up and take me there. i'll bail out. what the fuck you did that on purposely. what the fuck. i can't believe this shit. cannot believe this mother fucking shit. ooh. ah y'all did this little bitch-ass shit. for real. you did that (()) put your hands on me. oh shit. you gonna get me because my cousin's there. i cannot believe this shit. it is what it is right? </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a97" TIME_SLOT_REF1="ts205" TIME_SLOT_REF2="ts207">
+                <ANNOTATION_VALUE>hurry up and get me there baby. hurry up and get me i'm bailing out anyway baby. it's funny. ((oh it's)) gonna be a lot +funnier (()) is nothing. i'll be out. i ((got)) me some bitch officer. and look at you looking like pee wee. ha! y'all are some bitch ass officer. that's why you guys never get paid a lot of money because you guys are bitches! you know what i'm saying? then you got little herman up here with his big ass elephant ears. ha! think he's (()) everything because he's got a gun and a badge. come on now. tough your game up. y'all don't getting paid that much. ((now)) you up here. seattle police. i don't know why they give you a badge because you ((can blame)) me i'll spit on your ass. you better not let me out of here. i'll spit the fuck on you. so you you, </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a98" TIME_SLOT_REF1="ts208" TIME_SLOT_REF2="ts212">
+                <ANNOTATION_VALUE>i don't care. well you need to tell them how you is kicking me because i'm sure gonna go tomorrow and make sure i file. believe that. for kicking me? oh hello he's kicking me. uh since i'm being recorded do you know he just kicked me? a fucking seattle police officer just kicked me? are you serious? pulled me over for no reason. kicked me. i still got my purse. well yeah. believe that. i will make sure i'll be at court. i'll make sure i'll call somebody to make sure you get your badge for kicking me. kicking a woman. a woman. so if someone kicked your wife how would you feel? or your girlfriend? yeah. click on your computer. i want to be known (()) bashing me up like i'm a kid (()) i'll be out anyway.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a99" TIME_SLOT_REF1="ts213" TIME_SLOT_REF2="ts214">
+                <ANNOTATION_VALUE>you going the fucking wrong way to seattle. seattle's not this way. seattle is not this way. you're going the wrong +way +baby. seattle's up that way if you're gonna take me to the county. county is not this way. the county is not this way. the county is up the street. so take me to the county and i will be out. my car will be out the tow. trust me. it will be out. so hurry up and take me to the county please. hurry up pl- i'm begging you please so i can go to the county so i can bail out. mhm. i will be calling miss %name and begin bailed out. hurry up. you're going the wrong way. you're going the wrong way. i'm trying to get to the county so i can go in there and make my call. my free call to be out. please rush. you're not going fast enough. i need you to go squealy immediately fast and i'm gonna continue to come back downtown and kick it whoever i want to kick it with. for real so hurry up. hurry up and take me to the county so i can call my friend and get me out. {speaker hums song} hurry up and get me in the county please. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a100" TIME_SLOT_REF1="ts215" TIME_SLOT_REF2="ts216">
+                <ANNOTATION_VALUE>that was wum- you played your cards good that time. you played them real good. i got to admit to you. looking like ((steven earl)). you did the right thing. that's why officers don't ever get paid that much. you did the right thing. for real. but i'll be out. i'll be out i promise you. out. i will be out and i will go get my car. so it's nothing. {noise of radio tone} so hurry up and take me since you're taking me for no driving with no license. can't charge me with insurance because i got insurance. i got fucking insurance so you're wasting your money. come on. since you searched me and everything come on. i'm ready to go. come on. take me to the county. hurry up please take me to the county because i will be bailing out bailing out right about now. mhm. call my cousin to get bailed out. mhm. hurry up. please hurry up. so i can sure talk to those people about what how the fuck you kicked me. sure is. ((about)) me kicking the door i'm still gonna tell them how you fucking kicked me. for real. for real. i'm about to get a fucking lawyer. i'm not playing. you're not gonna just kick no woman thinking you tha- them boots don't fucking hurt. for real. for real. i'm not even playing. someone kicked you in your fa- kick you in your wife i'm quite sure you're gonna be mad and you gonna kick somebody. they don't pay you nobody they don't pay you enough money to kick nobody. for real. i would love to see you get off a shift. i would whew! i would love it baby. for real. hurry up and take me to the county for real. please rush. i'm ((you know)) i want to get out of these handcuffs. i want to go to the county and get the bailed out. right now because you want to take me to jail for no reason. hm.</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a101" TIME_SLOT_REF1="ts217" TIME_SLOT_REF2="ts218">
+                <ANNOTATION_VALUE>probably searched my car and didn't even see nothing. ((take a look. there's)) nothing in it baby. search my car for no reason and i got insurance. hey look at my name. %name driving with no license third degree baby. i know everything. so keep looking. you're not find nothing else on my record. was just driving with no license. ((i apologize)). i know that. please drop me off at the precinct please. hurry up and drop me off at the precinct. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a102" TIME_SLOT_REF1="ts219" TIME_SLOT_REF2="ts220">
+                <ANNOTATION_VALUE>mhm. got my social security number. %social_security_number the only thing i'm in there for was no driving with no license. that's it. ha! be out in a minute baby. mhm. ((could)) talk shit like that because i get spelled out. so yep. hurry up and take me to my free phone call. {noise of snapping fingers} whew! i'll be out in a minute. {speaker hums song}</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a103" TIME_SLOT_REF1="ts222" TIME_SLOT_REF2="ts240">
+                <ANNOTATION_VALUE>mm ((thank god)) i'm out of here. please get me out of here i'm s- so i can bail out. i didn't t- do shit. you taking me for fucking precinct for fun- fucking no driving license. what the fuck? come on. mhm. {background noise of radio beeping} mhm. take me to jail for no fucking reason. let me bail out. a._s._a._p.. no take me there for no fucking reason {background noise of door opening}. take my own goddamn seatbelt off. come on.  </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="CM1" TIER_ID="CM1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a104" TIME_SLOT_REF1="ts28" TIME_SLOT_REF2="ts33">
+                <ANNOTATION_VALUE>(()). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="IM2" TIER_ID="IM2">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a105" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts35">
+                <ANNOTATION_VALUE>yep. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a106" TIME_SLOT_REF1="ts85" TIME_SLOT_REF2="ts87">
+                <ANNOTATION_VALUE>nah ((i think)) that's it {background noise of paper bag tearing}. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a107" TIME_SLOT_REF1="ts90" TIME_SLOT_REF2="ts93">
+                <ANNOTATION_VALUE>{background tone. speaks to radio}. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a108" TIME_SLOT_REF1="ts155" TIME_SLOT_REF2="ts158">
+                <ANNOTATION_VALUE>((ums- please)). (()) turn around. ((use your weapon)).</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a109" TIME_SLOT_REF1="ts163" TIME_SLOT_REF2="ts165">
+                <ANNOTATION_VALUE>(()).</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a110" TIME_SLOT_REF1="ts169" TIME_SLOT_REF2="ts171">
+                <ANNOTATION_VALUE>you brought this on yourself. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a111" TIME_SLOT_REF1="ts174" TIME_SLOT_REF2="ts175">
+                <ANNOTATION_VALUE>don't do that. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a112" TIME_SLOT_REF1="ts179" TIME_SLOT_REF2="ts181">
+                <ANNOTATION_VALUE>hey. you're gonna give yourself high blood pressure. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a113" TIME_SLOT_REF1="ts182" TIME_SLOT_REF2="ts183">
+                <ANNOTATION_VALUE>see now you're now you're trying to spit. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a114" TIME_SLOT_REF1="ts185" TIME_SLOT_REF2="ts187">
+                <ANNOTATION_VALUE>is your uh glass up? sh- she she's trying to spit on our guys here. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="IM3" TIER_ID="IM3">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a115" TIME_SLOT_REF1="ts221" TIME_SLOT_REF2="ts224">
+                <ANNOTATION_VALUE>(()).</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a116" TIME_SLOT_REF1="ts225" TIME_SLOT_REF2="ts227">
+                <ANNOTATION_VALUE>(()) i'll just do ((mileage)). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a117" TIME_SLOT_REF1="ts229" TIME_SLOT_REF2="ts231">
+                <ANNOTATION_VALUE>you got (()). </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a118" TIME_SLOT_REF1="ts232" TIME_SLOT_REF2="ts233">
+                <ANNOTATION_VALUE>(()) {noise of radio and speaker talking to radio}</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a119" TIME_SLOT_REF1="ts235" TIME_SLOT_REF2="ts237">
+                <ANNOTATION_VALUE>yes. </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a120" TIME_SLOT_REF1="ts238" TIME_SLOT_REF2="ts239">
+                <ANNOTATION_VALUE>{noise of radio and speaking talking to radio}</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2012-06-15T14:33:34-05:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/mardikidwell/Documents/Mardi Kidwell/Transcriptions/TR2 Empty Gas Tank UNH/TR2 Empty Gas Tank.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="./TR2 Empty Gas Tank.mov"/>
+        <MEDIA_DESCRIPTOR EXTRACTED_FROM="file:///Users/mardikidwell/Documents/Mardi Kidwell/Transcriptions/TR2 Empty Gas Tank UNH/TR2 Empty Gas Tank.mov" MEDIA_URL="file:///Users/mardikidwell/Documents/Mardi Kidwell/Transcriptions/TR2 Empty Gas Tank UNH/TR2 Empty Gas Tank.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./TR2 Empty Gas Tank.wav"/>
+        <PROPERTY NAME="lastUsedAnnotationId">41</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="10"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="21240"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="21256"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="22583"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="22601"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="23062"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="24125"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="24902"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="24903"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="25320"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="26525"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="27010"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="27746"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="29067"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="29786"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="30910"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="31796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="33083"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="33596"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="35263"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="35651"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="35803"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="37216"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="37304"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="38813"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="39151"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="41087"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="43741"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="49256"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="50002"/>
+        <TIME_SLOT TIME_SLOT_ID="ts31" TIME_VALUE="50276"/>
+        <TIME_SLOT TIME_SLOT_ID="ts32" TIME_VALUE="51301"/>
+        <TIME_SLOT TIME_SLOT_ID="ts33" TIME_VALUE="51351"/>
+        <TIME_SLOT TIME_SLOT_ID="ts34" TIME_VALUE="55568"/>
+        <TIME_SLOT TIME_SLOT_ID="ts35" TIME_VALUE="56685"/>
+        <TIME_SLOT TIME_SLOT_ID="ts36" TIME_VALUE="56725"/>
+        <TIME_SLOT TIME_SLOT_ID="ts37" TIME_VALUE="57068"/>
+        <TIME_SLOT TIME_SLOT_ID="ts38" TIME_VALUE="58290"/>
+        <TIME_SLOT TIME_SLOT_ID="ts39" TIME_VALUE="58739"/>
+        <TIME_SLOT TIME_SLOT_ID="ts40" TIME_VALUE="59735"/>
+        <TIME_SLOT TIME_SLOT_ID="ts41" TIME_VALUE="61705"/>
+        <TIME_SLOT TIME_SLOT_ID="ts42" TIME_VALUE="62206"/>
+        <TIME_SLOT TIME_SLOT_ID="ts43" TIME_VALUE="64596"/>
+        <TIME_SLOT TIME_SLOT_ID="ts44" TIME_VALUE="64747"/>
+        <TIME_SLOT TIME_SLOT_ID="ts45" TIME_VALUE="64796"/>
+        <TIME_SLOT TIME_SLOT_ID="ts46" TIME_VALUE="65616"/>
+        <TIME_SLOT TIME_SLOT_ID="ts47" TIME_VALUE="66858"/>
+        <TIME_SLOT TIME_SLOT_ID="ts48" TIME_VALUE="67541"/>
+        <TIME_SLOT TIME_SLOT_ID="ts49" TIME_VALUE="68108"/>
+        <TIME_SLOT TIME_SLOT_ID="ts50" TIME_VALUE="68185"/>
+        <TIME_SLOT TIME_SLOT_ID="ts51" TIME_VALUE="68186"/>
+        <TIME_SLOT TIME_SLOT_ID="ts52" TIME_VALUE="68650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts53" TIME_VALUE="70739"/>
+        <TIME_SLOT TIME_SLOT_ID="ts54" TIME_VALUE="74062"/>
+        <TIME_SLOT TIME_SLOT_ID="ts55" TIME_VALUE="74398"/>
+        <TIME_SLOT TIME_SLOT_ID="ts56" TIME_VALUE="76698"/>
+        <TIME_SLOT TIME_SLOT_ID="ts57" TIME_VALUE="78615"/>
+        <TIME_SLOT TIME_SLOT_ID="ts58" TIME_VALUE="80096"/>
+        <TIME_SLOT TIME_SLOT_ID="ts59" TIME_VALUE="82845"/>
+        <TIME_SLOT TIME_SLOT_ID="ts60" TIME_VALUE="84503"/>
+        <TIME_SLOT TIME_SLOT_ID="ts61" TIME_VALUE="84806"/>
+        <TIME_SLOT TIME_SLOT_ID="ts62" TIME_VALUE="85678"/>
+        <TIME_SLOT TIME_SLOT_ID="ts63" TIME_VALUE="87591"/>
+        <TIME_SLOT TIME_SLOT_ID="ts64" TIME_VALUE="93061"/>
+        <TIME_SLOT TIME_SLOT_ID="ts65" TIME_VALUE="93405"/>
+        <TIME_SLOT TIME_SLOT_ID="ts66" TIME_VALUE="94906"/>
+        <TIME_SLOT TIME_SLOT_ID="ts67" TIME_VALUE="95197"/>
+        <TIME_SLOT TIME_SLOT_ID="ts68" TIME_VALUE="98200"/>
+        <TIME_SLOT TIME_SLOT_ID="ts69" TIME_VALUE="98650"/>
+        <TIME_SLOT TIME_SLOT_ID="ts70" TIME_VALUE="98802"/>
+        <TIME_SLOT TIME_SLOT_ID="ts71" TIME_VALUE="100211"/>
+        <TIME_SLOT TIME_SLOT_ID="ts72" TIME_VALUE="101195"/>
+        <TIME_SLOT TIME_SLOT_ID="ts73" TIME_VALUE="102429"/>
+        <TIME_SLOT TIME_SLOT_ID="ts74" TIME_VALUE="103920"/>
+        <TIME_SLOT TIME_SLOT_ID="ts75" TIME_VALUE="110996"/>
+        <TIME_SLOT TIME_SLOT_ID="ts76" TIME_VALUE="112671"/>
+        <TIME_SLOT TIME_SLOT_ID="ts77" TIME_VALUE="130345"/>
+        <TIME_SLOT TIME_SLOT_ID="ts78" TIME_VALUE="130911"/>
+        <TIME_SLOT TIME_SLOT_ID="ts79" TIME_VALUE="131062"/>
+        <TIME_SLOT TIME_SLOT_ID="ts80" TIME_VALUE="131500"/>
+        <TIME_SLOT TIME_SLOT_ID="ts81" TIME_VALUE="132314"/>
+        <TIME_SLOT TIME_SLOT_ID="ts82" TIME_VALUE="132916"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="Kellie Averell" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Institutional Male 1" TIER_ID="IM1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts5" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>you ^alright|</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>good</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts12">
+                <ANNOTATION_VALUE>(make) it</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts31" TIME_SLOT_REF2="ts32">
+                <ANNOTATION_VALUE>how'd you run out of g$as</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts48" TIME_SLOT_REF2="ts51">
+                <ANNOTATION_VALUE>( I beg your pardon)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts59" TIME_SLOT_REF2="ts61">
+                <ANNOTATION_VALUE>we:ll (you know) Ohio driver's do the same thi[ng</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts65" TIME_SLOT_REF2="ts67">
+                <ANNOTATION_VALUE>yeah (...) ninety thre[e</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts68" TIME_SLOT_REF2="ts70">
+                <ANNOTATION_VALUE>right</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts72" TIME_SLOT_REF2="ts74">
+                <ANNOTATION_VALUE>[no: (0.2) I drove through here</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts77" TIME_SLOT_REF2="ts79">
+                <ANNOTATION_VALUE>good n^e[ws|</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts80" TIME_SLOT_REF2="ts82">
+                <ANNOTATION_VALUE>[alright (.) take it easy</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="Kellie Averell" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Citizen Male 1" TIER_ID="CM1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>°(...)°</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts13" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>I think that I'm goo:d</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a14" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>°(...)°</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts22" TIME_SLOT_REF2="ts24">
+                <ANNOTATION_VALUE>°(...)°</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts25" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>(okay)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a17" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>(I'm sure you could get home) ^again| but I'm just (...)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a18" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>(alright)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a19" TIME_SLOT_REF1="ts33" TIME_SLOT_REF2="ts35">
+                <ANNOTATION_VALUE>we:ll I (was) heading down (...) (.) twenty three (0.3) and (...) </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a20" TIME_SLOT_REF1="ts36" TIME_SLOT_REF2="ts38">
+                <ANNOTATION_VALUE>I had enough gas to get where I was headed</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a21" TIME_SLOT_REF1="ts39" TIME_SLOT_REF2="ts41">
+                <ANNOTATION_VALUE>but I missed my exit (0.3) (had about half or a third)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a22" TIME_SLOT_REF1="ts42" TIME_SLOT_REF2="ts44">
+                <ANNOTATION_VALUE>turned around (on Mountain road) and come back out</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a23" TIME_SLOT_REF1="ts45" TIME_SLOT_REF2="ts47">
+                <ANNOTATION_VALUE>and I knew it would be (.) (tight)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a24" TIME_SLOT_REF1="ts50" TIME_SLOT_REF2="ts54">
+                <ANNOTATION_VALUE>(..) (0.3) (I probably) had enough to where the gas station but (...)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a25" TIME_SLOT_REF1="ts55" TIME_SLOT_REF2="ts56">
+                <ANNOTATION_VALUE>couldn't push it up hill (0.2) I was dragging </ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a26" TIME_SLOT_REF1="ts57" TIME_SLOT_REF2="ts58">
+                <ANNOTATION_VALUE>how long would you say Michigan (drive it)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a27" TIME_SLOT_REF1="ts60" TIME_SLOT_REF2="ts62">
+                <ANNOTATION_VALUE>[w^e::ll| yeah</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a28" TIME_SLOT_REF1="ts63" TIME_SLOT_REF2="ts64">
+                <ANNOTATION_VALUE>°(...)° (1.5) °(...)°</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a29" TIME_SLOT_REF1="ts66" TIME_SLOT_REF2="ts69">
+                <ANNOTATION_VALUE>[that would have been brutal if °it's only (0.2) route ninety three (to exit) traffic</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a30" TIME_SLOT_REF1="ts71" TIME_SLOT_REF2="ts73">
+                <ANNOTATION_VALUE>somebody (call it in) or did you just happen to b[y (...)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a31" TIME_SLOT_REF1="ts75" TIME_SLOT_REF2="ts76">
+                <ANNOTATION_VALUE>°(let's) start her up and see°</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a32" TIME_SLOT_REF1="ts78" TIME_SLOT_REF2="ts81">
+                <ANNOTATION_VALUE>[ yu:p thanks for checking &gt;appre[ciate it officer&lt;</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="Kellie Averell" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Radio" TIER_ID="R">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a33" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>((Radio is silent))</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a34" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts4">
+                <ANNOTATION_VALUE>((Radio))</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a35" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>((Radio))</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a36" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts20">
+                <ANNOTATION_VALUE>((Radio))</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a37" TIME_SLOT_REF1="ts21" TIME_SLOT_REF2="ts23">
+                <ANNOTATION_VALUE>((Radio))</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a38" TIME_SLOT_REF1="ts34" TIME_SLOT_REF2="ts37">
+                <ANNOTATION_VALUE>((Radio))</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a39" TIME_SLOT_REF1="ts40" TIME_SLOT_REF2="ts43">
+                <ANNOTATION_VALUE>((Radio voices))</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a40" TIME_SLOT_REF1="ts46" TIME_SLOT_REF2="ts49">
+                <ANNOTATION_VALUE>((Radio))</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a41" TIME_SLOT_REF1="ts52" TIME_SLOT_REF2="ts53">
+                <ANNOTATION_VALUE>((Radio))</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<searchType>
+    <participants>
+        <search-participant-type>string</search-participant-type>
+        <search-gender>string</search-gender>
+        <search-age>
+            <search-age-match>more</search-age-match>
+            <search-age>string</search-age>
+        </search-age>
+        <search-codename>string</search-codename>
+        <search-mil-rank-match>more</search-mil-rank-match>
+        <search-mil-rank>string</search-mil-rank>
+        <search-pol-rank-match>more</search-pol-rank-match>
+        <search-pol-rank>string</search-pol-rank>
+        <search-ethnicity>string</search-ethnicity>
+        <search-first-language>string</search-first-language>
+        <search-geo-origin>string</search-geo-origin>
+        <search-time-in-country-match>more</search-time-in-country-match>
+        <search-time-in-country>string</search-time-in-country>
+        <search-time-in-country-units>days</search-time-in-country-units>
+        <search-comments>string</search-comments>
+    </participants>
+</searchType>

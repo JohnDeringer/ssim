@@ -1,0 +1,51 @@
+IM1	IM1	107.15	108.71	okay sir. you're being voice recorded. 
+IM1	IM1	110.62	130.76	you have the right to remain silent. anything you say can be used against you in a court of law. you have the right at this time to talk to a lawyer and have him present with you while you're being questioned. if you cannot afford to hire a lawyer one will be appointed to represent you before any questioning if you wish. if you decide at any time to exercise these rights do not answer any questions or make any statements. do you understand each of the rights i've explained to you? 
+IM1	IM1	133.21	136.3	uh just drinking in public and then d._o._c. wants to talk to you. that's all. 
+IM1	IM1	137.94	139.33	you've been very cooperative. 
+IM1	IM1	1005.6	1006.37	yes sir. 
+IM1	IM1	1008.2	1009.03	in the bag sir. 
+IM1	IM1	1028.84	1031.33	smells pretty good. isn't that cherry smell? 
+IM1	IM1	1034.49	1035.41	it's definitely cherry. 
+IM1	IM1	1050.18	1050.76	yeah. 
+IM1	IM1	1053.8	1054.99	i think so. 
+IM1	IM1	1095.57	1096.23	sir come out.
+IM1	IM1	1098.2	1099.11	last door to the left. 
+CM1	CM1	130.81	133.33	yeah i do but did i do anything wrong? 
+CM1	CM1	136.62	137.81	okay. so. 
+CM1	CM1	139.49	140.72	thank you sir. 
+CM1	CM1	709.17	709.94	how you doing sir? 
+CM1	CM1	711.73	714.96	uh i reported everything. 
+CM1	CM1	716.38	716.9	i did. 
+CM1	CM1	720.4	721.75	i don't know why they arrested me.
+CM1	CM1	726.85	727.78	i was following. 
+CM1	CM1	733.22	736.32	uh yes they did but uh yes sir yes sir. 
+CM1	CM1	737.39	738.02	uh no.
+CM1	CM1	1002.92	1003.84	excuse me officer?
+CM1	CM1	1005.45	1007.42	you got my wallet too right? uh,
+CM1	CM1	1008.16	1008.62	okay. 
+CM1	CM1	1037.35	1037.76	hello. 
+CM1	CM1	1040.59	1041.35	it's good. 
+CM1	CM1	1042.66	1043.27	{laughs}
+CM1	CM1	1044.47	1045.5	you talking about the uh,
+CM1	CM1	1047.55	1049.69	they be coming up with else though huh?
+CM1	CM1	1089.06	1089.7	thank you sir. 
+CM1	CM1	1096.2	1097.02	okay. 
+IM2	IM2	707.99	709.23	good evening sir. how you doing? 
+IM2	IM2	709.98	711.13	did they tell you why you're under arrest? 
+IM2	IM2	715.45	716.26	you didn't report?
+IM2	IM2	718.27	719.21	oh they got you twisted? 
+IM2	IM2	722.2	726.31	oh they're saying that d._o._c. wants to talk to you. guess you weren't following the rules or something? i don't know. 
+IM2	IM2	728.05	733.05	all right. well you got to talk to them about that. they just tell us to bring you in. did they uh tell you about your rights and stuff? 
+IM2	IM2	734.63	736.83	very good. all right. anything else sir? 
+IM2	IM2	738.21	739.71	all right. thank you. good night. 
+IM3	IM3	1007.05	1008.13	if it's under it's in your bag. 
+IM3	IM3	1031.5	1033.56	what's is that strawberry or cherry flavoring? 
+IM3	IM3	1038.0	1038.59	cherry?
+IM3	IM3	1039.73	1040.57	was it good?
+IM3	IM3	1041.84	1042.89	i'll have to try it one time. 
+IM3	IM3	1044.63	1045.38	smells good. 
+IM3	IM3	1050.13	1050.65	hm?
+IM3	IM3	1051.56	1053.06	((though the)) (()) they could smell it?
+IM3	IM3	1085.21	1087.34	and make sure you tell him he was cooperating very well. 
+IM3	IM3	1087.89	1088.55	he was being good. 
+IM3	IM3	1090.01	1091.91	yeah man. hopefully they'll let you out in the morning. 

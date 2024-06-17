@@ -1,0 +1,602 @@
+Radio	Radio	65.94	69.47	two lincoln twenty two this is (()) right now. 
+Radio	Radio	76.11	78.21	lincoln three i'll go to that as well please. 
+Radio	Radio	79.61	88.69	(()) we're looking for a white male thirty balding glasses tan shirt with a white female thirty black hair blue shirt and grey pants. 
+Radio	Radio	94.85	96.17	lincoln twelve received.
+Radio	Radio	132.21	133.29	lincoln twelve with one. 
+Radio	Radio	163.6	166.5	((tracing)).
+Radio	Radio	173.25	176.95	three more inside the seven eleven. 
+Radio	Radio	182.4	185.2	the two fled westbound on foot. 
+Radio	Radio	248.12	248.66	received. 
+Radio	Radio	260.26	260.78	received.
+Radio	Radio	264.89	267.21	under control lincoln twelve. 
+Radio	Radio	271.12	273.2	thirty two (()). you have a (()).
+Radio	Radio	278.2	279.21	three one ((there's two)).
+Radio	Radio	281.18	281.74	((boy two)). 
+Radio	Radio	282.48	291.06	unknown man on the back porch. two zero nine (()) nine zero. maybe (()) ((trying to take)) the barbecue. white or indian male thirty five blue coat with jeans. 
+Radio	Radio	292.26	292.65	(()).
+Radio	Radio	294.48	296.09	((team one's heading towards you)).
+Radio	Radio	299.44	300.28	(()).
+Radio	Radio	482.03	483.33	((eighteen fourteen)) ((first)). 
+Radio	Radio	568.99	570.1	three lincoln one. 
+Radio	Radio	587.1	587.85	((but you're)),
+Radio	Radio	651.28	655.05	((lincoln one)) i just want to double check with you. you wanted a._m._r. not fire? 
+Radio	Radio	662.44	664.43	okay. well it's whatever one you want. 
+Radio	Radio	692.95	695.0	okay. do you need any other units there? 
+Radio	Radio	702.31	704.37	received. now a._m._r. is en route. 
+Radio	Radio	713.721	716.721	(()) clear (()) nine fourteenth. 
+Radio	Radio	718.65	719.58	(()) clear. 
+Radio	Radio	720.8	736.46	and uh ((four)) thirty two first response security was was flagged down i guess by your complaint the uh now saying possible burglary in progress. i don't know if the subject has made entry into the house or not. i'm gonna try calling back inside. 
+Radio	Radio	782.4	793.07	sir i'm not getting through to the original caller for boy thirty two and boy two but the first s- response security says the suspect is hiding behind the barbecue on the front porch. 
+Radio	Radio	800.09	803.46	((four ten)) copy. we're there now. (()). 
+Radio	Radio	851.01	853.03	seven one can you log me out with forty two? 
+Radio	Radio	853.72	854.46	((tracking)). 
+Radio	Radio	936.91	938.55	(()). ((we're under control here)).
+Radio	Radio	939.88	941.14	under control. 
+Radio	Radio	1070.34	1073.11	thirty two (()). 
+Radio	Radio	1074.08	1076.36	((detaining one)) under control. 
+Radio	Radio	1117.71	1118.66	(()) out. 
+Radio	Radio	1123.46	1124.15	(()). 
+Radio	Radio	1125.52	1126.98	(()).
+IM1	IM1	92.76	94.5	{speaker talks into radio} lincoln twelve arriving in the area.
+IM1	IM1	129.34	131.32	{speaker talks into radio} lincoln twelve arrived. alice one. 
+IM1	IM1	168.75	173.65	{speaker talks into radio} lincoln twelve. we got three more inside the seven eleven. 
+IM1	IM1	181.885	183.465	all right. just sta- just stay seated right there okay? 
+IM1	IM1	186.2	189.4	((no weapons)).
+IM1	IM1	196.93	200.53	((let's go outside)) (()) are cool. (()).
+IM1	IM1	203.13	204.76	you're coming outside too okay? 
+IM1	IM1	242.15	243.28	oh is ((that what it is))?
+IM1	IM1	245.72	246.83	{speaker talks into radio} (()) ((three)) arrived. 
+IM1	IM1	249.61	252.02	yes but the cab needs to be called off. 
+IM1	IM1	258.57	259.73	{speaker talks into radio} ignore that. 
+IM1	IM1	262.78	264.62	{speaker talks into radio} lincoln twelve. we're under control. 
+IM1	IM1	268.13	269.74	((what'd he look like)) going westbound?
+IM1	IM1	289.5	290.58	you don't want to be a victim? 
+IM1	IM1	294.33	299.67	(()) he was like (()).
+IM1	IM1	405.92	407.22	hey. keep your hands, 
+IM1	IM1	444.31	446.77	((if it helps)) we can put him in cuffs when we're done. 
+IM1	IM1	481.39	483.89	hey buddy hey hey buddy what's your name? relax. ((come here)). 
+IM1	IM1	487.15	488.89	where is it? where is it? 
+IM1	IM1	494.705	495.615	you're loud dude. 
+IM1	IM1	518.3	523.0	okay. how about we either put him in the back of the car or sit him on the sidewalk. i i'm tired of him yelling. 
+IM1	IM1	956.98	957.84	no warrant?
+IM1	IM1	959.06	960.37	no drug charges? 
+IM1	IM1	961.035	962.435	no gang banging? 
+IM1	IM1	965.0	966.42	((okay what))?
+IM1	IM1	970.46	971.24	is that all? 
+IM1	IM1	983.45	985.82	oh okay so (()). 
+IM1	IM1	986.38	986.98	(()). 
+IM1	IM1	987.31	989.34	yeah. 
+IM1	IM1	989.55	990.19	yep. 
+IM1	IM1	993.5	997.37	uh let me make sure i have his driver's license. 
+IM1	IM1	998.06	998.91	give it to you. 
+IM1	IM1	1041.89	1044.29	i got it (()). 
+IM1	IM1	1079.41	1080.27	go (()). 
+IM1	IM1	1096.29	1098.43	you are being audio recorded right now. 
+IM1	IM1	1424.22	1425.75	i'm just recording all of it. 
+CM1	CM1	177.7	182.3	((you know what i'm saying when i say)) i call you ((that's a)) nigger nigger. the white lady. 
+CM1	CM1	183.195	183.875	come on man. 
+CM1	CM1	226.44	236.35	uh mo- it's some missed communication like we were walking over there and and this man over here they were uh you know they were you know they didn't like us okay? something about us but you know (()), 
+CM1	CM1	238.09	239.99	((nah that's fine)). (()).
+CM1	CM1	240.88	243.01	no. it's just it was just a ((mix of words)).  
+CM1	CM1	243.43	245.97	it was a mix of words and you know that can happen. 
+CM1	CM1	276.98	280.09	yep. i got called a nigger by that girl right there. 
+CM1	CM1	525.6	528.56	do you live across the street? %home_address? 
+CM1	CM1	533.88	535.83	he was trying to break the shit up. you know what i'm saying? 
+CM1	CM1	538.63	540.51	y'all (())?
+CM1	CM1	541.07	541.9	ain't that an assault? 
+CM1	CM1	543.01	545.17	t- to call somebody a nigger ain't an assault? 
+CM1	CM1	548.62	549.61	really what is it? 
+CM1	CM1	551.26	552.61	there's no law against it?
+CM1	CM1	553.24	555.16	there's no law against calling me a nigger? 
+CM1	CM1	557.59	565.96	it should be. it should be. cracker. (()) come on man. you know what i'm saying? (()).
+CM1	CM1	592.16	594.27	he didn't do nothing dog. he was trying to break it up. 
+CM1	CM1	597.04	597.69	he tried to break it up. 
+CM1	CM1	608.96	609.69	he don't know. 
+CM1	CM1	616.58	619.21	yeah he was just trying to break it up. on my momma he was. 
+CM1	CM1	744.8	751.15	yeah i don't have it you understand? but anyways he's trying to stop the whole thing (()). my cousin. 
+CM1	CM1	828.68	833.33	(()). arm twisted (()). he's trying to be a hero. ((somebody did)). he's trying to be a hero. 
+CM1	CM1	840.24	842.29	he's the (()). (()) defend his girlfriend. 
+CM1	CM1	843.34	844.56	(()) he didn't do shit. 
+CM1	CM1	845.9	856.55	he was trying to stop him from fighting and now he (()) into the store like hey man look it's not worth it. you better back off. you know what i'm saying? let them do their (()). girlfriend (()).  
+CM1	CM1	901.41	902.66	he was there to stop it. 
+CM1	CM1	903.08	903.61	what'd he see? 
+CM1	CM1	904.59	906.59	i was rocking. (()). 
+CM1	CM1	907.62	908.32	okay. 
+CM1	CM1	909.33	910.61	yeah y- yeah there you go. 
+CM1	CM1	915.92	918.49	(()) and i told him look (()) camera like that. 
+CM1	CM1	932.74	934.56	(()).
+CM1	CM1	934.72	937.27	(()). 
+CM1	CM1	976.77	979.9	he's trying to be a good guy but you guys are trying to break his arm. 
+CM1	CM1	1080.25	1084.1	((he's))  being loud as hell. he's upset. his arm is broke.
+CM1	CM1	1084.65	1086.36	uh ((all i'm saying)). 
+CM1	CM1	1086.48	1092.15	i'm just all i'm saying is that girl should be arrested. not the guy. not the guy. the guy was,  
+CM1	CM1	1093.12	1094.36	(()).
+CM1	CM1	1095.47	1096.78	she should be arrested. 
+CM1	CM1	1097.215	1098.345	she should be arrested. 
+CM1	CM1	1098.515	1099.645	she should be arrested. 
+CM1	CM1	1100.07	1104.18	i'm just saying she should. (()). something. do something. 
+CM1	CM1	1104.66	1109.36	come on man do something (()). it does work that work that way. 
+CM1	CM1	1110.17	1112.42	you shouldn't arrest him. 
+CM1	CM1	1148.13	1149.46	(()) did you hear that? 
+CM1	CM1	1150.97	1155.23	okay that's what i'm saying since you've been here have you heard him say anything about i'm black? ((like that))?
+CM2	CM2	188.81	195.14	(()). {background noise} it's not worth it. it's not worth (()). 
+CM2	CM2	195.16	197.25	hey honestly sir. i have no issues. 
+CM2	CM2	198.915	202.49	this guy i honestly honestly i'm the i'm the one that's keeping the peace sir. 
+CM2	CM2	204.31	221.51	okay. no issues. fine sir but listen listen sir i'm not okay i'm coming outside ((i'm coming outside sir. i'm)) i didn't even do this would y'all tell him? i didn't do any fucking thing man. i didn't i'm trying to calm everything down sir ((honestly)).
+CM2	CM2	228.79	230.06	((nah i understand)). 
+CM2	CM2	230.06	230.7	honestly sir, 
+CM2	CM2	230.93	236.44	i'm not gonna argue i'm not i'm listening to everything you say. honestly sir uh but i h- i didn't do anything. 
+CM2	CM2	239.46	242.34	honestly. can you tell these g- i'm ((keeping my hands here)).
+CM2	CM2	243.32	245.87	honestly sir. 
+CM2	CM2	249.32	252.01	oh my god. sir honestly. honestly sir. 
+CM2	CM2	252.82	255.75	n- sir sir honestly honestly mm. 
+CM2	CM2	256.265	260.045	no my my my arm is swollen. i have swollen tendons.
+CM2	CM2	261.49	264.64	oh my god. i didn't do anything. 
+CM2	CM2	266.31	267.29	oh my god. 
+CM2	CM2	278.82	281.06	honestly sir sir i'm not, 
+CM2	CM2	289.22	290.13	honestly, 
+CM2	CM2	290.67	292.7	no honestly sir honestly, 
+CM2	CM2	295.25	296.87	oh my god man. 
+CM2	CM2	299.92	307.46	this is bullshit. i tried to calm the ((situation)) down. when i did my arm twisted and my arm is fucking swollen dog. 
+CM2	CM2	310.66	312.09	stop. stop. both of you stop. 
+CM2	CM2	316.03	319.99	honestly sir look. listen to me what i tell you. if they tell you i'm (()) sir, 
+CM2	CM2	320.55	321.75	((honestly)),
+CM2	CM2	324.52	339.82	but you didn't have to honestly sir ((as soon as you)) pulled my arm up like honestly only reason i'm telling you is because i just got out of the hospital for my tendon and you twisted my arm. that's why i'm mad because honestly sir honestly if you ask them i i i i tried to keep the fucking situation at the most peace.
+CM2	CM2	340.42	352.67	honestly a- and it really pisses me off. i just spent sixteen thousand dollars on my fucking arm and all i did was ask this guy here to calm down and i and and since (()) all my god man. 
+CM2	CM2	353.45	356.38	not but honestly (()),
+CM2	CM2	358.67	362.53	no she stopped because we because he knows i i was not (()), 
+CM2	CM2	366.32	367.96	but she she knows, 
+CM2	CM2	368.01	369.11	oh my god. 
+CM2	CM2	370.66	372.34	oh my god. 
+CM2	CM2	373.0	383.46	my arm was fucked up and i just paid sixteen thousand dollars to get my fucking surgery done and he grabbed my arm and twisted it and i was trying to keep the peace ((until)) someone (()),
+CM2	CM2	383.96	388.17	you you be i just paid sixteen thousand dollars ((miss)) to get my arm fixed. 
+CM2	CM2	388.73	391.27	no you don't care because you didn't pay the money. 
+CM2	CM2	395.13	399.11	and you see how he still hooded me like i was doing something though. 
+CM2	CM2	403.97	405.7	i hope you're fucking happy. 
+CM2	CM2	406.6	408.75	i hope no i'm not lifting my hands.
+CM2	CM2	408.99	410.17	(()). 
+CM2	CM2	410.54	421.72	honestly miss i have nothing on me. i've just paid sixteen thousand dollars and if you look at my arm if you look at my arm. (()) you see how this one's swollen? i just right there. 
+CM2	CM2	422.16	425.81	a fight broke out. i just stopped it and i get fucking, 
+CM2	CM2	426.71	427.69	i just, 
+CM2	CM2	428.21	433.3	i didn't move my hands. i know the law. i did i didn't move my hands. 
+CM2	CM2	438.51	444.11	ask them the questions. ask them the questions. ((i fucking hate this shit man)). 
+CM2	CM2	446.24	457.37	i ((wasn't)) fucking try to do anything. i just stopped these guys from fighting. honestly man. i swear to god man but i still get treated like i did something man and you should,  
+CM2	CM2	459.92	465.54	okay m- my arm ((is swollen though)) listen to me my arm is hurting right now ((sir)) i just paid sixteen thousand dollars,
+CM2	CM2	468.75	473.61	exactly man and i'm so tired of people treating me like (()).
+CM2	CM2	476.07	482.83	my arm i just paid sixteen thousand dollars to get my arm fixed sir and all i asked you nicely,
+CM2	CM2	484.33	488.4	it don't matter. you getting in my pocket and getting my +i._d. and my wallet. ((you don't care)).
+CM2	CM2	488.92	493.96	take it out. take it out. i'm doing anything trust me. i'm serious. i didn't do it.
+CM2	CM2	496.46	501.93	you don't understand. my arm i just paid sixteen thousand dollars. my arm is swollen. look at it. 
+CM2	CM2	505.26	509.03	no i don't need anything. you just twisted my arm and i just got my, 
+CM2	CM2	510.3	510.96	okay. 
+CM2	CM2	511.61	515.85	i didn't do anything man ((and that's a f-)) i i stopped everything sir. 
+CM2	CM2	515.9	520.4	sir just grab my arm i don't have anything. i stopped i stopped these guys, 
+CM2	CM2	522.96	525.2	okay i won't say anything else. 
+CM2	CM2	526.59	528.92	((he has)) my brother's i._d. man. 
+CM2	CM2	528.92	536.26	so sorry. i don't want to talk to you. i'm sick and i'm tired of trying to be nice to people and the first thing that happens to me is i get grabbed.  
+CM2	CM2	537.2	538.02	you're gonna get it. 
+CM2	CM2	539.84	540.45	yeah. 
+CM2	CM2	557.53	562.59	(()) want a ambulance and my arm is fucked up i spent this honestly i didn't do anything. 
+CM2	CM2	563.62	570.7	yes i do and i'm not paying for it because i didn't do anything. uh i just tried to stop the fight. that's all i tried to do. 
+CM2	CM2	571.42	580.68	that's all i tried to do and since i'm a big black man i get fucking thrown in there. i'm in school for business law right now. so i don't i know (()), 
+CM2	CM2	582.67	585.66	you yell at me when you pay for my you pay for my, 
+CM2	CM2	585.66	589.44	+okay i know because you're you're a tough guy and my arm is swollen. 
+CM2	CM2	589.53	590.73	you need jesus. 
+CM2	CM2	590.97	592.1	you need jesus. 
+CM2	CM2	592.62	593.84	i didn't do nothing. 
+CM2	CM2	594.18	596.98	i didn't do nothing man. that's why i'm so mad. 
+CM2	CM2	597.65	608.12	i tried to break it up and stop the fight and it's just. i'm getting yelled at. my arm is swollen. i get my arm twisted. i just paid a bunch of money to get my arm fixed. who's gonna pay for my arm? 
+CM2	CM2	608.8	610.43	it doesn't matter. what's your name? 
+CM2	CM2	611.45	619.2	okay. i need your name and your badge number and your badge number because you twisted my arm and i just paid all that money for my arm to get fixed.  
+CM2	CM2	619.78	622.78	yeah please and my arm is really hurt (()), 
+CM2	CM2	624.66	627.06	yeah. are you gonna pay for them? can you guarantee, 
+CM2	CM2	627.72	630.72	yeah right. come on man. i've i grew up in (()), 
+CM2	CM2	636.65	644.76	and i stopped the fight and i got grabbed. and they told him. they told him. i didn't do anything. i stopped the fight. they told him,
+CM2	CM2	644.95	649.71	the people that you let go st- told you i stopped the fight and i still got grabbed. 
+CM2	CM2	650.31	659.2	and i still got grabbed sir. and they told you he stopped the fight. he's the one that's been cool and you still grabbed me like i did something. and tell me you didn't. 
+CM2	CM2	661.04	665.8	tell me you didn't and i will not say nothing. i swear to god. 
+CM2	CM2	668.73	674.28	you're not gonna pay for it. you're not gonna pay for it. there's a recession right now miss. you guys are not, 
+CM2	CM2	674.56	677.65	i do want it. are you gonna pay for it? can you guarantee, 
+CM2	CM2	678.01	681.2	i want ambulance. are can you guarantee me you're gonna pay for it? 
+CM2	CM2	681.26	683.02	can you guarantee me (()),
+CM2	CM2	683.73	687.04	okay. exactly. i don't want nothing because you're not gonna pay for it. 
+CM2	CM2	688.09	691.19	i want okay you're not paying for anything? okay,
+CM2	CM2	691.35	696.02	because i got my arm twisted and i just paid sixteen thousand dollars to get my arm,
+CM2	CM2	696.61	700.25	okay but you just said you're not gonna pay for it. are you gonna pay for it? 
+CM2	CM2	700.29	702.54	okay then. but you didn't twist my arm right? 
+CM2	CM2	703.24	705.56	okay but he did and he's part of your team right? 
+CM2	CM2	707.07	709.14	did you twist my did i twist your arm? 
+CM2	CM2	710.19	720.06	okay he's the assault. but you're not gonna pay for it and that's what you're trying to play me for the game. i'm not for the game sir. i didn't do anything. they told him i am the person that was, 
+CM2	CM2	720.18	724.84	because i'm the person that kept the peace and i got my arm twisted and i got slammed on the car. 
+CM2	CM2	725.14	728.68	okay. i was talking to you sir then you asked me why i got my arm ((twisted)).
+CM2	CM2	729.14	732.77	asked me why i got my arm twisted. why i got slammed on the car and they told, 
+CM2	CM2	733.44	736.13	okay well talk to your talk to your talk to your officers. 
+CM2	CM2	737.295	742.375	no it's not my attitude because i didn't do anything. i've i followed everything he asked me for. 
+CM2	CM2	742.66	744.53	okay sir. jesus loves you. 
+CM2	CM2	746.24	753.22	i just want to get all everybody's badge number. it's all on tape. i didn't do anything. i stopped everything and it's all on tape sir. 
+CM2	CM2	755.36	762.16	they told you the people that you are believing right now that he's the one that stopped me from fighting. he's the one that kept the peace. 
+CM2	CM2	763.9	777.64	i don't have no idea but i can tell you one thing i was the one that stopped the fight. i'm the one that stopped the fight. i'm the one that stopped the fight and i get (()) out here and drug on your car and you tell me you're not gonna pay for my arm being messed up.
+CM2	CM2	778.66	783.67	you just told me. i don't have to read your mind. i'm drunk. i'm not stupid. don't lie to ((him)), 
+CM2	CM2	784.0	787.52	no. you just told me i'm not paying for nothing. you didn't do nothing. 
+CM2	CM2	787.62	791.44	okay. ((well)) keep playing with me keep playing with me because you think i'm stupid. 
+CM2	CM2	793.14	794.39	i'm not playing with you. 
+CM2	CM2	794.72	805.48	okay don't. don't. can i get your badge number though because i didn't do anything. i stopped these guys from starting a fight (()) and you're acting funny and you know it. so can i get your badge number sir?
+CM2	CM2	806.8	809.07	okay. well i'll get it after this. 
+CM2	CM2	809.29	813.36	okay. can you walk in there and put it on the camera. so what's your name?
+CM2	CM2	814.06	821.84	stop playing with me sir. i didn't do anything sir and you're not listening to me. you're not listening to me. i know. so keep don't listening to me. 
+CM2	CM2	822.14	830.16	my arm got twisted and slammed against the wall for stopping a fight because i'm a black man and you can play like you want. 
+CM2	CM2	831.99	839.21	okay well well tell me why i got slammed in the wall slammed on the car when they told you that i was the one that stopped the fight. tell me that. 
+CM2	CM2	839.59	841.48	tell me that. listen to yourself. 
+CM2	CM2	844.5	850.75	i didn't do nothing and i'm the one that twisted you twisted my arm and they told you sir. i didn't do anything. 
+CM2	CM2	851.52	855.39	tell me they didn't sir. don't turn down your radio. 
+CM2	CM2	855.49	857.9	i came outside. you slammed me on the car. 
+CM2	CM2	859.08	865.46	but i did i do anything? when they said he didn't do nothing. he stopped the fight and you grabbed my arm like i was like i was trouble. 
+CM2	CM2	866.22	876.82	i stopped the fight sir. i stopped it because i believe in ((physical)) justice and right and wrong. they didn't do anything no because you're not telling me what i need to hear. 
+CM2	CM2	877.71	882.52	i want your badge number and i want your name and i want your apology. and i want, 
+CM2	CM2	882.55	887.9	no. you told me it's i'm not giving it to you right now. that's why my phone's on record right now. dig that. 
+CM2	CM2	889.38	899.61	i know. so you told so you got it on thing that he said i'm not gonna give you your badge number. it's right here. that's a paper badge. that is not legit. yours is legit sir. 
+CM2	CM2	902.26	903.57	i stopped everything. 
+CM2	CM2	904.09	905.38	i stopped everything. 
+CM2	CM2	910.57	913.63	what's your name sir? i want your badge number. i really do. 
+CM2	CM2	913.98	928.78	i want your badge number. i want it on tape. i want your badge number for my arm being twisted. i want his badge number for saying he's not gonna do anything. i want all your badge numbers for something i tried to fucking end ((+here)). i tried to end. i tried to end. 
+CM2	CM2	930.04	934.6	come on man. you've ((injured)) your voice. how about you apologize for twisting my arm?
+CM2	CM2	935.3	937.33	how about you apologize for twisting my arm? 
+CM2	CM2	938.17	940.04	okay because you didn't do anything right? 
+CM2	CM2	940.54	950.92	because because you're a cop and you didn't do anything and you know the law just like i do. i'm in school for business law. today was my first day. i wrote eight things about a police officer. can you guess what they were? 
+CM2	CM2	951.44	953.73	i bet you can't but jesus loves you. 
+CM2	CM2	958.17	959.06	no man. 
+CM2	CM2	960.72	961.76	no nothing. 
+CM2	CM2	964.04	968.06	sir. sir can you please come here? can you please come here? 
+CM2	CM2	970.24	974.62	i want the tape i want everything. because there's a tape right there. 
+CM2	CM2	976.36	980.62	no you don't no i'm not listening to nothing you say. i'm ((the guy who)) (()).  
+CM2	CM2	980.99	992.67	yes i do and i want everybody's badge number. yours yours yours and yours and i'm ((about to call)) (()) because i'm so tired of people treating me like this. can you grab my phone out of my pocket? 
+CM2	CM2	993.37	994.74	yeah. special k. 
+CM2	CM2	999.92	1001.24	you don't need my cell phone number. 
+CM2	CM2	1001.89	1005.69	okay. i bet you're not because you're a cop and i got slammed. i bet you're not. 
+CM2	CM2	1006.5	1015.59	yes i do. %home_address. i want his number her badge number and your badge number. his badge number and your badge number. 
+CM2	CM2	1015.9	1023.09	yes i do. %home_address. 
+CM2	CM2	1024.36	1027.05	and i want your badge number. can i please have it?
+CM2	CM2	1027.37	1033.22	i want b- before i give any more details i want your badge number your badge number his badge number and yours.
+CM2	CM2	1033.44	1036.35	no. i have nothing for you until you give me what i want. 
+CM2	CM2	1037.09	1041.05	okay. well i gave you all my in- my in- he has my (()). ask him. 
+CM2	CM2	1041.87	1045.85	yes it is. and i want your badge number and your badge number and your badge, 
+CM2	CM2	1046.02	1056.29	because i'm really pissed because these guys sit here and told you that i was the one that stopped the fight and i still got slammed on the car and i still got treated like i'm the convict and i'm the criminal.
+CM2	CM2	1059.13	1063.94	i want no i i trust me i want his full name and his badge number. 
+CM2	CM2	1064.34	1067.4	no. i want his full name. not his serial number. 
+CM2	CM2	1068.32	1069.98	okay. as long as i get his (()). 
+CM2	CM2	1071.76	1072.79	what's his full name? 
+CM2	CM2	1075.47	1078.6	no. i w- i want everything. i'm not leaving,
+CM2	CM2	1078.74	1082.05	okay then give me everything. give me everything. fuck. 
+CM2	CM2	1087.53	1096.96	yeah i bet you are sir. i didn't do anything and i'm getting their names and their for them to say hey you didn't do anything. he was the person that stopped the fight. 
+CM2	CM2	1097.92	1103.84	i know and i was the one that didn't do anything and stopped the fight and i got slammed and it's on camera. 
+CM2	CM2	1105.65	1110.13	i want your name your name your name your name definitely sir and your name. 
+CM2	CM2	1113.03	1113.97	what's your real name? 
+CM2	CM2	1114.71	1116.35	what's your full name? 
+CM2	CM2	1116.89	1118.6	no. i want the full name. 
+CM2	CM2	1118.86	1123.28	okay well then i'll get i'll get the i- i get the license plate number and serial number. 
+CM2	CM2	1123.28	1125.78	that's fine. can i get the serial? 
+CM2	CM2	1126.14	1130.42	okay. okay can i get the serial plate and the license number of every car (())?
+CM2	CM2	1134.26	1145.06	i didn't say anything about being black. i never said anything about being black. play your game if you want sir. play your game if you want. i got slammed. i stopped a fight and this is how i get treated.  
+CM2	CM2	1145.48	1149.18	i know jesus loves you sir but i didn't do anything to you guys. 
+CM2	CM2	1151.69	1153.36	bullshit. oh my god. 
+CM2	CM2	1155.21	1158.72	what's okay. y'all get the last name on it please? 
+CM2	CM2	1262.67	1266.7	hey uh uh get hey hey uh (()). ask you why (())?
+CM2	CM2	1276.27	1280.32	all i (()). 
+CM2	CM2	1284.34	1286.03	(()). 
+CM2	CM2	1286.24	1287.81	i didn't get any (()).
+CM2	CM2	1288.44	1290.48	understand. i was only gonna (()) though. 
+CM2	CM2	1295.23	1300.52	(()). 
+CM2	CM2	1300.96	1301.77	(()). 
+CM2	CM2	1303.7	1304.71	(()).
+CM2	CM2	1306.41	1310.2	(()) everybody's license plate. 
+CM2	CM2	1310.85	1317.37	((that's cool. definitely. he just lied to me)) because the way you treat people when they tell you i didn't do nothing is ridiculous. 
+CM2	CM2	1333.15	1334.99	let me let me. 
+CM2	CM2	1338.48	1345.42	(()). write that down. (()). i need all vehicles. 
+CM2	CM2	1351.26	1356.82	don't leave please. i need everybody. (()). 
+CM2	CM2	1356.99	1362.51	okay (()). thank you (()). thank you (()). 
+CM2	CM2	1364.47	1368.01	you all are fucked up and you know it and you're not willing to apologize. 
+CM2	CM2	1374.05	1377.76	got my address and i'm gonna sue for work baby. believe it. 
+CM2	CM2	1379.39	1381.71	((god i'm so tired of police)) ((messing with people)). 
+CM2	CM2	1395.92	1402.26	((i'm tired of)) (()). i- i'm really waiting for you to ((get in)) your car so i can get your name. i wanted to (()).
+CM2	CM2	1403.2	1405.55	oh no you didn't give me your name with your badge ((before)). 
+CM2	CM2	1406.01	1423.88	%serial_number. what did he say? what did he say? okay don't run ((sir)). don't run. what's your name? oh here's the injured cop. okay. okay. okay. %serial_number. %serial_number. 
+CM2	CM2	1426.0	1431.3	i got a fucking cop. you guys are you guys were out of line. you guys (()). 
+CM2	CM2	1432.36	1450.49	no they can't arrest me for getting names. how can you arrest me for getting names? it's all on tape bro. i stopped a fight and what you guys try to do? you try to (()) leave so i can't get your names but they live right next to ((me)). so you guys have a good night. (()).
+CM2	CM2	1454.04	1458.31	yeah because my arm is messed up and i got slammed against the wall for stopping a fight. 
+CM2	CM2	1459.26	1470.2	yeah. i got slammed and pushed grabbed by the ca- for stopping a fight. for stopping a fight by the people that said hey he's the one that was trying to stop the fight. and how did i get treated? 
+CM2	CM2	1470.87	1472.71	jesus loves you. you have a good night. 
+CF1	CF1	186.0	195.5	((didn't)) have to start ((anything)). you know what? it's not ((worth)) (()). ignorant (()). 
+CF1	CF1	199.655	201.315	he's cool. he's,
+CF1	CF1	202.16	203.55	he's he's the one (()). 
+CF1	CF1	204.9	209.5	hey he's cool though. please don't leave me ((man)). he's, 
+CF1	CF1	212.9	217.3	no he didn't he didn't do ((anything)).
+CF1	CF1	217.6	220.0	he's just trying to calm things down. 
+CF1	CF1	220.2	228.4	so calm down right now then. calm down right now then. because you've been cool. you've been totally cool dude. you're totally cool. you're not an instigator. ((you're cool)). 
+CF1	CF1	242.47	245.84	i'm gonna call the ((cab)) ((off)) because we're like walking just ((because we're gonna go)) back. 
+CF1	CF1	246.07	248.34	i'm just gonna call the cab off. can i do that? 
+CF1	CF1	255.22	260.93	you're fine sir. don't talk. you're fine i i will i will testify for you. you're fine. 
+CF1	CF1	261.49	264.02	you're fine. you're fine. you're fine. 
+CF1	CF1	264.59	267.27	you didn't do nothing. you're fine (()).
+CF1	CF1	277.56	279.76	i'm not ((coming)) because i did nothing wrong. 
+CF1	CF1	280.76	285.62	hey. ((sweetheart)) you know what? talking is doing you wrong. don't talk. you're fine. 
+CF1	CF1	285.63	289.24	we we got you. we got you. you're fine. we got you. 
+CF1	CF1	290.1	293.59	no ((shh)) stop it. stop it sweetheart. 
+CF1	CF1	293.82	295.3	you weren't stop it you're fine. 
+CF1	CF1	296.59	299.73	you didn't do nothing wrong. we got your back. you did nothing wrong. 
+CF1	CF1	300.24	301.64	you tried to calm,
+CF1	CF1	302.0	304.26	you tried to calm the position. you're fine. 
+CF1	CF1	305.52	309.15	so stop it. so stop talking then. stop it. 
+CF1	CF1	309.67	311.5	you're fine. we got your back. 
+CF1	CF1	318.48	321.39	he doesn't want to talk to you. you're fine. we got your back. 
+CF1	CF1	325.91	327.39	they don't know anything. 
+CF1	CF1	339.63	340.43	you did. 
+CF1	CF1	340.92	341.99	definitely. 
+CF1	CF1	344.42	347.05	you're fine. nobody's getting mad at you. 
+CF1	CF1	347.23	350.24	sweetheart. sweetheart. sweetheart. 
+CF1	CF1	352.32	356.02	don't get a fight you did not do anything wrong. all you did, 
+CF1	CF1	360.96	362.89	i'm just trying to calm him down. 
+CF1	CF1	411.36	413.86	don't worry about anybody ever (()). 
+CF1	CF1	414.02	415.85	no no no. 
+CF1	CF1	418.46	419.98	hey it doesn't matter. 
+CF1	CF1	422.91	425.51	hey just hey. {background noise} ((give me fucking)), 
+CF1	CF1	464.76	468.06	we don't know. (()). 
+CF1	CF1	473.63	476.49	he's getting emotional but he was he was really, 
+CF1	CF1	477.54	478.33	sweetheart, 
+CF1	CF1	480.08	484.34	if i could say anything in his defense it would be that, 
+CF1	CF1	545.23	546.79	i still ((got to worry about him)). 
+CF1	CF1	565.0	567.85	hey (()). 
+CF1	CF1	643.98	644.93	who?
+CF1	CF1	823.29	824.75	oh my god. 
+CF1	CF1	954.53	959.38	no he's just ignorant. (()). first time (()). already (()). 
+IM2	IM2	161.98	163.53	twenty two's arrived. 
+IM2	IM2	201.04	202.23	((those dudes)) out there,
+IM2	IM2	208.03	212.43	((outside)) right now. right now. right now. 
+IM2	IM2	214.17	217.47	okay all right. all right. just let me find out. let ((me)) find out all right? 
+IM2	IM2	217.78	220.78	uh that's fine. that's fine. ((all right)).
+IM2	IM2	221.54	225.34	come sit on my bumper. come sit on my bumper. okay? 
+IM2	IM2	228.88	232.69	all you're gonna do is sit all you're all you're gonna sit on my bumper all right? 
+IM2	IM2	233.83	234.19	all right. 
+IM2	IM2	236.45	238.92	just put your hands on the hood for a minute. okay? that's all you got to do. 
+IM2	IM2	248.44	249.63	is she involved too? 
+IM2	IM2	252.0	253.74	put your hands on the on the hood as well ((please)). 
+IM2	IM2	292.11	294.2	stop. time out guys. time out. 
+IM2	IM2	322.48	326.29	(()) all i'm doing all i'm doing is here ((i'm just i'm just going)). 
+IM2	IM2	331.09	331.96	all right. 
+IM2	IM2	340.03	340.53	all right. 
+IM2	IM2	345.28	346.76	(()).
+IM2	IM2	348.53	351.72	it's all right (()). okay. ((let's)) calm down. 
+IM2	IM2	351.86	352.69	calm down. 
+IM2	IM2	353.74	354.82	calm down. 
+IM2	IM2	356.28	358.42	calm down. she ((just doesn't stop)).
+IM2	IM2	359.16	360.67	((she)) does not stop.
+IM2	IM2	406.78	408.02	i'm not, 
+IM2	IM2	408.31	410.5	no. i haven't done anything (()). 
+IM2	IM2	417.72	419.97	he's got a wallet in his front pocket. 
+IM2	IM2	456.11	459.88	i've asked you about five times to s- to settle down and you won't. 
+IM2	IM2	487.91	490.285	i didn't take your wallet out. i just want to make sure (()) out.  
+IM2	IM2	521.31	522.05	okay. 
+IM2	IM2	522.95	523.97	all right. 
+IM2	IM2	562.57	563.65	you want an ambulance? 
+IM2	IM2	564.21	565.03	okay. ((pretty sure)).
+IM2	IM2	578.61	579.16	all right. 
+IM2	IM2	580.36	582.63	calm down! calm down!
+IM2	IM2	583.47	585.65	yeah. i've i am yelling at you in your face. 
+IM2	IM2	586.21	587.34	calm down. 
+IM2	IM2	588.21	590.67	calm down. 
+IM2	IM2	590.94	592.1	calm down. 
+IM2	IM2	615.76	616.49	right. 
+IM2	IM2	619.21	620.86	all right. should i put him in the back of my car?
+IM2	IM2	621.37	622.76	put him back of the car? 
+IM2	IM2	626.3	626.83	huh? 
+IM2	IM2	631.37	638.81	(()) store and i was like come outside and he said no no no because we wanted to get him outside but he wouldn't listen so i brought him outside. 
+IM2	IM2	686.46	687.67	((all right)) cancel. 
+IM2	IM2	709.77	710.9	yeah. (()). 
+IM2	IM2	711.88	712.69	(()). 
+IM2	IM2	853.27	855.38	did i tell you to come out did i tell you to come out? 
+IM2	IM2	856.65	857.93	((should have told you i hit him)). 
+IM2	IM2	858.12	860.32	whatever. ((it's all right)). whatever. 
+IM2	IM2	860.75	861.82	whatever. 
+IM2	IM2	869.21	872.71	all right. ((i want you to)) quit yelling. lower your voice. lower your voice. 
+IM2	IM2	874.43	875.34	lower your voice. 
+IM2	IM2	887.95	889.77	good. that's what this green light is for. 
+IM2	IM2	927.43	928.92	all right. lower your voice. 
+IM2	IM2	932.73	933.93	lower your voice. 
+IM2	IM2	934.75	935.84	lower your voice. 
+IM2	IM2	937.41	938.85	i'm not apologizing for anything. 
+IM2	IM2	939.48	940.78	lower your voice. 
+IM2	IM2	950.96	951.31	nope. 
+IM2	IM2	971.34	972.36	he's just a little loud. 
+IM2	IM2	982.17	983.9	the ambulance isn't coming. 
+IM2	IM2	984.82	986.88	(()). 
+IM2	IM2	987.33	989.26	((he's added it)). yeah. 
+IM2	IM2	991.87	993.63	no. you don't need your phone. leave it in there. 
+IM2	IM2	1044.66	1045.89	why are you still yelling? 
+IM2	IM2	1070.48	1072.73	%serial_number. 
+IM2	IM2	1073.09	1074.67	he can't have it. 
+IM2	IM2	1114.65	1115.73	%name. 
+IM2	IM2	1115.94	1117.18	officer %name. 
+IM2	IM2	1118.57	1119.5	you won't get it. 
+IM2	IM2	1131.12	1131.55	yeah.
+IM2	IM2	1132.46	1133.3	he said ((he's black)). 
+IM2	IM2	1144.56	1146.66	yeah. it hurt (()). 
+IM2	IM2	1270.92	1272.32	%serial_number. 
+IM2	IM2	1293.21	1294.05	wow. 
+IM2	IM2	1300.06	1300.93	hear me? 
+IM2	IM2	1331.39	1332.03	(()).
+CM3	CM3	194.61	196.53	my family? when i (())??
+CM3	CM3	202.58	203.92	i'm fine. ((of)) course of fine. 
+CM3	CM3	267.92	270.37	well actually i'm not the one with the problem. those two are my (()). 
+CM3	CM3	271.32	281.13	it wasn't actually it was mostly involved with (()) with him. uh black male red bomber shorts tan ((jacket that was put on backwards)).  
+CM3	CM3	283.95	286.43	(()). ((everything's cool though)).
+CM3	CM3	286.7	289.28	well i got something to say ((to these guys)). 
+CM3	CM3	290.64	291.25	no. 
+CM3	CM3	390.98	394.94	hey hey. chill dude. i got this under control. don't worry about it man. 
+CM3	CM3	397.98	404.02	i'm chilling it out. don't worry about this ((dude)). i'm fucking solving the situation. it's all over. 
+CM3	CM3	404.87	405.75	i haven't done i'm just, 
+CM3	CM3	466.14	470.67	he he was (()) the only person cooling me down so don't fucking beat on him. 
+CM3	CM3	972.76	975.49	no but i'm saying though you g- you don't you don't see why he's upset? 
+CM3	CM3	1149.8	1150.92	i (()) telling you (()). 
+IM3	IM3	312.16	314.84	no. he's all good. don't worry about that. 
+IM3	IM3	357.21	359.74	(()). 
+IM3	IM3	471.01	472.74	(()).
+IM3	IM3	906.77	911.35	i've i've i've i've already told you to stop. it's all right. i believe you guys. i really do. 
+IM3	IM3	976.055	977.285	does he have any warrants? 
+IM3	IM3	1084.72	1087.48	we're having we're having a man come out and look at his arm all right?  
+IM3	IM3	1107.92	1109.36	((it don't work that way)). 
+IM3	IM3	1112.19	1113.28	%serial_number. 
+IM3	IM3	1114.04	1114.59	%name. 
+IM3	IM3	1320.69	1322.76	look at him. go ahead and get (()). 
+IM3	IM3	1324.26	1326.32	(()) ((saying)) (()). 
+IF1	IF1	354.68	356.67	hey hey ma'am ma'am. 
+IF1	IF1	357.18	358.47	(()).
+IF1	IF1	358.66	359.59	(()).
+IF1	IF1	361.4	367.32	you stop talking and you stop talking. this is the situation. you guys are two feet from each other. i could,
+IF1	IF1	367.36	372.66	listen. i can talk to you like this in a normal voice. 
+IF1	IF1	381.02	381.54	yo. 
+IF1	IF1	382.79	383.93	hey. be cool. 
+IF1	IF1	387.83	388.79	okay. 
+IF1	IF1	407.11	408.97	((is it broken))? 
+IF1	IF1	408.97	410.97	((lift him)) lift him. (()).
+IF1	IF1	413.12	413.87	okay. 
+IF1	IF1	416.69	417.69	okay. 
+IF1	IF1	421.63	422.24	okay. 
+IF1	IF1	422.67	423.38	okay, 
+IF1	IF1	425.11	432.0	 go! hey! keep your hands on this hood. do not move them from the hood. thank you. 
+IF1	IF1	432.72	438.53	stop talking. i'm gonna ask you the questions. when i ask you when i ask you the questions (()),
+IF1	IF1	448.68	453.04	we're not hey we're not saying you did anything. 
+IF1	IF1	461.48	464.51	what's his name? hey what's his name?
+IF1	IF1	470.23	474.68	you're not much (()). (()). you're not talking to him. 
+IF1	IF1	474.78	475.62	yeah.
+IF1	IF1	477.27	482.46	can you do me a favor and watch his (())?
+IF1	IF1	490.84	496.79	oh whoa whoa. okay okay okay okay you know what? we got off hey we, 
+IF1	IF1	501.89	504.85	okay. do you need fire do you need fire to come out and see you? 
+IF1	IF1	505.26	505.84	yes?
+IF1	IF1	508.48	510.88	i didn't twist any arm. 
+IF1	IF1	511.01	512.17	okay? 
+IF1	IF1	513.22	514.85	i'm not saying you did anything. 
+IF1	IF1	523.98	526.57	okay. ((good)). what's your first name? 
+IF1	IF1	528.13	529.76	i i'm asking you. 
+IF1	IF1	536.32	541.71	okay. seat down right here. take your seat turn around ((okay)). turn around take a seat. 
+IF1	IF1	547.52	548.59	no that's not assault.
+IF1	IF1	549.77	551.58	it's it's someone being an asshole. 
+IF1	IF1	552.56	553.19	no. 
+IF1	IF1	554.64	558.51	i can be called a cracker. that's not a threat. it's not a harassment. 
+IF1	IF1	559.97	561.19	okay. 
+IF1	IF1	566.31	568.17	((three lincoln one)). 
+IF1	IF1	571.57	577.74	we are under control. can i please get an a._m._r. for a black male.  
+IF1	IF1	579.22	584.54	conscious and ((awake)). he's complaining that his arm's been twisted out of its socket.
+IF1	IF1	593.98	594.74	look, 
+IF1	IF1	597.87	598.81	i know. 
+IF1	IF1	622.18	626.29	you have an a._m._r. coming. i called for them. they are arriving. 
+IF1	IF1	626.29	627.73	the city will pay for it. 
+IF1	IF1	629.27	631.38	you're not talking to me. you're not, 
+IF1	IF1	632.1	637.88	i'm not (()) you. i want to talk to you. i want to know your name. i really do want to help you. 
+IF1	IF1	657.09	661.82	{speaker talks into radio} he requested a._m._r. not fire but it can be fire. 
+IF1	IF1	665.13	668.09	do you want fire to come out and take a look at you or do you want to go to the hospital? 
+IF1	IF1	673.49	675.7	you want it or you don't? i have to (()). 
+IF1	IF1	676.11	678.05	which one? fire or ambulance? 
+IF1	IF1	679.49	681.19	a._m._r.? you want an a._m._r.?
+IF1	IF1	681.68	683.52	you want ((to go)) talk with you? 
+IF1	IF1	688.16	691.16	lincoln one ((he's declining)). uncooperative. 
+IF1	IF1	696.4	701.42	no other units (()) not possible (()) but we are under control. 
+IF1	IF1	707.1	709.78	(()) put him (()). 
+IF1	IF1	713.531	715.901	(()).
+IF1	IF1	842.57	842.9	okay. 
+IF1	IF1	979.85	981.54	(())?
+IF1	IF1	984.81	986.38	(()) his phone?
+IF1	IF1	987.34	988.67	is that it? 
+IF1	IF1	990.26	994.25	is he clear? (()). you updated it? 
+IF1	IF1	995.82	999.68	hey. in order for us to write a report i need your ((personal)) information. what's your cell phone number? 
+IF1	IF1	1001.21	1002.18	then i'm not writing a report. 
+IF1	IF1	1003.28	1006.93	okay. do you have a mailing address? 
+IF1	IF1	1007.39	1008.27	can i have it? 
+IF1	IF1	1009.45	1012.36	oh hold on. hey i got to write that down. 
+IF1	IF1	1015.08	1016.61	are you ready? %home_address?
+IF1	IF1	1023.32	1023.97	all right. 
+IF1	IF1	1025.97	1027.28	is that %home_address is that %home_address? 
+IF1	IF1	1030.68	1033.38	is that is that %home_address? 
+IF1	IF1	1035.68	1037.12	no no no. that doesn't work that way. 
+IF1	IF1	1040.83	1042.62	is it that one right there? 
+IF1	IF1	1043.39	1044.09	(()). 
+IF1	IF1	1057.04	1060.31	you ready? i'm gonna give him serial numbers. what's your serial number? 
+IF1	IF1	1063.53	1064.6	i'm doing it. 
+IF1	IF1	1065.74	1071.04	okay. you're no longer in this conversation anymore. if you want it you can have it. 
+IF1	IF1	1073.96	1077.95	he's yeah you're free to leave ((%name)). if you want to (()). 
+IF1	IF1	1077.99	1081.42	sit down. you're not (()) you got to be down if you want to stay here. 
+IF1	IF1	1082.22	1082.9	gee. 
+IF1	IF1	1110.87	1112.43	%name what's your serial? 
+IF1	IF1	1115.95	1117.28	he'll give you, 
+IF1	IF1	1121.78	1127.75	hey do you want to sit down right now otherwise you're not getting the information. i'm not gonna ask you one more time to stay seated. 
+IF1	IF1	1140.15	1142.89	i told %name (()). 
+IF1	IF1	1146.67	1147.74	hey uh. 
+IF1	IF1	1149.13	1150.95	yo %name. 
+IF1	IF1	1152.14	1154.18	what's your serial? 
+IF1	IF1	1157.86	1158.78	it's uh.
+IF1	IF1	1272.37	1276.55	%serial_number. 
+IF1	IF1	1280.56	1282.82	uh yeah you can leave. (()). 
+IF1	IF1	1283.27	1285.42	i ad- i advise you (()). 
+IF1	IF1	1285.63	1286.4	thank you. 
+IF1	IF1	1287.31	1288.21	yes. 
+IF1	IF1	1291.87	1294.38	hey uh (()). 
+IF1	IF1	1310.06	1311.06	oh yeah. go for it. 
+IF1	IF1	1323.29	1324.4	okay you want (())?
+IF1	IF1	1325.74	1327.99	right. uh. 
+IF1	IF1	1329.1	1331.05	white guy. he's a white guy. 
+IF1	IF1	1331.4	1332.06	(()).
+IF1	IF1	1337.29	1337.87	what's that? 
+IF1	IF1	1339.94	1355.09	uh so uh he was (()). 
+IF1	IF1	1356.36	1358.4	no i'm thinking (()). 
+IF1	IF1	1359.22	1361.01	so uh. 
+IF1	IF1	1401.67	1403.44	oh i already gave you my name. 
+IF1	IF1	1404.89	1406.7	oh hey. go for it. 
+IF1	IF1	1433.76	1435.54	(()) already. 
+IF1	IF1	1450.8	1454.05	we're right here dude. you're being audio and video recorded right now. 
+IF1	IF1	1458.45	1459.01	the wall?
+IF1	IF1	1470.2	1470.57	i'm, 
+IF1	IF1	1472.68	1474.48	i'm not religious. thanks. 
+IM4	IM4	606.08	607.01	what's your name? 
+IM4	IM4	607.39	609.3	((it is)). what's your name?
+IM4	IM4	610.52	611.4	officer %name. 
+IM4	IM4	615.83	616.29	what? 
+IM4	IM4	617.56	619.79	(()) we're done talking to this guy. 
+IM4	IM4	622.73	624.32	((nah. just leave him)). 
+IM4	IM4	628.93	631.65	(()) goes beyond (()). 
+IM4	IM4	633.38	635.5	(()) cool off.
+IM4	IM4	647.9	649.68	((that guy there)) (()). 
+IM4	IM4	681.91	683.98	you're not paying for anything. 
+IM4	IM4	690.19	692.1	why should i pay for to you? 
+IM4	IM4	693.78	698.28	((all right so)) if you need medical we can call you medical. 
+IM4	IM4	699.78	700.29	no. 
+IM4	IM4	702.61	703.43	no. 
+IM4	IM4	704.48	707.03	((oh i see)). are you gonna pay for my medical? 
+IM4	IM4	719.18	720.11	why are you yelling? 
+IM4	IM4	722.23	725.99	why are you yelling? why are you yelling at us ((at all though))?
+IM4	IM4	728.13	729.87	yeah i'm just asking you why are you yelling? 
+IM4	IM4	731.75	734.16	was that here? was that here? 
+IM4	IM4	736.22	737.69	maybe it's your attitude. 
+IM4	IM4	739.37	741.22	no you yelling like that. 
+IM4	IM4	741.88	743.39	you know what? when you calm down, 
+IM4	IM4	743.97	746.27	when you calm down god bless you too. 
+IM4	IM4	752.72	754.99	okay do we know that? w- was i here? 
+IM4	IM4	762.15	765.04	do you know why they started fighting at all? 
+IM4	IM4	766.39	770.01	we don't we don't ((either)). we don't know what happened either. 
+IM4	IM4	777.29	778.68	can you read my mind? 
+IM4	IM4	779.6	780.8	can you read my mind? 
+IM4	IM4	782.0	784.0	(()) do you know what i'm thinking? 
+IM4	IM4	785.25	790.06	and i don't i don't know what you're thinking either ((so we're just)) playing it out. 
+IM4	IM4	791.41	795.19	you know what if you're gonna talk like that i'm (()) not even gonna talk to you. 
+IM4	IM4	805.87	807.55	not right now. 
+IM4	IM4	808.14	809.58	right here. 
+IM4	IM4	819.22	820.49	no to me. 
+IM4	IM4	821.23	822.98	because you're not being reasonable. 
+IM4	IM4	830.6	834.26	that (()) badge ((number)) doesn't go very far. 
+IM4	IM4	838.33	840.51	listen listen to yourself. 
+IM4	IM4	872.86	874.48	will you just stop yelling? 
+IM4	IM4	877.0	878.21	what do you want to hear? 
+IM4	IM4	879.72	882.96	i already told you. right here. badge number %serial_number. 
+IM4	IM4	1128.91	1131.19	uh can you get his (())?
+IM4	IM4	1131.54	1132.12	he knows? 
+IM4	IM4	1133.32	1134.07	okay. good. 
+IM4	IM4	1153.37	1154.49	%serial_number. 
+IM4	IM4	1159.07	1160.34	%spelled_name. 
+CM4	CM4	1430.24	1432.05	%name come on man they're gonna arrest you. 

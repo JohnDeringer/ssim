@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://ssim.sri.com/domain-objects_0.1.0.xsd"
+        xmlns:tns="http://ssim.sri.com/domain-objects_0.1.0.xsd"
+        elementFormDefault="qualified"
+        attributeFormDefault="qualified">
+
+    <element name="EncounterFile">
+        <complexType>
+            <sequence>
+                <element name="fileName" type="tns:fileName" maxOccurs="1"
+                         minOccurs="1"/>
+                <element name="relatedFile" type="tns:fileName"
+                         maxOccurs="unbounded" minOccurs="0"/>
+            </sequence>
+        </complexType>
+    </element>
+
+    <simpleType name="fileName">
+        <restriction base="string"/>
+    </simpleType>
+
+<!--
+    <simpleType name="DomainEnum">
+        <restriction base="string">
+            <enumeration value="Military"/>
+            <enumeration value="Law Enforcement"/>
+            <enumeration value="Other"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="VideoQualityEnum">
+        <restriction base="string">
+            <enumeration value="Good"/>
+            <enumeration value="Okay"/>
+            <enumeration value="Partly Usable"/>
+            <enumeration value="Bad"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="AudioQualityEnum">
+        <restriction base="string">
+            <enumeration value="Good"/>
+            <enumeration value="Okay"/>
+            <enumeration value="Partly Usable"/>
+            <enumeration value="Bad"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="ParticipantTypeEnum">
+        <restriction base="string">
+            <enumeration value="Institution"/>
+            <enumeration value="Civilian"/>
+            <enumeration value="Other"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="GenderEnum">
+        <restriction base="string">
+            <enumeration value="Female"/>
+            <enumeration value="Male"/>
+            <enumeration value="Don't know/other"/>
+        </restriction>
+    </simpleType>
+
+    <simpleType name="InterviewTypeEnum">
+        <restriction base="string">
+            <enumeration value="Cognitive Task Analysis"/>
+            <enumeration value="Ethnographic"/>
+        </restriction>
+    </simpleType>
+-->
+    <simpleType name="UserRoleEnum">
+        <restriction base="string">
+            <enumeration value="Admin"/>
+            <enumeration value="User"/>
+        </restriction>
+    </simpleType>
+
+</schema>

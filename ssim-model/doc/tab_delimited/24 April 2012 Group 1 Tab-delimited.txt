@@ -1,0 +1,407 @@
+IM1		337.72	338.57	Are we allowed to take pictures?
+IM1		339.99	340.37	(())
+IM1		438.8	443.62	We are part of the United States Army, we're here to see how we can help you with the insurgence groups
+IM1		463.44	471.39	We're here to see how we can help you and the people in your town um better adapt to the s- the growing situation with the insurgents in this area
+IM1		484.4	487.375	((Insurgents))
+IM1		487.7	491.14	((nothing at the moment that's why we're checking that's what we're trying to find out))
+IM1		504.665	511.56	Well those were the orders we got from the state here to come in here and look at what we could do to help you all
+IM1		524.8	525.79	(())
+IM1		532.17	533.11	%name
+IM1		545.22	546.24	What is your name?
+IM1		552.21	552.87	Okay
+IM1		553.07	554.76	Um, say ((that again))
+IM1		556.345	558.45	Wha-what is it that you do in this town?
+IM1		566.743	567.493	He owns the village?
+IM1		570.528	574.3	All right. How long- how long has he owned the village and been the leader?
+IM1		581.004	581.47	Fifty years?
+IM1		581.965	582.105	Okay
+IM1		582.71	589.45	Do they have any problems right now with any vi- violence or anything like that from ((ruh)) the militant groups around here?
+IM1		640.26	642.0	Wha- and what's been going on recently in the town?
+IM1		650.53	654.2	(())
+IM1		657.12	657.72	Yes I am.
+IM1		767.935	770.04	Okay. How long has this problem been going on for?
+IM1		790.05	797.64	Okay. Um is there any other bigger problems that are happening? Or is that the only one that you've said before these ((groups))?
+IM1		836.745	840.41	Okay. I- is that shooting real close? What direction is it coming from? 
+IM1		893.02	893.41	Okay
+IM1		894.77	896.98	So they're from around towns close by?
+IM1		908.19	911.2	Okay and what position does he hold in that town?
+IM1		914.722	915.862	(())
+IM1		917.16	919.31	And w-where is he from?
+IM1		919.8	921.81	What position does he hold in his village?
+IM1		929.916	933.38	Okay and you all are having the same problems that he's having in his town?
+IM1		952.452	954.862	Okay.  What problems are you two having in your town
+IM1		1016.52	1019.8	Okay do you know who is taking the women?
+IM1		1026.08	1031.01	They doesnt know because they come in a car and just um go straight to the woman's house
+IM1		1082.35	1088.85	(()).  Are they coming form the same direction or are they coming from different places (())
+IM1		1114.46	1117.03	Okay. Does he have any other problems in this town?
+IM1		1129.8	1133.93	Y-yeah I-I do. I'm just trying to figure out if you have any more problems that we can find a way to help you.
+IM1		1163.285	1163.425	Okay.
+IM1		1165.885	1170.18	Okay, you th-that's the only problem he has in his town right now? That ((they're coming and taking women))
+IM1		1175.37	1177.94	All right. And what problems is he having in his town?
+IM1		1361.19	1364.73	Do you all have any more problems any other problems? That you can ((relay to us))?
+IM1		1411.52	1411.93	Okay.
+IM1		1418.18	1418.88	Um, 
+IM1		1451.05	1451.31	So-
+IM1		1457.47	1459.97	So are they- are they corrupt? Are they-
+IM1		1469.2	1469.44	Okay.
+IM1		1483.885	1495.25	Right now we're try- we're trying to get a better picture of how we can help. Um we're trying to get a picture of uh the problems that are going on that way we can talk to the adequate people in order to get the help down here.
+IM1		1512.12	1517.64	Because they sent me to get them the information they need so they can make their decision ((on a bigger level))
+IM1		1547.51	1559.05	I'm- I would like to walk around your town with you if possible. Talk to a couple of people, find out how they feel and um then in return try and see how- how we can in-in the end help you in whatever way you need help.
+IM1		1587.27	1595.83	Really, we just need to get a pi-a better picture of how we can help you. And we just need to know exactly what areas you need us to help you with. That's why we are here.
+IM1		1633.9	1634.58	Um.
+IM1		1639.17	1640.92	((Can...))
+IM1		1641.34	1651.09	I mean, w-we can do the best we can to try to alleviate that from happening. We can't guarantee we can stop everything fr-from happening but we'll try to alleviate it the best we can.
+IM1		1710.61	1713.85	Well, the Indian government came to us to see if we could try to help them help you.
+IM1		1750.55	1755.66	We will come back cause we wanna help you. We wanna make sure you all are okay and have everything you need.
+IM1		1777.345	1779.02	A-at my level, I cannot.
+IM1		1783.962	1786.69	We will do our best to try to come back and help you the best we can.
+IM1		1798.38	1799.2	You all have any questions?
+IM1		1808.317	1811.1	All right. Is it- is it possible to take a couple of pictures?
+IM1		1828.91	1833.38	Okay. Is there anywhere we can go outside and walk around and talk to a couple people outside?
+IM1		1841.172	1841.452	Okay.
+IM1		1843.15	1843.39	Okay.
+IM1		1856.77	1857.09	Okay.
+IM1		1861.625	1862.64	Yeah (())
+IM1		1876.362	1877.232	Thank you very much.
+IM1		1879.747	1880.057	Thank you.
+TF1		306.05	309.71	 You should go ask them (()) and ask them if  they can (()) let me ask them
+TF1		313.09	315.77	<FOR> (()) </FOR>
+TF1		317.34	318.38	<FOR> (()) </FOR>
+TF1		320.33	322.75	You can come all- you can come in (())
+TF1		333.73	333.89	Huh?
+TF1		335.01	335.3	(())
+TF1		339.28	339.91	(())
+TF1		341.66	342.33	I'll ask him
+TF1		344.36	345.12	(())
+TF1		364.99	365.97	<FOR> (()) </FOR>
+TF1		371.9	374.51	Um (()) and sit down.  You could sit down (())
+TF1		429.12	431.01	((Can you go?))
+TF1		435.94	437.39	He's asking who are you
+TF1		445.55	447.03	((Whoa uh))
+TF1		448.88	449.97	Come to this side
+TF1		450.28	451.21	you can come to this side
+TF1		453.33	460.0	<FOR> (()) </FOR>
+TF1		461.81	463.09	So why are you here
+TF1		472.11	475.75	<FOR> (()) </FOR>
+TF1		478.5	482.05	Do you know anything about what- what is going on in the town?
+TF1		486.95	487.81	Do you know anything about it?
+TF1		490.59	493.7	<FOR> (()) </FOR>
+TF1		497.31	500.02	Why are you specifi- came in this town?
+TF1		500.3	502.33	Did somebody told you anything about it?
+TF1		502.81	504.63	Specific this town why you came in this specific
+TF1		511.937	516.27	<FOR> (()) </FOR>
+TF1		523.31	525.63	Who is the leader of the three of you?
+TF1		526.17	527.15	He's the leader
+TF1		528.73	531.58	Eh eeh uh uh uh uh what is your name?
+TF1		533.46	534.13	%name
+TF1		536.15	537.93	What is the last name first?
+TF1		541.54	544.7	Who are you going to ask? Like ask me through me first and then
+TF1		546.755	547.77	<FOR> (()) </FOR>
+TF1		549.43	550.67	His name is %name
+TF1		559.767	561.147	<FOR> (()) </FOR>
+TF1		563.157	566.79	He's the uh he's the ah- uh he own this eh- uh village
+TF1		568.583	570.58	Like he like leader he's the leader
+TF1		574.319	577.41	Like three year- uh <FOR> (()) </FOR>
+TF1		579.814	581.014	For fifty years
+TF1		589.695	594.76	<FOR> (()) </FOR>
+TF1		599.175	603.4	They uh they don't know anything about militants but they have some problem going on
+TF1		607.93	610.45	That's why they are here for the meeting and the-
+TF1		631.28	640.06	Do you know who are the militants people? But they are right now they gather for the what's going on in their towns so they have a meeting because of thats problem
+TF1		642.58	644.49	<FOR> (()) </FOR>
+TF1		655.87	657.12	He says, "Are you listening?"
+TF1		667.12	677.31	He said some ((rich)) people are coming from out of town and they coming here and they are giving some drug to the womans like the local woman? They are giving some drugs to the local woman. 
+TF1		690.19	707.99	They are coming with the paint and they giving this paint to the local people. Local woman. And what they are doing they are uh- they are asking the woman to dry let paint dry. It's kind of like two different part like wa- like oil and um oil and uh powder
+TF1		723.01	740.28	The paint when they dry it it's making powder and for uh- oil. The oil they are using for the polishing uh furniture. The powder they are giving them out jar of a jar. And they say okay fill this jar with this powder. And they're giving fifty ((rupies)) to the woman.
+TF1		754.54	767.47	He thinks that because of this powder, peo- uh woman of this town an- and kids they may get sick because of like burning eyes and bloody nose and like burns like skin problem. So it's happening with the powder.
+TF1		770.707	772.3	<FOR> (()) </FOR>
+TF1		785.11	789.67	About six month about (()) this time about six months ago
+TF1		800.365	802.375	<FOR> (()) </FOR>
+TF1		818.4	831.37	He said that the problem is that at night there has been like a bomb ooh uh something like uh oh uh so ah at night they don't go out because they scared ((afraid it's like somebody's)) doing something
+TF1		832.88	836.35	And then sometimes really recent like a uh shooting too
+TF1		840.595	844.16	<FOR> (()) </FOR>
+TF1		853.3	861.15	He says like when they're here at night it's coming from this side but sometimes it feels like it's coming this side so they are not sure of (())
+TF1		863.3	869.81	From this side its coming but they feel like its coming you know coming from this.  Actually its coming from this side.
+TF1		883.66	892.2	They say um they all like bombs (()) in something.  They listening these people everybody's listening in their town too 
+TF1		896.98	899.19	<FOR>(())</FOR>
+TF1		903.455	908.2	He's from somewhere near to this town and his n-town name is Katagori
+TF1		911.295	912.08	<FOR>(())</FOR>
+TF1		913.235	915.41	He is the leader from like his town
+TF1		921.482	924.51	<FOR>(())</FOR>
+TF1		927.781	929.87	He's from (()) and he's the leader there
+TF1		933.73	937.01	<FOR>(())</FOR>
+TF1		944.155	951.86	They all have different problems.  That's why they are here to like how to solve the problems.  That's why they have a meeting here.
+TF1		955.29	957.41	<FOR>(())</FOR>
+TF1		966.58	967.03	<FOR>(())</FOR>
+TF1		972.18	985.56	He says uh in his town uh rich people are coming from the other side and um they taking woman and promise saying this woman they will marry you so they takes woman um <FOR>(())</FOR>
+TF1		989.4	993.98	Yea they take women out from this this town but they they don't (()) them back
+TF1		1006.975	1016.51	And then uh they ask like woman parents why you know but they don't have money so uh woman parents they may be sel-selling their daughters
+TF1		1020.8	1022.56	<FOR>(())</FOR>
+TF1		1047.53	1066.23	They they hear that they are there are in some town away from this town um police raid or they ((tap)) some house and they found some girls so they thinking they were doing prostitute's business so they're wanted for ((la bike)) you know.
+TF1		1070.25	1073.19	They taking the girls from this town.
+TF1		1080.86	1082.57	(())
+TF1		1088.69	1095.99	<FOR> (()) </FOR>
+TF1		1103.15	1114.02	It's a small town so there are not too many ways to come in this town. So you know they come maybe two rou- twos routes are here so they come in you know this kind of side 
+TF1		1117.58	1119.28	<FOR> (()) </FOR>
+TF1		1120.86	1124.28	This is a big problem because you know the woman's going out and not coming back 
+TF1		1126.91	1129.8	He said, "Don't you think this is a big problem?"
+TF1		1137.34	1144.15	He-he-he's saying that like he just want- he said this is a big problem but that he wants to find out if you have any more problem.
+TF1		1147.7	1147.98	Sorry.
+TF1		1149.29	1153.99	<FOR> (()) </FOR>
+TF1		1161.7	1165.41	This is a big problem in his town.  But he have some problem too.
+TF1		1169.055	1172.12	<FOR> (()) </FOR>
+TF1		1174.445	1174.915	This is a big problem.
+TF1		1177.775	1179.675	<FOR> (()) </FOR>
+TF1		1195.97	1218.74	These town people are coming from outside. These people are someway is coming from outside and they digging they land. And uh s-some kind of survey they are doing but they doesn't know and they are not taking their permission, "Can we- can we look at your land and dig the hol- uh the land?" They just come in and digging the uh land. (())
+TF1		1235.67	1264.54	He says that people are coming the ((labor)). The person are doing this job, the ((laborers)) are coming from Bangladesh or somewhere because uh they are digging the land? But they are not asking the first thing they are not asking the permission. The labor are coming from outside but he said even his people they need ((work)). So he said why they are coming from outside? And doing jobs then we- our people are sitting around without anything.
+TF1		1291.7	1320.78	See you know in his town, people are not educated so then uh when the rich people came they have uh they had one paper uh piece of paper. So they took like a signature but they put like a thumb. So they even cannot read what is written over there. So so then they didn't ask the permission, so thinks that they think like that this is they took a permission but they cannot read what's going on in the paper they just put the-they thumb. They don't know how to read.
+TF1		1336.3	1348.36	He said the- they gave like maybe four hundred five hundred rupies. (()) the paper and took the thumb and (()) h-he's going to ask them why you took-did that? They said just go away so everybody scared.
+TF1		1355.91	1359.11	They are rich people. They have gun and everything so they scared.
+TF1		1363.72	1368.3	<FOR> (()) </FOR>
+TF1		1388.69	1411.27	They have- these are the big problems. But the other problem is they like in his town they need medic medical treatment. Medical treatment because there is no doctor. People are being sick and his town people are so poor ((and even)) his town people are so poor so they need money or they need what. If you help some kind of then help them out.
+TF1		1426.06	1427.63	They said that they are ((able)
+TF1		1428.58	1434.15	<FOR> (()) </FOR>
+TF1		1443.52	1458.78	He said local police even doesn't help that's why he told the local police just go out because he- he said I don't want in this meeting he's here and listening here so he said local lo-local police are not helping this local people becau-
+TF1		1459.98	1461.3	<FOR> (()) </FOR>
+TF1		1465.56	1468.5	They are number one corrupted. They take money from the rich people.
+TF1		1478.27	1483.82	They say they already told you so many things. Are you going to help or you just listen everything?
+TF1		1495.337	1501.56	<FOR> (()) </FOR>
+TF1		1506.79	1511.51	Said uh wha- if you have to talk with somebody why he's not here and you are here?
+TF1		1518.14	1524.69	<FOR> (()) </FOR>
+TF1		1534.18	1541.25	(()) that next time if you come, come with help otherwise just don't come because they don't want to repeat their stories again and again.
+TF1		1545.68	1546.47	What will you do?
+TF1		1559.68	1567.56	<FOR> (()) </FOR>
+TF1		1578.38	1580.76	<FOR> (()) </FOR>
+TF1		1583.02	1587.04	When this fif- meeting will finish we will go out with you and ((count)) around.
+TF1		1596.21	1601.15	<FOR> (()) </FOR>
+TF1		1605.04	1611.66	He said okay. Think about like now he said okay you will help in his town what about uh these people or town?
+TF1		1621.04	1632.92	He said ((are you)) can you stop the people are coming like labor the labor the digging? What they are doing labor-ers coming from Bangladesh? Can you stop them don't come in this town? Can you do that?
+TF1		1651.195	1660.12	<FOR> (()) </FOR> stop <FOR> (()) </FOR>
+TF1		1664.22	1664.92	<FOR> (()) </FOR>
+TF1		1686.977	1710.19	He said that ((Indian)) government are not helping them so wha- how they will trust your government that you will help them. Because Indian they Indian government they were here before last year, but never came again, so Indian government is not helping so they're not happy with that and they- they doubt about you why they are not helping. How you guys can help?
+TF1		1714.755	1718.05	Indian government <FOR> (()) </FOR>
+TF1		1719.035	1719.515	<FOR> (()) </FOR>
+TF1		1732.1	1744.57	If you talk to like uh you know with the head of the Indian government too, talk like you work here. They need some work here so they don't need to go out work and they just stay in the town and work and don't wh- ((do other)) work.
+TF1		1747.51	1748.77	How they know you will come back?
+TF1		1755.915	1761.27	They will come because they want to kn- ah <FOR> (()) </FOR>
+TF1		1762.237	1762.747	<FOR> (()) </FOR>
+TF1		1764.367	1765.407	<FOR> (()) </FOR>
+TF1		1766.85	1768.55	Can you give any kind of guarantee?
+TF1		1772.49	1773.4	<FOR> (()) </FOR>
+TF1		1787.136	1791.05	<FOR> (()) </FOR>
+TF1		1794.626	1796.87	Do you do you want to know anything else?
+TF1		1803.315	1804.34	<FOR> (()) </FOR>
+TF1		1805.127	1805.727	Auguri.
+TF1		1806.367	1807.317	He's from Auguri.
+TF1		1811.507	1813.59	<FOR> (()) </FOR>
+TF1		1821.11	1822.81	<FOR> (()) </FOR>
+TF1		1827.6	1828.67	They don't want their pictures.
+TF1		1833.725	1836.18	<FOR> (()) </FOR>
+TF1		1838.93	1842.09	He's coming with ((you all and can)) go outside. He's coming ((with you)).
+TF1		1852.1	1856.89	<FOR> (()) </FOR> I mean they wait outside for two to three minutes and they will come outside.
+TF1		1872.062	1872.702	(())
+CM1		291.435	294.6	<FOR> (()) </FOR>
+CM1		295.69	302.61	<FOR> (()) </FOR>
+CM1		305.44	306.22	<FOR> (()) </FOR>
+CM1		309.545	313.27	<FOR> (()) </FOR>
+CM1		316.48	317.2	<FOR> Huh? </FOR>
+CM1		318.09	319.57	<FOR> ((Ani anil)) </FOR>
+CM1		322.235	328.68	<FOR> (()) </FOR>
+CM1		330.41	334.99	<FOR> (()) </FOR>
+CM1		337.41	338.27	<FOR> (()) </FOR>
+CM1		339.46	340.79	<FOR> (()) </FOR>
+CM1		351.94	355.99	<FOR> (()) </FOR>
+CM1		356.52	359.73	<FOR> (()) </FOR>
+CM1		360.2	361.06	Namaste
+CM1		361.12	362.41	<FOR> (()) </FOR>
+CM1		363.415	374.21	<FOR> (()) </FOR>
+CM1		375.93	377.56	<FOR> (()) </FOR>
+CM1		380.35	381.64	<FOR> (()) </FOR>
+CM1		383.5	395.81	<FOR> (()) </FOR>
+CM1		397.56	402.44	<FOR> (()) </FOR>
+CM1		403.26	417.17	<FOR> (()) </FOR>                                     ((research))
+CM1		418.79	422.08	<FOR> (()) </FOR>
+CM1		423.76	428.79	<FOR> (()) </FOR>
+CM1		433.69	435.16	<FOR> (()) </FOR>
+CM1		443.12	445.04	<FOR> (()) </FOR>
+CM1		446.67	448.1	<FOR> (()) </FOR>
+CM1		460.09	461.35	<FOR> (()) </FOR>
+CM1		475.96	477.93	<FOR> (()) </FOR>
+CM1		493.43	494.44	<FOR> (()) </FOR>
+CM1		516.28	523.01	<FOR> (()) </FOR>
+CM1		526.49	528.34	<FOR> (()) </FOR>
+CM1		534.315	535.45	%name <FOR> (()) </FOR>
+CM1		535.81	536.39	<FOR> (()) </FOR>
+CM1		537.96	540.99	<FOR> (()) </FOR>
+CM1		547.92	548.95	<FOR> (()) </FOR>
+CM1		561.557	562.43	<FOR> (()) </FOR>
+CM1		577.504	578.714	<FOR> (()) </FOR>
+CM1		594.0	598.12	<FOR> (()) </FOR>
+CM1		603.637	604.96	<FOR> (()) </FOR>
+CM1		605.637	607.407	<FOR> (()) </FOR>
+CM1		613.845	630.69	Yesterday <FOR> (()) </FOR>
+CM1		645.31	654.01	<FOR> (()) </FOR>
+CM1		658.31	666.02	<FOR> (()) </FOR>
+CM1		677.39	689.28	<FOR> (()) </FOR>
+CM1		706.98	707.46	Powder.
+CM1		708.07	721.52	<FOR> (()) </FOR>
+CM1		740.45	754.11	<FOR> (()) </FOR>
+CM1		772.237	777.65	<FOR> (()) </FOR>
+CM1		778.46	784.64	<FOR> (()) </FOR>
+CM1		787.22	788.84	<FOR> (()) </FOR>
+CM1		797.75	800.5	<FOR> (()) </FOR>
+CM1		802.065	818.23	<FOR> (()) </FOR>
+CM1		829.53	834.32	<FOR> (()) </FOR>
+CM1		843.27	852.83	<FOR> (()) </FOR>
+CM1		860.76	862.61	<FOR> (()) </FOR>
+CM1		875.39	878.57	<FOR>(())</FOR>
+CM1		882.59	882.71	mm
+CM1		935.61	937.71	<FOR>(())</FOR>
+CM1		957.35	957.63	<FOR>(())</FOR>
+CM1		1028.855	1029.015	<FOR>(())</FOR>
+CM1		1030.845	1037.2	<FOR>(())</FOR>
+CM1		1044.46	1046.02	<FOR>(())</FOR>
+CM1		1046.81	1047.3	<FOR>(())</FOR>
+CM1		1068.65	1070.52	<FOR> (()) </FOR>
+CM1		1076.46	1086.04	<FOR> (()) </FOR>
+CM1		1123.64	1126.43	<FOR> (()) </FOR>
+CM1		1134.08	1137.33	<FOR> (()) </FOR>
+CM1		1143.65	1145.42	<FOR> (()) </FOR>
+CM1		1152.01	1154.77	<FOR> (()) </FOR>
+CM1		1233.81	1234.03	Ah.
+CM1		1263.55	1263.76	<FOR> (()) </FOR>
+CM1		1264.62	1270.29	<FOR> (()) </FOR>
+CM1		1333.6	1335.71	<FOR> (()) </FOR>
+CM1		1336.03	1336.37	Uh.
+CM1		1348.8	1351.32	<FOR> (()) </FOR>
+CM1		1366.36	1369.33	<FOR> (()) </FOR>
+CM1		1425.49	1431.48	<FOR> (()) </FOR>
+CM1		1432.815	1443.17	<FOR> (()) </FOR>
+CM1		1461.57	1464.96	<FOR> (()) </FOR>
+CM1		1501.62	1505.54	<FOR> (()) </FOR>
+CM1		1525.02	1527.91	<FOR> (()) </FOR>
+CM1		1541.6	1545.32	<FOR> (()) </FOR>
+CM1		1567.29	1577.83	<FOR> (()) </FOR>
+CM1		1578.56	1583.0	<FOR> (()) </FOR>
+CM1		1600.47	1604.9	<FOR> (()) </FOR>
+CM1		1659.577	1660.137	<FOR> (()) </FOR>
+CM1		1671.39	1678.73	<FOR> (()) </FOR> like <FOR> (()) </FOR>
+CM1		1681.877	1686.14	<FOR> (()) </FOR>
+CM1		1744.71	1746.73	<FOR> (()) </FOR>
+CM1		1760.777	1761.997	<FOR> (()) </FOR>
+CM1		1762.777	1763.867	<FOR> (()) </FOR>
+CM1		1764.367	1765.91	<FOR> (()) </FOR>
+CM1		1771.42	1776.42	<FOR> (()) </FOR>
+CM1		1792.676	1794.15	<FOR> (()) </FOR>
+CM1		1815.05	1820.51	<FOR> (()) </FOR>
+CM1		1822.89	1827.17	<FOR> (() </FOR>
+CM1		1835.742	1838.43	<FOR> (()) </FOR>
+CM1		1844.69	1844.96	Namaste.
+CM1		1846.28	1851.08	<FOR> (()) </FOR>
+CM1		1872.712	1876.19	<FOR> (()) </FOR>
+CM1		1878.177	1878.567	<FOR> (()) </FOR>
+CM1		1885.16	1886.75	<FOR> (()) </FOR>
+CM1		1892.195	1898.96	<FOR> (()) </FOR>
+CM2		291.45	294.61	<FOR> (()) </FOR>
+CM2		301.155	305.58	<FOR> (()) </FOR>
+CM2		335.03	341.2	<FOR> (()) </FOR>
+CM2		342.67	349.12	<FOR> (()) </FOR>
+CM2		360.33	361.27	Namaste
+CM2		362.37	363.81	<FOR> (()) </FOR>
+CM2		380.24	381.72	<FOR> (()) </FOR>
+CM2		390.8	391.85	<FOR> (()) </FOR>
+CM2		394.66	397.59	<FOR> (()) </FOR>
+CM2		401.85	403.81	<FOR> (()) </FOR>
+CM2		406.645	407.695	Research
+CM2		447.82	448.93	<FOR> (()) </FOR>
+CM2		452.61	453.83	<FOR> (()) </FOR>
+CM2		459.66	460.44	<FOR> (()) </FOR>
+CM2		493.9	497.67	<FOR> (()) </FOR>
+CM2		514.98	516.29	<FOR> (()) </FOR>
+CM2		567.543	568.653	<FOR> (()) </FOR>
+CM2		595.6	596.87	<FOR> (()) </FOR>
+CM2		607.68	610.34	<FOR> (()) </FOR>
+CM2		611.17	614.48	<FOR> (()) </FOR>
+CM2		777.5	778.65	<FOR> (()) </FOR>
+CM2		784.88	787.48	<FOR> (()) </FOR>
+CM2		797.75	803.71	<FOR> (()) </FOR>
+CM2		831.76	833.88	<FOR> (()) </FOR>
+CM2		869.79	878.37	<FOR>(())</FOR>
+CM2		879.12	882.73	<FOR>(())</FOR>
+CM2		898.56	902.87	<FOR>(())</FOR>
+CM2		912.095	912.89	<FOR>(())</FOR>
+CM2		924.22	927.85	<FOR>(())</FOR>
+CM2		937.7	943.94	<FOR>(())</FOR>
+CM2		1036.4	1044.8	<FOR>(())</FOR>
+CM2		1045.38	1046.82	<FOR>(())</FOR>
+CM2		1066.55	1068.51	<FOR> (()) </FOR>
+CM2		1120.44	1120.9	<FOR> (()) </FOR>
+CM2		1142.81	1143.91	<FOR> (()) </FOR>
+CM2		1154.875	1160.67	<FOR> (()) </FOR>
+CM2		1179.805	1195.98	<FOR> (()) </FOR>
+CM2		1218.3	1234.81	<FOR> (()) </FOR>
+CM2		1270.04	1291.43	Ah. <FOR> (()) </FOR>
+CM2		1320.79	1335.77	<FOR> (()) </FOR>
+CM2		1350.23	1355.61	<FOR> (()) </FOR>
+CM2		1368.81	1388.62	<FOR> (()) </FOR> problem <FOR> (()) </FOR> problem <FOR> (()) </FOR> problem <FOR> (()) </FOR>
+CM2		1428.655	1431.5	<FOR> (()) </FOR>
+CM2		1435.955	1437.235	<FOR> (()) </FOR>
+CM2		1469.78	1477.69	<FOR> (()) </FOR>
+CM2		1524.57	1534.63	<FOR> (()) </FOR>
+CM2		1578.82	1582.5	<FOR> (()) </FOR>
+CM2		1612.33	1620.15	<FOR> (()) </FOR>
+CM2		1659.877	1672.88	<FOR> (()) </FOR>
+CM2		1678.335	1683.01	<FOR> (()) </FOR>
+CM2		1684.072	1685.422	<FOR>(())</FOR>
+CM2		1686.977	1687.737	<FOR> (()) </FOR>
+CM2		1757.335	1757.695	<FOR> (()) </FOR>
+CM2		1791.766	1792.416	<FOR> (()) </FOR>
+CM2		1804.357	1804.877	Auguri.
+CM2		1815.7	1819.18	<FOR> (()) </FOR>
+CM2		1825.53	1827.27	<FOR> (()) </FOR>
+CM2		1845.03	1847.32	<FOR> (()) </FOR>
+CM2		1849.12	1850.15	<FOR> (()) </FOR>
+CM2		1891.49	1893.58	<FOR> (()) </FOR>
+CM3		338.74	339.83	<FOR> (()) </FOR>
+CM3		340.79	343.65	<FOR> (()) </FOR>
+CM3		349.98	351.51	<FOR> (()) </FOR>
+CM3		377.2	380.82	<FOR> (()) </FOR>
+CM3		401.44	402.24	<FOR> (()) </FOR>
+CM3		406.18	406.825	Research
+CM3		422.34	423.5	<FOR> (()) </FOR>
+CM3		519.045	519.88	<FOR> (()) </FOR>
+CM3		521.24	523.145	<FOR> (()) </FOR>
+CM3		795.79	797.16	<FOR> (()) </FOR>
+CM3		877.83	878.84	<FOR>(())</FOR>
+CM3		957.46	971.97	<FOR>(())</FOR>
+CM3		985.08	988.82	<FOR>(())</FOR>
+CM3		994.02	1001.95	<FOR>(())</FOR>
+CM3		1022.36	1025.95	<FOR>(())</FOR>
+CM3		1030.74	1031.34	<FOR>(())</FOR>
+CM3		1095.87	1103.49	<FOR> (()) </FOR>
+CM3		1118.55	1119.97	<FOR> (()) </FOR>
+CM3		1170.435	1171.105	Yeah.
+CM3		1172.365	1174.37	<FOR> (()) </FOR> 
+CM3		1463.05	1465.26	<FOR> (()) </FOR>
+CM3		1665.39	1665.98	<FOR> (()) </FOR>
+CM3		1718.035	1718.76	<FOR> (() </FOR>
+CM3		1719.215	1732.06	<FOR> (()) </FOR>
+CM3		1789.656	1790.226	<FOR> (()) </FOR>
+CM3		1791.74	1792.176	<FOR> (()) </FOR>
+IM2		332.45	333.33	((Were you saying something?))
+IM2		334.42	334.84	((Were you saying something?))
+IM2		335.55	336.68	((You're the translator? Yeah?))
+IM2		354.28	355.09	((Should've done them))
+IM2		358.94	359.71	Namaste
+IM2		483.91	484.05	What's that? 
+IM2		553.77	554.63	(())
+IM2		555.545	556.545	(())
+IM2		647.48	656.67	(())
+IM2		893.86	894.8	((what towns are they from))
+IM2		1002.02	1003.53	(())
+IM2		1004.475	1006.54	(())
+IM2		1073.58	1076.74	((Did he say they're)) coming in from one direction or what'd he say
+IM2		1077.0	1081.16	(())
+IM2		1414.34	1415.38	((Kind of it's whole))
+IM2		1421.37	1426.07	((His streets))
+IM3		1799.525	1803.02	Um what is the town (())
+IM3		1857.885	1861.62	((See who's))

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="searchType" type="searchTypeType"/>
+  <xs:complexType name="participantsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="search-participant-type"/>
+      <xs:element type="xs:string" name="search-gender"/>
+      <xs:element type="search-ageType" name="search-age"/>
+      <xs:element type="xs:string" name="search-codename"/>
+      <xs:element type="xs:string" name="search-mil-rank-match"/>
+      <xs:element type="xs:string" name="search-mil-rank"/>
+      <xs:element type="xs:string" name="search-pol-rank-match"/>
+      <xs:element type="xs:string" name="search-pol-rank"/>
+      <xs:element type="xs:string" name="search-ethnicity"/>
+      <xs:element type="xs:string" name="search-first-language"/>
+      <xs:element type="xs:string" name="search-geo-origin"/>
+      <xs:element type="xs:string" name="search-time-in-country-match"/>
+      <xs:element type="xs:string" name="search-time-in-country"/>
+      <xs:element type="xs:string" name="search-time-in-country-units"/>
+      <xs:element type="xs:string" name="search-comments"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="searchTypeType">
+    <xs:sequence>
+      <xs:element type="participantsType" name="participants"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="search-ageType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="search-age-match"/>
+      <xs:element type="xs:string" name="search-age"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

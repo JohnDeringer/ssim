@@ -1,0 +1,297 @@
+Radio	Radio	9.43	10.3	three charles forty eight. 
+Radio	Radio	11.94	12.92	three charlie forty eight. 
+Radio	Radio	15.18	16.53	send the name of the company please. 
+Radio	Radio	18.59	20.05	seven and uh ge- seven. 
+Radio	Radio	20.43	23.15	send the name of the company (()).
+Radio	Radio	25.2	26.1	thank you. 
+Radio	Radio	26.9	27.9	(()).
+Radio	Radio	39.5	44.2	(()). 
+Radio	Radio	45.8	48.0	(()).
+Radio	Radio	87.7	89.4	david one three adam. 
+Radio	Radio	90.2	91.6	david one three adam. 
+Radio	Radio	92.8	94.5	((got)) seven. i'm available at the company. 
+Radio	Radio	98.4	100.3	thirteen twenty hours. ((enjoy)). 
+Radio	Radio	121.4	123.7	and go ahead and ((do)) three charlie four adam. 
+Radio	Radio	136.7	139.2	(()) three charlie four adam. 
+Radio	Radio	147.7	149.8	three charlie four adam. 
+Radio	Radio	168.0	175.2	three charlie one adam. (()). 
+Radio	Radio	184.0	185.7	(()).
+Radio	Radio	392.5	393.8	(()).
+Radio	Radio	427.6	430.9	(()). 
+Radio	Radio	440.1	441.8	(()).
+Radio	Radio	445.8	463.1	(()).
+Radio	Radio	465.5	475.1	(()).
+Radio	Radio	476.1	479.5	(()). 
+Radio	Radio	491.5	494.4	(()). 
+Radio	Radio	498.3	500.7	(()).
+Radio	Radio	501.6	504.1	(()). 
+Radio	Radio	505.7	507.4	(()).
+Radio	Radio	510.8	513.9	(()). 
+Radio	Radio	515.9	520.2	(()). 
+Radio	Radio	522.1	527.1	(()).
+Radio	Radio	538.7	541.5	(()).
+Radio	Radio	554.1	555.4	(()). 
+Radio	Radio	587.2	589.1	(()).
+Radio	Radio	610.5	614.5	(()).
+Radio	Radio	618.5	627.5	(()).
+Radio	Radio	628.4	631.7	(()). 
+Radio	Radio	638.55	641.55	(()).
+IM1	IM1	17.24	20.1	{speaking into radio} david twenty nine. you can send the nine seventeen on twenty delores. 
+IM1	IM1	25.5	52.3	supposed to be a suspicious person. i believe ((+for)) this one. in the delores park group barbecuing right at the corner one threw a glass bottle into the grass. mixed race black males and b._m.s all drinking with open container. requesting police department to move along. so no real good description of them just gave us the race ((of)) black males and black males. 
+IM1	IM1	53.35	55.95	usually clothing would be helpful also. 
+IM1	IM1	57.9	62.0	there's a group up there but all those guys look white to me. 
+IM1	IM1	66.3	68.3	and twentieth is all the way at the top.
+IM1	IM1	69.7	73.5	most of the people would be down here at the bottom. 
+IM1	IM1	85.95	89.15	looks like we're up there by the white car ((all the way at)) the top. 
+IM1	IM1	104.5	111.2	they just recently made this a no drinking park. no open containers. so it's pretty new still. 
+IM1	IM1	111.5	119.4	so we still usually advise a lot of people just say hey. no drinking in the park. go ahead and just dump it out and you guys can be on your way. 
+IM1	IM1	120.6	124.3	yeah. it actually did have signs posted and it was legal to drink in the park. 
+IM1	IM1	128.7	132.3	uh. i think just with the litter and, 
+IM1	IM1	182.6	188.3	yeah. i just want to see what you guys ((have)) got going on here. ((smell of)) a little fish. i can (()). 
+IM1	IM1	188.8	191.3	i'm all right %name. so how's it going today? 
+IM1	IM1	192.3	196.0	so you got the neighbors complaining about some bottles being thrown and, 
+IM1	IM1	199.5	201.9	uh i don't know how to- someone called in. 
+IM1	IM1	202.6	205.7	so there's the deal. the park, 
+IM1	IM1	205.9	210.3	yeah. ((see they)) got three bottles there and you guys are drinking sierra nevadas. so i mean, 
+IM1	IM1	211.3	212.4	all, 
+IM1	IM1	215.9	218.4	do me a favor and stick your hands out of your pockets while i talk to you. 
+IM1	IM1	218.6	220.2	do you have any i._d. on you? 
+IM1	IM1	221.8	223.3	no i._d.?
+IM1	IM1	226.2	227.5	why don't you have any i._d.? 
+IM1	IM1	229.4	233.9	do me a favor. put down the bottle ((please. and just)) sit down. can you sit down too?
+IM1	IM1	234.85	236.05	great. can you sit down? 
+IM1	IM1	236.9	238.5	perfect. can you sit down too?
+IM1	IM1	238.79	239.38	awesome. 
+IM1	IM1	239.9	241.3	do you have any i._d. on you? 
+IM1	IM1	241.4	242.8	can i see your i._d.? what about you? 
+IM1	IM1	257.1	259.2	you guys all know each other or? 
+IM1	IM1	262.0	264.2	do you have any california i._d. or anything? 
+IM1	IM1	264.2	265.4	((live)) in san francisco? 
+IM1	IM1	269.6	271.7	((wait a minute)). what's your last name? 
+IM1	IM1	273.0	274.2	%name?
+IM1	IM1	274.8	276.0	%name. 
+IM1	IM1	278.1	279.9	first name sir. 
+IM1	IM1	280.3	282.6	%name? is it %spelled_name? 
+IM1	IM1	283.5	285.2	%name what's your date of birth? 
+IM1	IM1	288.0	289.3	almost your birthday. 
+IM1	IM1	292.25	294.45	(()) e- you never been arrested in san francisco? 
+IM1	IM1	297.9	299.9	one in ((modesto))?
+IM1	IM1	300.7	303.8	do you have- have you ever been issued an i._d. card. (()) on your i._d. card? 
+IM1	IM1	311.15	312.75	what was the name you were gonna come back to? 
+IM1	IM1	315.4	317.1	what's your social security number? 
+IM1	IM1	318.2	319.7	%social_security_number?
+IM1	IM1	323.7	325.3	where were you born at? 
+IM1	IM1	339.25	340.65	%name where you living at? 
+IM1	IM1	349.4	353.4	got you. has anyone been arrested or on probation parole or anything? 
+IM1	IM1	354.95	355.95	%name?
+IM1	IM1	371.7	373.1	your last name's %name? 
+IM1	IM1	374.5	375.8	and your first is %name? 
+IM1	IM1	387.5	391.0	{speaking into radio} david twenty nine i got a couple of ten twenty nines ((en route)).
+IM1	IM1	393.8	404.4	last of %name. first of %name. white male. %birthdate. 
+IM1	IM1	406.9	408.1	just sit down. 
+IM1	IM1	408.95	410.35	((go flip the guy)). 
+IM1	IM1	431.8	438.7	{speaking into radio} last of %name. first of %name. black male %birthdate. 
+IM1	IM1	453.7	455.6	w- where did you get the fish at? 
+IM1	IM1	457.0	460.4	safeway? little salmon and what else you got? halibut? 
+IM1	IM1	464.8	466.6	little variety huh? 
+IM1	IM1	480.9	482.7	{speaking into radio} ((with a c)).
+IM1	IM1	484.2	485.7	what's your middle name? 
+IM1	IM1	486.4	487.9	((is that)) your middle name? 
+IM1	IM1	489.7	490.7	you don't have a middle name? 
+IM1	IM1	520.5	521.9	{speaking into radio} go ahead. 
+IM1	IM1	535.5	537.9	{speaking into radio} copy. do you have a description on him? 
+IM1	IM1	541.9	543.5	how tall are you? 
+IM1	IM1	544.6	545.9	how tall are you? 
+IM1	IM1	549.2	550.1	{speaking into radio} copy. 
+IM1	IM1	556.5	558.3	now do me a favor. stand up. 
+IM1	IM1	559.5	560.7	turn around. 
+IM1	IM1	561.8	563.4	so you might have a warrant. all right? 
+IM1	IM1	567.2	571.2	well without you having any i._d. on you where i can uh confirm that i don't know. 
+IM1	IM1	572.7	573.9	yeah. 
+IM1	IM1	575.5	577.0	uh have a seat. 
+IM1	IM1	582.7	584.8	{speaking into radio} david twenty nine. can you run one warrant for me? 
+IM1	IM1	589.3	596.1	{speaking into radio} last of %name. %spelled_name. 
+IM1	IM1	597.7	603.8	{speaking into radio} %name. white male. %birthdate. 
+IM1	IM1	606.35	609.35	that's what my dispatcher's telling me off the name that you gave me. 
+IM1	IM1	611.7	615.9	and uh it's close to the description. 
+IM1	IM1	623.05	624.35	it's possible but i don't know. 
+IM1	IM1	627.9	630.6	here's the deal. open- you can't have any open containers. 
+IM1	IM1	630.89	631.21	okay?
+IM1	IM1	631.28	632.72	((there's)) no drinking-, 
+IM1	IM1	633.3	635.7	no drin- hold on. hold on. sit down. 
+IM1	IM1	635.8	637.4	so no drinking in the park. 
+IM1	IM1	641.3	642.7	{speaking into radio} edward (()).
+IM1	IM1	642.9	649.2	hi there. let's go back. ((we're gonna)) s- go back to the station. i'm gonna try identify you at the station. all right? 
+IM1	IM1	649.7	651.0	well i don't know. 
+IM1	IM1	653.1	654.3	down to mission station. 
+IM1	IM1	654.5	656.7	all right guys. ((so do this)) pick up all your bottles. 
+IM1	IM1	665.1	667.2	i don't know. i'll check ((once we get here)) as soon as we do. 
+IM1	IM1	668.4	669.8	do you have anything on you? 
+IM1	IM1	672.9	674.1	hold on. hold on. 
+IM1	IM1	674.3	675.6	i'll get it for you in a few seconds. 
+IM1	IM1	708.4	710.2	%name (()). 
+IM1	IM1	712.85	714.15	okay. well i don't know you. okay? 
+IM1	IM1	714.6	718.0	first time i'm meeting you. i'm just asking some questions.
+IM1	IM1	718.75	720.25	they're not gonna leave (())?
+IM1	IM1	744.5	746.7	(()).
+IM1	IM1	769.25	771.75	why won't you give me your passport (()),
+IM1	IM1	780.5	782.5	have you been drinking today or what? 
+IM1	IM1	795.0	796.8	uh i'll pick it- i'll pick it all up. 
+IM1	IM1	808.05	810.05	well i don't know you so.
+IM1	IM1	834.9	836.7	so your middle name's %name? 
+IM1	IM1	842.0	843.8	so your middle name's %name? 
+IM1	IM1	844.2	847.1	i asked you if you had a middle name. you told me you didn't have a middle name. 
+IM1	IM1	850.4	851.7	yeah. 
+IM1	IM1	857.9	867.2	okay. well even your initials your initials would be %name. so %spelled_name. that'd be your initials. 
+IM1	IM1	876.795	881.965	all right. (()) car or we (()) open up the door for you (()) in here.  
+IM1	IM1	886.4	887.8	pull up. 
+IM1	IM1	889.5	891.0	all right. have a seat. 
+IM1	IM1	896.45	898.95	yeah i'm gonna pick up your change. i'll put it in an envelope. 
+IM1	IM1	900.2	902.0	you have a backpack over here? 
+IM1	IM1	902.2	903.9	you want them to hold onto it for you? 
+IM1	IM1	906.1	907.8	so you want them to keep your backpack? 
+IM1	IM1	909.15	910.65	okay. so th- your backpack's fine over there? 
+IM1	IM1	910.9	912.1	okay. perfect. 
+IM1	IM1	915.4	917.6	little bit more. i don't want to hit your legs. 
+IM1	IM1	918.9	920.6	i know. it's a tight fit. 
+IM1	IM1	930.4	931.9	oh. 
+IM1	IM1	933.6	940.0	ah well ((he's)) part of the group but he came back with a warrant so we're gonna take him back. confirm and see if the warrant's good. 
+IM1	IM1	941.1	949.5	and originally he ((was)) he tell m- he told me that he didn't have any i._d. on him and then i found a passport in his back pocket but it's the same name so. we'll see. 
+CM1	CM1	23.8	25.2	{CM1 has video camera} ((what's)) uh nine seventeen?
+CM1	CM1	51.6	52.9	mhm. 
+CM1	CM1	55.7	56.8	{laughs}.
+CM1	CM1	108.7	109.7	was-, 
+CM1	CM1	110.8	111.7	mhm. 
+CM1	CM1	119.4	120.7	could you drink here before? 
+CM1	CM1	124.3	125.4	mm. 
+CM1	CM1	127.1	128.6	were you having a lot of problems with, 
+CM1	CM1	292.7	293.6	mhm. 
+CM1	CM1	655.2	656.6	{handing consent brochure to CM4} here you go. 
+CM1	CM1	931.2	932.8	is he the guy you're looking for? 
+CM1	CM1	936.1	937.7	oh okay. 
+CM2	CM2	177.3	183.2	i bet you coming over here to- wondering about our barbecuing ((and doing it)). right? 
+CM2	CM2	196.1	200.5	bottles being thrown? there's no bottles being thrown at all. we (()), 
+CM2	CM2	202.0	203.9	oh. ((i was just right here)), 
+CM2	CM2	204.5	205.7	maybe over there. 
+CM2	CM2	209.6	211.2	but we didn't throw them. 
+CM2	CM2	212.4	216.5	no. no. those othe- other guys that actually were here might have thrown them across the street. 
+CM2	CM2	217.65	218.65	((nervous)). 
+CM2	CM2	220.65	222.05	no i,
+CM2	CM2	222.25	225.15	i do not have no i._d. but i can tell you my name. 
+CM2	CM2	227.85	229.45	because i didn't bring my,
+CM2	CM2	229.45	230.45	i just, 
+CM2	CM2	230.9	233.5	i just because i just i was (()), 
+CM2	CM2	238.1	240.5	yeah. i just get loud ((and silly)). 
+CM2	CM2	266.4	270.6	for me i'm sorry. i can't hand you my i._d. because i don't have- i ((just)) came out.
+CM2	CM2	272.1	273.4	%name. 
+CM2	CM2	273.9	274.9	%name. 
+CM2	CM2	279.6	280.6	%name. 
+CM2	CM2	285.2	287.3	%birthdate. 
+CM2	CM2	289.45	293.25	yeah. (()). uh i (()) ((that's why i came out)). 
+CM2	CM2	294.65	295.65	((think about)).
+CM2	CM2	304.15	310.45	no i'm actually i just came back ((to california)). i- i'm i'm on vacation right now. 
+CM2	CM2	310.45	311.45	((texas)). 
+CM2	CM2	313.4	314.7	%name. 
+CM2	CM2	316.7	318.0	%social_security_number. 
+CM2	CM2	320.1	322.3	%social_security_number. 
+CM2	CM2	325.15	329.65	right here in (()). {laughs} so i- i just got back. 
+CM2	CM2	409.8	415.4	{laughs} there he goes. that's- ((what i- i was gonna say. he need to looked)) at. 
+CM2	CM2	488.85	490.05	i don't have a middle name. 
+CM2	CM2	490.25	491.35	no. 
+CM2	CM2	543.6	545.2	what's that? 
+CM2	CM2	545.95	549.85	six four? ((about six three)). 
+CM2	CM2	557.9	559.1	yeah. 
+CM2	CM2	563.65	566.75	i doubt that. i really doubt that because, 
+CM2	CM2	570.15	571.25	((okay)), 
+CM2	CM2	571.75	572.55	really? 
+CM2	CM2	573.5	576.4	well. you can take me down but i doubt if i have a warrant. 
+CM2	CM2	581.6	583.5	you actually gonna take me down? 
+CM2	CM2	604.3	606.4	are you serious? i have a warrant? 
+CM2	CM2	609.35	611.15	i do not have a warrant. 
+CM2	CM2	615.55	620.35	well i doubt it. i mean i'm serious. i'm so doubt it i mean ((whatever)).
+CM2	CM2	625.4	626.4	whatever. 
+CM2	CM2	646.3	649.1	yeah. whatever. (()). 
+CM2	CM2	651.0	653.5	i mean what- what part of the states are we going? 
+CM2	CM2	658.3	660.4	i don't ((know man)). what the heck? 
+CM2	CM2	663.4	665.5	what kind of warrant is this? 
+CM2	CM2	666.8	668.2	((god damn)). 
+CM2	CM2	669.4	671.8	no. i don't have a license ((really)). 
+CM2	CM2	671.9	674.2	oh. wait a minute. can i get my backpack? 
+CM2	CM2	689.2	692.2	{talking to CM3 and CM4} hey! my backpack. 
+CM2	CM2	694.7	695.9	yeah. 
+CM2	CM2	698.8	700.7	or just hold it for me. 
+CM2	CM2	703.0	705.8	you can give it to %name. (()). 
+CM2	CM2	706.7	707.9	%name. 
+CM2	CM2	710.85	713.05	(()) said so. ((i'm- i'm not)), 
+CM2	CM2	716.8	717.8	((yeah)). 
+CM2	CM2	719.7	723.9	no. no. i don't i'm ((not close to)) %name. myself. 
+CM2	CM2	726.2	731.4	i'm just wondering what it really why am i ((being)) taken down. that's the reason why i'm tripping. 
+CM2	CM2	748.0	749.6	(()). 
+CM2	CM2	766.85	770.35	oh i do have m- um ((fuck)) i didn't know i ((did have-)), 
+CM2	CM2	770.7	776.7	no i didn't realize i even had it on me dog. i- because i felt my back pocket. i didn't realize i had it on me.
+CM2	CM2	778.2	781.1	i'm dead serious. i would not try to lie to you, 
+CM2	CM2	782.55	786.05	had like a beer. just had one beer (()). 
+CM2	CM2	794.1	795.1	oh, 
+CM2	CM2	803.55	808.25	do you believe me? i'm not no criminal or i mean ((you probably)), 
+CM2	CM2	809.3	811.0	yeah. (()). 
+CM2	CM2	837.6	840.8	%name. 
+CM2	CM2	843.3	844.5	yes. 
+CM2	CM2	846.7	850.3	no you- you asked me for a middle name? 
+CM2	CM2	851.3	854.7	i didn't even hear that. i thought you said asked me for initial. 
+CM2	CM2	856.4	858.0	that's what i thought you said. 
+CM2	CM2	866.9	868.3	right. 
+CM2	CM2	881.9	883.2	{background noise of yelling} (()). 
+CM2	CM2	895.15	896.55	can you pick up my change? 
+CM2	CM2	904.6	906.8	well. ((it's bullshit)). yes. 
+CM2	CM2	907.8	909.2	they're ((my friends)). yes. 
+CM2	CM2	910.55	911.45	yes. 
+CM2	CM2	918.45	919.55	kind of (()).
+CM3	CM3	187.7	188.9	you want a taco? 
+CM3	CM3	191.8	192.7	good.
+CM3	CM3	196.35	198.25	what? ((hey)) really what? 
+CM3	CM3	210.05	211.35	where are three bottles? 
+CM3	CM3	211.7	213.3	(()).
+CM3	CM3	214.9	216.3	(()). 
+CM3	CM3	225.4	226.6	((i was definite)). 
+CM3	CM3	228.2	229.7	because all us, 
+CM3	CM3	233.05	235.35	((i'm stopped)) to pick the damn wood up. 
+CM3	CM3	236.25	237.65	yeah (()). 
+CM3	CM3	241.0	241.9	absolutely. 
+CM3	CM3	259.1	260.1	yeah. 
+CM3	CM3	263.6	265.0	(()). 
+CM3	CM3	293.8	298.0	how about this? i can't ((see)) this. i ain't never heard of this throwing bottles. 
+CM3	CM3	326.3	329.6	there must be glass somewhere. ((so)) take a look. 
+CM3	CM3	330.5	331.8	there's no glass. 
+CM3	CM3	337.15	339.35	yeah ((exac-)) cops ((take a)) look. 
+CM3	CM3	341.2	348.9	um i'm staying at um %home_address. i'm staying at a shelter in (()).
+CM3	CM3	359.7	371.2	nah i don't know about those i ((ain't)) heard nothing about those bottles being thrown. i was just telling him if bottles thrown there would be glass. i don- i don't see no broken glass. 
+CM3	CM3	373.2	374.8	uh-huh. 
+CM3	CM3	405.7	407.5	(()) sounds great. 
+CM3	CM3	408.0	409.8	(()) flip. 
+CM3	CM3	456.55	457.55	safeway.
+CM3	CM3	460.6	463.1	yeah a- and some other stuff. 
+CM3	CM3	514.8	516.8	{talking to CM4} yeah. there'd at least be something (()). 
+CM3	CM3	522.4	523.5	(()).
+CM3	CM3	630.05	630.95	uh,
+CM3	CM3	631.15	633.95	no sir. uh i- ((when our fish get through)), 
+CM3	CM3	635.6	636.6	throw them away. 
+CM3	CM3	637.3	638.1	all right. 
+CM3	CM3	656.4	659.4	i am. i'm doing it right now. (()).
+CM4	CM4	259.7	261.2	yeah w-, 
+CM4	CM4	290.6	293.1	{speaking to CM1} ((mm)) you recording all this? 
+CM4	CM4	298.9	301.7	yeah it- that's uh, 
+CM4	CM4	303.4	309.9	{having conversation with CM3} oh it's- i don't kn- i (()). you know. you get those kind of place. (()) reno (()).
+CM4	CM4	329.7	331.1	yeah. 
+CM4	CM4	333.55	338.55	unless there's some really (()) bottles out there. i just ((threw)) one. 
+CM4	CM4	354.8	355.9	nope.  
+CM4	CM4	365.8	367.2	yeah. 
+CM4	CM4	369.8	371.0	yeah. 
+CM4	CM4	373.8	374.8	yeah. 
+CM4	CM4	375.5	376.6	yes sir. 
+CM4	CM4	459.85	461.15	((yep)).
+CM4	CM4	462.6	464.6	some pork. yeah. 
+CM4	CM4	521.4	523.2	it's a pretty nice area. 
+CM4	CM4	610.3	612.4	that's right. remember that. 
+CM4	CM4	637.75	639.05	yeah. we'll clean ((at the same time)). 
+CM4	CM4	654.5	656.1	yeah. let's let's (()), 
+CM4	CM4	656.3	657.3	yeah. 

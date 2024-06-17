@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/ssim/!svn/ver/23/ssim-model/src/main/java/com/sri/ssim/userManagement
+END
+UserMgmtUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/ssim/!svn/ver/23/ssim-model/src/main/java/com/sri/ssim/userManagement/UserMgmtUtil.java
+END
+UserSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/ssim/!svn/ver/23/ssim-model/src/main/java/com/sri/ssim/userManagement/UserSession.java
+END
+TokenManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/ssim/!svn/ver/23/ssim-model/src/main/java/com/sri/ssim/userManagement/TokenManager.java
+END

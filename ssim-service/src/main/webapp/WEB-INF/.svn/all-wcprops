@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/ssim/!svn/ver/64/ssim-service/src/main/webapp/WEB-INF
+END
+repository-service-beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ssim/!svn/ver/64/ssim-service/src/main/webapp/WEB-INF/repository-service-beans.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ssim/!svn/ver/18/ssim-service/src/main/webapp/WEB-INF/web.xml
+END

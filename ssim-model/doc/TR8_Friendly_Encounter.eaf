@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2012-05-02T09:50:19-05:00" FORMAT="2.7" VERSION="2.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.7.xsd">
+    <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds">
+        <MEDIA_DESCRIPTOR MEDIA_URL="file:///Users/mardikidwell/Documents/Mardi Kidwell/Transcriptions/TR8 Friendly Encounter UNH/TR8 Friendly Encounter.mov" MIME_TYPE="video/quicktime" RELATIVE_MEDIA_URL="./TR8 Friendly Encounter.mov"/>
+        <MEDIA_DESCRIPTOR EXTRACTED_FROM="file:///Users/mardikidwell/Documents/Mardi Kidwell/Transcriptions/TR8 Friendly Encounter UNH/TR8 Friendly Encounter.mov" MEDIA_URL="file:///Users/mardikidwell/Documents/Mardi Kidwell/Transcriptions/TR8 Friendly Encounter UNH/TR8 Friendly Encounter.wav" MIME_TYPE="audio/x-wav" RELATIVE_MEDIA_URL="./TR8 Friendly Encounter.wav"/>
+        <PROPERTY NAME="lastUsedAnnotationId">16</PROPERTY>
+    </HEADER>
+    <TIME_ORDER>
+        <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="32035"/>
+        <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="32665"/>
+        <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="32915"/>
+        <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="33266"/>
+        <TIME_SLOT TIME_SLOT_ID="ts5" TIME_VALUE="33460"/>
+        <TIME_SLOT TIME_SLOT_ID="ts6" TIME_VALUE="33800"/>
+        <TIME_SLOT TIME_SLOT_ID="ts7" TIME_VALUE="33810"/>
+        <TIME_SLOT TIME_SLOT_ID="ts8" TIME_VALUE="43176"/>
+        <TIME_SLOT TIME_SLOT_ID="ts9" TIME_VALUE="43851"/>
+        <TIME_SLOT TIME_SLOT_ID="ts10" TIME_VALUE="45545"/>
+        <TIME_SLOT TIME_SLOT_ID="ts11" TIME_VALUE="46020"/>
+        <TIME_SLOT TIME_SLOT_ID="ts12" TIME_VALUE="46205"/>
+        <TIME_SLOT TIME_SLOT_ID="ts13" TIME_VALUE="46480"/>
+        <TIME_SLOT TIME_SLOT_ID="ts14" TIME_VALUE="46946"/>
+        <TIME_SLOT TIME_SLOT_ID="ts15" TIME_VALUE="49696"/>
+        <TIME_SLOT TIME_SLOT_ID="ts16" TIME_VALUE="69836"/>
+        <TIME_SLOT TIME_SLOT_ID="ts17" TIME_VALUE="286985"/>
+        <TIME_SLOT TIME_SLOT_ID="ts18" TIME_VALUE="288655"/>
+        <TIME_SLOT TIME_SLOT_ID="ts19" TIME_VALUE="288661"/>
+        <TIME_SLOT TIME_SLOT_ID="ts20" TIME_VALUE="290230"/>
+        <TIME_SLOT TIME_SLOT_ID="ts21" TIME_VALUE="290231"/>
+        <TIME_SLOT TIME_SLOT_ID="ts22" TIME_VALUE="291691"/>
+        <TIME_SLOT TIME_SLOT_ID="ts23" TIME_VALUE="292130"/>
+        <TIME_SLOT TIME_SLOT_ID="ts24" TIME_VALUE="293820"/>
+        <TIME_SLOT TIME_SLOT_ID="ts25" TIME_VALUE="293993"/>
+        <TIME_SLOT TIME_SLOT_ID="ts26" TIME_VALUE="294360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts27" TIME_VALUE="294360"/>
+        <TIME_SLOT TIME_SLOT_ID="ts28" TIME_VALUE="306338"/>
+        <TIME_SLOT TIME_SLOT_ID="ts29" TIME_VALUE="306761"/>
+        <TIME_SLOT TIME_SLOT_ID="ts30" TIME_VALUE="324623"/>
+    </TIME_ORDER>
+    <TIER ANNOTATOR="Ruth McBain" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Institutional Male 1" TIER_ID="IM1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts1" TIME_SLOT_REF2="ts2">
+                <ANNOTATION_VALUE>hello^</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a2" TIME_SLOT_REF1="ts3" TIME_SLOT_REF2="ts5">
+                <ANNOTATION_VALUE>good morni[ng]</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a3" TIME_SLOT_REF1="ts7" TIME_SLOT_REF2="ts8">
+                <ANNOTATION_VALUE>Hi (.) hey the reason I sto::pped you I checked your speed at seventy nine (0.4) it's all fifty five through there it's still construction you gotta slow down through there oka::y (.) that's why I stopped you</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a4" TIME_SLOT_REF1="ts9" TIME_SLOT_REF2="ts10">
+                <ANNOTATION_VALUE>uh is the car registered to you m'am?</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a5" TIME_SLOT_REF1="ts12" TIME_SLOT_REF2="ts14">
+                <ANNOTATION_VALUE>°ohkay°</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a6" TIME_SLOT_REF1="ts15" TIME_SLOT_REF2="ts16">
+                <ANNOTATION_VALUE>( ) everything looks good UMm but what i'm gonna do as far as the speed I am goiing to issue a citation I'm going to lower it to seventy five though that'll save you about a #hundered and twenty dollars anything 21 and over through here's a mandatory court appearance (so i'm gonna charge you for seventy five) just take care of it through the mail ( ) and i'll try to get you out of here ( ) be right back with you</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a7" TIME_SLOT_REF1="ts17" TIME_SLOT_REF2="ts18">
+                <ANNOTATION_VALUE>Here you go m'am here's your license back</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a8" TIME_SLOT_REF1="ts20" TIME_SLOT_REF2="ts22">
+                <ANNOTATION_VALUE>I'm sorry what's sir-(what sir)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a9" TIME_SLOT_REF1="ts23" TIME_SLOT_REF2="ts25">
+                <ANNOTATION_VALUE>This is UH WestChester Township</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a10" TIME_SLOT_REF1="ts27" TIME_SLOT_REF2="ts28">
+                <ANNOTATION_VALUE>Yes Sir it's uh Butler county yep uhhm that's the court area three court all I need you to do is just sign by the X put a phone number there YOURe Not admitting any guilt that just says you're free to take car of it through court or through the mail</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a11" TIME_SLOT_REF1="ts29" TIME_SLOT_REF2="ts30">
+                <ANNOTATION_VALUE>Uhh you've got till the twenty sixth of au:gust (.) and there's a number down there just give them a call and they'll let you know exactly how much it is (.) and they'll give you an address where you can mail it in I think it's exactly one hundred dollars I think but they'll give you all the information if you need more time have questions let em know the number's right there for you O:kay yall have a safe weekend Be Careful</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="Ruth McBain" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Citizen Female 1" TIER_ID="CF1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a12" TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts6">
+                <ANNOTATION_VALUE>[(mo]rning)</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a13" TIME_SLOT_REF1="ts11" TIME_SLOT_REF2="ts13">
+                <ANNOTATION_VALUE>( )</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <TIER ANNOTATOR="Ruth McBain" LINGUISTIC_TYPE_REF="default-lt" PARTICIPANT="Citizen Male 1" TIER_ID="CM1">
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a16" TIME_SLOT_REF1="ts19" TIME_SLOT_REF2="ts21">
+                <ANNOTATION_VALUE>( )</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+        <ANNOTATION>
+            <ALIGNABLE_ANNOTATION ANNOTATION_ID="a15" TIME_SLOT_REF1="ts24" TIME_SLOT_REF2="ts26">
+                <ANNOTATION_VALUE>( )</ANNOTATION_VALUE>
+            </ALIGNABLE_ANNOTATION>
+        </ANNOTATION>
+    </TIER>
+    <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="default-lt" TIME_ALIGNABLE="true"/>
+    <CONSTRAINT DESCRIPTION="Time subdivision of parent annotation's time interval, no time gaps allowed within this interval" STEREOTYPE="Time_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
+    <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
+    <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
+</ANNOTATION_DOCUMENT>

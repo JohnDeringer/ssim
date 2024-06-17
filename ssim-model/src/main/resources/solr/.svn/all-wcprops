@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/ssim/!svn/ver/155/ssim-model/src/main/resources/solr
+END
+schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/ssim/!svn/ver/155/ssim-model/src/main/resources/solr/schema.xml
+END
+elevate.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/ssim/!svn/ver/155/ssim-model/src/main/resources/solr/elevate.xml
+END
+solrconfig.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ssim/!svn/ver/155/ssim-model/src/main/resources/solr/solrconfig.xml
+END

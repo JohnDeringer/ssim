@@ -1,0 +1,710 @@
+IM3       what have you got (())?
+
+IM1       seeing if anybody's up there. 
+          (1.12)
+
+Radio     (()).
+          (2.51)
+
+Radio     (()).
+          (0.47)
+
+CF1       hello. 
+
+Radio     (()).
+
+IM1       she's got a beer (()).
+
+Radio     (()).
+
+IM1       hop out. she's probation too. 
+
+Radio     (()).
+          (0.93)
+
+Radio     (()).
+          (0.9)
+
+IM1       yeah. (()).
+          (1.6)
+
+IM2       hello. 
+          (2.61)
+
+CF1       hi. 
+
+CF1       yeah. you got me fucked up. 
+
+IM2       miss %name. 
+          (0.8)
+
+IM2       miss %name. 
+          (0.4)
+
+IM1       %name. 
+
+IM3       ((you talk to her)). 
+
+IM2       %name? (()).
+
+IM1       ((excuse me)) %name. how are you? 
+
+IM3       ((she's)) been homeless. 
+
+CF1       not as good as you are {laughs}.  
+
+IM2       what's been going on? 
+
+IM1       hey remind me of your birthday 
+          %name. 
+          (0.3)
+
+CF1       (()). 
+
+IM3       is there a (())?
+
+IM1       %name remind me of your birthday 
+          please. 
+
+IM2       {talking to IM3} yeah. he 
+          ((does)). 
+          (0.9)
+
+IM1       what's your birthday? 
+
+CF1       are you fucking kidding me? 
+
+IM1       no. ((i can't)) remember, 
+
+CF1       you serious huh? it's %birthdate. 
+
+IM1       i can't remember everything. 
+
+Radio     (()). 
+          (1.35)
+
+Radio     (()). 
+          (1.1)
+
+IM1       are we on it? 
+
+IM2       yeah. we're on. 
+          (6.6)
+
+CF1       i seen you all looking at me. i 
+          ain't done sh- nothing. i ain't 
+          done shit. 
+
+IM1       {speaking into radio} charlie 
+          fourteen. charlie twenty nine. 
+          (1.35)
+
+CF1       you ((might)) be disappointed 
+          because i don't have any ((ones)) 
+          (()).
+
+IM2       %name you on probation? i forget 
+          here. 
+
+Radio     (()). 
+
+IM1       yeah she is. 
+          (0.29)
+
+IM2       can you give me your purse please? 
+          (1.21)
+
+IM2       thank you. 
+          (8.96)
+
+Radio     (()).
+
+CF1       oh shit. you all ain't (()) my 
+          pants and stuff. look at me. you 
+          (()) sit down and i have barely 
+          nothing on me. i ain't even 
+          wearing it because y'all in my 
+          face and shit. i don't whether to 
+          look at myself or y'all. 
+
+Radio     (()). 
+          (0.8)
+
+Radio     (()). 
+
+CF1       for real. yes i'm hiding it. fuck. 
+
+IM1       relax okay?
+          (0.55)
+
+IM1       relax. 
+
+CF1       damn. shit.
+
+IM2       %name it's cool. 
+
+CF1       there's so much more shit going on 
+          other than me. 
+
+IM1       {talking into radio giving 
+          personal information on CM1}. 
+
+CF1       i'm having a fucked up day 
+          already. shit. 
+          (1.24)
+
+CF1       i don't- fucking do what you got 
+          to do. 
+          (0.8)
+
+CF1       shit. i ain't bothering nobody. 
+          (6.39)
+
+CF1       it should. 
+
+Radio     (()). 
+
+IM1       %birthdate ((or do you know))? 
+
+Radio     (()). 
+
+CF1       %birthdate. 
+          (0.1)
+
+Radio     (()). 
+
+IM1       ((can i)) take that? 
+
+IM2       yeah. 
+          (0.14)
+
+IM2       oh i got- i got it. just leave it. 
+
+CF1       yes my pipe is in there. clean. no 
+          brillo. nothing. ((so what's my)) 
+          (())?
+
+Radio     (()). 
+          (5.2)
+
+Radio     (()). 
+          (1.31)
+
+Radio     (()). 
+
+IM1       %name. what's going on today? 
+          (0.12)
+
+CF1       i don't know. i ain't even been 
+          out here long enough to know. 
+
+IM3       to know? 
+          (0.5)
+
+Radio     (()).
+
+CF1       i'm trying to get the fuck out of 
+          here but i'm trapped. 
+
+IM3       where are you trying to get to? 
+          (0.64)
+
+CF1       somewhere's. somebody got to come 
+          and get my ass. i don't care who 
+          it is. i just got to get a ride. 
+          so.
+
+Radio     (()). 
+
+IM3       take care of the pipe. 
+
+IM2       yeah it is here. 
+
+CF1       i don't care where i go. i just 
+          got to get the fuck away from 
+          here. 
+          (3.36)
+
+Radio     (()).
+          (0.32)
+
+IM2       uh. 
+          (2.15)
+
+Radio     (()).
+
+IM1       %name. grab a seat. 
+          (0.09)
+
+CF1       man. i'm not gonna sit down with 
+          y'all ((under)) my skirt. 
+          (1.53)
+
+IM3       %name have your hat. 
+          (5.23)
+
+CF1       now you stop ((him looking. 
+          nigger)) you got a camera too? 
+          (0.82)
+
+IM1       {talking into radio} copy. (()).
+          (0.86)
+
+Radio     (()).
+          (1.65)
+
+Radio     (()).
+          (0.19)
+
+IM1       remember what you're on probation 
+          for %name? 
+
+Radio     (()).
+          (0.24)
+
+CF1       you know because you arrested me. 
+          (0.83)
+
+Radio     (()). 
+
+IM1       i'm curious though. i can't 
+          remember everything. i arrest a 
+          lot of people. 
+          (1.62)
+
+IM1       you don't want to tell me? 
+          (0.27)
+
+IM2       just give her a uh open container. 
+          (0.02)
+
+CF1       mm ((open container)). 
+          (0.72)
+
+IM2       they'll tell you now. 
+
+Radio     (()).
+          (2.24)
+
+CF1       mhm. 
+
+IM2       we'll just do this. we'll just do 
+          the uh ((medicinal)). 
+
+Radio     (()). 
+
+IM1       yeah ((sure)). 
+          (0.94)
+
+IM2       %name whoop-,
+
+IM1       out comes everyone. 
+
+Radio     (()).
+
+IM2       you cannot be drinking out here 
+          ((daily)).
+
+Radio     (()).
+
+IM2       you know that leads to more 
+          problems for you. 
+
+CF1       i can't do nothing over here ((as 
+          long as i got you around)). 
+          (2.76)
+
+Radio     (()).
+
+IM1       where you living %name? 
+          (0.57)
+
+CF1       right here. 
+          (0.72)
+
+IM1       outside? 
+          (0.14)
+
+CF1       yeah. 
+          (0.07)
+
+IM1       you want uh services? 
+
+Radio     (()).
+          (3.59)
+
+Radio     (()).
+
+IM2       we didn't ((twenty nine her yet 
+          man)). 
+
+IM1       yeah. she's uh thirty one thirty 
+          two. ten thirty five. so uh,
+
+IM2       i (()).
+          (0.59)
+
+IM2       i got it.
+          (1.52)
+
+IM1       {speaking into radio} david ten. 
+          (0.2)
+
+IM3       {speaking to IM1} does he know 
+          your ((number))?
+          (0.72)
+
+IM1       {speaking into radio} five nine oh 
+          seven hundred. 
+          (1.32)
+
+IM3       when's your birthday again? 
+          (0.06)
+
+Radio     (()). 
+
+IM1       %birthdate. 
+          (0.99)
+
+IM1       %spelled_name. %name. 
+
+IM3       %name. 
+          (4.27)
+
+IM3       miss %name where do you live ((in 
+          reality to this))?
+
+Radio     (()).
+          (2.64)
+
+Radio     (()).
+
+CF1       somewhere that i don't live. 
+          (0.76)
+
+IM3       well what would look maybe just 
+          like ((where you live))?
+
+CF1       %home_address. 
+          (7.71)
+
+CF1       used to live right here. (()). 
+          (0.48)
+
+CF1       %name. ah probably %name. 
+          (2.13)
+
+CF1       mm.
+          (0.02)
+
+IM1       you're very nice to us today. 
+
+CF1       oh nice please. just don't give me 
+          no lip. 
+          (1.17)
+
+CF1       i'm more nice to (()) because you 
+          got ((me)) and i got to do stuff. 
+
+Radio     (()).
+          (1.05)
+
+Radio     (()).
+
+IM1       who's the tall guy you hanging 
+          with? 
+          (2.44)
+
+CF1       hm? 
+
+IM1       who's the tall guy you hang out 
+          with? 
+
+CF1       ((i don't fuck with no one)). 
+          (0.23)
+
+IM3       where's ((%name))? 
+
+IM1       %name's his name. 
+
+CF1       you stop hating. 
+          (1.12)
+
+IM1       what'shis first name? 
+
+CF1       i don't, 
+          (1.77)
+
+Radio     (()).
+
+IM1       what happened? 
+
+CF1       something. 
+          (1.23)
+
+Radio     (()).
+
+CF1       what's supposed to happen? ((you 
+          haven't-)), 
+
+IM1       what happened? 
+          (1.67)
+
+CF1       i ain't worried about nobody else 
+          but me right now. okay? 
+          (4.59)
+
+Radio     (()).
+          (5.81)
+
+CF1       {sniffs}.
+          (2.44)
+
+Radio     (()).
+          (1.06)
+
+Radio     (()).
+
+IM2       time yet? 
+          (1.44)
+
+IM1       ((if it's all right)) with you. 
+          (0.17)
+
+IM1       can you take off your boots there 
+          for me please %name? 
+          (0.24)
+
+IM1       you make me nervous please. 
+
+CF1       why? ((as you can see my sock is 
+          clean)). 
+
+IM1       yeah ((because i was)) nervous 
+          when you put your hands down 
+          inside of your shoes. 
+
+Radio     (()).
+
+CF1       man i'm trying to kick off ((my)) 
+          (()).
+
+IM3       are they (())?
+          (0.1)
+
+IM1       you got (())?
+
+IM3       yep. 
+          (1.71)
+
+IM1       these are (()). 
+          (1.59)
+
+Radio     (()).
+          (1.0)
+
+Radio     (()).
+          (0.02)
+
+IM1       what's in your socks? 
+          (1.2)
+
+Radio     (()).
+
+IM1       you can ((just)) take them off. 
+          (1.14)
+
+IM1       go ahead and take them off. 
+
+CF1       (()).
+
+IM1       okay.
+          (4.72)
+
+CF1       just get out of my fucking face! 
+          shit!
+
+IM1       hey, 
+
+IM2       hey %name. %name listen to me. 
+          %name. %name. 
+
+IM1       relax okay? ((%name listen)), 
+          (0.42)
+
+IM1       %name when you're in public, 
+
+IM2       listen. 
+
+Radio     (()).
+
+IM1       you know, 
+
+IM2       ((hey)) you're-  because you've 
+          been so ((calm)) today i'll tell 
+          you what we'll do. we're gonna 
+          give you a ticket for the open 
+          container. the (()) gonna give you 
+          this uh ((instant)) green card. 
+          you got- you got to ((go through)) 
+          these (()). do you understand 
+          that? 
+
+CF1       yes. 
+
+IM2       so you just all you got to do is 
+          walk into bayview station between 
+          the hours of one and four monday 
+          tuesday or wednesday and they'll 
+          give you community ((court)) 
+          instead of having to pay for this. 
+          if you don't show up however 
+          they're gonna issue a (()).
+
+Radio     (()).
+          (1.36)
+
+IM2       %name it's not gonna make any 
+          ((real difference)).
+          (0.74)
+
+IM2       ((grab that extra)).
+          (0.9)
+
+IM1       it's twelve. 
+          (3.08)
+
+Radio     (()).
+          (4.9)
+
+IM2       ((unusual to see you here)). 
+
+Radio     (()).
+          (1.34)
+
+Radio     (()).
+          (0.28)
+
+IM2       %name we can't have to have you 
+          drink and you know that. you know 
+          that. 
+
+Radio     (()).
+
+CF1       ain't that what it is? 
+
+IM2       we understand you're (()). 
+
+CF1       how you know i had a drink and it 
+          was on the ground? 
+
+IM2       we saw you put ((creamer in the)) 
+          (()).
+
+Radio     (()).
+          (2.3)
+
+Radio     (()).
+
+CF1       (()) never paid me. 
+
+IM2       (()) %name take care of this 
+          please. 
+
+CF1       he need a citation too. he was 
+          like you fool. 
+
+IM3       and you bring that with you.
+          (0.49)
+
+IM3       leave it on the ground. 
+          (0.76)
+
+IM3       there we go. 
+
+CF1       i want ((to get it all ready)).
+
+IM2       all right %name. can we get you 
+          any- any other help? 
+
+IM3       ((you need)) to straighten your 
+          ass out.
+          (0.84)
+
+IM1       (()).
+
+IM2       what do you need? 
+          (0.4)
+
+CF1       i need some clothes. 
+          (0.28)
+
+IM2       go to mother brown's. 
+
+IM3       and if you wanted to hand her that 
+          folder. 
+
+CF1       they ain't got nothing. 
+
+CM2       it talks about the camera.
+          (0.23)
+
+CF1       somebody do up my shoelaces. gave 
+          them a, 
+
+IM1       %name?
+          (1.02)
+
+CF1       yeah. 
+          (0.07)
+
+CM2       {gives CF1 consent brochure} here 
+          you go ma'am. 
+          (0.13)
+
+IM1       you're gonna be famous. 
+
+CF1       i don't want that shit. 
+
+Radio     (()).
+
+CF1       what is it? nah i take it. i take 
+          it. i take it. 
+
+IM2       so you didn't want the attention. 
+          (()).
+
+CM2       hm. 
+          (0.3)
+
+CF1       {laughs}. 
+
+IM1       i like that smile. 
+          (0.12)
+
+CF1       {laughs}. 
+          (0.23)
+
+CM2       hm. 
+          (1.58)
+
+Radio     (()).
+
+IM1       (()).
+          (2.83)
+
+IM2       watch yourself. 
+
+IM3       oh we got him. 
+          (0.8)
+
+Radio     (()).
+          (4.98)
+
+Radio     (()).
+
+CM2       thank you. 
+          (0.14)
+
+IM3       ((yep)).
+

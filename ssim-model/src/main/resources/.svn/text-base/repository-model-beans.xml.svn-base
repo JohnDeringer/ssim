@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+         http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+         http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+         http://www.springframework.org/schema/context
+         http://www.springframework.org/schema/context/spring-context-3.0.xsd
+         http://camel.apache.org/schema/spring http://camel.apache.org/schema/spring/camel-spring.xsd">
+
+    <bean id="propertyPlaceholderConfigurer"
+          class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>
+                    classpath*:repository-model-beans.properties
+                </value>
+                <value>file:///${SSIM_PROPS}</value>
+            </list>
+        </property>
+        <property name="ignoreResourceNotFound" value="true"/>
+    </bean>
+
+    <bean id="dataSource"
+          class="org.apache.commons.dbcp.BasicDataSource"
+          destroy-method="close">
+            <property name="driverClassName" value="${ssim.warehouse.db.driver}"/>
+            <property name="url" value="${ssim.warehouse.db.url}"/>
+            <property name="username" value="${ssim.warehouse.db.user}"/>
+            <property name="password" value="${ssim.warehouse.db.password}"/>
+            <property name="validationQuery" value="${ssim.warehouse.db.validation}"/>
+    </bean>
+
+    <bean id="entityManagerFactory"
+            class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+       <property name="persistenceUnitName" value="com.sri.ssim.persistence"/>
+       <property name="persistenceXmlLocation" value="classpath*:META-INF/persistence.xml"/>
+       <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--
+     DEBUG JpaTransactionManager - Not exposing JPA transaction
+     [org.hibernate.ejb.EntityManagerImpl@66650e56] as JDBC transaction
+     because JpaDialect [org.springframework.orm.jpa.DefaultJpaDialect@8e1dfb1]
+     does not support JDBC Connection retrieval
+    -->
+    <bean id="transactionManager"
+          class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
+
+    <context:component-scan base-package="com.sri.ssim.persistence"/>
+
+    <tx:annotation-driven />
+
+    <bean id="tokenManager" class="com.sri.ssim.userManagement.TokenManager">
+        <constructor-arg name="timeout" value="${session.timeout}"/>
+    </bean>
+
+    <!-- Initialize database -->
+    <bean id="dataInit" class="com.sri.ssim.persistence.DataInit">
+        <constructor-arg name="encounterDao" ref="encounterDao"/>
+        <constructor-arg name="userManagementDao" ref="userManagementDao"/>
+    </bean>
+
+    <bean id="encounterModel" class="com.sri.ssim.model.EncounterModelImpl"/>
+
+    <bean id="userManagement" class="com.sri.ssim.model.UserManagementImpl"/>
+
+    <bean id="jpa" class="org.apache.camel.component.jpa.JpaComponent">
+       <property name="entityManagerFactory" ref="entityManagerFactory"/>
+       <property name="transactionManager" ref="transactionManager"/>
+    </bean>
+
+    <bean id="documentLoader" class="com.sri.ssim.file.DocumentLoader">
+        <property name="uploadDirectory" value="${import.dir}"/>
+    </bean>
+
+    <bean id="parserRouter" class="com.sri.ssim.file.ParserRouter"/>
+
+    <bean id="elanDocumentParser" class="com.sri.ssim.file.ElanDocumentParser"/>
+
+    <bean id="solrFacade" class="com.sri.ssim.client.SolrFacade">
+        <property name="solrUrlString" value="http://${solr.host}:${solr.port}/solr"/>
+    </bean>
+
+    <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
+
+        <propertyPlaceholder id="properties"
+                             location="classpath:repository-model-beans.properties"/>
+
+        <!-- Check for expired user sessions and purge -->
+        <route>
+            <from uri="timer://foo?fixedRate=true&amp;delay=0&amp;period=1000000"/>
+            <bean ref="tokenManager" method="purgeExpiredSessions" />
+        </route>
+
+        <!-- Process ELAN files &amp;consumer.transacted=true -->
+        <route>
+            <!-- Query ArtifactFile entity for 'unprocessed' artifacts -->
+            <from uri="jpa:com.sri.ssim.persistence.ArtifactFile?consumer.namedQuery=ArtifactFile.findUnprocessed&amp;consumeDelete=false&amp;consumer.useFixedDelay=true&amp;delay=9000&amp;consumeLockEntity=false"/>
+            <!-- Load document artifact from file system -->
+            <bean ref="documentLoader" method="loadDocument"/>
+            <!-- Parse document -->
+            <bean ref="parserRouter" method="parse"/>
+            <!-- Load document annotations & meta-data into database -->
+            <bean ref="encounterModel" method="processArtifact"/>
+            <!-- Send utterances & annotations to Solr -->
+            <bean ref="solrFacade" method="addDocument"/>
+            <!-- Update database to mark Artifact as 'processed' -->
+            <bean ref="encounterModel" method="markFileAsProcessed"/>
+        </route>
+
+    </camelContext>
+
+<!--
+    TO-URI STYLE
+    <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
+        <propertyPlaceholder id="properties"
+                             location="classpath:repository-model-beans.properties" />
+        <route>
+            - Query Artifact table for unprocessed artifacts -
+            <from uri="jpa:com.sri.ssim.persistence.Artifact?consumer.namedQuery=Artifact.findUnprocessed&amp;consumeDelete=false&amp;consumer.useFixedDelay=true&amp;delay=5000&amp;consumeLockEntity=false&amp;consumer.transacted=true"/>
+            - Load artifact from file system -
+            <to uri="bean:com.sri.ssim.artifactFile.DocumentLoader?method=loadDocument"/>
+            - Parse document -
+            <to uri="bean:com.sri.ssim.artifactFile.ParserRouter?method=parse"/>
+            - Load document lines into database -
+            <to uri="bean:com.sri.ssim.model.EncounterModelImpl?method=processArtifact"/>
+            - Send lines to Solr -
+            <to uri="bean:com.sri.ssim.client.SolrFacade?method=addDocument"/>
+            - Update database to mark Artifact as 'Processed' -
+            <to uri="bean:com.sri.ssim.model.EncounterModelImpl?method=markArtifactAsProcessed"/>
+        </route>
+    </camelContext>
+-->
+
+</beans>

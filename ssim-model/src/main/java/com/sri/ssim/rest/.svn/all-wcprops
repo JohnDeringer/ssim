@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/ssim/!svn/ver/219/ssim-model/src/main/java/com/sri/ssim/rest
+END
+AnnotationsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ssim/!svn/ver/206/ssim-model/src/main/java/com/sri/ssim/rest/AnnotationsType.java
+END
+WordsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/ssim/!svn/ver/148/ssim-model/src/main/java/com/sri/ssim/rest/WordsType.java
+END
+SearchAudioQualityType.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ssim/!svn/ver/186/ssim-model/src/main/java/com/sri/ssim/rest/SearchAudioQualityType.java
+END
+ParticipantsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ssim/!svn/ver/219/ssim-model/src/main/java/com/sri/ssim/rest/ParticipantsType.java
+END
+EncounterType.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ssim/!svn/ver/200/ssim-model/src/main/java/com/sri/ssim/rest/EncounterType.java
+END
+SearchDateType.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ssim/!svn/ver/200/ssim-model/src/main/java/com/sri/ssim/rest/SearchDateType.java
+END
+SearchVideoQualityType.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ssim/!svn/ver/186/ssim-model/src/main/java/com/sri/ssim/rest/SearchVideoQualityType.java
+END
+SearchType.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ssim/!svn/ver/200/ssim-model/src/main/java/com/sri/ssim/rest/SearchType.java
+END
+SearchNumParticipantsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/ssim/!svn/ver/186/ssim-model/src/main/java/com/sri/ssim/rest/SearchNumParticipantsType.java
+END
+InterveningTimeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ssim/!svn/ver/148/ssim-model/src/main/java/com/sri/ssim/rest/InterveningTimeType.java
+END
+TurnTimeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/ssim/!svn/ver/148/ssim-model/src/main/java/com/sri/ssim/rest/TurnTimeType.java
+END
+SearchLanguageType.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ssim/!svn/ver/200/ssim-model/src/main/java/com/sri/ssim/rest/SearchLanguageType.java
+END
+SearchDurationType.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ssim/!svn/ver/186/ssim-model/src/main/java/com/sri/ssim/rest/SearchDurationType.java
+END
+SearchQualityType.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ssim/!svn/ver/186/ssim-model/src/main/java/com/sri/ssim/rest/SearchQualityType.java
+END
+StimulatedRecallInterviewsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/ssim/!svn/ver/148/ssim-model/src/main/java/com/sri/ssim/rest/StimulatedRecallInterviewsType.java
+END
+EncounterResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ssim/!svn/ver/157/ssim-model/src/main/java/com/sri/ssim/rest/EncounterResponse.java
+END
+FilenameType.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/ssim/!svn/ver/161/ssim-model/src/main/java/com/sri/ssim/rest/FilenameType.java
+END
+ArtifactsType.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ssim/!svn/ver/219/ssim-model/src/main/java/com/sri/ssim/rest/ArtifactsType.java
+END
+PhraseType.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ssim/!svn/ver/206/ssim-model/src/main/java/com/sri/ssim/rest/PhraseType.java
+END
+SearchAgeType.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ssim/!svn/ver/200/ssim-model/src/main/java/com/sri/ssim/rest/SearchAgeType.java
+END
+EncountersType.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ssim/!svn/ver/219/ssim-model/src/main/java/com/sri/ssim/rest/EncountersType.java
+END
+SearchParticipants.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ssim/!svn/ver/200/ssim-model/src/main/java/com/sri/ssim/rest/SearchParticipants.java
+END
+FileRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ssim/!svn/ver/161/ssim-model/src/main/java/com/sri/ssim/rest/FileRequest.java
+END
+ParticipantsSearchType.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ssim/!svn/ver/186/ssim-model/src/main/java/com/sri/ssim/rest/ParticipantsSearchType.java
+END
+FormatType.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/ssim/!svn/ver/219/ssim-model/src/main/java/com/sri/ssim/rest/FormatType.java
+END
+TranscriptType.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ssim/!svn/ver/206/ssim-model/src/main/java/com/sri/ssim/rest/TranscriptType.java
+END
+SpeakerType.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ssim/!svn/ver/206/ssim-model/src/main/java/com/sri/ssim/rest/SpeakerType.java
+END
+SearchTimeSpecificType.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/ssim/!svn/ver/186/ssim-model/src/main/java/com/sri/ssim/rest/SearchTimeSpecificType.java
+END

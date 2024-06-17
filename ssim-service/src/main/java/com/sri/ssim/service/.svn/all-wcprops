@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ssim/!svn/ver/233/ssim-service/src/main/java/com/sri/ssim/service
+END
+AuthInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ssim/!svn/ver/27/ssim-service/src/main/java/com/sri/ssim/service/AuthInterceptor.java
+END
+EncounterRestInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ssim/!svn/ver/237/ssim-service/src/main/java/com/sri/ssim/service/EncounterRestInterface.java
+END
+EncounterAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/ssim/!svn/ver/237/ssim-service/src/main/java/com/sri/ssim/service/EncounterAPI.java
+END

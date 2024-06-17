@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified"
+           elementFormDefault="qualified"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="artifacts" type="artifactsType"/>
+  <xs:complexType name="participantsType">
+    <xs:sequence>
+      <xs:element name="type">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="institutional"/>
+            <xs:enumeration value="civilian"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="gender">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="male"/>
+            <xs:enumeration value="female"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="age"/>
+      <xs:element name="codename">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="role"/>
+      <xs:element type="xs:string" name="ethnicity"/>
+      <xs:element type="xs:string" name="origin"/>
+      <xs:element type="xs:string" name="participant-comments"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="encountersType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="encounter-domain"/>
+      <xs:element name="encounter-num-participants">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="encounter-bystanders">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="no"/>
+            <xs:enumeration value="yes"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="encounter-reason">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="encounter-duration"/>
+      <xs:element type="xs:string" name="encounter-quality"/>
+      <xs:element name="encounter-first-encounter">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="yes"/>
+            <xs:enumeration value="no"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="encounter-familiar">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="no"/>
+            <xs:enumeration value="yes"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="encounter-languages" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string"/>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="encounter-comments"/>
+      <xs:element type="participantsType" name="participants" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="artifactsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="corpus"/>
+      <xs:element type="xs:string" name="colection-date"/>
+      <xs:element type="xs:string" name="colection-time"/>
+      <xs:element type="xs:string" name="general-colection-time"/>
+      <xs:element type="xs:string" name="geographic-location"/>
+      <xs:element type="xs:string" name="site-location"/>
+      <xs:element type="xs:string" name="video-quality"/>
+      <xs:element type="xs:string" name="audio-quality"/>
+      <xs:element type="xs:string" name="collector"/>
+      <xs:element type="xs:string" name="data-descriptor"/>
+      <xs:element type="stimulated-recall-interviewsType" name="stimulated-recall-interviews"/>
+      <xs:element type="xs:string" name="comments"/>
+      <xs:element type="encountersType" name="encounters" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="stimulated-recall-interviewsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="file"/>
+      <xs:element type="xs:string" name="description"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>

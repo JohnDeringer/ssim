@@ -1,0 +1,149 @@
+Radio	Radio	63.35	66.87	{background noise of music playing} (()). 
+Radio	Radio	70.77	72.12	received. 
+IM1	IM1	89.74	90.69	how you doing. 
+IM1	IM1	91.14	92.42	hey %name. how you doing man? 
+IM1	IM1	93.22	94.12	quit gang banging tonight. 
+IM1	IM1	98.73	100.02	where are your hands bro? 
+IM1	IM1	101.78	105.0	((both hands behind your back now)). yep. 
+IM1	IM1	110.09	113.14	you've been ((trespassed)) three times (()). sit down. 
+IM1	IM1	114.1	116.0	((what did i say to you))?
+IM1	IM1	116.3	120.2	i was ((reading your report)) and your little (()). 
+IM1	IM1	125.0	127.7	(()) already to stop it. 
+IM1	IM1	128.7	131.1	you've been ((trespassing)). i just (()) bud. 
+IM1	IM1	131.5	136.9	you're being audio and video recorded. no it hasn't. step over sir. stand. 
+IM1	IM1	136.9	139.5	store's (()) that time. 
+IM1	IM1	141.3	143.2	yes sir i am. 
+IM1	IM1	143.9	147.4	((you're)) trespassing the location ((you're not allowed to be)) on the property.
+IM1	IM1	148.6	150.8	yep. 
+IM1	IM1	153.7	155.7	l- uh. 
+IM1	IM1	155.7	157.7	(()). 
+IM1	IM1	173.7	176.3	you've been ((trespassed)) three times. 
+IM1	IM1	178.2	183.3	nope. it's still all in the system. it ((seems)) it hasn't even been a year.
+IM1	IM1	189.4	191.6	you've been in?
+IM1	IM1	216.9	220.5	you got one (()) and then you got one (()).
+IM1	IM1	259.6	262.4	i know this is one of the officers that trespassed you over here. 
+IM1	IM1	263.0	265.3	female officer. 
+IM1	IM1	276.8	278.9	you didn't give us any breaks. 
+IM1	IM1	279.8	283.1	at least three times you could have gone to jail. 
+IM1	IM1	283.1	286.4	on all those trespasses. every single one they could have been, 
+IM1	IM1	293.1	296.9	that's not us. come on over to my car. 
+IM1	IM1	297.8	300.5	(()) right there. (()).
+IM1	IM1	305.5	310.6	(()) you're going to jail man. stop begging me. {background noise} have a seat. have a seat. 
+IM1	IM1	311.7	313.2	yeah i'm good. 
+IM1	IM1	313.4	315.2	get in the car man. 
+IM1	IM1	315.8	318.2	c- because you're going to jail for trespassing. now sit down. 
+IM1	IM1	319.6	323.8	sit down. %name sit down or i'll sit you down. 
+IM1	IM1	324.3	326.8	i will tase you if you don't get in my car now. 
+IM1	IM1	327.1	328.6	sit down now. 
+IM1	IM1	329.1	332.5	sit down now. you can sit and talk. 
+IM1	IM1	334.4	337.2	sit and talk now. 
+IM1	IM1	337.3	339.7	sit down. 
+IM1	IM1	342.2	344.9	sit down in the car please. 
+IM1	IM1	345.9	353.7	all right. get in the car now. you will get tased right now. sit your ass down. sit in the car. 
+IM1	IM1	353.7	364.1	you have to the count of three. sit in the car. sit in the car. all right. you ready? sit down. one two.
+IM1	IM1	365.1	367.8	i will tase you if you don't sit down. s-.
+IM1	IM1	368.3	370.1	all right. 
+IM1	IM1	373.3	377.3	hey sit down. {recording static and taser} sit down. sit down. 
+IM1	IM1	391.6	393.7	(()) phone number. 
+IM1	IM1	394.3	397.6	you're gonna get tased. do you understand that? 
+IM1	IM1	403.7	409.5	this is gonna hurt a lot more. sit down in the car. three two one. {background noise of taser}
+IM1	IM1	411.6	419.0	are you gonna sit in the car? you gonna sit in the car or am i gonna tase you? are you gonna sit in the car on your own? i will keep on doing it. 
+IM1	IM1	419.1	421.4	did you hear me? 
+IM1	IM1	421.6	423.2	come sit in the car. 
+IM1	IM1	423.2	427.5	i don't care. are you gonna sit in the car or are we gonna tase you again? 
+IM1	IM1	431.1	433.0	all right. stand up. 
+IM1	IM1	433.4	436.5	stand up. i will tase you again. 
+IM1	IM1	438.9	443.9	sit in the car or i'm gonna tase you again. sit in the car or i'm gonna tase you again. it's gonna hurt. 
+IM1	IM1	443.9	447.9	sit down now. one two three. {background noise}
+IM1	IM1	449.1	451.4	sit in the car. 
+IM1	IM1	460.4	462.5	watch your head. 
+IM1	IM1	463.5	466.3	pulled them (()).
+IM1	IM1	469.7	472.1	(()) fight with him over there. 
+CM1	CM1	89.97	91.11	ah ah. 
+CM1	CM1	92.55	93.56	hey hold up. 
+CM1	CM1	94.35	95.26	((hold up. man)). 
+CM1	CM1	96.46	97.12	hold up. 
+CM1	CM1	100.12	100.93	am i under arrest? 
+CM1	CM1	103.81	105.88	what did i do wrong officer? 
+CM1	CM1	108.77	110.61	can i ask you why you handcuffed me? 
+CM1	CM1	111.55	113.14	no i haven't. i just, 
+CM1	CM1	113.3	115.3	no i haven't. 
+CM1	CM1	115.3	117.5	hold on. 
+CM1	CM1	118.6	122.5	hold up now. hold up ((officer)).
+CM1	CM1	128.2	132.2	man i just {recording static} (()) that's been over. 
+CM1	CM1	134.3	138.5	so you gonna take me to jail man. for what reason man? 
+CM1	CM1	140.0	141.6	you gonna take me to jail man? 
+CM1	CM1	141.6	144.2	i just i was just (()).
+CM1	CM1	145.2	149.6	what am i well i mean damn i can't get a warrant? i have to go to jail? 
+CM1	CM1	150.1	173.7	damn. do i have to go to jail? i mean d- i could leave. come on man you don't have to take me to jail officer. come on man. give me a break man. my my i thought my trespassing is up man. come on now officer. you don't have to do that to take me to jail man. i will not do this. that's a fact. come on man you don't have to take me to jail. 
+CM1	CM1	173.7	178.5	what do you mean? i mean but that was that was a long time ago. 
+CM1	CM1	180.2	191.1	well man that's what i'm saying ((ain't)) my fault. that's i just i've been in jail for ((ten hundred years)). come on officer man please give me a break man. i ain't doing nothing wrong. 
+CM1	CM1	191.1	196.3	yeah. come on man please give me a break man. {background noise} ((good lord man)). 
+CM1	CM1	196.3	219.7	if i didn't i didn't know that. i haven't even been on the street that long sir. come on man. please give me a break i will never step foot on this property ((if that's the case)) again. i didn't know that. i've been in jail. i haven't been here for a long time man. please officer. i do not feel like going to jail man. if i knew that i wouldn't be here. ((fucked up)) see i got, 
+CM1	CM1	219.7	237.1	huh? (()) pull somebody up. i got a oh i got some shit ((dude)) come on. come on officer give me a break man. ((give me a fucking break)) (()). i will not be i will not be come here or be here again. ((man)) i swear to god man. (()).
+CM1	CM1	238.1	252.3	come on man. (()). man i swear (()) i will not come near here and do it again. come on man.  
+CM1	CM1	254.9	259.7	i'm just saying i wish i had known man. that was a long it's been a year. 
+CM1	CM1	261.7	264.1	who? {recording noise} (()).
+CM1	CM1	264.2	275.0	who?(()) man. yeah man i don't want to go to jail. come on man. there's no ((trespassers' rights in this city))?
+CM1	CM1	275.9	278.2	((don't tell me i won't)), 
+CM1	CM1	278.4	280.7	well i haven't.
+CM1	CM1	281.4	283.7	no i when? 
+CM1	CM1	284.8	298.6	man that was a long time ago man. i haven't been up here in a long time man. i sat my time in fact i (()) been in jail. i ain't shitting you man. talk to her man. 
+CM1	CM1	299.7	306.9	talk to her man ((sh- be)). come on man. you don't have to take me to jail. {background noise} please don't man. 
+CM1	CM1	308.1	310.8	why am i going to jail? 
+CM1	CM1	312.65	314.2	why am i going to jail officer? 
+CM1	CM1	314.2	317.7	i know i will. why? man i, 
+CM1	CM1	318.2	321.3	even though that's a misdemeanor man. i didn't know. 
+CM1	CM1	321.9	325.3	i know i will man. i'm saying i didn't know officer. 
+CM1	CM1	325.8	327.5	i will though but i'm just saying ((officer)), 
+CM1	CM1	327.5	331.4	i i know i will officer. can i just talk to you? i did not know.
+CM1	CM1	331.4	335.0	i will. hey ma'am. can i apologize? 
+CM1	CM1	338.5	343.0	damn it's a misdemeanor. i apologize. i'm just saying i'm i- i'm gonna sit down, 
+CM1	CM1	343.1	346.8	i'm just saying though. i know i will man. i am. i'm just saying. 
+CM1	CM1	346.8	353.5	i am officer. you don't have to do that. you don't have to do all that man. why do i have to fucking go to jail man? 
+CM1	CM1	354.7	361.8	i will man. damn why i made a mistake dude. i bro i won't come here. why do i have to go to jail? 
+CM1	CM1	362.0	373.2	i will man. fuck it man. why do i have to go to jail man? man i'm just saying why do i have to damn why can't you just say not come here no bonehead and do nothing? why do, 
+CM1	CM1	373.2	376.9	man i'm just saying though wh- why {recording static and taser} do i have to go to jail? 
+CM1	CM1	376.9	382.9	man stop ((this)) it's fucking killing me. man why do i have to why do i have to go to jail man?
+CM1	CM1	383.7	386.6	i don't care. {background noise}
+CM1	CM1	386.9	389.1	((please)).
+CM1	CM1	390.2	392.9	damn man. why do i have to go to jail though? 
+CM1	CM1	393.1	395.1	god damn because i just, 
+CM1	CM1	395.3	403.6	i'm just saying though. damn i'm on the f- i'm ((on property)) it's a misdemeanor. good lord i ((won't)) +criminal but why do i have to go to jail? 
+CM1	CM1	405.5	411.7	man. why do i have to go to jail? {background noise of taser} i've got ah! ah! (()) ow. 
+CM1	CM1	412.2	414.4	yeah yeah. uh.
+CM1	CM1	418.0	420.6	why do i have to go to jail man? 
+CM1	CM1	420.6	430.9	yeah man. it's only a misdemeanor. why do i have to go to jail though? damn. give me a fucking break man. don't tase me. why do i have to go to jail man? 
+CM1	CM1	431.2	434.3	yeah man. well why do i have to, 
+CM1	CM1	434.4	438.8	i'm just saying though. but why do i have to go to jail man? 
+CM1	CM1	439.5	442.1	damn. i don't want to go to jail. 
+CM1	CM1	443.6	451.2	oh man i know but i i will man. damn man i don't want to go to jail ((officer)).
+CM1	CM1	451.2	460.5	uh. damn man i just don't want to go to jail. i won't come up here no more. what did i do wrong? damn i just don't want to fucking go to jail. 
+CM1	CM1	467.6	470.1	man!
+IM2	IM2	172.1	174.0	three time's the charm. 
+IM2	IM2	196.1	198.9	you've been ((in)) what ((you been)) in for? 
+IM2	IM2	221.1	224.1	(()).
+IM2	IM2	279.5	281.5	that's what he's saying. 
+IM2	IM2	291.4	293.8	(()). 
+IM2	IM2	310.7	312.4	you good %name? 
+IM2	IM2	312.6	314.1	all right. (()).
+IM2	IM2	363.1	365.5	sit down man. 
+IM2	IM2	370.7	373.4	did he do the taser? 
+IM2	IM2	387.1	390.0	{background noise of taser} ((i think he)) just threatened me. 
+IM2	IM2	390.8	393.8	((you're in trouble)). their number (()). 
+IM2	IM2	401.7	403.8	try again. 
+IM2	IM2	427.0	429.2	it's all him (()). 
+IM2	IM2	432.7	435.3	stand up. stand up. 
+IM2	IM2	435.7	437.7	stand up. 
+IM2	IM2	471.1	473.1	hell no. 
+IF1	IF1	333.0	338.7	get in the car please and then we'll talk once you get down there. we'll talk through the through this. 
+IF1	IF1	365.6	368.7	it's all we can say. 
+IF1	IF1	371.3	373.6	dude he just tased you. 
+IF1	IF1	387.8	390.7	let me get another officer. 
+IF1	IF1	396.2	399.0	why can't you just stop?
+IF1	IF1	404.5	406.5	all right. 
+IF1	IF1	407.7	409.6	go ahead. 
+IF1	IF1	417.3	424.8	(()).
+IF1	IF1	460.5	463.2	are they in him? do you need the thing or they (())? {background noise of car door closing}
+IF1	IF1	464.6	469.6	okay. (()). ((probably hurt him)). 
+CM2	CM2	86.38	88.26	no. nah i'm (()). 

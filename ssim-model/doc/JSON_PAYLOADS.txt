@@ -1,0 +1,60 @@
+Payload: {"artifactsType":{"original-video":"encounter_12_04_2012.xsd","converted-video":"","video-audio":"","alternate-audio":"","corpus":"Corpus","collection-date":"01/10/2013","collection-time":"11:05:02","general-collection-time":"light","geographic-location":"Geographic Location","site-location":"Site","video-quality":"good","audio-quality":"good","collector":"Collector","data-descriptor":"video","elan-transcript-orthographic":"AWALP_April_2012_Transcript_2nd_Group.eaf","traditional-transcript-orthographic":"","tab-delimited-transcript-orthographic":"","elan-transcript-ca":"","traditional-transcript-ca":"","tab-delimited-transcript-ca":"","other-transcript-ca":"","comments":"Add a Videoed Encounter Comments","stimulated-recall-interviews":[{"stimulated-recall-transcript":"","stimulated-recall-description":""}],
+
+"encounters":[{"encounter-name":"encounter_12_04_2012.xsd_0","encounter-domain":"law","encounter-num-participants":"3","encounter-bystanders":"yes","encounter-reason":"Reason","encounter-duration":"3","encounter-quality":"Quality","encounter-first-encounter":"yes","encounter-familiar":"yes","encounter-languages":["Language"],"encounter-comments":"Encounter Metadata Comments","participants":[]}],"related":[]}}
+
+"comments":"Add a Videoed Encounter Comments"
+"encounter-comments":"Encounter Metadata Comments"
+
+- original-video
+- converted-video
+- video-audio
+- alternate-audio
+- elan-transcript-orthographic
+- traditional-transcript-orthographic
+- tab-delimited-transcript-orthographic
+- elan-transcript-ca
+- traditional-transcript-ca
+- tab-delimited-transcript-ca
+- other-transcript-ca
+
+Payload: {"artifactsType":{"original-video":"encounter.json","converted-video":"","video-audio":"","alternate-audio":"","corpus":"Corpus","collection-date":"01/10/2013","collection-time":"11:05:02","general-collection-time":"light","geographic-location":"Location","site-location":"Site","video-quality":"ok","audio-quality":"ok","collector":"Collector","data-descriptor":"video","elan-transcript-orthographic":"OPA_10-175_6709@20100417012736.eaf","traditional-transcript-orthographic":"","tab-delimited-transcript-orthographic":"","elan-transcript-ca":"","traditional-transcript-ca":"","tab-delimited-transcript-ca":"","other-transcript-ca":"","comments":"Comments","stimulated-recall-interviews":[{"stimulated-recall-transcript":"","stimulated-recall-description":""}],
+
+"encounters":[{"encounter-name":"encounter.json_0","encounter-domain":"law","encounter-num-participants":"1","encounter-bystanders":"yes","encounter-reason":"Reason","encounter-duration":"1","encounter-quality":"Quality","encounter-first-encounter":"yes","encounter-familiar":"yes","encounter-languages":[""],"encounter-comments":"",
+
+"participants":[{"type":"institutional","gender":"female","age":"18-24","codename":"CM1","role":"Role","ethnicity":"Ethnicity","participant-languages":["english"],"origin":"Geographic","sociometric-badge":"search.json","participant-comments":"Comments"}]}],"related":[]}}
+
+Payload: {"artifactsType":{"original-video":"encounter_12_04_2012.xsd","converted-video":"","video-audio":"","alternate-audio":"","corpus":"Corpus","collection-date":"01/10/2013","collection-time":"11:59:59","general-collection-time":"light","geographic-location":"Geographic","site-location":"Site","video-quality":"ok","audio-quality":"good","collector":"Collector","data-descriptor":"video","elan-transcript-orthographic":"AWALP_April_2012_Transcript_2nd_Group.eaf","traditional-transcript-orthographic":"","tab-delimited-transcript-orthographic":"","elan-transcript-ca":"","traditional-transcript-ca":"","tab-delimited-transcript-ca":"","other-transcript-ca":"","comments":"Add a Videoed Encounter","stimulated-recall-interviews":[{"stimulated-recall-transcript":"","stimulated-recall-description":""}],
+
+"encounters":[{"encounter-name":"encounter_12_04_2012.xsd_0","encounter-domain":"law","encounter-num-participants":"1","encounter-bystanders":"yes","encounter-reason":"Reason","encounter-duration":"4","encounter-quality":"Quality","encounter-first-encounter":"yes","encounter-familiar":"yes","encounter-languages":["english","french"],"encounter-comments":"Encounter Metadata","participants":[{"type":"civilian","gender":"female","age":"25-29","codename":"Codename","role":"Role","ethnicity":"Ethnicity","participant-languages":["english","french"],"origin":"Origin","sociometric-badge":"encounter.json","participant-comments":"Participant Comments"}]}],"related":[]}}
+
+
+Payload: {"artifactsType":{"original-video":"participantSearch.xml","converted-video":"","video-audio":"","alternate-audio":"","corpus":"myCorpus","collection-date":"01/11/2013","collection-time":"11:05:02","general-collection-time":"light","geographic-location":"myLocation","site-location":"mySite","video-quality":"ok","audio-quality":"good","collector":"myCollector","data-descriptor":"video","elan-transcript-orthographic":"OPA_10-175_6709@20100417012736.eaf","traditional-transcript-orthographic":"","tab-delimited-transcript-orthographic":"","elan-transcript-ca":"","traditional-transcript-ca":"","tab-delimited-transcript-ca":"","other-transcript-ca":"","comments":"Comments","stimulated-recall-interviews":[{"stimulated-recall-transcript":"searchEncounter.xml","stimulated-recall-description":"Stimulated Recall Interview Transcript/Notes"}],
+
+"encounters":[{"encounter-name":"participantSearch.xml_0","encounter-domain":"military","encounter-num-participants":"1","encounter-bystanders":"yes","encounter-reason":"no Reason","encounter-duration":"2","encounter-quality":"good Quality","encounter-first-encounter":"yes","encounter-familiar":"yes","encounter-languages":["english"],"encounter-comments":"Comments","participants":[]}],"related":[]}}
+
+
+Payload: {"artifactsType":{"interview-transcript":["searchEncounter.xml"],"data-descriptor":"cta","corpus":"Corpus","collection-date":"01/11/2013","collection-time":"11:05:02","geographic-location":"Location","site-location":"Site","collector":"Collector","comments":"Add an Interview","encounters":[],"related":[]}}
+
+Payload: {"searchType":{"encounter":{
+"search-data-descriptor":"cta-interview",
+"search-domain":["military","law","other"],
+"search-reason":"Reason",
+"search-quality":[{"search-quality-match":"more","search-quality":"Quality"}],
+"search-video-quality":[{"search-video-quality-match":"less","search-video-quality":""}],
+"search-audio-quality":[{"search-audio-quality-match":"less","search-audio-quality":""}],
+"search-geo-location":"Geographic Location",
+"search-site":"Site",
+"search-num-participants":[{"search-num-participants-match":"more","search-num-participants":"1"}],
+"search-bystanders":"yes",
+"search-first-encounter":"yes",
+"search-familiar":"yes",
+"search-duration":[{"search-duration-match":"more","search-duration":"1"}],
+"search-date":[{"search-date-match":"after","search-date":"01/01/2013"}],
+"search-time":["light","dark","dusk"],
+"search-encounter-language":["Language"],
+"search-corpus":"Corpus",
+"search-collector":"Collector",
+"search-time-specific":[{"search-time-specific-match":"before","search-time-specific-value":""}
+]}}}
+
+

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/ssim/!svn/ver/182/ssim-webapp/src/main/webapp/static/js/uploadify
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/ssim/!svn/ver/182/ssim-webapp/src/main/webapp/static/js/uploadify/license.txt
+END
+Change Log.txt
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/ssim/!svn/ver/182/ssim-webapp/src/main/webapp/static/js/uploadify/Change%20Log.txt
+END
+jquery.uploadify.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ssim/!svn/ver/182/ssim-webapp/src/main/webapp/static/js/uploadify/jquery.uploadify.js
+END
+jquery.uploadify.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ssim/!svn/ver/182/ssim-webapp/src/main/webapp/static/js/uploadify/jquery.uploadify.min.js
+END
+uploadify.swf
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/ssim/!svn/ver/182/ssim-webapp/src/main/webapp/static/js/uploadify/uploadify.swf
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ssim/!svn/ver/196/ssim-model/src/test/java/com/sri/ssim/persistence
+END
+UserManagementDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/ssim/!svn/ver/22/ssim-model/src/test/java/com/sri/ssim/persistence/UserManagementDaoTest.java
+END
+EncounterDaoTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/ssim/!svn/ver/196/ssim-model/src/test/java/com/sri/ssim/persistence/EncounterDaoTest.java
+END

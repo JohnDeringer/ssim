@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/ssim/!svn/ver/225/ssim-model/src/main/java/com/sri/ssim/model
+END
+EncounterModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ssim/!svn/ver/236/ssim-model/src/main/java/com/sri/ssim/model/EncounterModel.java
+END
+EncounterModelImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/ssim/!svn/ver/236/ssim-model/src/main/java/com/sri/ssim/model/EncounterModelImpl.java
+END
+UserManagement.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/ssim/!svn/ver/24/ssim-model/src/main/java/com/sri/ssim/model/UserManagement.java
+END
+UserManagementImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/ssim/!svn/ver/24/ssim-model/src/main/java/com/sri/ssim/model/UserManagementImpl.java
+END

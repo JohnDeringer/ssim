@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="searchType" type="searchTypeType"/>
+  <xs:complexType name="transcriptType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="followed-by" minOccurs="0"/>
+      <xs:element type="intervening-timeType" name="intervening-time" minOccurs="0"/>
+      <xs:element type="phraseType" name="phrase" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="speakerType" name="speaker" maxOccurs="unbounded" minOccurs="0"/>
+      <!--<xs:element type="annotationType" name="annotation" maxOccurs="unbounded" minOccurs="0"/>-->
+      <xs:element type="turn-timeType" name="turn-time"/>
+      <xs:element type="wordsType" name="words"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="turn-timeType">
+    <xs:sequence>
+      <xs:element name="turn-time-match">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="equal"/>
+            <xs:enumeration value="less"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="turn-time">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="1000"/>
+            <xs:enumeration value="6"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="speakerType">
+    <xs:sequence>
+      <xs:element name="speaker-match">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="notincludes"/>
+            <xs:enumeration value="includes"/>
+            <xs:enumeration value="matches"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="speaker">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="IM1"/>
+            <xs:enumeration value="jjj"/>
+            <xs:enumeration value="kkk"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="andor" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="phraseType">
+    <xs:sequence>
+      <xs:element name="phrase-match">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="includes"/>
+            <xs:enumeration value="notincludes"/>
+            <xs:enumeration value="matches"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="phrase">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="aaaa"/>
+            <xs:enumeration value="bbbb"/>
+            <xs:enumeration value="cccc"/>
+            <xs:enumeration value="ggg"/>
+            <xs:enumeration value="hhh"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="andor" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--<xs:complexType name="annotationType">-->
+    <!--<xs:sequence>-->
+      <!--<xs:element name="annotation-match">-->
+        <!--<xs:simpleType>-->
+          <!--<xs:restriction base="xs:string">-->
+            <!--<xs:enumeration value="includes"/>-->
+            <!--<xs:enumeration value="notincludes"/>-->
+            <!--<xs:enumeration value="matches"/>-->
+          <!--</xs:restriction>-->
+        <!--</xs:simpleType>-->
+      <!--</xs:element>-->
+      <!--<xs:element name="annotation">-->
+        <!--<xs:simpleType>-->
+          <!--<xs:restriction base="xs:string">-->
+            <!--<xs:enumeration value="dddd"/>-->
+            <!--<xs:enumeration value="eee"/>-->
+            <!--<xs:enumeration value="ffff"/>-->
+            <!--<xs:enumeration value="lll"/>-->
+            <!--<xs:enumeration value="mmm"/>-->
+          <!--</xs:restriction>-->
+        <!--</xs:simpleType>-->
+      <!--</xs:element>-->
+      <!--<xs:element name="andor" minOccurs="0">-->
+        <!--<xs:simpleType>-->
+          <!--<xs:restriction base="xs:string">-->
+            <!--<xs:enumeration value="and"/>-->
+            <!--<xs:enumeration value="or"/>-->
+          <!--</xs:restriction>-->
+        <!--</xs:simpleType>-->
+      <!--</xs:element>-->
+    <!--</xs:sequence>-->
+  <!--</xs:complexType>-->
+  <xs:complexType name="searchTypeType">
+    <xs:sequence>
+      <xs:element type="transcriptType" name="transcript" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="wordsType">
+    <xs:sequence>
+      <xs:element name="words-match">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="less"/>
+            <xs:enumeration value="equal"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="words"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="intervening-timeType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="intervening-time-match"/>
+      <xs:element type="xs:string" name="intervening-time"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -1,0 +1,120 @@
+IM1	IM1	80.39	87.23	{voice initially through radio} since we know you've got that ah crap. {background noise of car door} since we know you've got that gun go ahead and put your hands out the window. 
+IM1	IM1	88.7	92.7	put your hands out the window %name since we know you got the gun. thank you. 
+IM1	IM1	97.505	100.965	%name you're suspended with third degree. you can't be driving. 
+IM1	IM1	102.335	104.595	you can't be driving. you're suspended in the third degree. 
+IM1	IM1	108.8	114.3	{background noise of car running} everybody keep your hands where we can see them. hands behind your back. 
+IM1	IM1	115.0	117.7	you're going to jail for driving with license suspended. 
+IM1	IM1	117.925	119.335	oh yeah. 
+IM1	IM1	120.5	123.9	you have a driver's license sir? do you have a driver's license? 
+IM1	IM1	123.985	125.985	hang on to her for a second please.
+IM1	IM1	127.4	133.3	yep you're suspended. i don't know. you weren't thinking about your (()). {background noise of car door slamming}
+IM1	IM1	134.0	138.6	{speaks into radio} (()) one in custody. 
+IM1	IM1	142.4	150.5	((what's up with)) that? no no y- you're clean. you got nothing wrong with you. but you're suspended and you're driving while your license is suspended.  
+IM1	IM1	152.5	154.7	why are you driving? 
+IM1	IM1	156.145	159.695	oh no no. you can be a police officer some day because you're so ((above)) (()). 
+IM1	IM1	160.1	164.1	not even close. not even close. 
+IM1	IM1	165.9	169.6	yep. so you're under arrest for driving with a license suspended in the third degree. 
+IM1	IM1	172.0	176.1	yes ma'am. i am gonna take you to jail for driving. step back here. 
+IM1	IM1	177.055	179.085	completely. totally. 
+IM1	IM1	181.0	186.6	you were operating a motor vehicle while your license is suspended in the third degree. that is a crime in the state of washington. have a seat. 
+IM1	IM1	188.4	214.2	also keep in mind while you're in my vehicle you're being recorded. at this point you have the right to remain silent. anything you say could ((be)) used against you in a court of law. you have the right at this time to talk to a lawyer and have him present with you while you're being questioned. if you cannot afford to hire a lawyer one will be appointed to represent you for any questioning if you wish. if you decide at any time to exercise these rights ((do)) not answer questions or make any statements. in the state of washington you're entitled to an attorney. if you cannot afford an attorney one will be appointed to represent you at no cost. thank you very much. 
+IM1	IM1	216.55	219.85	{background noise of car door slamming} sorry i (()). is that it? 
+IM1	IM1	232.9	235.8	{background noise of door opening} oh yeah. 
+IM1	IM1	239.2	244.1	i already told you driving with a license suspended in the third degree is a crime. 
+IM1	IM1	274.025	274.695	ma'am? 
+IM1	IM1	277.3	285.0	suspended in the third degree is a civil offense. you (()) you ((drove)). you ((drove)). that's enough. 
+IM1	IM1	291.7	295.8	((yes)) ma'am. if you if you're gonna keep on,
+IM1	IM1	296.5	315.7	this is an arrest. you're under arrest. ((please)) ma'am ma'am listen to me. if you kick my vehicle if you kick my vehicle you will be restrained. i will hogtie your feet. do you understand me? if you want to be treated like an animal i will treat you like an animal. behave like a human being. 
+IM1	IM1	315.7	327.7	you did it to yourself. you chose to drive while you're suspended. we'll talk about it some more when you calm down. if you kick if you kick my vehicle i will restrain your feet. do you understand me? 
+IM1	IM1	327.783	332.123	do not kick my vehicle. move your foot into the vehicle. 
+IM1	IM1	332.368	333.968	no. he's gone. 
+IM1	IM1	333.968	341.368	they're leaving. they're on foot. they can't drive. they don't have licenses. get your ve- your foot back in my vehicle so it doesn't get caught in the door. 
+IM1	IM1	341.968	346.968	they're gone. you're done. ma'am move your foot now. 
+IM1	IM1	347.468	351.068	i will. move your foot. that's it. i'm gonna grab you in a second {noise of door slamming and traffic}.
+IM1	IM1	413.2	418.2	{sound of door opening} your friend would like her house keys off the key ring. is that okay with you? 
+IM1	IM1	420.8	423.0	okay. 
+IM1	IM1	423.3	426.9	hey! {background noise of CF1 moving against inside car} do not do that. 
+IM1	IM1	427.7	429.4	you just, 
+IM1	IM1	429.8	435.6	yes you did. i was closing that door and you keep your feet to yourself. 
+IM1	IM1	436.2	439.8	turn around. {background noise} turn around. 
+IM1	IM1	440.0	445.1	yes you did. hold still. hold sta-,
+IM1	IM1	445.9	449.8	hold yes (()) seatbelted. 
+IM1	IM1	452.4	455.8	just relax.
+IM1	IM1	480.765	482.395	hey just relax. 
+IM1	IM1	509.875	511.525	she is not cooperating (()). 
+IM1	IM1	531.005	533.495	{background noise of car door opening} hop in. let's go. she's fighting. 
+IM1	IM1	553.865	554.895	i'm sure you will. 
+IM1	IM1	568.449	571.625	you can't be insured when you're suspended. 
+IM1	IM1	699.1	704.4	would now be a good time to remind you you're being recorded? 
+IM1	IM1	710.4	714.0	you go right ahead. 
+IM1	IM1	1060.6	1063.9	i don't know. 
+IM1	IM1	1074.8	1078.5	we're good. 
+IM1	IM1	1100.2	1105.8	okay. did you (()) yet? 
+CF1	CF1	95.875	98.085	(()) do nothing. 
+CF1	CF1	100.185	102.515	uh i didn't do nothing sir. 
+CF1	CF1	106.3	108.1	((man)) (()). 
+CF1	CF1	113.525	115.525	what am i doing? 
+CF1	CF1	117.635	118.805	oh. 
+CF1	CF1	119.335	121.445	((please sir)). 
+CF1	CF1	125.0	129.6	((i'm going to jail for)) oh when ((did i get)) my license suspend? 
+CF1	CF1	132.2	144.8	oh (()) my cousin's fault. i swear (()) forgot (()) about. (()) my cousin. that was it. 
+CF1	CF1	145.5	147.8	i am but, 
+CF1	CF1	148.6	154.0	sir i'm always coming down here with my boyfriend. i came with my cousin and i'm not gonna stand here and lie to you. 
+CF1	CF1	154.2	157.6	because i was just trying to take him out. me and him can have fun. 
+CF1	CF1	157.8	166.1	i am. i'm not perfect. you know what i'm saying? i'm not perfect. i'm n- i'm not perfect sir. you know what i'm saying? i'm not perfect. 
+CF1	CF1	168.7	173.7	oh my goodness. you're gonna take me to jail (())?
+CF1	CF1	175.275	177.235	are you serious? 
+CF1	CF1	178.415	180.445	i didn't even do nothing. 
+CF1	CF1	188.8	191.6	sir. 
+CF1	CF1	195.0	198.7	((i didn't)) do nothing. 
+CF1	CF1	199.4	207.3	oh. uh. 
+CF1	CF1	208.8	212.3	((i didn't)) do this. 
+CF1	CF1	215.2	240.7	oh my {background noise of door slamming} goodness! oh ((fucking)) do this. what the fuck! oh my! i cannot believe this shit. i didn't even do nothing! i didn't even do nothing. you're really gonna take me to jail for no fucking reason? 
+CF1	CF1	241.1	244.8	but come on you could have gave me a warning. what'd i do? 
+CF1	CF1	245.3	251.2	{background noise of speaker kicking police car} ((what the fuck)) (()) fucking. man i'm getting oh my goodness!
+CF1	CF1	253.4	277.8	i cannot be- oh (()) ah! ((i didn't even fucking)) do nothing! {noise of kicking back of police car} ah! {noise of kicking car} uh f- man! i didn't fucking do nothing! get me out ((i didn't do)) shit! the fuck you trying to wait for all this to happen! i didn't do nothing you come and take me for no reason!
+CF1	CF1	278.5	286.4	but i'm n- i didn't do nothing! that's what i'm saying. i didn't do nothing! i didn't do nothing. you guys asked me for s-.
+CF1	CF1	290.2	296.4	{noise of kicking back of police car} m- get out of this motherfucker. i didn't do nothing! (()) arrest me for no reason!
+CF1	CF1	297.3	306.3	but i didn't do nothing! you guys i've been honest with you guys! honest! i called (()) one of my cousins! you cannot, 
+CF1	CF1	306.9	309.2	okay. 
+CF1	CF1	309.6	315.8	i need to talk to somebody. i need to talk to somebody. how can you do this to me? 
+CF1	CF1	316.7	326.5	how ma- you do this to me? ((i was gonna)) have a good time. i was gonna have a good time ((how can you)) do this to me? 
+CF1	CF1	327.768	329.968	can i talk to them? 
+CF1	CF1	330.868	333.268	can i talk to my cousin ((please))? 
+CF1	CF1	333.268	335.368	where'd they go? 
+CF1	CF1	339.268	394.8	can i talk to someone ple- i didn't do nothing. i didn't do nothing okay ((get)) my keys please. i didn't do nothing {noise of door slamming}. ((i didn't)) do nothing. ((what the)) oh! (()) i didn't do nothing. i didn't fucking d- i didn't even do nothing! uh. i didn't even do nothing. uh m- mm. i didn't even do nothing. uh i didn't even do nothing. ((how are you gonna do this))? {background noise of door slamming} mm i i didn't even uh oh i didn't even do nothing. oh my goodness. 
+CF1	CF1	399.2	411.2	i didn't even do (()) uh oh my goodness. i ((didn't)) huh? 
+CF1	CF1	418.7	443.1	donf- don't talk to me please. for real don't talk to me. {noise of car door slamming and movement} fucking kick me! you better not kick me! you better not i didn't kick you! do not kick me! do not kick me! then i did not kick you! i didn't kick you! i did not kick you! nah didn't kick him he kicked me! he kicked me!
+CF1	CF1	443.1	453.5	g- (()) holding me down! get off me! uh get off of me! i didn't even hold you down. get off me!
+CF1	CF1	453.8	460.6	he's t- uh i didn't do nothing! ah {background noise of kicking inside of car} uh! 
+CF1	CF1	463.6	493.7	uh fucking (()). uh. {background noise of kicking inside car} uh. fuck it. let me out. get me out of here now!
+CF1	CF1	498.3	505.3	{noise of speaker spitting} (()). you come here i'll spit on you. get in here i'll s-,
+CF1	CF1	511.035	513.355	so you're gonna take me to jail? 
+CF1	CF1	521.82	525.95	((what the)) fuck is this? man i cannot believe this shit. {noise of trunk closing}
+CF1	CF1	536.3	554.2	i cannot believe {background noise of car door slamming} this shit. i got to bail the fuck out. oh my goodness! what the fuck? you guys will punish you little faggot-ass officers. fa- i'm gonna bail out. watch. watch me. watch me bail the fuck out. 
+CF1	CF1	554.789	570.508	i sure am bitch. believe that. believe that hurry up and get me to the precinct so i can bail the fuck out. hurry up. ((license insured)). shit nothing. i got insurance. you didn't even look for that. you just got me because you wanted to get me. but don't trip. i'm getting my shit back. 
+CF1	CF1	570.9	637.1	it don't fu- i had insurance. you was just trying to fuck with me so for some reason you bitch-ass. that's what you was trying to do. {background noise of radio} i had insurance. all you had to do was give me a fucking ticket for a hundred dollar. hurry up and get me to the precinct so i can bail the fuck out. get me there. believe that i'm gonna call miss %fisher and get the fuck out of here. get me home. hurry up and get me there. for real. you was planning to do that shit. faggot-ass officer. don't know why ((you)) like you guys. hurry up and take me there. i'll bail out. what the fuck you did that on purposely. what the fuck. i can't believe this shit. cannot believe this mother fucking shit. ooh. ah y'all did this little bitch-ass shit. for real. you did that (()) put your hands on me. oh shit. you gonna get me because my cousin's there. i cannot believe this shit. it is what it is right? 
+CF1	CF1	642.5	702.0	hurry up and get me there baby. hurry up and get me i'm bailing out anyway baby. it's funny. ((oh it's)) gonna be a lot +funnier (()) is nothing. i'll be out. i ((got)) me some bitch officer. and look at you looking like pee wee. ha! y'all are some bitch ass officer. that's why you guys never get paid a lot of money because you guys are bitches! you know what i'm saying? then you got little herman up here with his big ass elephant ears. ha! think he's (()) everything because he's got a gun and a badge. come on now. tough your game up. y'all don't getting paid that much. ((now)) you up here. seattle police. i don't know why they give you a badge because you ((can blame)) me i'll spit on your ass. you better not let me out of here. i'll spit the fuck on you. so you you, 
+CF1	CF1	702.0	745.5	i don't care. well you need to tell them how you is kicking me because i'm sure gonna go tomorrow and make sure i file. believe that. for kicking me? oh hello he's kicking me. uh since i'm being recorded do you know he just kicked me? a fucking seattle police officer just kicked me? are you serious? pulled me over for no reason. kicked me. i still got my purse. well yeah. believe that. i will make sure i'll be at court. i'll make sure i'll call somebody to make sure you get your badge for kicking me. kicking a woman. a woman. so if someone kicked your wife how would you feel? or your girlfriend? yeah. click on your computer. i want to be known (()) bashing me up like i'm a kid (()) i'll be out anyway.
+CF1	CF1	746.7	825.5	you going the fucking wrong way to seattle. seattle's not this way. seattle is not this way. you're going the wrong +way +baby. seattle's up that way if you're gonna take me to the county. county is not this way. the county is not this way. the county is up the street. so take me to the county and i will be out. my car will be out the tow. trust me. it will be out. so hurry up and take me to the county please. hurry up pl- i'm begging you please so i can go to the county so i can bail out. mhm. i will be calling miss %name and begin bailed out. hurry up. you're going the wrong way. you're going the wrong way. i'm trying to get to the county so i can go in there and make my call. my free call to be out. please rush. you're not going fast enough. i need you to go squealy immediately fast and i'm gonna continue to come back downtown and kick it whoever i want to kick it with. for real so hurry up. hurry up and take me to the county so i can call my friend and get me out. {speaker hums song} hurry up and get me in the county please. 
+CF1	CF1	832.1	955.3	that was wum- you played your cards good that time. you played them real good. i got to admit to you. looking like ((steven earl)). you did the right thing. that's why officers don't ever get paid that much. you did the right thing. for real. but i'll be out. i'll be out i promise you. out. i will be out and i will go get my car. so it's nothing. {noise of radio tone} so hurry up and take me since you're taking me for no driving with no license. can't charge me with insurance because i got insurance. i got fucking insurance so you're wasting your money. come on. since you searched me and everything come on. i'm ready to go. come on. take me to the county. hurry up please take me to the county because i will be bailing out bailing out right about now. mhm. call my cousin to get bailed out. mhm. hurry up. please hurry up. so i can sure talk to those people about what how the fuck you kicked me. sure is. ((about)) me kicking the door i'm still gonna tell them how you fucking kicked me. for real. for real. i'm about to get a fucking lawyer. i'm not playing. you're not gonna just kick no woman thinking you tha- them boots don't fucking hurt. for real. for real. i'm not even playing. someone kicked you in your fa- kick you in your wife i'm quite sure you're gonna be mad and you gonna kick somebody. they don't pay you nobody they don't pay you enough money to kick nobody. for real. i would love to see you get off a shift. i would whew! i would love it baby. for real. hurry up and take me to the county for real. please rush. i'm ((you know)) i want to get out of these handcuffs. i want to go to the county and get the bailed out. right now because you want to take me to jail for no reason. hm.
+CF1	CF1	971.4	1003.5	probably searched my car and didn't even see nothing. ((take a look. there's)) nothing in it baby. search my car for no reason and i got insurance. hey look at my name. %name driving with no license third degree baby. i know everything. so keep looking. you're not find nothing else on my record. was just driving with no license. ((i apologize)). i know that. please drop me off at the precinct please. hurry up and drop me off at the precinct. 
+CF1	CF1	1006.6	1038.2	mhm. got my social security number. %social_security_number the only thing i'm in there for was no driving with no license. that's it. ha! be out in a minute baby. mhm. ((could)) talk shit like that because i get spelled out. so yep. hurry up and take me to my free phone call. {noise of snapping fingers} whew! i'll be out in a minute. {speaker hums song}
+CF1	CF1	1057.6	1127.2	mm ((thank god)) i'm out of here. please get me out of here i'm s- so i can bail out. i didn't t- do shit. you taking me for fucking precinct for fun- fucking no driving license. what the fuck? come on. mhm. {background noise of radio beeping} mhm. take me to jail for no fucking reason. let me bail out. a._s._a._p.. no take me there for no fucking reason {background noise of door opening}. take my own goddamn seatbelt off. come on.  
+CM1	CM1	123.2	125.2	(()). 
+IM2	IM2	124.7	126.9	yep. 
+IM2	IM2	218.85	222.55	nah ((i think)) that's it {background noise of paper bag tearing}. 
+IM2	IM2	237.7	240.8	{background tone. speaks to radio}. 
+IM2	IM2	437.2	442.6	((ums- please)). (()) turn around. ((use your weapon)).
+IM2	IM2	446.6	449.8	(()).
+IM2	IM2	454.685	456.645	you brought this on yourself. 
+IM2	IM2	466.475	467.635	don't do that. 
+IM2	IM2	497.74	500.62	hey. you're gonna give yourself high blood pressure. 
+IM2	IM2	502.375	505.035	see now you're now you're trying to spit. 
+IM2	IM2	506.585	510.395	is your uh glass up? sh- she she's trying to spit on our guys here. 
+IM3	IM3	1056.4	1061.4	(()).
+IM3	IM3	1063.5	1069.0	(()) i'll just do ((mileage)). 
+IM3	IM3	1077.9	1082.2	you got (()). 
+IM3	IM3	1083.4	1093.3	(()) {noise of radio and speaker talking to radio}
+IM3	IM3	1103.2	1106.1	yes. 
+IM3	IM3	1109.1	1122.5	{noise of radio and speaking talking to radio}

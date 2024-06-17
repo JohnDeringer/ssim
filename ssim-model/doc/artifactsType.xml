@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<artifactsType>
+		<interview-transcript>participantSearch.xml</interview-transcript>
+		<interview-transcript>JSON_PAYLOADS.txt</interview-transcript>
+		<data-descriptor>cta</data-descriptor>
+		<corpus>Corpus</corpus>
+		<collection-date>01/21/2013</collection-date>
+		<collection-time>11:05:02</collection-time>
+		<geographic-location>Location</geographic-location>
+		<site-location>Site</site-location>
+		<collector>Collector</collector>
+		<comments>Interview Comments</comments>
+		<encounters>
+			<encounter-name>participantSearch.xml_0</encounter-name>
+			<encounter-domain>military</encounter-domain>
+			<encounter-num-participants></encounter-num-participants>
+			<encounter-bystanders>yes</encounter-bystanders>
+			<encounter-reason>Reason</encounter-reason>
+			<encounter-duration></encounter-duration>
+			<encounter-quality>Quality</encounter-quality>
+			<encounter-first-encounter>yes</encounter-first-encounter>
+			<encounter-familiar>yes</encounter-familiar>
+			<encounter-languages>Spanish</encounter-languages>
+			<encounter-comments>Metadata Comments</encounter-comments>
+		</encounters>
+	</artifactsType>
+

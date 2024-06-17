@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="searchType" type="searchTypeType"/>
+  <xs:complexType name="transcriptType">
+    <xs:sequence>
+      <xs:element type="phraseType" name="phrase"/>
+      <xs:element type="speakerType" name="speaker"/>
+      <!--<xs:element type="annotationType" name="annotation"/>-->
+      <xs:element type="turn-timeType" name="turn-time"/>
+      <xs:element type="wordsType" name="words"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="turn-timeType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="turn-time-match"/>
+      <xs:element type="xs:string" name="turn-time"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="participantsType">
+    <xs:sequence>
+      <xs:element name="search-participant-type">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="institution"/>
+            <xs:enumeration value="civilian"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="search-gender">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="female"/>
+            <xs:enumeration value="male"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="search-ageType" name="search-age" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element name="search-codename">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="IM1"/>
+            <xs:enumeration value="CM2"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="search-mil-rank-match"/>
+      <xs:element type="xs:string" name="search-mil-rank"/>
+      <xs:element type="xs:string" name="search-pol-rank-match"/>
+      <xs:element type="xs:string" name="search-pol-rank"/>
+      <xs:element type="xs:string" name="search-ethnicity"/>
+      <xs:element type="xs:string" name="search-first-language"/>
+      <xs:element type="xs:string" name="search-geo-origin"/>
+      <xs:element name="search-time-in-country-match">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="more"/>
+            <xs:enumeration value="less"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="search-time-in-country">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="2"/>
+            <xs:enumeration value="3"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="search-time-in-country-units">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="days"/>
+            <xs:enumeration value="weeks"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="search-comments">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Comments"/>
+            <xs:enumeration value="more Comments"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="search-time-specificType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="search-time-specific-match"/>
+      <xs:element type="xs:string" name="search-time-specific-value"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="phraseType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="phrase-match"/>
+      <xs:element type="xs:string" name="phrase"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="filenameType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="filename-match"/>
+      <xs:element type="xs:string" name="filename"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="wordsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="words-match"/>
+      <xs:element type="xs:string" name="words"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="search-num-participantsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="search-num-participants-match"/>
+      <xs:element type="xs:string" name="search-num-participants"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="search-ageType">
+    <xs:sequence>
+      <xs:element name="search-age-match">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="more"/>
+            <xs:enumeration value="less"/>
+            <xs:enumeration value="equal"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="search-age">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="3"/>
+            <xs:enumeration value="8"/>
+            <xs:enumeration value="4"/>
+            <xs:enumeration value="2"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="andor" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="and"/>
+            <xs:enumeration value="or"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="search-durationType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="search-duration-match"/>
+      <xs:element type="xs:string" name="search-duration"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="search-encounter-languageType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="search-encounter-language"/>
+      <xs:element type="xs:string" name="andor" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="encounterType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="search-data-descriptor"/>
+      <xs:element name="search-domain" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="military"/>
+            <xs:enumeration value="law"/>
+            <xs:enumeration value="other"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="search-reason"/>
+      <xs:element type="search-qualityType" name="search-quality"/>
+      <xs:element type="search-video-qualityType" name="search-video-quality"/>
+      <xs:element type="search-audio-qualityType" name="search-audio-quality"/>
+      <xs:element type="xs:string" name="search-geo-location"/>
+      <xs:element type="xs:string" name="search-site"/>
+      <xs:element type="search-num-participantsType" name="search-num-participants"/>
+      <xs:element type="xs:string" name="search-bystanders"/>
+      <xs:element type="xs:string" name="search-first-encounter"/>
+      <xs:element type="xs:string" name="search-familiar"/>
+      <xs:element type="search-durationType" name="search-duration"/>
+      <xs:element type="search-dateType" name="search-date" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element name="search-time" maxOccurs="unbounded" minOccurs="0">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="light"/>
+            <xs:enumeration value="dark"/>
+            <xs:enumeration value="dusk"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="search-encounter-languageType" name="search-encounter-language" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="xs:string" name="search-corpus"/>
+      <xs:element type="xs:string" name="search-collector"/>
+      <xs:element type="search-time-specificType" name="search-time-specific"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="speakerType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="speaker-match"/>
+      <xs:element type="xs:string" name="speaker"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="search-audio-qualityType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="search-audio-quality-match"/>
+      <xs:element type="xs:string" name="search-audio-quality"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="search-dateType">
+    <xs:sequence>
+      <xs:element name="search-date-match">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="before"/>
+            <xs:enumeration value="after"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="search-date">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="01/17/2013"/>
+            <xs:enumeration value="01/03/2013"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="andor" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <!--<xs:complexType name="annotationType">-->
+    <!--<xs:sequence>-->
+      <!--<xs:element type="xs:string" name="annotation-match"/>-->
+      <!--<xs:element type="xs:string" name="annotation"/>-->
+    <!--</xs:sequence>-->
+  <!--</xs:complexType>-->
+  <xs:complexType name="searchTypeType">
+    <xs:sequence>
+      <xs:element type="encounterType" name="encounter"/>
+      <xs:element type="filenameType" name="filename"/>
+      <xs:element type="transcriptType" name="transcript"/>
+      <xs:element type="participantsType" name="participants" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="search-qualityType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="search-quality-match"/>
+      <xs:element type="xs:string" name="search-quality"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="search-video-qualityType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="search-video-quality-match"/>
+      <xs:element type="xs:string" name="search-video-quality"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

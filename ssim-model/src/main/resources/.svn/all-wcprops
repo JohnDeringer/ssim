@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/ssim/!svn/ver/228/ssim-model/src/main/resources
+END
+repository-model-beans.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/ssim/!svn/ver/222/ssim-model/src/main/resources/repository-model-beans.xml
+END
+EAFv2.7.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/ssim/!svn/ver/80/ssim-model/src/main/resources/EAFv2.7.xsd
+END
+binding.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/ssim/!svn/ver/1/ssim-model/src/main/resources/binding.xml
+END
+domain-objects.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/ssim/!svn/ver/146/ssim-model/src/main/resources/domain-objects.xsd
+END
+encounter_0.1.0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/ssim/!svn/ver/113/ssim-model/src/main/resources/encounter_0.1.0.xsd
+END
+log4j.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/ssim/!svn/ver/1/ssim-model/src/main/resources/log4j.xml
+END
+repository-model-beans.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/ssim/!svn/ver/221/ssim-model/src/main/resources/repository-model-beans.properties
+END
